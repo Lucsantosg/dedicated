@@ -108,8 +108,7 @@ If you have a private instance of the service for your dedicated environment, yo
 |{{site.data.keyword.apiconnect_short}}         |Yes            |Yes            |Yes  |
 |{{site.data.keyword.appseccloudshort}}		|Yes		|Yes		|Yes |
 |{{site.data.keyword.apiconnect_short}} 	|Yes   	 	|Yes  	 	|Yes   |
-|Automated Accessibility Checker |Yes       |Yes    |Yes   |
-|Automated Accessibility Checker |Yes       |Yes    |Yes   |
+|Automated Accessibility Checker 		|Yes       |Yes    |Yes   |
 |{{site.data.keyword.cloudant}}			|Yes		|Yes		|Yes |
 |{{site.data.keyword.iotmapinsights_short}}    |Yes  |Yes  |Yes  |
 |{{site.data.keyword.conversationshort}}  |Yes  |Yes  |Yes  |
