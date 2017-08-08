@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-05-03"
+lastupdated: "2017-05-31"
 
 ---
 
@@ -29,57 +29,57 @@ lastupdated: "2017-05-03"
 
 | **類型**        | **名稱**            | **說明** |
 |-----------------|-------------------|-------------------|
-|內含 | [{{site.data.keyword.Bluemix_notm}} 運行環境](/docs/cfapps/runtimes.html) | 使用運行環境可快速啟動並執行您的應用程式，而不需要設定及管理機器和作業系統。您可以在 {{site.data.keyword.Bluemix_dedicated_notm}} 實例中使用所有 {{site.data.keyword.Bluemix_notm}} 運行環境。|
-| 內含 | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | 根據原則，動態增加或減少應用程式的運算能力。使用此服務，即可在 {{site.data.keyword.Bluemix_dedicated_notm}} 環境中無限制地使用。附註：自動擴充目前僅與 Cloud Foundry 運行環境搭配使用 |
-|選用 | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} 將 {{site.data.keyword.APIM}} 及 IBM StrongLoop 整合成單一供應項目，提供綜合性解決方案來建立、執行、管理及強制執行 API 和微服務。 |
-|選用 | [{{site.data.keyword.rules_short}}](/docs/services/rules/rules.html) | {{site.data.keyword.rules_short}} 提供綜合性環境，以自動化及執行經常發生且可重複的規則型商業決策。它也可降低 IT 技能需求，讓商業使用者或開發人員，快速建立決策模型並以較低的成本進行測試。 |
-|選用 | [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} 提供對於始終處於開啟狀態之完整受管理 NoSQL JSON 資料層的存取。此服務與 CouchDB 相容，而且可透過方便使用的 HTTP 介面來存取，可用於行動及 Web 應用程式模型。 |
-|選用 | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | 在 {{site.data.keyword.Bluemix_dedicated_notm}} 上執行 Docker 容器。容器是虛擬軟體物件，其中包含應用程式執行所需的所有元素。容器具有資源隔離及配置的優點，而且比虛擬機器（舉例來說）更容易攜帶且更具效率。如需硬體需求的相關資訊，請參閱 [{{site.data.keyword.Bluemix_dedicated_notm}} 和 Bluemix 本端中的 IBM {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)。|
-| 選用 | [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | 使用「{{site.data.keyword.contdelivery_short}} 專用」來自動進行建置、單元測試、部署及其他作業。透過豐富的 Web 型 IDE 編輯及推送程式碼。建立工具鏈來啟用工具整合，以支援開發、部署及操作作業。 |
-| 選用 | [{{site.data.keyword.dashdbshort}}](/docs/services/dashDB/dashDB.html) | IBM {{site.data.keyword.dashdbshort}} for Analytics 是完整受管理 SQL 雲端資料庫服務，最適合用於資料倉儲及分析工作負載。IBM {{site.data.keyword.dashdbshort}} for Transactions 是完整受管理 SQL 雲端資料庫服務，最適合用於一般用途、Web 應用程式及交易式工作負載。 |
-| 選用 | [{{site.data.keyword.datacshort}}](/docs/services/DataCache/index.html#data_cache) | 此服務提供記憶體內的資料網格，它支援應用程式的分散式快取情境。包含 50 GB 的記憶體內快取。 |
-| 選用 | [專用 GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}} 是 GitHub Enterprise 的 IBM Cloud 管理之完整受管理版本，可提供開發人員所喜歡的社交經驗。此服務目前專用於 {{site.data.keyword.Bluemix_dedicated_notm}} 環境。 |
-| 選用（測試版） | [記載](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov) | 在 {{site.data.keyword.Bluemix_notm}} 使用者介面中提供 Cloud Foundry 應用程式的日誌，並在 Kibana 中提供可搜尋的日誌和儀表板。 |
-| 選用 | [{{site.data.keyword.messagehub}}](/docs/services/MessageHub/index.html#messagehub) | {{site.data.keyword.messagehub}} 是一個可擴充、分散式、高傳輸量訊息匯流排，以聯合您的內部部署與外部部署技術。{{site.data.keyword.messagehub}} 是以 Apache Kafka 為基礎，後者是一個快速、可擴充及可延續的即時傳訊引擎。 |
-|選用 | [{{site.data.keyword.mobilepush}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepush}} 是一種服務，可用來將通知傳送至 iOS 及 Android 裝置。可以將通知目標設為所有應用程式使用者或一組使用標籤的特定使用者和裝置。您可以管理裝置、標籤及訂閱。您也可以使用 SDK（軟體開發套件）及「具象狀態傳輸 (REST)」應用程式介面 (API) 來進一步開發用戶端應用程式。|
-|選用 | [{{site.data.keyword.SecureGateway}}](/docs/services/SecureGateway/secure_gateway.html) | {{site.data.keyword.SecureGateway}} 服務使您能夠以安全的方式將 {{site.data.keyword.Bluemix_notm}} 應用程式連接至內部部署或雲端中的遠端位置。  |
-|選用 | [{{site.data.keyword.sescashort}}](/docs/services/SessionCache/index.html#session_cache) | 為了提高備援，{{site.data.keyword.sescashort}} 會提供快取中所儲存階段作業的抄本。因此，電壓過低或作業中斷時，用戶端應用程式仍然保有快取中階段作業的存取權。此服務支援 Web 及行動應用程式的階段作業快取情境。 |
-| 選用 | [{{site.data.keyword.iot_short}}](/docs/services/IoT/index.html) | 此服務可讓您的應用程式與已連接的裝置、感應器及閘道進行通訊，並且耗用這些項目所收集的資料。基本供應項目允許在專用環境內執行專用版本的 {{site.data.keyword.iot_short}}，其容量為 100,000 台同時連接的裝置或應用程式，以及 1.6 TB 的資料交換。 |
-| 選用 | [{{site.data.keyword.appserver_short}}](/docs/services/ApplicationServeronCloud/index.html) | IBM {{site.data.keyword.appserver_short}} for IBM {{site.data.keyword.Bluemix_notm}} 是一項服務，可協助在 {{site.data.keyword.Bluemix_notm}} 的受管理雲端環境中快速設定預先配置的 {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment 或 Traditional WebSphere Java EE 實例。 |
+|內含| [{{site.data.keyword.Bluemix_notm}} 運行環境](/docs/cfapps/runtimes.html) | 使用運行環境可快速啟動並執行您的應用程式，而不需要設定及管理機器和作業系統。您可以在 {{site.data.keyword.Bluemix_dedicated_notm}} 實例中使用所有 {{site.data.keyword.Bluemix_notm}} 運行環境。|
+| 內含| [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | 根據原則，動態增加或減少應用程式的運算能力。使用此服務，即可在 {{site.data.keyword.Bluemix_dedicated_notm}} 環境中無限制地使用。附註：自動擴充目前僅與 Cloud Foundry 運行環境搭配使用|
+|選用| [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} 將 {{site.data.keyword.APIM}} 及 IBM StrongLoop 整合成單一供應項目，提供綜合性解決方案來建立、執行、管理及強制執行 API 和微服務。|
+|選用| [{{site.data.keyword.rules_short}}](/docs/services/rules/rules.html) | {{site.data.keyword.rules_short}} 提供綜合性環境，以自動化及執行經常發生且可重複的規則型商業決策。它也可降低 IT 技能需求，讓商業使用者或開發人員，快速建立決策模型並以較低的成本進行測試。|
+|選用| [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} 提供對於始終處於開啟狀態之完整受管理 NoSQL JSON 資料層的存取。此服務與 CouchDB 相容，而且可透過方便使用的 HTTP 介面來存取，可用於行動及 Web 應用程式模型。|
+|選用| [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | 在 {{site.data.keyword.Bluemix_dedicated_notm}} 上執行 Docker 容器。容器是虛擬軟體物件，其中包含應用程式執行所需的所有元素。容器具有資源隔離及配置的優點，而且比虛擬機器（舉例來說）更容易攜帶且更具效率。如需硬體需求的相關資訊，請參閱 [{{site.data.keyword.Bluemix_dedicated_notm}} 及 Bluemix 本端中的 {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)。|
+| 選用| [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | 使用「{{site.data.keyword.contdelivery_short}} 專用」來自動進行建置、單元測試、部署及其他作業。透過豐富的 Web 型 IDE 編輯及推送程式碼。建立工具鏈來啟用工具整合，以支援開發、部署及操作作業。|
+| 選用| [{{site.data.keyword.dashdbshort}}](/docs/services/dashDB/dashDB.html) | IBM {{site.data.keyword.dashdbshort}} for Analytics 是完整受管理 SQL 雲端資料庫服務，最適合用於資料倉儲及分析工作負載。IBM {{site.data.keyword.dashdbshort}} for Transactions 是完整受管理 SQL 雲端資料庫服務，最適合用於一般用途、Web 應用程式及交易式工作負載。|
+| 選用| [{{site.data.keyword.datacshort}}](/docs/services/DataCache/index.html#data_cache) | 此服務提供記憶體內的資料網格，它支援應用程式的分散式快取情境。包含 50 GB 的記憶體內快取。|
+| 選用| [專用 GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}} 是 GitHub Enterprise 的 IBM Cloud 管理之完整受管理版本，可提供開發人員所喜歡的社交經驗。此服務目前專用於 {{site.data.keyword.Bluemix_dedicated_notm}} 環境。|
+| 選用（測試版）| [記載](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov) | 在 {{site.data.keyword.Bluemix_notm}} 使用者介面中提供 Cloud Foundry 應用程式的日誌，並在 Kibana 中提供可搜尋的日誌和儀表板。|
+| 選用| [{{site.data.keyword.messagehub}}](/docs/services/MessageHub/index.html#messagehub) | {{site.data.keyword.messagehub}} 是一個可擴充、分散式、高傳輸量訊息匯流排，以聯合您的內部部署與外部部署技術。{{site.data.keyword.messagehub}} 是以 Apache Kafka 為基礎，後者是一個快速、可擴充及可延續的即時傳訊引擎。|
+|選用| [{{site.data.keyword.mobilepushshort}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepushshort}} 是一種服務，可用來將通知傳送至 iOS 及 Android 裝置。可以將通知目標設為所有應用程式使用者或一組使用標籤的特定使用者和裝置。您可以管理裝置、標籤及訂閱。您也可以使用 SDK（軟體開發套件）及「具象狀態傳輸 (REST)」應用程式介面 (API) 來進一步開發用戶端應用程式。|
+|選用| [{{site.data.keyword.SecureGateway}}](/docs/services/SecureGateway/secure_gateway.html) | {{site.data.keyword.SecureGateway}} 服務使您能夠以安全的方式將 {{site.data.keyword.Bluemix_notm}} 應用程式連接至內部部署或雲端中的遠端位置。|
+|選用| [{{site.data.keyword.sescashort}}](/docs/services/SessionCache/index.html#session_cache) | 為了提高備援，{{site.data.keyword.sescashort}} 會提供快取中所儲存階段作業的抄本。因此，電壓過低或作業中斷時，用戶端應用程式仍然保有快取中階段作業的存取權。此服務支援 Web 及行動應用程式的階段作業快取情境。|
+| 選用| [{{site.data.keyword.iot_short}}](/docs/services/IoT/index.html) | 此服務可讓您的應用程式與已連接的裝置、感應器及閘道進行通訊，並且耗用這些項目所收集的資料。基本供應項目允許在專用環境內執行專用版本的 {{site.data.keyword.iot_short}}，其容量為 100,000 台同時連接的裝置或應用程式，以及 1.6 TB 的資料交換。|
+| 選用| [{{site.data.keyword.appserver_short}}](/docs/services/ApplicationServeronCloud/index.html) | IBM {{site.data.keyword.appserver_short}} for IBM {{site.data.keyword.Bluemix_notm}} 是一項服務，可協助在 {{site.data.keyword.Bluemix_notm}} 的受管理雲端環境中快速設定預先配置的 {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment 或 Traditional WebSphere Java EE 實例。|
 {: caption="表 1. 專用服務" caption-side="top"}
 {: #table01}
 
 
 
-您可以選購一些元件來擴充及延伸您的資源和服務容量。聯絡銷售團隊，即可購買所有這些元件；如需聯絡業務代表的相關資訊，請移至[與我們聯絡](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs)。若要增加服務的方案，您可以從型錄的服務磚選取方案。
+您可以選購一些元件來擴充及延伸您的資源和服務容量。聯絡銷售團隊，即可購買所有這些元件；如需聯絡業務代表的相關資訊，請前往[與我們聯絡](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs)。若要增加服務的方案，您可以從型錄的服務磚選取方案。
 
 | **名稱**            | **說明** |
 |-------------------|-------------------|
-|專用 {{site.data.keyword.apiconnect_short}} Professional 5 百萬個 API 呼叫 | 此環境允許在容量為每月 5 百萬個 API 呼叫的專用環境內，執行專用版本的 {{site.data.keyword.apiconnect_short}}，目標為部門的 API 專案。 |
-|專用 {{site.data.keyword.apiconnect_short}} Professional 10 萬個 API 呼叫增加 | {{site.data.keyword.apiconnect_short}} Professional 環境的延伸，每月可提供 10 萬個 API 呼叫的額外容量。 |
-|專用 {{site.data.keyword.apiconnect_short}} Enterprise 2500 萬個 API 呼叫 | 此環境允許在容量為每月 2500 萬個 API 呼叫的專用環境內，執行專用版本的 {{site.data.keyword.apiconnect_short}}，目標為整個企業的 API 專案。 |
-|專用 {{site.data.keyword.apiconnect_short}} Enterprise 10 萬個 API 呼叫增加 | {{site.data.keyword.apiconnect_short}} Enterprise 環境的延伸，每月可提供 10 萬個 API 呼叫的額外容量。 |
-|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.rules_short}} 1 百萬個規則決策 | 「規則決策」為從規則執行伺服器呼叫規則集所產生的結果。必須取得足夠的授權，才能涵蓋在計費期間執行或處理的「規則決策」總數（四捨五入至最接近的百萬位數）。此「雲端服務」所測量的「規則決策」是對規則執行伺服器進行以取得決策的呼叫。「雲端服務」的專用部署具有經過協議的容量，且是按照相關費用度量值來測量。{{site.data.keyword.Bluemix_dedicated_notm}} 平台上的 {{site.data.keyword.rules_short}} 服務預設空間配置是 16 GB，在其中，可以呼叫最多十個各 1 GB 的實例來執行授與的「規則決策」。如果您超出該使用限制，則必須購買額外的容量來涵蓋這項使用。 |
-|專用 {{site.data.keyword.cloudant}} 1.6 TB 容量增加 | 包括在設計容量為 1.6 TB 的專用環境內，執行專用版本的 {{site.data.keyword.cloudantfull}}。  |
-|專用 {{site.data.keyword.datacshort}} 及 {{site.data.keyword.sescashort}} 50 GB 容量增加 | 此環境允許部署及執行 {{site.data.keyword.datacshort}} 和 {{site.data.keyword.sescashort}} 實例，最多有 50 GB 的累積容量。 |
-|{{site.data.keyword.contdelivery_short}} 專用實例 | 在專用環境內執行的 {{site.data.keyword.contdelivery_short}} 的專用版本。容量取決於「{{site.data.keyword.contdelivery_short}} 專用授權使用者」授權。 |
-|{{site.data.keyword.contdelivery_short}} 專用授權使用者 | 將「授權使用者」存取權授與所指定的「{{site.data.keyword.contdelivery_short}} 專用」環境，以及用於該環境。必須授權每位屬於 {{site.data.keyword.Bluemix_notm}}「組織」的使用者，而這個組織包含 {{site.data.keyword.contdelivery_short}} 服務實例。 |
-|專用 {{site.data.keyword.dashdbshort}} 企業 64.1 | 在具有 64 GB RAM 及 16 個 vCPU 的專用伺服器上，每個服務實例一個資料庫。建議最多使用 1 TB 預載資料（以一般壓縮為依據）。  |
-|專用 {{site.data.keyword.dashdbshort}} 企業 256.4 | 在具有 256 GB RAM 及 32 個核心的專用裸機伺服器上，每個服務實例一個資料庫。建議最多使用 4 TB 預載資料（以一般壓縮為依據）。 |
-|專用 {{site.data.keyword.dashdbshort}} 企業 256.12  | 在具有 256 GB RAM 及 32 個核心的專用裸機伺服器上，每個服務實例一個資料庫。建議最多使用 12 TB 預載資料（以一般壓縮為依據）。此儲存空間密集方案適合資料量較高且查詢不需要以記憶體內速度執行的環境。 |
-|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions 2.8.500 | 支援「線上交易處理 (OLTP)」工作負載的專用實例，具有 8GB RAM 及 500 GB 空間來放置資料及日誌。 |
-|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions 12.128.1400 | 支援「線上交易處理 (OLTP)」工作負載的專用實例，具有 128GB RAM 及 1.4 TB SSD 儲存空間來放置資料及日誌。 |
-|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions High Availability 2.8.500 | 支援「線上交易處理 (OLTP)」工作負載的專用實例，具有 8GB RAM 及 500 GB 空間來放置資料及日誌，並且包括一部額外的「待命」伺服器來取得高可用性。 |
-|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions High Availability 12.128.1400 | 支援「線上交易處理 (OLTP)」工作負載的專用實例，具有 128GB RAM 及 1.4 TB SSD 儲存空間來放置資料及日誌，並且包括一部額外的「待命」伺服器來取得高可用性。 |
-|{{site.data.keyword.Bluemix_dedicated_notm}} 社群服務  | 此環境允許部署及執行社群服務，每一個社群服務最多有 50 個實例。  |
-|{{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.cloudant}} 叢集實例 | 此選用元件包括您負責提供基礎架構的 3 節點叢集，以及儲存空間及運算容量（您可以根據您的特定需要來決定）。{{site.data.keyword.cloudant}} 提供對於始終處於開啟狀態之完整受管理 NoSQL JSON 資料層的存取。此服務與 CouchDB 相容，而且可透過方便使用的 HTTP 介面來存取，可用於行動及 Web 應用程式模型。 |
-|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.messagehub}} | 提供發佈/訂閱傳訊的環境，每個分割區可提供高達 10 GB 的傳訊，限制為 100 個分割區。 |
-|IBM Bluemix 專用 {{site.data.keyword.mobilepushshort}} | 此環境允許部署及執行每秒可接受 300 個要求的 {{site.data.keyword.mobilepushshort}} 實例。 |
-|{{site.data.keyword.iot_short}} 專用漸進式增加 | 此環境增加允許在專用環境內執行專用版本的 {{site.data.keyword.iot_short}}，其容量為 100,000 台同時連接的裝置或應用程式，以及 0.5 TB 的資料交換。 |
-|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - 專用小型| {{site.data.keyword.Bluemix_notm}} 的受管理雲端環境中的預先配置 {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment 或 Traditional WebSphere Java EE 實例，每個月有 64 個 vCore、128GB RAM 及 1TB HDD。 |
-|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - 專用中型| {{site.data.keyword.Bluemix_notm}} 的受管理雲端環境中的預先配置 {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment 或 Traditional WebSphere Java EE 實例，每個月有 128 個 vCore、256GB RAM 及 2TB HDD。 |
-|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - 專用大型| {{site.data.keyword.Bluemix_notm}} 的受管理雲端環境中的預先配置 {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment 或 Traditional WebSphere Java EE 實例，每個月有 256 個 vCore、512GB RAM 及 4TB HDD。 |
-|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - 專用| {{site.data.keyword.Bluemix_notm}} 的受管理雲端環境中的預先配置 {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment 或 Traditional WebSphere Java EE 實例，每個月有「HDD 擴充」及 1TB。 |
+|專用 {{site.data.keyword.apiconnect_short}} Professional 5 百萬個 API 呼叫| 此環境允許在容量為每月 5 百萬個 API 呼叫的專用環境內，執行專用版本的 {{site.data.keyword.apiconnect_short}}，目標為部門的 API 專案。|
+|專用 {{site.data.keyword.apiconnect_short}} Professional 10 萬個 API 呼叫增加| {{site.data.keyword.apiconnect_short}} Professional 環境的延伸，每月可提供 10 萬個 API 呼叫的額外容量。|
+|專用 {{site.data.keyword.apiconnect_short}} Enterprise 2500 萬個 API 呼叫| 此環境允許在容量為每月 2500 萬個 API 呼叫的專用環境內，執行專用版本的 {{site.data.keyword.apiconnect_short}}，目標為整個企業的 API 專案。|
+|專用 {{site.data.keyword.apiconnect_short}} Enterprise 10 萬個 API 呼叫增加| {{site.data.keyword.apiconnect_short}} Enterprise 環境的延伸，每月可提供 10 萬個 API 呼叫的額外容量。|
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.rules_short}} 1 百萬個規則決策| 「規則決策」為從規則執行伺服器呼叫規則集所產生的結果。必須取得足夠的授權，才能涵蓋在計費期間執行或處理的「規則決策」總數（四捨五入至最接近的百萬位數）。此「雲端服務」所測量的「規則決策」是對規則執行伺服器進行以取得決策的呼叫。「雲端服務」的專用部署具有經過協議的容量，且是按照相關費用度量值來測量。{{site.data.keyword.Bluemix_dedicated_notm}} 平台上的 {{site.data.keyword.rules_short}} 服務預設空間配置是 16 GB，在其中，可以呼叫最多十個各 1 GB 的實例來執行授與的「規則決策」。如果您超出該使用限制，則必須購買額外的容量來涵蓋這項使用。|
+|專用 {{site.data.keyword.cloudant}} 1.6 TB 容量增加| 包括在設計容量為 1.6 TB 的專用環境內，執行專用版本的 {{site.data.keyword.cloudantfull}}。|
+|專用 {{site.data.keyword.datacshort}} 及 {{site.data.keyword.sescashort}} 50 GB 容量增加| 此環境允許部署及執行 {{site.data.keyword.datacshort}} 和 {{site.data.keyword.sescashort}} 實例，最多有 50 GB 的累積容量。|
+|{{site.data.keyword.contdelivery_short}} 專用實例| 在專用環境內執行的 {{site.data.keyword.contdelivery_short}} 的專用版本。容量取決於「{{site.data.keyword.contdelivery_short}} 專用授權使用者」授權。|
+|{{site.data.keyword.contdelivery_short}} 專用授權使用者| 將「授權使用者」存取權授與所指定的「{{site.data.keyword.contdelivery_short}} 專用」環境，以及用於該環境。必須授權每位屬於 {{site.data.keyword.Bluemix_notm}}「組織」的使用者，而這個組織包含 {{site.data.keyword.contdelivery_short}} 服務實例。|
+|專用 {{site.data.keyword.dashdbshort}} 企業 64.1| 在具有 64 GB RAM 及 16 個 vCPU 的專用伺服器上，每個服務實例一個資料庫。建議最多使用 1 TB 預載資料（以一般壓縮為依據）。|
+|專用 {{site.data.keyword.dashdbshort}} 企業 256.4| 在具有 256 GB RAM 及 32 個核心的專用裸機伺服器上，每個服務實例一個資料庫。建議最多使用 4 TB 預載資料（以一般壓縮為依據）。|
+|專用 {{site.data.keyword.dashdbshort}} 企業 256.12| 在具有 256 GB RAM 及 32 個核心的專用裸機伺服器上，每個服務實例一個資料庫。建議最多使用 12 TB 預載資料（以一般壓縮為依據）。此儲存空間密集方案適合資料量較高且查詢不需要以記憶體內速度執行的環境。|
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions 2.8.500| 支援「線上交易處理 (OLTP)」工作負載的專用實例，具有 8GB RAM 及 500 GB 空間來放置資料及日誌。|
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions 12.128.1400| 支援「線上交易處理 (OLTP)」工作負載的專用實例，具有 128GB RAM 及 1.4 TB SSD 儲存空間來放置資料及日誌。|
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions High Availability 2.8.500| 支援「線上交易處理 (OLTP)」工作負載的專用實例，具有 8GB RAM 及 500 GB 空間來放置資料及日誌，並且包括一部額外的「待命」伺服器來取得高可用性。|
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions High Availability 12.128.1400| 支援「線上交易處理 (OLTP)」工作負載的專用實例，具有 128GB RAM 及 1.4 TB SSD 儲存空間來放置資料及日誌，並且包括一部額外的「待命」伺服器來取得高可用性。|
+|{{site.data.keyword.Bluemix_dedicated_notm}} 社群服務| 此環境允許部署及執行社群服務，每一個社群服務最多有 50 個實例。|
+|{{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.cloudant}} 叢集實例| 此選用元件包括您負責提供基礎架構的 3 節點叢集，以及儲存空間及運算容量（您可以根據您的特定需要來決定）。{{site.data.keyword.cloudant}} 提供對於始終處於開啟狀態之完整受管理 NoSQL JSON 資料層的存取。此服務與 CouchDB 相容，而且可透過方便使用的 HTTP 介面來存取，可用於行動及 Web 應用程式模型。|
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.messagehub}}| 提供發佈/訂閱傳訊的環境，每個分割區可提供高達 10 GB 的傳訊，限制為 100 個分割區。|
+|IBM Bluemix 專用 {{site.data.keyword.mobilepushshort}}| 此環境允許部署及執行每秒可接受 300 個要求的 {{site.data.keyword.mobilepushshort}} 實例。|
+|{{site.data.keyword.iot_short}} 專用漸進式增加| 此環境增加允許在專用環境內執行專用版本的 {{site.data.keyword.iot_short}}，其容量為 100,000 台同時連接的裝置或應用程式，以及 0.5 TB 的資料交換。|
+|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - 專用小型| {{site.data.keyword.Bluemix_notm}} 的受管理雲端環境中的預先配置 {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment 或 Traditional WebSphere Java EE 實例，每個月有 64 個 vCore、128GB RAM 及 1TB HDD。|
+|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - 專用中型| {{site.data.keyword.Bluemix_notm}} 的受管理雲端環境中的預先配置 {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment 或 Traditional WebSphere Java EE 實例，每個月有 128 個 vCore、256GB RAM 及 2TB HDD。|
+|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - 專用大型| {{site.data.keyword.Bluemix_notm}} 的受管理雲端環境中的預先配置 {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment 或 Traditional WebSphere Java EE 實例，每個月有 256 個 vCore、512GB RAM 及 4TB HDD。|
+|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - 專用| {{site.data.keyword.Bluemix_notm}} 的受管理雲端環境中的預先配置 {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment 或 Traditional WebSphere Java EE 實例，每個月有「HDD 擴充」及 1TB。|
 {: caption="表 2. 選購性服務元件" caption-side="top"}
 {: #table02}
 
@@ -87,74 +87,74 @@ lastupdated: "2017-05-03"
 
 | **名稱**            | **說明** |
 |-------------------|-------------------|
-|專用運行環境 16 GB 容量增加  | 延伸運行環境，以提供額外的 16 GB 運行環境容量。 |
-|專用直接鏈結 1 Gbps 容量 | 直接連接至針對資料傳送所設計的適當 {{site.data.keyword.BluSoftlayer}} 網路存在點的專用網路鏈結，最高 1 Gbps。 |
-|專用直接鏈結 10 Gbps 容量 | 直接連接至針對資料傳送所設計的適當 {{site.data.keyword.BluSoftlayer}} 網路存在點的專用網路鏈結，最高 10 Gbps。 |
-|IBM Bluemix 專用硬體防火牆 - 高可用性 | 備用的 1 Gbps 硬體防火牆，配置來保護「專用」環境內相同 VLAN 上的單一、多台或所有伺服器。 |
+|專用運行環境 16 GB 容量增加| 延伸運行環境，以提供額外的 16 GB 運行環境容量。|
+|專用直接鏈結 1 Gbps 容量| 直接連接至針對資料傳送所設計的適當 {{site.data.keyword.BluSoftlayer}} 網路存在點的專用網路鏈結，最高 1 Gbps。|
+|專用直接鏈結 10 Gbps 容量| 直接連接至針對資料傳送所設計的適當 {{site.data.keyword.BluSoftlayer}} 網路存在點的專用網路鏈結，最高 10 Gbps。|
+|IBM Bluemix 專用硬體防火牆 - 高可用性| 備用的 1 Gbps 硬體防火牆，配置來保護「專用」環境內相同 VLAN 上的單一、多台或所有伺服器。|
 {: caption="表 3. 選購性平台附加程式元件" caption-side="top"}
 {: #table03}
 
 **附註**：{{site.data.keyword.Bluemix_dedicated_notm}} 元件可能會指出特定的已配置容量（例如 GB 數或每秒交易數）。因為任何雲端服務配置的實際容量實際上會因許多因素而不同，所以實際容量實際上可能會高於或低於已配置的容量。
 
-### 聯合型錄
+## 聯合型錄
 {: #catalogdedicated}
 
 {{site.data.keyword.Bluemix_dedicated_notm}} 包括一份專用型錄，將公用、專用及本端部署的核准服務組織在一起。您甚至可以透過 {{site.data.keyword.Bluemix_notm}} 型錄發佈及管理專屬服務的存取權。您可以選擇根據資料隱私及安全準則來決定符合商業需求的公用服務。
 
 如果有適用於您專用環境的服務專用實例，則會在型錄中看到服務名稱含有「專用」標籤。同樣地，如果它是自訂服務（表示您已使用服務分配管理系統來建立它），則會看到服務名稱列有「自訂」。透過從「{{site.data.keyword.Bluemix_notm}} 公用」進行聯合，可以使用已列出且沒有「專用」或「自訂」標籤的所有其他服務。聯合服務提供建立包含公用及專用服務之混合式應用程式的功能。
 
-|服務	|可在美國南部地區使用	|可在歐洲英國地區使用 |可在澳洲雪梨地區使用|
+|服務	|可在美國南部地區使用|可在歐洲英國地區使用|可在澳洲雪梨地區使用|
 |:----------|:------------------------------|:------------------|:------------------|
 |{{site.data.keyword.alchemyapishort}} 		|是	   	|是  		|是|
 |{{site.data.keyword.alertnotificationshort}}	|是		|是		|是	|
-|{{site.data.keyword.apiconnect_short}}         |是            |是            |是  |
-|{{site.data.keyword.appseccloudshort}}		|是		|是		|是 |
-|{{site.data.keyword.apiconnect_short}} 	|是   	 	|是  	 	|是   |
-|Automated Accessibility Checker |是       |是    |是   |
-|{{site.data.keyword.rules_short}}		|是		|是		|是 |
-|{{site.data.keyword.cloudant}}			|是		|是		|是 |
-|{{site.data.keyword.iotmapinsights_short}}    |是  |是  |是  |
-|{{site.data.keyword.conversationshort}}  |是  |是  |是  |
-|{{site.data.keyword.dashdbshort}}		|是		|是		|是 |
+|{{site.data.keyword.apiconnect_short}}         |是|是|是|
+|{{site.data.keyword.appseccloudshort}}		|是		|是		|是|
+|{{site.data.keyword.apiconnect_short}} 	|是   	 	|是  	 	|是|
+|Automated Accessibility Checker|是|是|是|
+|{{site.data.keyword.rules_short}}		|是		|是		|是|
+|{{site.data.keyword.cloudant}}			|是		|是		|是|
+|{{site.data.keyword.iotmapinsights_short}}    |是|是|是|
+|{{site.data.keyword.conversationshort}}  |是|是|是|
+|{{site.data.keyword.dashdbshort}}		|是		|是		|是|
 |{{site.data.keyword.dataworks_short}}		|是		|是		|否|
-|{{site.data.keyword.DB2OnCloud_short}}		|是		|是		|是 |
-|Digital Content Checker |是  |是  |是  |
+|{{site.data.keyword.DB2OnCloud_short}}		|是		|是		|是|
+|Digital Content Checker|是|是|是|
 |{{site.data.keyword.documentconversionshort}}	|是		|是		|是|
-|{{site.data.keyword.iotdriverinsights_short}}  |是 |是  |是  |
-|{{site.data.keyword.geospatialshort_Geospatial}}	|是	|是		|是 |
-|{{site.data.keyword.GlobalizationPipeline_short}}	|是		| 是		| 是 |
+|{{site.data.keyword.iotdriverinsights_short}}  |是|是|是|
+|{{site.data.keyword.geospatialshort_Geospatial}}	|是	|是		|是|
+|{{site.data.keyword.GlobalizationPipeline_short}}	|是		| 是		| 是|
 |{{site.data.keyword.identitymixershort}}		|是		|是		|是|
-|{{site.data.keyword.iot4auto_short}} |是   |是  |是  |
-|{{site.data.keyword.iotelectronics}}  |是  |是  |否 |
-|{{site.data.keyword.iotinsurance_short}} |否   |否   |是  |
+|{{site.data.keyword.iot4auto_short}} |是|是|是|
+|{{site.data.keyword.iotelectronics}}  |是|是|否|
+|{{site.data.keyword.iotinsurance_short}} |否|否|是|
 |{{site.data.keyword.twittershort}}		|是		|是		|是|
-|{{site.data.keyword.languagetranslationshort}}	|是		|是		|是 |
-|{{site.data.keyword.languagetranslatorshort}} |是  |是  |是  |
-|{{site.data.keyword.dwl_short}}  |是  |是  |否  |
+|{{site.data.keyword.languagetranslationshort}}	|是		|是		|是|
+|{{site.data.keyword.languagetranslatorshort}} |是|是|是|
+|{{site.data.keyword.dwl_short}}  |是|是|否|
 |{{site.data.keyword.eventhubshort}}		|是		|否		|否|
 |{{site.data.keyword.messagehub}}		|是		|是		|否|
-|{{site.data.keyword.manda}}			|是		|是		|是 |
-|{{site.data.keyword.amashort}}			|是		|是		|是 |
-|{{site.data.keyword.mqa}}			|是		|是		|是 |
-|{{site.data.keyword.mql}}			|否		|否		|是 |
+|{{site.data.keyword.manda}}			|是		|是		|是|
+|{{site.data.keyword.amashort}}			|是		|是		|是|
+|{{site.data.keyword.mqa}}			|是		|是		|是|
+|{{site.data.keyword.mql}}			|否		|否		|是|
 |{{site.data.keyword.nlclassifierlshort}} 	|是 		|是 		|是|
 |{{site.data.keyword.personalityinsightsshort}}	|是		|是		|是|
-|{{site.data.keyword.pm_short}}			|是		|是		|否 |
-|{{site.data.keyword.mobilepush}}		|是		|是		|是 |
+|{{site.data.keyword.pm_short}}			|是		|是		|否|
+|{{site.data.keyword.mobilepushshort}}		|是		|是		|是|
 |{{site.data.keyword.retrieveandrankshort}}	|是 		|是 		|是|
 |{{site.data.keyword.runbook_short}}		|是		|是		|是|
-|{{site.data.keyword.SecureGateway}}		|是		|是		|是 |
+|{{site.data.keyword.SecureGateway}}		|是		|是		|是|
 |{{site.data.keyword.ssofull}}			|是		|否		|否|
 |{{site.data.keyword.speechtotextshort}}	|是 		|是	 	|是|
-|{{site.data.keyword.streaminganalyticsshort}}	|是		|是		|是 |
+|{{site.data.keyword.streaminganalyticsshort}}	|是		|是		|是|
 |{{site.data.keyword.texttospeechshort}} 	|是 		|是	 	|是|
 |{{site.data.keyword.toneanalyzershort}} 	|是 		|是 		|是|
 |{{site.data.keyword.tradeoffanalyticsshort}}	|是		|是		|是|
 |{{site.data.keyword.visualrecognitionshort}}	|是 		|是	 	|是|
 |{{site.data.keyword.iot_short}}		|是		|是		|否|
 |{{site.data.keyword.weather_short}}		|是		|是		|是|
-|{{site.data.keyword.workloadscheduler}}	|是		|是		|是 |
-{: caption="表 4. 依地區可從 Bluemix 公用聯合的服務" caption-side="top"}
+|{{site.data.keyword.workloadscheduler}}	|是		|是		|是|
+{: caption="表 4. 依地區可從「{{site.data.keyword.Bluemix_notm}} 公用」聯合的服務" caption-side="top"}
 {: #table04}
 
 **附註**：此表格不包括協力廠商服務。請檢查協力廠商服務選項的專用型錄。
@@ -311,30 +311,30 @@ IBM 讓您能使用受到密碼保護的登入方式來存取 {{site.data.keywor
 
 | **作業** | **作業詳細資料** | **負責單位** |
 |----------|------------------|-----------------------|
-|設定規範標準 | 識別環境所需的政府、產業及專屬組織標準。 | 客戶 |
-|建立安全及規範整合計劃 | 建立安全及整合計劃，以包括達成安全規範所需的成本、排程及資源。 | IBM |
-|規範計劃核准 | 核准規範計劃。 | 客戶 |
-|建立環境的大小 |  	根據預先定義選項來建立環境大小，這些選項考慮高可用性及災難回復目標，以及支援使用平台所建立的應用程式所需的起始 DEA 及服務佈建。例如，您與 IBM 一起定義所需的資料庫、客戶聯合型錄中提供的服務等等。 | IBM 及客戶皆負有責任 |
-|選取架構 | 根據考慮高可用性及災難回復需求的預先定義選項來選取架構。 | IBM |
-|定義災難回復目標 | 定義環境的災難回復需求。 | 客戶 |
-|建立災難回復計劃 | 諮詢並定義災難回復計劃。IBM 會建立災難回復模型，並向您諮詢提供意見並核准計劃的位置。 | IBM 及客戶皆負有責任 |
-|建立備份及回復計劃 | 建立備份及回復計劃，以定義在現場及異地分散備份的頻率及需求。IBM 會備份網狀架構元件、IBM 服務中心、服務 meta 資料（包括使用者角色）等等。您要備份您負責的任何應用程式特有資料。 | IBM 及客戶皆負有責任 |
-|識別進行事件偵測及問題判斷的工具 | 識別用於在 {{site.data.keyword.Bluemix_notm}} 平台層次進行事件偵測及問題判斷的 IBM 及協力廠商工具。 | IBM |
-|定義呈報計劃 | 定義呈報計劃來分類並解決從監視元件偵測到的事件。 | IBM |
-|簽署基礎架構、平台及支援合約 | 簽署訂閱合約（包括環境的財務條款）。簽署支援訂閱。 | 客戶 |
-|採購環境 | 採購運算資源、網路及儲存空間（包括核心及「服務 VLAN」用來管理 {{site.data.keyword.Bluemix_notm}}、裸機服務用來管理 Data Power，以及 {{site.data.keyword.Bluemix_notm}} Firewall）。提供容許 VPN 通道的基礎架構。 | IBM |
-|安裝網狀架構、應用程式，以及監視和管理元件 | 安裝、配置及驗證網狀架構元件（例如 BOSH Director、「雲端控制器」、「性能管理程式」、傳訊、路由器、DEA 及「服務提供者」），以及提升及問題偵測計劃中所定義的監視元件。 | IBM |
-|安裝並配置安全元件 | 安裝並配置嵌入監視及呈報計劃的安全元件（包括 IBM QRadar、認證儲存庫、侵入防禦系統、IBM BigFix 及「IBM Security 特許身分管理」）。 | IBM |
-|安裝並配置自訂元件 |  	安裝並配置位在 {{site.data.keyword.Bluemix_notm}} 產品及服務範圍外部的自訂元件。 | 客戶 |
-|建立起始網路配置 | 建立起始網路配置（包括防火牆、DataPower、Fortigate 及 DNS）。 | IBM |
-|連接 {{site.data.keyword.Bluemix_notm}} 管線 | 連接 {{site.data.keyword.Bluemix_notm}} 持續整合及持續交付管線與 IBM 儲存庫。 | IBM |
-|自訂外部解決方案元件 | 針對災難回復情境自訂負載平衡器。 | 客戶 |
-|安裝 VPN 解決方案 | 安裝雙向 VPN 解決方案。 | IBM |
-|配置登入伺服器 | 配置要與組織 LDAP 搭配使用的登入伺服器。 | IBM |
-|追蹤安全、規範及審核控制的狀態  | 追蹤狀態，直到所有工具及處理程序都準備好可達到所識別的規範為止。 | 客戶 |
-|檢查實體基礎架構 | 檢查可管理威脅解決方案元件的實體場所，並檢查保護資料中心用的安全控制。 | 客戶 |
-|檢查監視軟體 | 檢查監視及管理元件（如呈報及問題判斷計劃中所定義）。 | 客戶 |
-|檢查 OS | 檢查以確保作業系統映像檔符合規範標準。IBM 提供 OS 映像檔的存取權。 | IBM 及客戶皆負有責任 |
+|設定規範標準| 識別環境所需的政府、產業及專屬組織標準。| 客戶|
+|建立安全及規範整合計劃| 建立安全及整合計劃，以包括達成安全規範所需的成本、排程及資源。| IBM|
+|規範計劃核准| 核准規範計劃。| 客戶|
+|建立環境的大小|  	根據預先定義選項來建立環境大小，這些選項考慮高可用性及災難回復目標，以及支援使用平台所建立的應用程式所需的起始 CELL 及服務佈建。例如，您與 IBM 一起定義所需的資料庫、客戶聯合型錄中提供的服務等等。| IBM 及客戶皆負有責任|
+|選取架構| 根據考慮高可用性及災難回復需求的預先定義選項來選取架構。| IBM|
+|定義災難回復目標| 定義環境的災難回復需求。| 客戶|
+|建立災難回復計劃| 諮詢並定義災難回復計劃。IBM 會建立災難回復模型，並向您諮詢提供意見並核准計劃的位置。| IBM 及客戶皆負有責任|
+|建立備份及回復計劃| 建立備份及回復計劃，以定義在現場及異地分散備份的頻率及需求。IBM 會備份網狀架構元件、IBM 服務中心、服務 meta 資料（包括使用者角色）等等。您要備份您負責的任何應用程式特有資料。| IBM 及客戶皆負有責任|
+|識別進行事件偵測及問題判斷的工具| 識別用於在 {{site.data.keyword.Bluemix_notm}} 平台層次進行事件偵測及問題判斷的 IBM 及協力廠商工具。| IBM|
+|定義呈報計劃| 定義呈報計劃來分類並解決從監視元件偵測到的事件。| IBM|
+|簽署基礎架構、平台及支援合約| 簽署訂閱合約（包括環境的財務條款）。簽署支援訂閱。| 客戶|
+|採購環境| 採購運算資源、網路及儲存空間（包括核心及「服務 VLAN」用來管理 {{site.data.keyword.Bluemix_notm}}、裸機服務用來管理 Data Power，以及 {{site.data.keyword.Bluemix_notm}} Firewall）。提供容許 VPN 通道的基礎架構。| IBM|
+|安裝網狀架構、應用程式，以及監視和管理元件| 安裝、配置及驗證網狀架構元件（例如 BOSH Director、「雲端控制器」、「性能管理程式」、傳訊、路由器、CELL 及「服務提供者」），以及提升及問題偵測方案中所定義的監視元件。| IBM|
+|安裝並配置安全元件| 安裝並配置嵌入監視及呈報計劃的安全元件（包括 IBM QRadar、認證儲存庫、侵入防禦系統、IBM BigFix 及「IBM Security 特許身分管理」）。| IBM|
+|安裝並配置自訂元件|  	安裝並配置位在 {{site.data.keyword.Bluemix_notm}} 產品及服務範圍外部的自訂元件。| 客戶|
+|建立起始網路配置| 建立起始網路配置（包括防火牆、DataPower、Fortigate 及 DNS）。| IBM|
+|連接 {{site.data.keyword.Bluemix_notm}} 管線| 連接 {{site.data.keyword.Bluemix_notm}} 持續整合及持續交付管線與 IBM 儲存庫。| IBM|
+|自訂外部解決方案元件| 針對災難回復情境自訂負載平衡器。| 客戶|
+|安裝 VPN 解決方案| 安裝雙向 VPN 解決方案。| IBM|
+|配置登入伺服器| 配置要與組織 LDAP 搭配使用的登入伺服器。| IBM|
+|追蹤安全、規範及審核控制的狀態| 追蹤狀態，直到所有工具及處理程序都準備好可達到所識別的規範為止。| 客戶|
+|檢查實體基礎架構| 檢查可管理威脅解決方案元件的實體場所，並檢查保護資料中心用的安全控制。| 客戶|
+|檢查監視軟體| 檢查監視及管理元件（如呈報及問題判斷計劃中所定義）。| 客戶|
+|檢查 OS| 檢查以確保作業系統映像檔符合規範標準。IBM 提供 OS 映像檔的存取權。| IBM 及客戶皆負有責任|
 {: caption="表 5. 初始階段作業" caption-side="top"}
 
 
@@ -346,20 +346,20 @@ IBM 讓您能使用受到密碼保護的登入方式來存取 {{site.data.keywor
 
 | **作業** | **作業詳細資料** | **負責單位** |
 |----------|------------------|-----------------------|
-|檢閱每週容量報告 | 檢閱每週容量報告，並視需要採取更正動作。 | 客戶 |
-|建立按月預測 | 收集資訊，並建立容量及耗用量的按月預測。 | IBM 及客戶皆負有責任 |
-|檢閱容量預測 | 檢閱容量預測，因為它們與可能影響容量的外部事件，以及預期的新應用程式部署有關。與 IBM 一起據此檢閱預測及計劃。 | IBM 及客戶皆負有責任 |
-|檢閱預測 | 檢閱容量預測，因為它與可能影響容量的外部事件有關。 | 客戶 |
-|調整容量 |  隨著需求的變更來新增或移除容量。 | IBM |
-|發佈即將到來的更新及維護 | 建立用於進行必要 IBM 元件維護的文件。 | IBM |
-|執行維護 | 與 IBM 一起排定 21 天時間範圍內的必要維護。您可以提供 21 天時間範圍內無法進行的日期，而 IBM 會據此排定維護。 | IBM 及客戶皆負有責任 |
-|處理佈建失敗 | 修正部署至「型錄」之客戶建立服務所發生的佈建失敗。 | IBM |
-|執行網路及 IP 掃描 | 執行每日及每月網路和 IP 掃描。 | IBM 及客戶皆負有責任 |
-|提供審核日誌的存取權 | 提供所有安全及管理審核日誌的存取權。   | IBM 及客戶皆負有責任 |
-|進行測試 | 進行定期「重要作業控制 (KCO)」測試及協力廠商滲透測試。 | IBM 及客戶皆負有責任 |
-|狀態報告、審核協調及規範會議  | 完成狀態報告、外部審核協調，以及規範審查狀態會議的呈現。 | IBM |
-|聘雇及商業需求驗證 | 完成可存取客戶環境之 IBM 業務代表的每季聘雇驗證及持續商業需求驗證。 | IBM |
-|解決安全漏洞 | 解決平台中所報告的安全漏洞。 | IBM |
+|檢閱每週容量報告| 檢閱每週容量報告，並視需要採取更正動作。| 客戶|
+|建立按月預測| 收集資訊，並建立容量及耗用量的按月預測。| IBM 及客戶皆負有責任|
+|檢閱容量預測| 檢閱容量預測，因為它們與可能影響容量的外部事件，以及預期的新應用程式部署有關。與 IBM 一起據此檢閱預測及計劃。| IBM 及客戶皆負有責任|
+|檢閱預測| 檢閱容量預測，因為它與可能影響容量的外部事件有關。| 客戶|
+|調整容量|  隨著需求的變更來新增或移除容量。| IBM|
+|發佈即將到來的更新及維護| 建立用於進行必要 IBM 元件維護的文件。| IBM|
+|執行維護| 與 IBM 一起排定 21 天時間範圍內的必要維護。您可以提供 21 天時間範圍內無法進行的日期，而 IBM 會據此排定維護。| IBM 及客戶皆負有責任|
+|處理佈建失敗| 修正部署至「型錄」之客戶建立服務所發生的佈建失敗。| IBM|
+|執行網路及 IP 掃描| 執行每日及每月網路和 IP 掃描。| IBM 及客戶皆負有責任|
+|提供審核日誌的存取權| 提供所有安全及管理審核日誌的存取權。| IBM 及客戶皆負有責任|
+|進行測試| 進行定期「重要作業控制 (KCO)」測試及協力廠商滲透測試。| IBM 及客戶皆負有責任|
+|狀態報告、審核協調及規範會議| 完成狀態報告、外部審核協調，以及規範審查狀態會議的呈現。| IBM|
+|聘雇及商業需求驗證| 完成可存取客戶環境之 IBM 業務代表的每季聘雇驗證及持續商業需求驗證。| IBM|
+|解決安全漏洞| 解決平台中所報告的安全漏洞。| IBM|
 {: caption="表 6. 進度階段作業" caption-side="top"}
 
 最終階段「完成」代表您與 IBM {{site.data.keyword.Bluemix_notm}} 之間的關係結束。此階段的主要作業包括下列各項：
@@ -371,10 +371,10 @@ IBM 讓您能使用受到密碼保護的登入方式來存取 {{site.data.keywor
 
 | **作業** | **作業詳細資料** | **負責單位** |
 |----------|------------------|-----------------------|
-|結束財務合約 | 討論並同意結束財務合約。 | IBM 及客戶皆負有責任 |
-|解除任務環境 | 關閉環境的存取權及認證。 | IBM 及客戶皆負有責任 |
-|移除客戶網路連線 | 移除 IBM 與客戶環境之間的網路連線。 | IBM 及客戶皆負有責任 |
-|回收基礎架構 | 根據 {{site.data.keyword.BluSoftlayer}} 定義的處理程序，回收您的環境。 | IBM |
+|結束財務合約| 討論並同意結束財務合約。| IBM 及客戶皆負有責任|
+|解除任務環境| 關閉環境的存取權及認證。| IBM 及客戶皆負有責任|
+|移除客戶網路連線| 移除 IBM 與客戶環境之間的網路連線。| IBM 及客戶皆負有責任|
+|回收基礎架構| 根據 {{site.data.keyword.BluSoftlayer}} 定義的處理程序，回收您的環境。| IBM|
 {: caption="表 7. 完成階段作業" caption-side="top"}
 
 ##維護您的專用實例
@@ -418,7 +418,7 @@ IBM 會針對「狀態」頁面上每一個維護時間範圍所計劃的變更�
 
 圖 2. 突發事件回應程序
 
-視問題而定，您及（或）IBM 會一起合作來修正問題。如果您有關於突發事件的問題，或者需要 IBM 業務代表來協助您解決問題，則可以開啟支援問題單。如需如何與支援中心聯絡的相關資訊，請參閱[與支援中心聯絡](/docs/support/index.html#contacting-bluemix-support-local)。
+視問題而定，您及（或）IBM 會一起合作來修正問題。如果您有關於突發事件的問題，或者需要 IBM 業務代表來協助您解決問題，則可以開立支援問題單。如需如何與支援中心聯絡的相關資訊，請參閱[與支援中心聯絡](/docs/support/index.html#contacting-bluemix-support-local)。
 
 **附註**：我們會 24 小時全年無休地監視嚴重性 1 支援問題單。其他問題單的處理時間是從星期日晚上 10:00 GMT 到星期六凌晨 12:00 GMT。如需支援問題單嚴重性以及與支援中心合作的相關資訊，請參閱<a href="/docs/support/index.html#contacting-bluemix-support-local">與支援中心聯絡</a>。
 
@@ -447,7 +447,7 @@ IBM 會針對「狀態」頁面上每一個維護時間範圍所計劃的變更�
 若要部署至第二個位置或多個位置，您必須遵循與用來啟用主要地理位置類似的處理程序：
 
 1. 啟用新的專用環境來管理您應用程式的其他實例。若要建立新的環境，請與 IBM 銷售團隊聯絡，來起始處理程序。如需設定專用實例的相關資訊，請參閱[設定 {{site.data.keyword.Bluemix_dedicated_notm}}](/docs/dedicated/index.html#setupdedicated)。您必須分別登入才能存取每一個環境。所管理環境的每一個實體位置都應該與原始位置距離最少 200 公里，以確保可用性。
-2. 取得將管理新的已部署應用程式的唯一網域名稱。比方說，如果您的原始網域是 *mycompany.caeast.bluemix.net*，則可以建立具有新網域（例如 *mycompany.cawest.bluemix.net*）的新的本端環境，並部署至新網域。
+2. 取得將管理新的已部署應用程式所在之唯一網域名稱。比方說，如果您的原始網域是 *mycompany.caeast.bluemix.net*，則可以建立具有新網域（例如 *mycompany.cawest.bluemix.net*）的新本端環境，並部署至新網域。
 3. 每次部署原始應用程式時，也都會部署至新位置。如需部署的相關資訊，請參閱[上傳應用程式](/docs/starters/upload_app.html)。
 
 
@@ -473,9 +473,9 @@ IBM 會針對「狀態」頁面上每一個維護時間範圍所計劃的變更�
 這些技術包括下列各項：
 
 <dl>
-<dt>Cloud Foundry 中的 DEA 可擴充性</dt>
-<dd>Cloud Foundry <a href="https://docs.cloudfoundry.org/concepts/architecture/execution-agent.html" target="_blank">Droplet Execution Agent (DEA) <img src="../icons/launch-glyph.svg" alt="外部鏈結圖示"></a> 會對其內部執行的應用程式執行性能檢查。如果應用程式或 DEA 本身發生問題，則會將應用程式的其他實例部署至替代 DEA，以處理問題。如需相關資訊，請參閱 <a href="https://docs.cloudfoundry.org/concepts/high-availability.html" target="_blank">Configuring CF for High Availability with Redundancy <img src="../icons/launch-glyph.svg" alt="外部鏈結圖示"></a>。
-<p>若要確保您應用程式的高可用性，您需要有足夠的運算資源來平衡負載，而且也可能需要其他運算資源來支援可能的失敗。如果您需要增加 DEA 儲存區來擴充環境以為失敗做準備，或者處理應用程式實例的負載驟升，則可以與 IBM 業務代表合作來訂購額外的 DEA，並確定您有適當的硬體可支援新增的資源。
+<dt>Cloud Foundry 中的 CELL 可擴充性</dt>
+<dd>Cloud Foundry <a href="https://docs.cloudfoundry.org/concepts/architecture/execution-agent.html" target="_blank">Droplet Execution Agent (CELL) <img src="../icons/launch-glyph.svg" alt="外部鏈結圖示"></a> 會對其內部執行的應用程式執行性能檢查。如果應用程式或 CELL 本身發生問題，則會將應用程式的其他實例部署至替代 CELL，以處理問題。如需相關資訊，請參閱 <a href="https://docs.cloudfoundry.org/concepts/high-availability.html" target="_blank">Configuring CF for High Availability with Redundancy <img src="../icons/launch-glyph.svg" alt="外部鏈結圖示"></a>。
+<p>若要確保您應用程式的高可用性，您需要有足夠的運算資源來平衡負載，而且也可能需要其他運算資源來支援可能的失敗。如果您需要增加 CELL 儲存區來擴充環境以為失敗做準備，或者處理應用程式實例的負載驟升，則可以與 IBM 業務代表合作來訂購額外的 CELL，並確定您有適當的硬體可支援新增的資源。
 </p>
 </dd>
 <dt>{{site.data.keyword.BluSoftlayer}} 備援</dt>
@@ -505,13 +505,3 @@ IBM 會針對「狀態」頁面上每一個維護時間範圍所計劃的變更�
 <li>將已加密備份資料的副本移到異地，就如同您針對所管理的任何其他備份資料所採取的程序一樣。</li>
 <li>在需要進行還原時，將備份檔提供給 IBM 操作員。</li>
 </ul>
-
-# rellinks
-{: rellinks}
-## general
-{: general}
-* [探索：{{site.data.keyword.Bluemix_dedicated_notm}}](http://www.ibm.com/cloud-computing/bluemix/hybrid/dedicated/)
-* [{{site.data.keyword.Bluemix_notm}} 新增功能](/docs/whatsnew/index.html)
-* [{{site.data.keyword.Bluemix_notm}} 名詞解釋](/docs/overview/glossary/index.html)
-* [管理 {{site.data.keyword.Bluemix_notm}} 本端及 {{site.data.keyword.Bluemix_dedicated_notm}}](/docs/admin/index.html#mng)
-* [與支援中心聯絡](/docs/support/index.html#getting-customer-support)

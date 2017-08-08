@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-05-03"
+lastupdated: "2017-05-31"
 
 ---
 
@@ -27,25 +27,25 @@ lastupdated: "2017-05-03"
 
 さらに、組み込まれているか、オプションで購入可能な、一連のサービスおよびコンポーネントがあります。以下の表に、組み込みのものとオプションで購入可能なものを示します。
 
-| **タイプ **        | **名前**            | **説明** |
+| **タイプ**        | **名前** | **説明** |
 |-----------------|-------------------|-------------------|
-|組み込み | [{{site.data.keyword.Bluemix_notm}} ランタイム](/docs/cfapps/runtimes.html) | ランタイムはアプリを素早く立ち上げて実行するために使用します。マシンとオペレーティング・システムのセットアップと管理は不要です。すべての {{site.data.keyword.Bluemix_notm}} ランタイムが、{{site.data.keyword.Bluemix_dedicated_notm}} インスタンスで使用可能です。|
-| 組み込み | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | ポリシーに基づいて、アプリケーションの計算能力を動的に増減します。このサービスを使用することで、{{site.data.keyword.Bluemix_dedicated_notm}} 環境で使用量が無制限になります。注: Auto-scaling は現在、Cloud Foundry ランタイムでのみ動作します。 |
-|オプション | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} は、{{site.data.keyword.APIM}} と IBM StrongLoop を単一のオファリングに統合し、API とマイクロサービスを作成、実行、管理、および強化する包括的な解決策を提供します。 |
-|オプション | [{{site.data.keyword.rules_short}}](/docs/services/rules/rules.html) | {{site.data.keyword.rules_short}} では、頻繁に出現する、反復可能なルール・ベースのビジネス意思決定を自動化し実行する包括的な環境を提供します。これはまた、IT 技術の必要性を低減することで、ビジネス・ユーザーや開発者がより低コストで意思決定を速やかにモデル化してテストすることも可能にします。 |
-|オプション | [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} は、常に稼働している完全管理 NoSQL JSON データ層へのアクセスを提供します。このサービスは CouchDB と互換性があり、モバイル・アプリケーション・モデルおよび Web アプリケーション・モデル用の、簡単に使用できる HTTP インターフェースでアクセスできます。 |
-|オプション | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | {{site.data.keyword.Bluemix_dedicated_notm}} で Docker コンテナーを実行します。コンテナーは、アプリが実行のために必要とするすべてのエレメントを含む仮想ソフトウェア・オブジェクトです。コンテナーには、リソースの分離と割り振りの利点がありますが、例えば仮想マシンなどよりも、移植可能性と効率性が高まっています。ハードウェア要件については、『[{{site.data.keyword.Bluemix_dedicated_notm}} および Bluemix Local における IBM {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)』を参照してください。|
-| オプション | [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | {{site.data.keyword.contdelivery_short}} Dedicated を使用して、ビルド、単体テスト、デプロイメントなどを自動化します。機能豊富な Web ベース IDE により、コードの編集およびプッシュを行います。開発、デプロイメント、および運用の作業をサポートするツール統合を実現するツールチェーンを作成します。 |
-| オプション | [{{site.data.keyword.dashdbshort}}](/docs/services/dashDB/dashDB.html) | IBM {{site.data.keyword.dashdbshort}} for Analytics は、データウェアハウスおよび分析のワークロード用に最適化された完全管理の SQL クラウド・データベース・サービスです。IBM {{site.data.keyword.dashdbshort}} for Transactions は、汎用、Web アプリ、およびトランザクションのワークロード用に最適化された完全管理の SQL クラウド・データベース・サービスです。 |
-| オプション | [{{site.data.keyword.datacshort}}](/docs/services/DataCache/index.html#data_cache) | このサービスは、アプリで分散キャッシュ・シナリオをサポートするメモリー内データ・グリッドを提供します。50 GB のメモリー内キャッシュが含まれます。 |
-| オプション | [Dedicated GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}} は、IBM Cloud でホストされて完全に管理されるバージョンの GitHub Enterprise であり、開発者が愛好するソーシャル・エクスペリエンスを提供します。このサービスは、現在は {{site.data.keyword.Bluemix_dedicated_notm}} 環境でのみ使用可能です。 |
-| オプション (ベータ版) | [ロギング](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov) | {{site.data.keyword.Bluemix_notm}} ユーザー・インターフェースで Cloud Foundry アプリのログおよび Kibana で検索可能なログとダッシュボードを提供します。 |
-| オプション | [{{site.data.keyword.messagehub}}](/docs/services/MessageHub/index.html#messagehub) | {{site.data.keyword.messagehub}} は、配布されたスケーラブルで高スループットのメッセージ・バスであり、オンプレミス・テクノロジーとオフプレミス・テクノロジーを統合します。{{site.data.keyword.messagehub}} は、Apache Kafka に基づいています。これは、高速かつスケーラブルで永続的なリアルタイムのメッセージング・エンジンです。 |
-|オプション | [{{site.data.keyword.mobilepush}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepush}} は、通知を iOS および Android デバイスに送信するために使用することができるサービスです。通知は、すべてのアプリケーション・ユーザー、またはタグを使用して特定のユーザーとデバイスのセットを対象にすることができます。デバイス、タグ、およびサブスクリプションを管理することができます。SDK (Software Development Kit) および　Representational State Transfer (REST) アプリケーション・プログラム・インターフェース (API) を使用して、さらにクライアント・アプリケーションを開発することも可能です。|
-|オプション | [{{site.data.keyword.SecureGateway}}](/docs/services/SecureGateway/secure_gateway.html) | {{site.data.keyword.SecureGateway}} サービスは、{{site.data.keyword.Bluemix_notm}} アプリケーションをオンプレミスまたはクラウド内のリモート・ロケーションに接続するための安全な方法を提供します。  |
-|オプション | [{{site.data.keyword.sescashort}}](/docs/services/SessionCache/index.html#session_cache) | 冗長性を高めるために、{{site.data.keyword.sescashort}} は、キャッシュに保管されたセッションのレプリカを提供します。これにより、ブラウンアウトまたは障害が発生した場合、クライアント・アプリケーションはキャッシュ内のセッションへのアクセスを維持できます。サービスでは、Web アプリケーションとモバイル・アプリケーションのセッション・キャッシュ・シナリオがサポートされます。 |
-| オプション | [{{site.data.keyword.iot_short}}](/docs/services/IoT/index.html) | このサービスにより、アプリは、接続されたデバイス、センサー、およびゲートウェイが収集したデータと通信して、それらのデータを取り込むことができます。基本オファリングでは、100,000 個の同時接続されたデバイスまたはアプリケーションと 1.6 TB のデータ交換の容量を備えた専用環境内で {{site.data.keyword.iot_short}} の専用バージョンを実行することができます。 |
-| オプション | [{{site.data.keyword.appserver_short}}](/docs/services/ApplicationServeronCloud/index.html) | IBM {{site.data.keyword.appserver_short}} for IBM {{site.data.keyword.Bluemix_notm}} は、{{site.data.keyword.Bluemix_notm}} 上でホストされるクラウド環境で、事前定義済みの {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment、または Traditional WebSphere Java EE インスタンスを迅速にセットアップできるようにするサービスです。 |
+|組み込み| [{{site.data.keyword.Bluemix_notm}} ランタイム](/docs/cfapps/runtimes.html) | ランタイムはアプリを素早く立ち上げて実行するために使用します。マシンとオペレーティング・システムのセットアップと管理は不要です。すべての {{site.data.keyword.Bluemix_notm}} ランタイムが、{{site.data.keyword.Bluemix_dedicated_notm}} インスタンスで使用可能です。|
+| 組み込み| [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | ポリシーに基づいて、アプリケーションの計算能力を動的に増減します。このサービスを使用することで、{{site.data.keyword.Bluemix_dedicated_notm}} 環境で使用量が無制限になります。注: Auto-scaling は現在、Cloud Foundry ランタイムでのみ動作します。|
+|オプション| [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} は、{{site.data.keyword.APIM}} と IBM StrongLoop を単一のオファリングに統合し、API とマイクロサービスを作成、実行、管理、および強化する包括的な解決策を提供します。|
+|オプション| [{{site.data.keyword.rules_short}}](/docs/services/rules/rules.html) | {{site.data.keyword.rules_short}} では、頻繁に出現する、反復可能なルール・ベースのビジネス意思決定を自動化し実行する包括的な環境を提供します。これはまた、IT 技術の必要性を低減することで、ビジネス・ユーザーや開発者がより低コストで意思決定を速やかにモデル化してテストすることも可能にします。|
+|オプション| [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} は、常に稼働している完全管理 NoSQL JSON データ層へのアクセスを提供します。このサービスは CouchDB と互換性があり、モバイル・アプリケーション・モデルおよび Web アプリケーション・モデル用の、簡単に使用できる HTTP インターフェースでアクセスできます。|
+|オプション| [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | {{site.data.keyword.Bluemix_dedicated_notm}} で Docker コンテナーを実行します。コンテナーは、アプリが実行のために必要とするすべてのエレメントを含む仮想ソフトウェア・オブジェクトです。コンテナーには、リソースの分離と割り振りの利点がありますが、例えば仮想マシンなどよりも、移植可能性と効率性が高まっています。ハードウェア要件について詳しくは、『[ {{site.data.keyword.Bluemix_dedicated_notm}} および Bluemix Local における {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)』を参照してください。|
+| オプション| [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | {{site.data.keyword.contdelivery_short}} Dedicated を使用して、ビルド、単体テスト、デプロイメントなどを自動化します。機能豊富な Web ベース IDE により、コードの編集およびプッシュを行います。開発、デプロイメント、および運用の作業をサポートするツール統合を実現するツールチェーンを作成します。|
+| オプション| [{{site.data.keyword.dashdbshort}}](/docs/services/dashDB/dashDB.html) | IBM {{site.data.keyword.dashdbshort}} for Analytics は、データウェアハウスおよび分析のワークロード用に最適化された完全管理の SQL クラウド・データベース・サービスです。IBM {{site.data.keyword.dashdbshort}} for Transactions は、汎用、Web アプリ、およびトランザクションのワークロード用に最適化された完全管理の SQL クラウド・データベース・サービスです。|
+| オプション| [{{site.data.keyword.datacshort}}](/docs/services/DataCache/index.html#data_cache) | このサービスは、アプリで分散キャッシュ・シナリオをサポートするメモリー内データ・グリッドを提供します。50 GB のメモリー内キャッシュが含まれます。|
+| オプション| [Dedicated GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}} は、IBM Cloud でホストされて完全に管理されるバージョンの GitHub Enterprise であり、開発者が愛好するソーシャル・エクスペリエンスを提供します。このサービスは、現在は {{site.data.keyword.Bluemix_dedicated_notm}} 環境でのみ使用可能です。|
+| オプション (ベータ版)| [ロギング](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov) | {{site.data.keyword.Bluemix_notm}} ユーザー・インターフェースで Cloud Foundry アプリのログおよび Kibana で検索可能なログとダッシュボードを提供します。|
+| オプション| [{{site.data.keyword.messagehub}}](/docs/services/MessageHub/index.html#messagehub) | {{site.data.keyword.messagehub}} は、配布されたスケーラブルで高スループットのメッセージ・バスであり、オンプレミス・テクノロジーとオフプレミス・テクノロジーを統合します。{{site.data.keyword.messagehub}} は、Apache Kafka に基づいています。これは、高速かつスケーラブルで永続的なリアルタイムのメッセージング・エンジンです。|
+|オプション| [{{site.data.keyword.mobilepushshort}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepushshort}} は、通知を iOS および Android デバイスに送信するために使用することができるサービスです。通知は、すべてのアプリケーション・ユーザー、またはタグを使用して特定のユーザーとデバイスのセットを対象にすることができます。デバイス、タグ、およびサブスクリプションを管理することができます。SDK (Software Development Kit) および　Representational State Transfer (REST) アプリケーション・プログラム・インターフェース (API) を使用して、さらにクライアント・アプリケーションを開発することも可能です。|
+|オプション| [{{site.data.keyword.SecureGateway}}](/docs/services/SecureGateway/secure_gateway.html) | {{site.data.keyword.SecureGateway}} サービスは、{{site.data.keyword.Bluemix_notm}} アプリケーションをオンプレミスまたはクラウド内のリモート・ロケーションに接続するための安全な方法を提供します。|
+|オプション| [{{site.data.keyword.sescashort}}](/docs/services/SessionCache/index.html#session_cache) | 冗長性を高めるために、{{site.data.keyword.sescashort}} は、キャッシュに保管されたセッションのレプリカを提供します。これにより、ブラウンアウトまたは障害が発生した場合、クライアント・アプリケーションはキャッシュ内のセッションへのアクセスを維持できます。サービスでは、Web アプリケーションとモバイル・アプリケーションのセッション・キャッシュ・シナリオがサポートされます。|
+| オプション| [{{site.data.keyword.iot_short}}](/docs/services/IoT/index.html) | このサービスにより、アプリは、接続されたデバイス、センサー、およびゲートウェイが収集したデータと通信して、それらのデータを取り込むことができます。基本オファリングでは、100,000 個の同時接続されたデバイスまたはアプリケーションと 1.6 TB のデータ交換の容量を備えた専用環境内で {{site.data.keyword.iot_short}} の専用バージョンを実行することができます。|
+| オプション| [{{site.data.keyword.appserver_short}}](/docs/services/ApplicationServeronCloud/index.html) | IBM {{site.data.keyword.appserver_short}} for IBM {{site.data.keyword.Bluemix_notm}} は、{{site.data.keyword.Bluemix_notm}} 上でホストされるクラウド環境で、事前定義済みの {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment、または Traditional WebSphere Java EE インスタンスを迅速にセットアップできるようにするサービスです。|
 {: caption="表 1. Dedicated のサービス" caption-side="top"}
 {: #table01}
 
@@ -53,108 +53,108 @@ lastupdated: "2017-05-03"
 
 リソースおよびサービスの容量を拡大および拡張するために購入できる、オプションのコンポーネントが用意されています。販売チームに連絡して、これらのコンポーネントを購入できます。営業担当員への連絡について詳しくは、[「お問い合わせ」](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs)にアクセスしてください。サービスのプランを増やすには、カタログのサービス・タイルからプランを選択します。
 
-| **名前**            | **説明** |
+| **名前** | **説明** |
 |-------------------|-------------------|
-|Dedicated {{site.data.keyword.apiconnect_short}} Professional 500 万回の API 呼び出し | 部門別の API プロジェクトを対象にした、1 月当たり 500 万回の API 呼び出し容量を持つ専用環境内で {{site.data.keyword.apiconnect_short}} の専用バージョンを実行できる環境。 |
-|Dedicated {{site.data.keyword.apiconnect_short}} Professional 10 万回の API 呼び出し容量の増加 | 1 月当たり 10 万回の API 呼び出し容量を追加する {{site.data.keyword.apiconnect_short}} Professional 環境の拡張。 |
-|Dedicated {{site.data.keyword.apiconnect_short}} Enterprise 2500 万回の API 呼び出し | 企業全体の API プロジェクトを対象にした、1 月当たり 2500 万回の API 呼び出し容量を持つ専用環境内で {{site.data.keyword.apiconnect_short}} の専用バージョンを実行できる環境。 |
-|Dedicated {{site.data.keyword.apiconnect_short}} Enterprise 10 万回の API 呼び出し容量の増加 | 1 月当たり 10 万回の API 呼び出し容量を追加する {{site.data.keyword.apiconnect_short}} Enterprise 環境の拡張。 |
-|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.rules_short}} 100 万回の「ルールに基づく意思決定」 | 「ルールに基づく意思決定」は、ルール実行サーバーからルールセットを呼び出すことで生じる結果をいいます。請求期間中に実行または処理され、最も近い 100 万単位に切り上げられた「ルールに基づく意思決定」の合計数に対応する十分なライセンスが取得されていなければなりません。本「クラウド・サービス」で課金される「ルールに基づく意思決定」は、意思決定を得るためにルール実行サーバーに対して行われる呼び出しです。「クラウド・サービス」の Dedicated デプロイメントには、関連課金メトリックで測定される合意済みの容量が設定されています。{{site.data.keyword.Bluemix_dedicated_notm}} プラットフォームでの {{site.data.keyword.rules_short}} サービスのデフォルトのスペース割り振りは 16 GB で、権限がある「ルールに基づく意思決定」を実行するために、それぞれ 1 GB の最大 10 個のインスタンスを呼び出すことができます。当該使用制限を超えた場合、その使用をカバーするために追加容量を購入する必要があります。 |
-|Dedicated {{site.data.keyword.cloudant}} の 1.6 TB の容量増加 | 設計容量が 1.6 テラバイトの専用環境内での {{site.data.keyword.cloudantfull}} の専用バージョンの実行が組み込まれます。  |
-|Dedicated {{site.data.keyword.datacshort}} および {{site.data.keyword.sescashort}} の 50 GB の容量増加 | 最大 50 GB の累積容量まで「{{site.data.keyword.datacshort}}」および「{{site.data.keyword.sescashort}}」のインスタンスをデプロイして実行することができる環境。 |
-|{{site.data.keyword.contdelivery_short}} Dedicated インスタンス | 専用環境内で実行されるプライベート・バージョンの {{site.data.keyword.contdelivery_short}}。容量は、{{site.data.keyword.contdelivery_short}} Dedicated 許可ユーザーのライセンスで決まります。 |
-|{{site.data.keyword.contdelivery_short}} Dedicated 許可ユーザー | 指定された {{site.data.keyword.contdelivery_short}} Dedicated 環境へのアクセスと使用を許可ユーザーに認可します。{{site.data.keyword.contdelivery_short}} サービス・インスタンスを含む {{site.data.keyword.Bluemix_notm}} 組織に属するすべてのユーザーが許可されなければなりません。 |
-|Dedicated {{site.data.keyword.dashdbshort}} Enterprise 64.1 | 64 GB RAM、16 vCPU 搭載の専用サーバー上のサービス・インスタンスごとに 1 つのデータベース。標準圧縮に基づき、最大 1 TB のプリロード・データに対して推奨。  |
-|Dedicated {{site.data.keyword.dashdbshort}} Enterprise 256.4 | 256 GB RAM、32 コアを搭載の専用ベアメタル・サーバー上のサービス・インスタンスごとに 1 つのデータベース。標準圧縮に基づき、最大 4 TB のプリロード・データに対して推奨。 |
-|Dedicated {{site.data.keyword.dashdbshort}} Enterprise 256.12  | 256 GB RAM、32 コアを搭載の専用ベアメタル・サーバー上のサービス・インスタンスごとに 1 つのデータベース。標準圧縮に基づき、最大 12 TB のプリロード・データに対して推奨。これは、データ量が比較的多く、照会をメモリー内の速度で実行する必要のない環境に適したストレージ高密度プランです。 |
-|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions 2.8.500 | データおよびログ用に 8 GB RAM および 500 GB のスペースを備えた、オンライン・トランザクション処理 (OLTP) ワークロードをサポートする専用インスタンス。 |
-|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions 12.128.1400 | データおよびログ用に 128 GB RAM および 1.4 TB SSD ストレージを備えた、オンライン・トランザクション処理 (OLTP) ワークロードをサポートする専用インスタンス。 |
-|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions High Availability 2.8.500 | データおよびログ用に 8 GB RAM および 500 GB のスペースを備えた、オンライン・トランザクション処理 (OLTP) ワークロードをサポートする専用インスタンスであり、高可用性のための追加スタンバイ・サーバーを含みます。 |
-|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions High Availability 12.128.1400 | データおよびログ用に 128 GB RAM および 1.4 TB SSD ストレージを備えた、オンライン・トランザクション処理 (OLTP) ワークロードをサポートする専用インスタンスであり、高可用性のための追加スタンバイ・サーバーを含みます。 |
-|{{site.data.keyword.Bluemix_dedicated_notm}} コミュニティー・サービス  | コミュニティー・サービスごとに、最大合計 50 インスタンスまでコミュニティー・サービスをデプロイして実行できる環境。  |
-|{{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.cloudant}} クラスター・インスタンス | このオプションのコンポーネントには、お客様がインフラストラクチャーの提供を担当する 3 ノードのクラスターが含まれ、特定のニーズに基づいて、ストレージおよび計算キャパシティーを決定できます。{{site.data.keyword.cloudant}} は、常に稼働している完全管理 NoSQL JSON データ層へのアクセスを提供します。このサービスは CouchDB と互換性があり、モバイル・アプリケーション・モデルおよび Web アプリケーション・モデル用の、簡単に使用できる HTTP インターフェースでアクセスできます。 |
-|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.messagehub}} | 100 区画を限度に、1 区画当たり最大 10 GB のパブリッシュ/サブスクライブ・メッセージングを提供する環境。 |
-|IBM Bluemix Dedicated {{site.data.keyword.mobilepushshort}} | 1 秒当たり 300 個の要求を受け入れる能力を持つ {{site.data.keyword.mobilepushshort}} インスタンスをデプロイして実行できる環境。 |
-|{{site.data.keyword.iot_short}} Dedicated の増分式の拡張 | 環境の拡張。拡張される環境では、100,000 個の同時接続されたデバイスまたはアプリケーションと 0.5 TB のデータ交換の容量を備えた専用環境内で {{site.data.keyword.iot_short}} の専用バージョンを実行できます。 |
-|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - Dedicated Small| 月当たり 64 vCore、128 GB RAM、および 1 TB HDD を使用できる、{{site.data.keyword.Bluemix_notm}} 上でホストされたクラウド環境内の事前定義された {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment、または Traditional WebSphere Java EE インスタンス。 |
-|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - Dedicated Medium| 月当たり 128 vCore、256 GB RAM、および 2 TB HDD を使用できる、{{site.data.keyword.Bluemix_notm}} 上でホストされたクラウド環境内の事前定義された {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment、または Traditional WebSphere Java EE インスタンス。 |
-|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - Dedicated Large| 月当たり 256 vCore、512 GB RAM、および 4 TB HDD を使用できる、{{site.data.keyword.Bluemix_notm}} 上でホストされたクラウド環境内の事前定義された {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment、または Traditional WebSphere Java EE インスタンス。 |
-|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - Dedicated| 月当たり 1 TB HDD と HDD 拡張を使用できる、{{site.data.keyword.Bluemix_notm}} 上でホストされたクラウド環境内の事前定義された {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment、または Traditional WebSphere Java EE インスタンス。 |
+|Dedicated {{site.data.keyword.apiconnect_short}} Professional 500 万回の API 呼び出し| 部門別の API プロジェクトを対象にした、1 月当たり 500 万回の API 呼び出し容量を持つ専用環境内で {{site.data.keyword.apiconnect_short}} の専用バージョンを実行できる環境。|
+|Dedicated {{site.data.keyword.apiconnect_short}} Professional 10 万回の API 呼び出し容量の増加| 1 月当たり 10 万回の API 呼び出し容量を追加する {{site.data.keyword.apiconnect_short}} Professional 環境の拡張。|
+|Dedicated {{site.data.keyword.apiconnect_short}} Enterprise 2500 万回の API 呼び出し| 企業全体の API プロジェクトを対象にした、1 月当たり 2500 万回の API 呼び出し容量を持つ専用環境内で {{site.data.keyword.apiconnect_short}} の専用バージョンを実行できる環境。|
+|Dedicated {{site.data.keyword.apiconnect_short}} Enterprise 10 万回の API 呼び出し容量の増加| 1 月当たり 10 万回の API 呼び出し容量を追加する {{site.data.keyword.apiconnect_short}} Enterprise 環境の拡張。|
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.rules_short}} 100 万回の「ルールに基づく意思決定」| 「ルールに基づく意思決定」は、ルール実行サーバーからルールセットを呼び出すことで生じる結果をいいます。請求期間中に実行または処理され、最も近い 100 万単位に切り上げられた「ルールに基づく意思決定」の合計数に対応する十分なライセンスが取得されていなければなりません。本「クラウド・サービス」で課金される「ルールに基づく意思決定」は、意思決定を得るためにルール実行サーバーに対して行われる呼び出しです。「クラウド・サービス」の Dedicated デプロイメントには、関連課金メトリックで測定される合意済みの容量が設定されています。{{site.data.keyword.Bluemix_dedicated_notm}} プラットフォームでの {{site.data.keyword.rules_short}} サービスのデフォルトのスペース割り振りは 16 GB で、権限がある「ルールに基づく意思決定」を実行するために、それぞれ 1 GB の最大 10 個のインスタンスを呼び出すことができます。当該使用制限を超えた場合、その使用をカバーするために追加容量を購入する必要があります。|
+|Dedicated {{site.data.keyword.cloudant}} の 1.6 TB の容量増加| 設計容量が 1.6 テラバイトの専用環境内での {{site.data.keyword.cloudantfull}} の専用バージョンの実行が組み込まれます。|
+|Dedicated {{site.data.keyword.datacshort}} および {{site.data.keyword.sescashort}} の 50 GB の容量増加| 最大 50 GB の累積容量まで「{{site.data.keyword.datacshort}}」および「{{site.data.keyword.sescashort}}」のインスタンスをデプロイして実行することができる環境。|
+|{{site.data.keyword.contdelivery_short}} Dedicated インスタンス| 専用環境内で実行されるプライベート・バージョンの {{site.data.keyword.contdelivery_short}}。容量は、{{site.data.keyword.contdelivery_short}} Dedicated 許可ユーザーのライセンスで決まります。|
+|{{site.data.keyword.contdelivery_short}} Dedicated 許可ユーザー| 指定された {{site.data.keyword.contdelivery_short}} Dedicated 環境へのアクセスと使用を許可ユーザーに認可します。{{site.data.keyword.contdelivery_short}} サービス・インスタンスを含む {{site.data.keyword.Bluemix_notm}} 組織に属するすべてのユーザーが許可されなければなりません。|
+|Dedicated {{site.data.keyword.dashdbshort}} Enterprise 64.1| 64 GB RAM、16 vCPU 搭載の専用サーバー上のサービス・インスタンスごとに 1 つのデータベース。標準圧縮に基づき、最大 1 TB のプリロード・データに対して推奨。|
+|Dedicated {{site.data.keyword.dashdbshort}} Enterprise 256.4| 256 GB RAM、32 コアを搭載の専用ベアメタル・サーバー上のサービス・インスタンスごとに 1 つのデータベース。標準圧縮に基づき、最大 4 TB のプリロード・データに対して推奨。|
+|Dedicated {{site.data.keyword.dashdbshort}} Enterprise 256.12| 256 GB RAM、32 コアを搭載の専用ベアメタル・サーバー上のサービス・インスタンスごとに 1 つのデータベース。標準圧縮に基づき、最大 12 TB のプリロード・データに対して推奨。これは、データ量が比較的多く、照会をメモリー内の速度で実行する必要のない環境に適したストレージ高密度プランです。|
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions 2.8.500| データおよびログ用に 8 GB RAM および 500 GB のスペースを備えた、オンライン・トランザクション処理 (OLTP) ワークロードをサポートする専用インスタンス。|
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions 12.128.1400| データおよびログ用に 128 GB RAM および 1.4 TB SSD ストレージを備えた、オンライン・トランザクション処理 (OLTP) ワークロードをサポートする専用インスタンス。|
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions High Availability 2.8.500| データおよびログ用に 8 GB RAM および 500 GB のスペースを備えた、オンライン・トランザクション処理 (OLTP) ワークロードをサポートする専用インスタンスであり、高可用性のための追加スタンバイ・サーバーを含みます。|
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions High Availability 12.128.1400| データおよびログ用に 128 GB RAM および 1.4 TB SSD ストレージを備えた、オンライン・トランザクション処理 (OLTP) ワークロードをサポートする専用インスタンスであり、高可用性のための追加スタンバイ・サーバーを含みます。|
+|{{site.data.keyword.Bluemix_dedicated_notm}} コミュニティー・サービス| コミュニティー・サービスごとに、最大合計 50 インスタンスまでコミュニティー・サービスをデプロイして実行できる環境。|
+|{{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.cloudant}} クラスター・インスタンス| このオプションのコンポーネントには、お客様がインフラストラクチャーの提供を担当する 3 ノードのクラスターが含まれ、特定のニーズに基づいて、ストレージおよび計算キャパシティーを決定できます。{{site.data.keyword.cloudant}} は、常に稼働している完全管理 NoSQL JSON データ層へのアクセスを提供します。このサービスは CouchDB と互換性があり、モバイル・アプリケーション・モデルおよび Web アプリケーション・モデル用の、簡単に使用できる HTTP インターフェースでアクセスできます。|
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.messagehub}}| 100 区画を限度に、1 区画当たり最大 10 GB のパブリッシュ/サブスクライブ・メッセージングを提供する環境。|
+|IBM Bluemix Dedicated {{site.data.keyword.mobilepushshort}}| 1 秒当たり 300 個の要求を受け入れる能力を持つ {{site.data.keyword.mobilepushshort}} インスタンスをデプロイして実行できる環境。|
+|{{site.data.keyword.iot_short}} Dedicated の増分式の拡張| 環境の拡張。拡張される環境では、100,000 個の同時接続されたデバイスまたはアプリケーションと 0.5 TB のデータ交換の容量を備えた専用環境内で {{site.data.keyword.iot_short}} の専用バージョンを実行できます。|
+|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - Dedicated Small| 月当たり 64 vCore、128 GB RAM、および 1 TB HDD を使用できる、{{site.data.keyword.Bluemix_notm}} 上でホストされたクラウド環境内の事前定義された {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment、または Traditional WebSphere Java EE インスタンス。|
+|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - Dedicated Medium| 月当たり 128 vCore、256 GB RAM、および 2 TB HDD を使用できる、{{site.data.keyword.Bluemix_notm}} 上でホストされたクラウド環境内の事前定義された {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment、または Traditional WebSphere Java EE インスタンス。|
+|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - Dedicated Large| 月当たり 256 vCore、512 GB RAM、および 4 TB HDD を使用できる、{{site.data.keyword.Bluemix_notm}} 上でホストされたクラウド環境内の事前定義された {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment、または Traditional WebSphere Java EE インスタンス。|
+|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - Dedicated| 月当たり 1 TB HDD と HDD 拡張を使用できる、{{site.data.keyword.Bluemix_notm}} 上でホストされたクラウド環境内の事前定義された {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment、または Traditional WebSphere Java EE インスタンス。|
 {: caption="表 2. 購入用のオプションのサービス・コンポーネント" caption-side="top"}
 {: #table02}
 
 
 
-| **名前**            | **説明** |
+| **名前** | **説明** |
 |-------------------|-------------------|
-|専用ランタイムの 16 GB の容量増加  | ランタイム容量を 16 GB 分追加する、ランタイム環境の拡張。 |
-|Dedicated Direct Link 1 Gbps 容量 | 最大 1 Gbps のデータ転送用に設計され、適切に配置された {{site.data.keyword.BluSoftlayer}} ネットワーク・ポイントに直接接続される、専用ネットワーク・リンク。 |
-|Dedicated Direct Link 10 Gbps 容量 | 最大 10 Gbps のデータ転送用に設計され、適切に配置された {{site.data.keyword.BluSoftlayer}} ネットワーク・ポイントに直接接続される、専用ネットワーク・リンク。 |
-|IBM Bluemix Dedicated ハードウェア・ファイアウォール - 高可用性 | 専用環境内の同じ VLAN 上の単一、複数、またはすべてのサーバーを保護するように構成された、冗長 1 Gbps ハードウェア・ファイアウォール。 |
+|専用ランタイムの 16 GB の容量増加| ランタイム容量を 16 GB 分追加する、ランタイム環境の拡張。|
+|Dedicated Direct Link 1 Gbps 容量| 最大 1 Gbps のデータ転送用に設計され、適切に配置された {{site.data.keyword.BluSoftlayer}} ネットワーク・ポイントに直接接続される、専用ネットワーク・リンク。|
+|Dedicated Direct Link 10 Gbps 容量| 最大 10 Gbps のデータ転送用に設計され、適切に配置された {{site.data.keyword.BluSoftlayer}} ネットワーク・ポイントに直接接続される、専用ネットワーク・リンク。|
+|IBM Bluemix Dedicated ハードウェア・ファイアウォール - 高可用性| 専用環境内の同じ VLAN 上の単一、複数、またはすべてのサーバーを保護するように構成された、冗長 1 Gbps ハードウェア・ファイアウォール。|
 {: caption="表 3. 購入用のオプションのプラットフォーム・アドオン・コンポーネント" caption-side="top"}
 {: #table03}
 
 **注**: {{site.data.keyword.Bluemix_dedicated_notm}} のコンポーネントは、構成された特定の容量 (ギガバイト数や、1 秒当たりのトランザクション数など) で示される場合があります。どんな構成でも、クラウド・サービスで実際に使用される容量は、さまざまな要因によって異なるため、実際に使用される容量は、構成された容量より増減する可能性があります。
 
-### シンジケートされたカタログ
+## シンジケートされたカタログ
 {: #catalogdedicated}
 
 {{site.data.keyword.Bluemix_dedicated_notm}} には、パブリック・デプロイメント、専用デプロイメント、およびローカル・デプロイメントすべてにわたって承認済みサービスを集めたプライベート・カタログが含まれています。{{site.data.keyword.Bluemix_notm}} カタログを通して、お客様独自のサービスを公開したり、それらのサービスへのアクセスを管理したりすることもできます。データ・プライバシーとセキュリティー基準に基づいて、ビジネスの要件に合致したパブリック・サービスを決定できます。
 
 専用環境用にサービスのプライベート・インスタンスを保有している場合、カタログ内でサービス名と共に「Dedicated」というタグが示されます。同様に、カスタム・サービスである場合 (つまり、サービス・ブローカーを使用して作成した場合)、サービス名と共に「カスタム」と表示されます。「専用」というタグも「カスタム」というタグも付いていない、リスト中の他のサービスはすべて、{{site.data.keyword.Bluemix_notm}} Public からシンジケーションを使用して利用可能です。シンジケートされたサービスは、パブリック・サービスとプライベート・サービスからなるハイブリッド・アプリケーションを作成する機能を提供します。
 
-|サービス	|米国南部地域で利用可能	|ヨーロッパ英国地域で利用可能 |オーストラリア、シドニー地域で利用可能|
+|サービス	|米国南部地域で利用可能|ヨーロッパ英国地域で利用可能|オーストラリア、シドニー地域で利用可能|
 |:----------|:------------------------------|:------------------|:------------------|
 |{{site.data.keyword.alchemyapishort}} 		|はい	   	|はい  		|はい|
 |{{site.data.keyword.alertnotificationshort}}	|はい		|はい		|はい	|
-|{{site.data.keyword.apiconnect_short}}         |はい            |はい            |はい  |
-|{{site.data.keyword.appseccloudshort}}		|はい		|はい		|はい |
-|{{site.data.keyword.apiconnect_short}} 	|はい   	 	|はい  	 	|はい   |
-|Automated Accessibility Checker |はい       |はい    |はい   |
-|{{site.data.keyword.rules_short}}		|はい		|はい		|はい |
-|{{site.data.keyword.cloudant}}			|はい		|はい		|はい |
-|{{site.data.keyword.iotmapinsights_short}}    |はい  |はい  |はい  |
-|{{site.data.keyword.conversationshort}}  |はい  |はい  |はい  |
-|{{site.data.keyword.dashdbshort}}		|はい		|はい		|はい |
+|{{site.data.keyword.apiconnect_short}}         |はい|はい|はい|
+|{{site.data.keyword.appseccloudshort}}		|はい		|はい		|はい|
+|{{site.data.keyword.apiconnect_short}} 	|はい   	 	|はい   	 	|はい|
+|Automated Accessibility Checker|はい|はい|はい|
+|{{site.data.keyword.rules_short}}		|はい		|はい		|はい|
+|{{site.data.keyword.cloudant}}			|はい		|はい		|はい|
+|{{site.data.keyword.iotmapinsights_short}}    |はい|はい|はい|
+|{{site.data.keyword.conversationshort}}  |はい|はい|はい|
+|{{site.data.keyword.dashdbshort}}		|はい		|はい		|はい|
 |{{site.data.keyword.dataworks_short}}		|はい		|はい		|いいえ|
-|{{site.data.keyword.DB2OnCloud_short}}		|はい		|はい		|はい |
-|Digital Content Checker |はい  |はい  |はい  |
+|{{site.data.keyword.DB2OnCloud_short}}		|はい		|はい		|はい|
+|Digital Content Checker|はい|はい|はい|
 |{{site.data.keyword.documentconversionshort}}	|はい		|はい		|はい|
-|{{site.data.keyword.iotdriverinsights_short}}  |はい |はい  |はい  |
-|{{site.data.keyword.geospatialshort_Geospatial}}	|はい	|はい		|はい |
-|{{site.data.keyword.GlobalizationPipeline_short}}	|はい		| はい		| はい |
+|{{site.data.keyword.iotdriverinsights_short}}  |はい|はい|はい|
+|{{site.data.keyword.geospatialshort_Geospatial}}	|はい	|はい		|はい|
+|{{site.data.keyword.GlobalizationPipeline_short}}	|はい		| はい		| はい|
 |{{site.data.keyword.identitymixershort}}		|はい		|はい		|はい|
-|{{site.data.keyword.iot4auto_short}} |はい   |はい  |はい  |
-|{{site.data.keyword.iotelectronics}}  |はい  |はい  |いいえ |
-|{{site.data.keyword.iotinsurance_short}} |いいえ   |いいえ   |はい  |
+|{{site.data.keyword.iot4auto_short}} |はい|はい|はい|
+|{{site.data.keyword.iotelectronics}}  |はい|はい|いいえ|
+|{{site.data.keyword.iotinsurance_short}} |いいえ|いいえ|はい|
 |{{site.data.keyword.twittershort}}		|はい		|はい		|はい|
-|{{site.data.keyword.languagetranslationshort}}	|はい		|はい		|はい |
-|{{site.data.keyword.languagetranslatorshort}} |はい  |はい  |はい  |
-|{{site.data.keyword.dwl_short}}  |はい  |はい  |いいえ  |
+|{{site.data.keyword.languagetranslationshort}}	|はい		|はい		|はい|
+|{{site.data.keyword.languagetranslatorshort}} |はい|はい|はい|
+|{{site.data.keyword.dwl_short}}  |はい|はい|いいえ|
 |{{site.data.keyword.eventhubshort}}		|はい		|いいえ		|いいえ|
 |{{site.data.keyword.messagehub}}		|はい		|はい		|いいえ|
-|{{site.data.keyword.manda}}			|はい		|はい		|はい |
-|{{site.data.keyword.amashort}}			|はい		|はい		|はい |
-|{{site.data.keyword.mqa}}			|はい		|はい		|はい |
-|{{site.data.keyword.mql}}			|いいえ		|いいえ		|はい |
-|{{site.data.keyword.nlclassifierlshort}} 	|はい 		|はい 		|はい|
+|{{site.data.keyword.manda}}			|はい		|はい		|はい|
+|{{site.data.keyword.amashort}}			|はい		|はい		|はい|
+|{{site.data.keyword.mqa}}			|はい		|はい		|はい|
+|{{site.data.keyword.mql}}			|いいえ		|いいえ		|はい|
+|{{site.data.keyword.nlclassifierlshort}} 	|はい  		|はい  		|はい|
 |{{site.data.keyword.personalityinsightsshort}}	|はい		|はい		|はい|
-|{{site.data.keyword.pm_short}}			|はい		|はい		|いいえ |
-|{{site.data.keyword.mobilepush}}		|はい		|はい		|はい |
-|{{site.data.keyword.retrieveandrankshort}}	|はい 		|はい 		|はい|
+|{{site.data.keyword.pm_short}}			|はい		|はい		|いいえ|
+|{{site.data.keyword.mobilepushshort}}		|はい		|はい		|はい|
+|{{site.data.keyword.retrieveandrankshort}}	|はい  		|はい  		|はい|
 |{{site.data.keyword.runbook_short}}		|はい		|はい		|はい|
-|{{site.data.keyword.SecureGateway}}		|はい		|はい		|はい |
+|{{site.data.keyword.SecureGateway}}		|はい		|はい		|はい|
 |{{site.data.keyword.ssofull}}			|はい		|いいえ		|いいえ|
-|{{site.data.keyword.speechtotextshort}}	|はい 		|はい	 	|はい|
-|{{site.data.keyword.streaminganalyticsshort}}	|はい		|はい		|はい |
-|{{site.data.keyword.texttospeechshort}} 	|はい 		|はい	 	|はい|
-|{{site.data.keyword.toneanalyzershort}} 	|はい 		|はい 		|はい|
+|{{site.data.keyword.speechtotextshort}}	|はい  		|はい	   	|はい|
+|{{site.data.keyword.streaminganalyticsshort}}	|はい		|はい		|はい|
+|{{site.data.keyword.texttospeechshort}} 	|はい  		|はい	   	|はい|
+|{{site.data.keyword.toneanalyzershort}} 	|はい  		|はい  		|はい|
 |{{site.data.keyword.tradeoffanalyticsshort}}	|はい		|はい		|はい|
-|{{site.data.keyword.visualrecognitionshort}}	|はい 		|はい	 	|はい|
+|{{site.data.keyword.visualrecognitionshort}}	|はい  		|はい	   	|はい|
 |{{site.data.keyword.iot_short}}		|はい		|はい		|いいえ|
 |{{site.data.keyword.weather_short}}		|はい		|はい		|はい|
-|{{site.data.keyword.workloadscheduler}}	|はい		|はい		|はい |
-{: caption="表 4. Bluemix パブリックからのシンジケーションに使用可能な、地域別のサービス" caption-side="top"}
+|{{site.data.keyword.workloadscheduler}}	|はい		|はい		|はい|
+{: caption="表 4. {{site.data.keyword.Bluemix_notm}} Public からのシンジケーションに使用可能な、地域別のサービス" caption-side="top"}
 {: #table04}
 
 **注**: サード・パーティー・サービスは表に含まれていません。サード・パーティー・サービス・オプションについては、専用カタログを確認してください。
@@ -314,30 +314,41 @@ Success Manager (CSM) と連携できます。異なるサポート層につい�
 
 | **タスク** | **タスクの詳細** | **責任を持つ側** |
 |----------|------------------|-----------------------|
-|コンプライアンス規格の設定 | 環境に必要な政府、業界、および専有企業の標準を特定します。 | お客様 |
-|セキュリティーおよびコンプライアンス統合計画の作成 | セキュリティー・コンプライアンスの実現に必要なコスト、スケジュール、およびリソースなどのセキュリティーおよび統合計画を作成します。 | IBM |
-|コンプライアンス計画の承認 | コンプライアンス計画を承認します。 | お客様 |
-|環境のサイジングの作成 |  	高可用性と災害復旧の目標、およびプラットフォームで作成されるアプリをサポートするために必要な初期 DEA とサービス・プロビジョニングを考慮した事前定義の選択に基づいて、環境のサイジングを作成します。お客様と IBM は連携して、必要なデータベース、顧客のシンジケートされたカタログで提供するサービスなどを定義します。 | IBM とお客様の共同の責任 |
-|アーキテクチャーの選択 | 高可用性および災害復旧の要件を考慮に入れた事前定義の選択に基づいて、アーキテクチャーを選択します。 | IBM |
-|災害復旧目標の定義 | 環境の災害復旧の要件を定義します。 | お客様 |
-|災害復旧計画の作成 | 災害復旧計画を相談して定義します。IBM は災害復旧モデルを作成してお客様と相談し、お客様はフィードバックを提供して計画を承認します。 | IBM とお客様の共同の責任 |
-|バックアップおよびリカバリー計画の作成 | 頻度およびバックアップのオン/オフ・サイト分配の要件を定義したバックアップとリカバリーの計画を作成します。IBM はファブリック・コンポーネント、IBM サービス、ユーザー役割などのサービス・メタデータなどをバックアップします。お客様は、お客様が責任を持つアプリケーション固有のデータをバックアップします。 | IBM とお客様の共同の責任 |
-|イベント検出および問題判別用ツールの特定 | {{site.data.keyword.Bluemix_notm}} プラットフォーム・レベルでイベント検出および問題判別に使用する IBM およびサード・パーティーのツールを特定します。 | IBM |
-|エスカレーション計画の定義 | モニター・コンポーネントで検出されたイベントをトリアージおよび解決するためのエスカレーション計画を定義します。 | IBM |
-|インフラストラクチャー、プラットフォーム、およびサポートに関する合意の承認 | 環境の金銭的条件など、サブスクリプションに関する合意を承認します。サポート・サブスクリプションを承認します。 | お客様 |
-|環境の調達 | 計算リソース、ネットワーク、およびストレージを調達します。これには、{{site.data.keyword.Bluemix_notm}} をホストするためのコアおよびサービス VLAN、Data Power をホストするためのベアメタル・サービス、および {{site.data.keyword.Bluemix_notm}} Firewall が含まれます。VPN トンネルを可能にするインフラストラクチャーを用意します。 | IBM |
-|ファブリック、アプリケーション、およびモニターと管理の各コンポーネントのインストール | ファブリック・コンポーネント (BOSH Director、クラウド・コントローラー、正常性マネージャー、メッセージング、ルーター、DEA、サービス・プロバイダーなど) およびエスカレーションや問題検出の計画で定義されているモニター・コンポーネントをインストール、構成、および検証します。 | IBM |
-|セキュリティー・コンポーネントのインストールと構成 | モニタリングと報告の計画と結合しているセキュリティー・コンポーネント (IBM QRadar、資格情報ボールト、侵入防御システム、IBM BigFix、IBM Security Privileged Identity Management など) をインストールして構成します。 | IBM |
-|カスタム・コンポーネントのインストールと構成 |  	{{site.data.keyword.Bluemix_notm}} 製品およびサービスの有効範囲外にあるカスタム・コンポーネントをインストールして構成します。 | お客様 |
-|初期ネットワーク構成の確立 | 初期ネットワーク構成 (ファイアウォール、DataPower、Fortigate、および DNS を含む) を確立します。 | IBM |
-|{{site.data.keyword.Bluemix_notm}} パイプラインの接続 | {{site.data.keyword.Bluemix_notm}} の継続的統合および継続的配信のパイプラインを IBM リポジトリーと接続します。 | IBM |
-|外部ソリューション・コンポーネントのカスタマイズ | 災害復旧シナリオ用にロード・バランサーをカスタマイズします。 | お客様 |
-|VPN ソリューションのインストール | 双方向の VPN ソリューションをインストールします。 | IBM |
-|ログイン・サーバーの構成 | 企業 LDAP で使用するログイン・サーバーを構成します。 | IBM |
-|セキュリティー、コンプライアンス、および監査管理の状況の追跡  | すべてのツールおよびプロセスが配備されて、特定したコンプライアンスが実現する時点まで状況を追跡します。 | お客様 |
-|物理的インフラストラクチャーのレビュー | データ・センターを保護するセキュリティー制御の脅威および審査のためのソリューション・コンポーネントをホストする物理的プレミスをレビューします。 | お客様 |
-|モニタリング・ソフトウェアの検査 | エスカレーションおよび問題判別の計画で定義したモニターおよび管理コンポーネントを検査します。 | お客様 |
-|OS の検査 | オペレーティング・システム・イメージがコンプライアンス規格に合っていることを確認するための検査を行います。IBM が OS イメージにアクセスできるようにします。 | IBM とお客様の共同の責任 |
+|コンプライアンス規格の設定| 環境に必要な政府、業界、および専有企業の標準を特定します。| お客様|
+|セキュリティーおよびコンプライアンス統合計画の作成| セキュリティー・コンプライアンスの実現に必要なコスト、スケジュール、およびリソースなどのセキュリティーおよび統合計画を作成します。| IBM
+|
+|コンプライアンス計画の承認| コンプライアンス計画を承認します。| お客様|
+|環境のサイジングの作成|  	高可用性と災害復旧の目標、およびプラットフォームで作成されるアプリをサポートするために必要な初期 CELL とサービス・プロビジョニングを考慮した事前定義の選択に基づいて、環境のサイジングを作成します。お客様と IBM は連携して、必要なデータベース、顧客のシンジケートされたカタログで提供するサービスなどを定義します。| IBM とお客様の共同の責任|
+|アーキテクチャーの選択| 高可用性および災害復旧の要件を考慮に入れた事前定義の選択に基づいて、アーキテクチャーを選択します。| IBM
+|
+|災害復旧目標の定義| 環境の災害復旧の要件を定義します。| お客様|
+|災害復旧計画の作成| 災害復旧計画を相談して定義します。IBM は災害復旧モデルを作成してお客様と相談し、お客様はフィードバックを提供して計画を承認します。| IBM とお客様の共同の責任|
+|バックアップおよびリカバリー計画の作成| 頻度およびバックアップのオン/オフ・サイト分配の要件を定義したバックアップとリカバリーの計画を作成します。IBM はファブリック・コンポーネント、IBM サービス、ユーザー役割などのサービス・メタデータなどをバックアップします。お客様は、お客様が責任を持つアプリケーション固有のデータをバックアップします。| IBM とお客様の共同の責任|
+|イベント検出および問題判別用ツールの特定| {{site.data.keyword.Bluemix_notm}} プラットフォーム・レベルでイベント検出および問題判別に使用する IBM およびサード・パーティーのツールを特定します。| IBM
+|
+|エスカレーション計画の定義| モニター・コンポーネントで検出されたイベントをトリアージおよび解決するためのエスカレーション計画を定義します。| IBM
+|
+|インフラストラクチャー、プラットフォーム、およびサポートに関する合意の承認| 環境の金銭的条件など、サブスクリプションに関する合意を承認します。サポート・サブスクリプションを承認します。| お客様|
+|環境の調達| 計算リソース、ネットワーク、およびストレージを調達します。これには、{{site.data.keyword.Bluemix_notm}} をホストするためのコアおよびサービス VLAN、Data Power をホストするためのベアメタル・サービス、および {{site.data.keyword.Bluemix_notm}} Firewall が含まれます。VPN トンネルを可能にするインフラストラクチャーを用意します。| IBM
+|
+|ファブリック、アプリケーション、およびモニターと管理の各コンポーネントのインストール| ファブリック・コンポーネント (BOSH Director、クラウド・コントローラー、正常性マネージャー、メッセージング、ルーター、CELL、サービス・プロバイダーなど) およびエスカレーションや問題検出の計画で定義されているモニター・コンポーネントをインストール、構成、および検証します。| IBM
+|
+|セキュリティー・コンポーネントのインストールと構成| モニタリングと報告の計画と結合しているセキュリティー・コンポーネント (IBM QRadar、資格情報ボールト、侵入防御システム、IBM BigFix、IBM Security Privileged Identity Management など) をインストールして構成します。| IBM
+|
+|カスタム・コンポーネントのインストールと構成|  	{{site.data.keyword.Bluemix_notm}} 製品およびサービスの有効範囲外にあるカスタム・コンポーネントをインストールして構成します。| お客様|
+|初期ネットワーク構成の確立| 初期ネットワーク構成 (ファイアウォール、DataPower、Fortigate、および DNS を含む) を確立します。| IBM
+|
+|{{site.data.keyword.Bluemix_notm}} パイプラインの接続| {{site.data.keyword.Bluemix_notm}} の継続的統合および継続的配信のパイプラインを IBM リポジトリーと接続します。| IBM
+|
+|外部ソリューション・コンポーネントのカスタマイズ| 災害復旧シナリオ用にロード・バランサーをカスタマイズします。| お客様|
+|VPN ソリューションのインストール| 双方向の VPN ソリューションをインストールします。| IBM
+|
+|ログイン・サーバーの構成| 企業 LDAP で使用するログイン・サーバーを構成します。| IBM
+|
+|セキュリティー、コンプライアンス、および監査管理の状況の追跡| すべてのツールおよびプロセスが配備されて、特定したコンプライアンスが実現する時点まで状況を追跡します。| お客様|
+|物理的インフラストラクチャーのレビュー| データ・センターを保護するセキュリティー制御の脅威および審査のためのソリューション・コンポーネントをホストする物理的プレミスをレビューします。| お客様|
+|モニタリング・ソフトウェアの検査| エスカレーションおよび問題判別の計画で定義したモニターおよび管理コンポーネントを検査します。| お客様|
+|OS の検査| オペレーティング・システム・イメージがコンプライアンス規格に合っていることを確認するための検査を行います。IBM が OS イメージにアクセスできるようにします。| IBM とお客様の共同の責任|
 {: caption="表 5. 方向付けフェーズのタスク" caption-side="top"}
 
 
@@ -349,20 +360,26 @@ Success Manager (CSM) と連携できます。異なるサポート層につい�
 
 | **タスク** | **タスクの詳細** | **責任を持つ側** |
 |----------|------------------|-----------------------|
-|週次容量レポートのレビュー | 週次容量レポートをレビューし、必要に応じて修正アクションを実行します。 | お客様 |
-|前月比予測の作成 | 容量および使用量の情報を収集し、前月比予測を作成します。 | IBM とお客様の共同の責任 |
-|キャパシティー予測のレビュー | アプリの容量および予想新規デプロイメントに影響する可能性がある外部イベントに関係する容量予測をレビューします。IBM と連携して、予測をレビューし、それに従って計画します。 | IBM とお客様の共同の責任 |
-|予測のレビュー | キャパシティー予測をレビューします。これはキャパシティーに影響する可能性のある外部イベントに関連します。 | お客様 |
-|容量の調整 |  ニーズの変化に合わせて容量を追加または削除します。 | IBM |
-|近く予定されている更新および保守の公開 | IBM コンポーネントの必要な保守に関する文書を作成します。 | IBM |
-|保守の実行 | IBM と連携して、21 日の期間内の必要な保守をスケジュールします。お客様は 21 日の期間内のお客様にとって都合が悪い日付を指定することが可能で、IBM はそれに従って保守のスケジュールを組みます。 | IBM とお客様の共同の責任 |
-|プロビジョニング失敗の解決 | カタログにデプロイされた顧客作成サービスでプロビジョニング失敗が発生した場合に、その失敗を修正します。 | IBM |
-|ネットワークおよび IP スキャンの実行 | 日次および月次のネットワーク・スキャンおよび IP スキャンを実行します。 | IBM とお客様の共同の責任 |
-|監査ログへのアクセスの提供 | すべてのセキュリティー監査ログおよび管理監査ログへのアクセスを提供します。   | IBM とお客様の共同の責任 |
-|テストの実施 | 定期的な KCO (Key Controls over Operations) テストおよびサード・パーティー侵入テストを実施します。 | IBM とお客様の共同の責任 |
-|状況レポート作成、監査調整、およびコンプライアンス会議  | 状況レポート作成、外部監査調整、およびコンプライアンス・レビュー状況会議での説明を実施します。 | IBM |
-|雇用とビジネス・ニーズの確認 | 四半期ごとに、顧客環境にアクセスできる IBM 担当者について、雇用の確認およびビジネス・ニーズが継続していることの確認を行います。 | IBM |
-|セキュリティー脆弱性の解決 | プラットフォームで報告されたセキュリティー脆弱性を解決します。 | IBM |
+|週次容量レポートのレビュー| 週次容量レポートをレビューし、必要に応じて修正アクションを実行します。| お客様|
+|前月比予測の作成| 容量および使用量の情報を収集し、前月比予測を作成します。| IBM とお客様の共同の責任|
+|キャパシティー予測のレビュー| アプリの容量および予想新規デプロイメントに影響する可能性がある外部イベントに関係する容量予測をレビューします。IBM と連携して、予測をレビューし、それに従って計画します。| IBM とお客様の共同の責任|
+|予測のレビュー| キャパシティー予測をレビューします。これはキャパシティーに影響する可能性のある外部イベントに関連します。| お客様|
+|容量の調整|  ニーズの変化に合わせて容量を追加または削除します。| IBM
+|
+|近く予定されている更新および保守の公開| IBM コンポーネントの必要な保守に関する文書を作成します。| IBM
+|
+|保守の実行| IBM と連携して、21 日の期間内の必要な保守をスケジュールします。お客様は 21 日の期間内のお客様にとって都合が悪い日付を指定することが可能で、IBM はそれに従って保守のスケジュールを組みます。| IBM とお客様の共同の責任|
+|プロビジョニング失敗の解決| カタログにデプロイされた顧客作成サービスでプロビジョニング失敗が発生した場合に、その失敗を修正します。| IBM
+|
+|ネットワークおよび IP スキャンの実行| 日次および月次のネットワーク・スキャンおよび IP スキャンを実行します。| IBM とお客様の共同の責任|
+|監査ログへのアクセスの提供| すべてのセキュリティー監査ログおよび管理監査ログへのアクセスを提供します。| IBM とお客様の共同の責任|
+|テストの実施| 定期的な KCO (Key Controls over Operations) テストおよびサード・パーティー侵入テストを実施します。| IBM とお客様の共同の責任|
+|状況レポート作成、監査調整、およびコンプライアンス会議| 状況レポート作成、外部監査調整、およびコンプライアンス・レビュー状況会議での説明を実施します。| IBM
+|
+|雇用とビジネス・ニーズの確認| 四半期ごとに、顧客環境にアクセスできる IBM 担当者について、雇用の確認およびビジネス・ニーズが継続していることの確認を行います。| IBM
+|
+|セキュリティー脆弱性の解決| プラットフォームで報告されたセキュリティー脆弱性を解決します。| IBM
+|
 {: caption="表 6. 進行フェーズのタスク" caption-side="top"}
 
 最終の完了ステージは、お客様と IBM {{site.data.keyword.Bluemix_notm}} 間の関係の終了を表します。このフェーズの主なタスクには、以下のものがあります。
@@ -374,10 +391,11 @@ Success Manager (CSM) と連携できます。異なるサポート層につい�
 
 | **タスク** | **タスクの詳細** | **責任を持つ側** |
 |----------|------------------|-----------------------|
-|金銭的合意の終了 | 金銭的合意の契約の終了について話し合い、終了に合意します。 | IBM とお客様の共同の責任 |
-|環境の廃止 | 環境へのアクセスおよび環境の資格情報をシャットダウンします。 | IBM とお客様の共同の責任 |
-|お客様とのネットワーク接続の削除 | IBM とお客様環境との間のネットワーク接続を削除します。 | IBM とお客様の共同の責任 |
-|インフラストラクチャーのリサイクル | お客様の環境は {{site.data.keyword.BluSoftlayer}} 定義のプロセスに基づいてリサイクルされます。 | IBM |
+|金銭的合意の終了| 金銭的合意の契約の終了について話し合い、終了に合意します。| IBM とお客様の共同の責任|
+|環境の廃止| 環境へのアクセスおよび環境の資格情報をシャットダウンします。| IBM とお客様の共同の責任|
+|お客様とのネットワーク接続の削除| IBM とお客様環境との間のネットワーク接続を削除します。| IBM とお客様の共同の責任|
+|インフラストラクチャーのリサイクル| お客様の環境は {{site.data.keyword.BluSoftlayer}} 定義のプロセスに基づいてリサイクルされます。| IBM
+|
 {: caption="表 7. 完了フェーズのタスク" caption-side="top"}
 
 ##専用インスタンスの保守
@@ -494,9 +512,9 @@ Akamai や Dyn などのグローバル・ロード・バランサーを選択�
 これらのテクノロジーには、以下のものがあります。
 
 <dl>
-<dt>Cloud Foundry での DEA スケーラビリティー</dt>
-<dd>Cloud Foundry <a href="https://docs.cloudfoundry.org/concepts/architecture/execution-agent.html" target="_blank">Droplet Execution Agent (DEA) <img src="../icons/launch-glyph.svg" alt="「外部リンク」アイコン"></a> は、その内部で実行しているアプリに対するヘルス・チェックを実行します。アプリまたは DEA 自体に問題が生じた場合、代替 DEA にアプリの追加インスタンスがデプロイされ、問題が解決されます。詳しくは、<a href="https://docs.cloudfoundry.org/concepts/high-availability.html" target="_blank">Configuring CF for High Availability with Redundancy <img src="../icons/launch-glyph.svg" alt="「外部リンク」アイコン"></a> を参照してください。
-<p>アプリケーションの高可用性を確保するには、負荷のバランスを取るための十分な計算リソースが必要であり、さらに、起こりうる障害に対応するために追加の計算リソースが必要になる場合もあります。障害に備えて、あるいはアプリ・インスタンスの負荷のスパイクに対処できるように、DEA プールを増やすことで環境を拡張する必要がある場合は、IBM 担当者と連携して、追加の DEA を発注し、追加されたリソースに対応できる適切なハードウェアを用意することができます。
+<dt>Cloud Foundry での CELL スケーラビリティー</dt>
+<dd>Cloud Foundry <a href="https://docs.cloudfoundry.org/concepts/architecture/execution-agent.html" target="_blank">Droplet Execution Agent (CELL) <img src="../icons/launch-glyph.svg" alt="外部リンク・アイコン"></a> は、その内部で実行されているアプリのヘルス・チェックを実行します。アプリまたは CELL 自体に問題が生じた場合、代替 CELL にアプリの追加インスタンスがデプロイされ、問題が解決されます。詳しくは、<a href="https://docs.cloudfoundry.org/concepts/high-availability.html" target="_blank">Configuring CF for High Availability with Redundancy <img src="../icons/launch-glyph.svg" alt="「外部リンク」アイコン"></a> を参照してください。
+<p>アプリケーションの高可用性を確保するには、負荷のバランスを取るための十分な計算リソースが必要であり、さらに、起こりうる障害に対応するために追加の計算リソースが必要になる場合もあります。障害に備えて、あるいはアプリ・インスタンスの負荷のスパイクに対処できるように、CELL プールを増やすことで環境を拡張する必要がある場合は、IBM 担当者と連携して、追加の CELL を発注し、追加されたリソースに対応できる適切なハードウェアを用意することができます。
 </p>
 </dd>
 <dt>{{site.data.keyword.BluSoftlayer}} 冗長性</dt>
@@ -526,13 +544,3 @@ Akamai や Dyn などのグローバル・ロード・バランサーを選択�
 <li>お客様が管理する他のバックアップ・データと同様に、暗号化されたバックアップ・データのコピーをオフサイトに移動する。</li>
 <li>リストアが必要な場合には、IBM オペレーターにバックアップ・ファイルを提供する。</li>
 </ul>
-
-# 関連リンク
-{: rellinks}
-## 一般
-{: general}
-* [ディスカバー: {{site.data.keyword.Bluemix_dedicated_notm}}](http://www.ibm.com/cloud-computing/bluemix/hybrid/dedicated/)
-* [{{site.data.keyword.Bluemix_notm}} の新機能](/docs/whatsnew/index.html)
-* [{{site.data.keyword.Bluemix_notm}} 用語集](/docs/overview/glossary/index.html)
-* [{{site.data.keyword.Bluemix_notm}} Local および {{site.data.keyword.Bluemix_dedicated_notm}} の管理](/docs/admin/index.html#mng)
-* [サポートへのお問い合わせ](/docs/support/index.html#getting-customer-support)
