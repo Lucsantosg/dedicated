@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-05-31"
+lastupdated: "2017-08-09"
 
 ---
 
@@ -29,13 +29,12 @@ Per impostazione predefinita, l'accesso alla tua istanza privata di {{site.data.
 
 Inoltre, è presente una serie di servizi e componenti inclusi oppure facoltativi che è possibile acquistare. Consulta la seguente tabella per vedere cosa è incluso e cosa puoi, facoltativamente, acquistare.
 
-| **Tipo** | **Nome**            | **Descrizione** |
+| **Tipo**        | **Nome**            | **Descrizione** |
 |-----------------|-------------------|-------------------|
 |Incluso | [Runtime {{site.data.keyword.Bluemix_notm}}](/docs/cfapps/runtimes.html) | Utilizza i runtime per avere un'applicazione subito operativa, senza dover impostare e gestire macchine e sistemi operativi. Tutti i runtime {{site.data.keyword.Bluemix_notm}} sono a tua disposizione per utilizzarli nella tua istanza di {{site.data.keyword.Bluemix_dedicated_notm}}.|
 | Incluso | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | Ti permette di aumentare o ridurre dinamicamente la capacità
 di elaborazione della tua applicazione in base alle politiche. Con questo servizio, hai un uso illimitato nel tuo ambiente {{site.data.keyword.Bluemix_dedicated_notm}}. Nota: Auto-scaling attualmente funziona solo con i runtime Cloud Foundry |
 |Facoltativo | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} integra {{site.data.keyword.APIM}} e IBM StrongLoop in una singola offerta che fornisce una soluzione completa per creare, eseguire, gestire e implementare API e microservizi. |
-|Facoltativo | [{{site.data.keyword.rules_short}}](/docs/services/rules/rules.html) | {{site.data.keyword.rules_short}} offre un ambiente completo per automatizzare ed eseguire le frequenti decisioni di business basate su regole ripetibili. Consente inoltre agli utenti o sviluppatori di business di modellare rapidamente le decisioni e di testarle a costi più bassi, riducendo la necessità di competenze IT. |
 |Facoltativo | [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} fornisce l'accesso a un livello di dati JSON NoSQL interamente gestito sempre attivo. Questo servizio è compatibile con CouchDB e accessibile mediante un'interfaccia HTTP di facile utilizzo per i modelli di applicazione web e mobile. |
 |Facoltativo | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | Esegui i contenitori Docker su {{site.data.keyword.Bluemix_dedicated_notm}}. I contenitori sono oggetti software virtuali che includono tutti gli elementi che un'applicazione deve eseguire. Un contenitore presenta i vantaggi dell'isolamento e dell'assegnazione delle risorse, ma offre una maggiore portabilità ed efficienza rispetto, ad esempio, a una macchina virtuale. Per informazioni sui requisiti hardware, vedi [{{site.data.keyword.containershort}} in {{site.data.keyword.Bluemix_dedicated_notm}} e Bluemix locale](/docs/containers/container_ov.html#container_dl).|
 | Facoltativo | [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | Utilizza {{site.data.keyword.contdelivery_short}} dedicato per automatizzare le build, i test di unità, le distribuzioni e altro. Modifica e trasmetti il codice tramite la IDE basata sul web avanzato. Crea le toolchain per abilitare le integrazioni dello strumento che supportano attività di sviluppo, distribuzione e operative. |
@@ -64,7 +63,6 @@ Sono presenti dei componenti facoltativi disponibili per te da acquistare per ri
 |Incremento di 100.000 chiamate API dedicate per {{site.data.keyword.apiconnect_short}} Professional | Un'estensione dell'ambiente {{site.data.keyword.apiconnect_short}} Professional che fornisce una capacità supplementare di 100.000 chiamate API al mese. |
 |25 milioni di chiamate API dedicate per {{site.data.keyword.apiconnect_short}} Enterprise | Un ambiente che consente l'esecuzione di una versione privata di {{site.data.keyword.apiconnect_short}} all'interno dell'ambiente dedicato con una capacità di 25 milioni di chiamate API al mese, destinate a progetti API di tutta l'azienda. |
 |Incremento di 100.000 chiamate API dedicate per {{site.data.keyword.apiconnect_short}} Enterprise | Un'estensione dell'ambiente {{site.data.keyword.apiconnect_short}} Enterprise che fornisce una capacità supplementare di 100.000 chiamate API al mese. |
-|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.rules_short}} 1 Million Rules Decisions | Una decisione di regole è il risultato della chiamata di una serie di regole da un Rule Execution Server. È necessario ottenere i diritti sufficienti per ricoprire il numero totale di decisioni di regole, arrotondato al milione, eseguite o elaborate, durante il periodo di fatturazione. Le decisioni di regole misurate da questo servizio cloud sono le chiamate effettuate al Rule Execution Server per ottenere una decisione. Le distribuzioni dedicate del servizio cloud hanno una capacità concordata misurata dalla relativa metrica di addebito. L'assegnazione dello spazio predefinita del servizio {{site.data.keyword.rules_short}} sulla piattaforma {{site.data.keyword.Bluemix_dedicated_notm}} è di 16 GB, da cui possono essere richiamate fino a dieci istanze di 1 GB ciascuna per eseguire le decisioni di regole autorizzate. Se superi questo limite di utilizzo, dovrai acquistare ulteriore capacità per ricoprire tale utilizzo. |
 |Incremento della capacità di 16 TB dedicato per {{site.data.keyword.cloudant}} | Include l'esecuzione di una versione privata di {{site.data.keyword.cloudantfull}} nell'ambiente dedicato con una capacità di 1.6 terabyte.  |
 |Incremento della capacità di 50 GB dedicato per {{site.data.keyword.datacshort}} e {{site.data.keyword.sescashort}} | Un ambiente che consente la distribuzione e l'esecuzione di istanze {{site.data.keyword.datacshort}} e {{site.data.keyword.sescashort}} fino a una capacità cumulativa di 50 GB. |
 |Istanza di {{site.data.keyword.contdelivery_short}} dedicato | Una versione privata di {{site.data.keyword.contdelivery_short}} in esecuzione all'interno di un ambiente dedicato. La capacità è determinata dai diritti dell'utente autorizzato di {{site.data.keyword.contdelivery_short}} dedicato. |
@@ -108,62 +106,52 @@ Sono presenti dei componenti facoltativi disponibili per te da acquistare per ri
 
 Se disponi di un'istanza privata del servizio per il tuo ambiente dedicato, vedi una tag "Dedicato" con i nomi del servizio nel tuo catalogo. Allo stesso modo, se si tratta di un servizio personalizzato, il che significa che hai utilizzato un broker dei servizi per crearlo, vedi "Personalizzato" elencato insieme al nome del servizio. Tutti gli altri servizi elencati che non presentano una tag "dedicato" o "personalizzato" sono disponibili tramite la diffusione da {{site.data.keyword.Bluemix_notm}} pubblico. I servizi diffusi forniscono la funzione per creare applicazioni ibride composte da servizi pubblici e privati.
 
-|Servizio|Disponibile nella regione Stati Uniti Sud	|Disponibile nella regione Europa Regno Unito |Disponibile nella regione di Sydney in Australia|
-|:----------|:------------------------------|:------------------|:------------------|
-|{{site.data.keyword.alchemyapishort}} 		|Sì	   	|Sì  		|Sì|
-|{{site.data.keyword.alertnotificationshort}}	|Sì		|Sì		|Sì	|
-|{{site.data.keyword.apiconnect_short}}         |Sì            |Sì            |Sì  |
-|{{site.data.keyword.appseccloudshort}}		|Sì		|Sì		|Sì |
-|{{site.data.keyword.apiconnect_short}} 	|Sì   	 	|Sì  	 	|Sì   |
-|Automated Accessibility Checker |Sì       |Sì    |Sì   |
-|{{site.data.keyword.rules_short}}		|Sì		|Sì		|Sì |
-|{{site.data.keyword.cloudant}}			|Sì		|Sì		|Sì |
-|{{site.data.keyword.iotmapinsights_short}}    |Sì  |Sì  |Sì  |
-|{{site.data.keyword.conversationshort}}  |Sì  |Sì  |Sì  |
-|{{site.data.keyword.dashdbshort}}		|Sì		|Sì		|Sì |
-|{{site.data.keyword.dataworks_short}}		|Sì		|Sì		|No|
-|{{site.data.keyword.DB2OnCloud_short}}		|Sì		|Sì		|Sì |
-|Digital Content Checker |Sì  |Sì  |Sì  |
-|{{site.data.keyword.documentconversionshort}}	|Sì		|Sì		|Sì|
-|{{site.data.keyword.iotdriverinsights_short}}  |Sì |Sì  |Sì  |
-|{{site.data.keyword.geospatialshort_Geospatial}}	|Sì	|Sì		|Sì |
-|{{site.data.keyword.GlobalizationPipeline_short}}	|Sì		| Sì		| Sì |
-|{{site.data.keyword.identitymixershort}}		|Sì		|Sì		|Sì|
-|{{site.data.keyword.iot4auto_short}} |Sì   |Sì  |Sì  |
-|{{site.data.keyword.iotelectronics}}  |Sì  |Sì  |No |
-|{{site.data.keyword.iotinsurance_short}} |No   |No   |Sì  |
-|{{site.data.keyword.twittershort}}		|Sì		|Sì		|Sì|
-|{{site.data.keyword.languagetranslationshort}}	|Sì		|Sì		|Sì |
-|{{site.data.keyword.languagetranslatorshort}} |Sì  |Sì  |Sì  |
-|{{site.data.keyword.dwl_short}}  |Sì  |Sì  |No  |
-|{{site.data.keyword.eventhubshort}}		|Sì		|No		|No|
-|{{site.data.keyword.messagehub}}		|Sì		|Sì		|No|
-|{{site.data.keyword.manda}}			|Sì		|Sì		|Sì |
-|{{site.data.keyword.amashort}}			|Sì		|Sì		|Sì |
-|{{site.data.keyword.mqa}}			|Sì		|Sì		|Sì |
-|{{site.data.keyword.mql}}			|No		|No		|Sì |
-|{{site.data.keyword.nlclassifierlshort}} 	|Sì  		|Sì  		|Sì|
-|{{site.data.keyword.personalityinsightsshort}}	|Sì		|Sì		|Sì|
-|{{site.data.keyword.pm_short}}			|Sì		|Sì		|No |
-|{{site.data.keyword.mobilepushshort}}		|Sì		|Sì		|Sì |
-|{{site.data.keyword.retrieveandrankshort}}	|Sì  		|Sì  		|Sì|
-|{{site.data.keyword.runbook_short}}		|Sì		|Sì		|Sì|
-|{{site.data.keyword.SecureGateway}}		|Sì		|Sì		|Sì |
-|{{site.data.keyword.ssofull}}			|Sì		|No		|No|
-|{{site.data.keyword.speechtotextshort}}	|Sì  		|Sì	   	|Sì|
-|{{site.data.keyword.streaminganalyticsshort}}	|Sì		|Sì		|Sì |
-|{{site.data.keyword.texttospeechshort}} 	|Sì  		|Sì	   	|Sì|
-|{{site.data.keyword.toneanalyzershort}} 	|Sì  		|Sì  		|Sì|
-|{{site.data.keyword.tradeoffanalyticsshort}}	|Sì		|Sì		|Sì|
-|{{site.data.keyword.visualrecognitionshort}}	|Sì  		|Sì	   	|Sì|
-|{{site.data.keyword.iot_short}}		|Sì		|Sì		|No|
-|{{site.data.keyword.weather_short}}		|Sì		|Sì		|Sì|
-|{{site.data.keyword.workloadscheduler}}	|Sì		|Sì		|Sì |
+|Servizio	|Disponibile nella regione Stati Uniti Sud	|Disponibile nella regione Europa Regno Unito |Disponibile nella regione di Sydney in Australia|Disponibile nella regione Germania |
+|:----------|:------------------------------|:------------------|:------------------|:------------------|
+|{{site.data.keyword.alertnotificationshort}} | Sì | Sì | Sì | No |
+|{{site.data.keyword.appseccloudshort}}		|Sì		|Sì		|Sì |No  |
+|Automated Accessibility Checker |Sì       |Sì    |Sì   |Sì  |No |
+|{{site.data.keyword.cloudant}}			|Sì		|Sì		|Sì |Sì  |
+|{{site.data.keyword.evtmgt_short}} | Sì | Sì | Sì | No |
+|{{site.data.keyword.iotmapinsights_short}}    |Sì  |Sì  |Sì  |No  |
+|{{site.data.keyword.uccr_short}} | Sì | No | No | No |
+|{{site.data.keyword.conversationshort}}  |Sì  |Sì  |Sì  |Sì  |
+|{{site.data.keyword.dataworks_short}}		|Sì		|Sì		|No|No|
+|Ospitato Db2 | Sì | Sì | Sì | Sì |
+|{{site.data.keyword.DB2OnCloud_short}}		|Sì		|Sì		|Sì |Sì  |
+|{{site.data.keyword.dashdbshort_notm}} | Sì | Sì | Sì | Sì |
+|Digital Content Checker |Sì  |Sì  |Sì  |No  |
+|{{site.data.keyword.servicediscoveryshort}} | Sì | Sì | Sì | No |
+|{{site.data.keyword.documentconversionshort}}	|Sì		|Sì		|Sì|No  |
+|{{site.data.keyword.iotdriverinsights_short}}  |Sì |Sì  |Sì  |No  |
+|{{site.data.keyword.geospatialshort_Geospatial}}	|Sì	|Sì		|Sì |No  |
+|{{site.data.keyword.GlobalizationPipeline_short}}	|Sì		| Sì		| Sì |Sì  |
+|{{site.data.keyword.identitymixershort}}		|Sì		|Sì		|Sì|No  |
+|{{site.data.keyword.iot4auto_short}} |Sì   |Sì  |Sì  |No  |
+|{{site.data.keyword.iotelectronics}}  |Sì  |Sì  |No | No|
+|{{site.data.keyword.languagetranslatorshort}} |Sì  |Sì  |Sì  |Sì  |
+|{{site.data.keyword.dwl_short}}  |Sì  |Sì  |No  |No|
+|{{site.data.keyword.pm_short}} | Sì | Sì | No | No |
+|{{site.data.keyword.messagehub}}		|Sì		|Sì		|Sì | Sì|
+|{{site.data.keyword.manda}}			|Sì		|Sì		|Sì |No  |
+|{{site.data.keyword.nlclassifiershort}} 	|Sì 		|Sì 		|Sì |No  |
+|{{site.data.keyword.nlushort}} | Sì | Sì | Sì | No |
+|{{site.data.keyword.personalityinsightsshort}}	|Sì		|Sì		|Sì|Sì  |
+|{{site.data.keyword.mobilepushshort}}		|Sì		|Sì		|Sì |Sì  |
+|{{site.data.keyword.retrieveandrankshort}}	|Sì 		|Sì 		|Sì|No  |
+|{{site.data.keyword.SecureGateway}}		|Sì		|Sì		|Sì |Sì  |
+|{{site.data.keyword.ssofull}}			|Sì		|No		|No| No|
+|{{site.data.keyword.speechtotextshort}}	|Sì 		|Sì	 	|Sì|Sì  |
+|{{site.data.keyword.streaminganalyticsshort}}	|Sì		|Sì		|Sì |No  |
+|{{site.data.keyword.texttospeechshort}} 	|Sì 		|Sì	 	|Sì|Sì  |
+|{{site.data.keyword.toneanalyzershort}} 	|Sì 		|Sì 		|Sì|Sì  |
+|{{site.data.keyword.visualrecognitionshort}}	|Sì 		|Sì	 	|Sì|No  |
+|{{site.data.keyword.weather_short}}		|Sì		|Sì		|Sì|No  |
+|{{site.data.keyword.workloadscheduler}}	|Sì		|Sì		|Sì |Sì  |
 {: caption="Tabella 4. Servizi disponibili per la diffusione da {{site.data.keyword.Bluemix_notm}} pubblico per regione" caption-side="top"}
 {: #table04}
 
-**Nota**: i servizi di terze parti non sono inclusi nella tabella. Controlla il tuo catalogo dedicato per le opzioni dei servizi di terze parti.
-
+**Nota**: i servizi di terze parti non sono inclusi nella tabella. Controlla il tuo catalogo per le opzioni dei servizi di terze parti.
 
 
 ## Architettura di {{site.data.keyword.Bluemix_dedicated_notm}}
@@ -345,7 +333,7 @@ La fase di inizio è utilizzata per organizzare l'ambiente {{site.data.keyword.B
 |Definire il piano di escalation | Definire il piano di escalation per valutare e risolvere gli eventi rilevati dai componenti di monitoraggio. | IBM |
 |Firmare gli accordi relativi a infrastruttura, piattaforma e supporto | Firmare l'accordo di sottoscrizione che include i termini e le condizioni finanziarie per l'ambiente. Firmare la sottoscrizione di supporto. | Cliente |
 |Disporre l'ambiente | Disporre le risorse di calcolo, la rete e la memoria incluso la VLAN core e dei servizi per ospitare {{site.data.keyword.Bluemix_notm}}, e i servizi bare metal per ospitare Data Power e {{site.data.keyword.Bluemix_notm}}. Fornire l'infrastruttura per consentire il tunnel VPN. | IBM |
-|Installare i componenti dell'infrastruttura, dell'applicazione e di monitoraggio e gestione | Installare, configurare e verificare i componenti dell'infrastruttura, come ad esempio BOSH Director, Cloud Controller, Health Manager, messaggistica, router, CELL e provider di servizi e i componenti di monitoraggio definiti nel piano di escalation e rilevamento dei problemi.| IBM |
+|Installare i componenti dell'infrastruttura, dell'applicazione e di monitoraggio e gestione | Installare, configurare e verificare i componenti dell'infrastruttura, come ad esempio BOSH Director, Cloud Controller, Health Manager, messaggistica, router, CELL e provider di servizi e i componenti di monitoraggio definiti nel piano di escalation e rilevamento dei problemi. | IBM |
 |Installare e configurare i componenti di sicurezza | Installare e configurare i componenti di sicurezza vincolati nel piano di monitoraggio e di escalation, tra cui IBM QRadar, archivio credenziali, sistema di prevenzione delle intrusioni, IBM BigFix e IBM Security Privileged Identity Management. | IBM |
 |Installare e configurare i componenti personalizzati |  	Installare e configurare i componenti personalizzati che si trovano al di fuori del campo di applicazione del prodotto e dei servizi {{site.data.keyword.Bluemix_notm}}. | Cliente |
 |Stabilire la configurazione di rete iniziale | Stabilire la configurazione di rete iniziale inclusi i firewall, DataPower, Fortigate e DNS. | IBM |

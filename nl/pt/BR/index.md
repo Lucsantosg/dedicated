@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-Lastupdated: "2017-05-31"
+lastupdated: "2017-08-09"
 
 ---
 
@@ -27,12 +27,11 @@ O {{site.data.keyword.Bluemix_dedicated_notm}} é fornecido com todos os tempos 
 
 Além disso, há um conjunto de serviços e componentes que são incluídos ou opcionais para compra. Revise a tabela a seguir para ver o que está incluído e o que você pode comprar opcionalmente.
 
-| **Tipo** | **Nome** | **Descrição** |
+| **Tipo**        | **Nome**            | **Descrição** |
 |-----------------|-------------------|-------------------|
 |Incluído | [Tempos de execução do {{site.data.keyword.Bluemix_notm}}](/docs/cfapps/runtimes.html) | Use tempos de execução para colocar seu app funcionando rapidamente, sem necessidade de configurar e gerenciar as máquinas e os sistemas operacionais. Todos os tempos de execução do {{site.data.keyword.Bluemix_notm}} estão disponíveis para você usar em sua instância do {{site.data.keyword.Bluemix_dedicated_notm}}.|
 | Incluído | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | Aumentar ou diminuir dinamicamente a capacidade de cálculo do aplicativo com base em políticas. Com esse serviço, você tem uso ilimitado em seu ambiente do {{site.data.keyword.Bluemix_dedicated_notm}}. Nota: o Auto-scaling funciona atualmente somente com os tempos de execução do Cloud Foundry |
 |Opcional | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | O {{site.data.keyword.apiconnect_long}} integra o {{site.data.keyword.APIM}} e o IBM StrongLoop em uma única oferta que fornece uma solução abrangente para criar, executar, gerenciar e impingir APIs e microsserviços. |
-|Opcional | [{{site.data.keyword.rules_short}}](/docs/services/rules/rules.html) | O {{site.data.keyword.rules_short}} oferece um ambiente abrangente para automatizar e executar decisões de negócios baseadas em regras repetidas e que ocorrem frequentemente. Ele também permite que usuários de negócios ou desenvolvedores rapidamente modelem e testem suas decisões a custos mais baixos, reduzindo a necessidade de conhecimentos de TI. |
 |Opcional | [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | O {{site.data.keyword.cloudant}} fornece acesso a uma camada de dados do JSON NoSQL totalmente gerenciada que sempre está ativa. Esse serviço é compatível com o CouchDB e acessível por meio de uma interface HTTP simples de usar para modelos de aplicativos móveis e da web. |
 |Opcional | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | Execute os contêineres do Docker no {{site.data.keyword.Bluemix_dedicated_notm}}. Contêineres são objetos de software virtuais que incluem todos os elementos que um aplicativo precisa executar. Um contêiner tem os benefícios do isolamento e da alocação de recursos, mas é mais móvel e eficiente do que, por exemplo, uma máquina virtual. Para obter informações sobre os requisitos de hardware, veja [{{site.data.keyword.containershort}} no {{site.data.keyword.Bluemix_dedicated_notm}} e no Bluemix Local](/docs/containers/container_ov.html#container_dl).|
 | Opcional | [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | Use {{site.data.keyword.contdelivery_short}} Dedicated para automatizar construções, testes de unidade, implementações, etc. Edite e envie o código por push por meio do IDE avançado baseado na web. Crie cadeias de ferramentas para ativar integrações de ferramenta que suportam as tarefas de desenvolvimento, implementação e operações. |
@@ -51,15 +50,14 @@ Além disso, há um conjunto de serviços e componentes que são incluídos ou o
 
 
 
-Há componentes opcionais que estão disponíveis para você comprar para escalar e ampliar a capacidade de seus recursos e serviços. É possível comprar qualquer um desses componentes entrando em contato com a equipe de vendas; acesse [Contate-nos](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs) para obter informações sobre como contatar um representante de vendas. Para aumentar seu plano para um serviço, é possível selecionar o plano a partir do ladrilho do serviço em seu catálogo.
+Há componentes opcionais que estão disponíveis para você comprar para escalar e ampliar a capacidade de seus recursos e serviços. É possível comprar qualquer um desses componentes entrando em contato com a equipe de vendas; acesse [Contate-nos](https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs) para obter informações sobre como contatar um representante de vendas. Para aumentar seu plano para um serviço, é possível selecionar o plano a partir do tile do serviço em seu catálogo.
 
-| **Nome** | **Descrição** |
+| **Nome**            | **Descrição** |
 |-------------------|-------------------|
 |Dedicated {{site.data.keyword.apiconnect_short}} Professional 5 milhões de Chamadas API | Um ambiente que permite executar uma versão privada do {{site.data.keyword.apiconnect_short}} dentro do ambiente dedicado com uma capacidade de 5 milhões de Chamadas API por mês, destinadas para projetos de API departamentais. |
 |Dedicated {{site.data.keyword.apiconnect_short}} Professional aumento de 100 mil Chamadas API | Uma extensão do ambiente do {{site.data.keyword.apiconnect_short}} Professional, para fornecer capacidade adicional de 100 mil chamadas API por mês. |
 |Dedicated {{site.data.keyword.apiconnect_short}} Enterprise 25 milhões de Chamadas API | Um ambiente que permite executar uma versão privada do {{site.data.keyword.apiconnect_short}} dentro do ambiente dedicado com uma capacidade de 25 milhões de Chamadas API por mês, destinadas para projetos de API em toda a empresa. |
 |Dedicated {{site.data.keyword.apiconnect_short}} Enterprise aumento de 100 mil Chamadas API | Uma extensão do ambiente do {{site.data.keyword.apiconnect_short}} Enterprise, para fornecer capacidade adicional de 100 mil Chamadas API por mês. |
-|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.rules_short}} 1 Milhão de decisões de regras | Uma Decisão de regras é o resultado de chamar um conjunto de regras de um servidor de execução de regra. Autorizações suficientes devem ser obtidas para cobrir o número total de Decisões de regras, arredondado para o milhão mais próximo, executado ou processado, durante o período de faturamento. As Decisões de regras medidas por esse Serviço de nuvem são as chamadas feitas para o servidor de execução de regra para obter uma decisão. As implementações dedicadas do Serviço de nuvem têm uma capacidade acordada medida pela métrica de encargos relevantes. A alocação de espaço padrão do serviço {{site.data.keyword.rules_short}} na plataforma {{site.data.keyword.Bluemix_dedicated_notm}} é 16 GB, na qual até dez instâncias de 1 GB cada podem ser chamadas para executar Decisões de regras autorizadas. Se essa limitação de uso é excedida, deve-se comprar capacidade adicional para cobrir esse uso. |
 |Aumento de capacidade de 1,6 TB do {{site.data.keyword.cloudant}} dedicado | Inclui a execução de uma versão privada do {{site.data.keyword.cloudantfull}} dentro do ambiente dedicado com uma capacidade de design de 1,6 terabyte.  |
 |Aumento de capacidade de 50 GB do {{site.data.keyword.datacshort}} e {{site.data.keyword.sescashort}} dedicados | Um ambiente que permite implementar e executar as instâncias do {{site.data.keyword.datacshort}} e do {{site.data.keyword.sescashort}} até uma capacidade acumulativa de 50 GB. |
 |Instância do {{site.data.keyword.contdelivery_short}} Dedicated | Uma versão privada do {{site.data.keyword.contdelivery_short}} em execução dentro de um ambiente dedicado. A capacidade é determinada pelas autorizações de Usuário Autorizado do {{site.data.keyword.contdelivery_short}} Dedicated. |
@@ -85,7 +83,7 @@ Há componentes opcionais que estão disponíveis para você comprar para escala
 
 
 
-| **Nome** | **Descrição** |
+| **Nome**            | **Descrição** |
 |-------------------|-------------------|
 |Aumento de capacidade de 16 GB de tempos de execução dedicados  | Uma extensão do ambiente de tempo de execução para fornecer um extra de 16 GB de capacidade de tempo de execução. |
 |Capacidade de 1 Gbps de link direto dedicado | Um link de rede dedicado que conecta diretamente ao ponto de presença apropriado da rede do {{site.data.keyword.BluSoftlayer}} projetado para as transferências de dados de até 1 Gbps. |
@@ -103,62 +101,52 @@ O {{site.data.keyword.Bluemix_dedicated_notm}} inclui um catálogo privado que r
 
 Se você tiver uma instância privada do serviço para o seu ambiente dedicado, verá uma identificação "Dedicado" com os nomes do serviço em seu catálogo. Da mesma forma, se ela for um serviço customizado, significando que você usou um broker de serviço para criá-la, você verá "Customizado" listado com o nome do serviço. Todos os outros serviços listados que não possuem uma identificação "dedicado" ou "customizado" estão disponíveis usando a organização do {{site.data.keyword.Bluemix_notm}} Public. Serviços organizados fornecem a função para criar aplicativos híbridos que consistem em serviços públicos e privados.
 
-|Serviço |Disponível na região sul dos EUA	|Disponível na região do Reino Unido na Europa |Disponível na região de Sydney, na Austrália|
-|:----------|:------------------------------|:------------------|:------------------|
-|{{site.data.keyword.alchemyapishort}} 		|Sim	   	|Sim  		|Sim|
-|{{site.data.keyword.alertnotificationshort}}	|Sim		|Sim		|Sim	|
-|{{site.data.keyword.apiconnect_short}}         |Sim            |Sim            |Sim  |
-|{{site.data.keyword.appseccloudshort}}		|Sim		|Sim		|Sim |
-|{{site.data.keyword.apiconnect_short}} 	|Sim   	 	|Sim  	 	|Sim   |
-|Verificador de acessibilidade automatizado |Sim       |Sim    |Sim   |
-|{{site.data.keyword.rules_short}}		|Sim		|Sim		|Sim |
-|{{site.data.keyword.cloudant}}			|Sim		|Sim		|Sim |
-|{{site.data.keyword.iotmapinsights_short}}    |Sim  |Sim  |Sim  |
-|{{site.data.keyword.conversationshort}}  |Sim  |Sim  |Sim  |
-|{{site.data.keyword.dashdbshort}}		|Sim		|Sim		|Sim |
-|{{site.data.keyword.dataworks_short}}		|Sim		|Sim		|Não|
-|{{site.data.keyword.DB2OnCloud_short}}		|Sim		|Sim		|Sim |
-|Verificador de conteúdo digital |Sim  |Sim  |Sim  |
-|{{site.data.keyword.documentconversionshort}}	|Sim		|Sim		|Sim|
-|{{site.data.keyword.iotdriverinsights_short}}  |Sim |Sim  |Sim  |
-|{{site.data.keyword.geospatialshort_Geospatial}}	|Sim	|Sim		|Sim |
-|{{site.data.keyword.GlobalizationPipeline_short}}	|Sim		| Sim		| Sim |
-|{{site.data.keyword.identitymixershort}}		|Sim		|Sim		|Sim|
-|{{site.data.keyword.iot4auto_short}} |Sim   |Sim  |Sim  |
-|{{site.data.keyword.iotelectronics}}  |Sim  |Sim  |Não |
-|{{site.data.keyword.iotinsurance_short}} |Não   |Não   |Sim  |
-|{{site.data.keyword.twittershort}}		|Sim		|Sim		|Sim|
-|{{site.data.keyword.languagetranslationshort}}	|Sim		|Sim		|Sim |
-|{{site.data.keyword.languagetranslatorshort}} |Sim  |Sim  |Sim  |
-|{{site.data.keyword.dwl_short}}  |Sim  |Sim  |Não  |
-|{{site.data.keyword.eventhubshort}}		|Sim		|Não		|Não|
-|{{site.data.keyword.messagehub}}		|Sim		|Sim		|Não|
-|{{site.data.keyword.manda}}			|Sim		|Sim		|Sim |
-|{{site.data.keyword.amashort}}			|Sim		|Sim		|Sim |
-|{{site.data.keyword.mqa}}			|Sim		|Sim		|Sim |
-|{{site.data.keyword.mql}}			|Não		|Não		|Sim |
-|{{site.data.keyword.nlclassifierlshort}} 	|Sim 		|Sim 		|Sim|
-|{{site.data.keyword.personalityinsightsshort}}	|Sim		|Sim		|Sim|
-|{{site.data.keyword.pm_short}}			|Sim		|Sim		|Não |
-|{{site.data.keyword.mobilepushshort}}		|Sim		|Sim		|Sim |
-|{{site.data.keyword.retrieveandrankshort}}	|Sim 		|Sim 		|Sim|
-|{{site.data.keyword.runbook_short}}		|Sim		|Sim		|Sim|
-|{{site.data.keyword.SecureGateway}}		|Sim		|Sim		|Sim |
-|{{site.data.keyword.ssofull}}			|Sim		|Não		|Não|
-|{{site.data.keyword.speechtotextshort}}	|Sim 		|Sim	 	|Sim|
-|{{site.data.keyword.streaminganalyticsshort}}	|Sim		|Sim		|Sim |
-|{{site.data.keyword.texttospeechshort}} 	|Sim 		|Sim	 	|Sim|
-|{{site.data.keyword.toneanalyzershort}} 	|Sim 		|Sim 		|Sim|
-|{{site.data.keyword.tradeoffanalyticsshort}}	|Sim		|Sim		|Sim|
-|{{site.data.keyword.visualrecognitionshort}}	|Sim 		|Sim	 	|Sim|
-|{{site.data.keyword.iot_short}}		|Sim		|Sim		|Não|
-|{{site.data.keyword.weather_short}}		|Sim		|Sim		|Sim|
-|{{site.data.keyword.workloadscheduler}}	|Sim		|Sim		|Sim |
+|Serviço	|Disponível na região sul dos EUA	|Disponível na região do Reino Unido na Europa |Disponível na região de Sydney, na Austrália|Disponível na região da Alemanha|
+|:----------|:------------------------------|:------------------|:------------------|:------------------|
+|{{site.data.keyword.alertnotificationshort}} | Sim | Sim | Sim | Não |
+|{{site.data.keyword.appseccloudshort}}		|Sim		|Sim		|Sim |Não  |
+|Verificador de acessibilidade automatizado |Sim       |Sim    |Sim   |Sim  |Não |
+|{{site.data.keyword.cloudant}}			|Sim		|Sim		|Sim |Sim  |
+|{{site.data.keyword.evtmgt_short}} | Sim | Sim | Sim | Não |
+|{{site.data.keyword.iotmapinsights_short}}    |Sim  |Sim  |Sim  |Não  |
+|{{site.data.keyword.uccr_short}} | Sim | Não | Não | Não |
+|{{site.data.keyword.conversationshort}}  |Sim  |Sim  |Sim  |Sim  |
+|{{site.data.keyword.dataworks_short}}		|Sim		|Sim		|Não|Não|
+|Db2 hospedado | Sim | Sim | Sim | Sim |
+|{{site.data.keyword.DB2OnCloud_short}}		|Sim		|Sim		|Sim |Sim  |
+|{{site.data.keyword.dashdbshort_notm}} | Sim | Sim | Sim | Sim |
+|Verificador de conteúdo digital |Sim  |Sim  |Sim  |Não  |
+|{{site.data.keyword.servicediscoveryshort}} | Sim | Sim | Sim | Não |
+|{{site.data.keyword.documentconversionshort}}	|Sim		|Sim		|Sim|Não  |
+|{{site.data.keyword.iotdriverinsights_short}}  |Sim |Sim  |Sim  |Não  |
+|{{site.data.keyword.geospatialshort_Geospatial}}	|Sim	|Sim		|Sim |Não  |
+|{{site.data.keyword.GlobalizationPipeline_short}}	|Sim		| Sim		| Sim |Sim  |
+|{{site.data.keyword.identitymixershort}}		|Sim		|Sim		|Sim|Não  |
+|{{site.data.keyword.iot4auto_short}} |Sim   |Sim  |Sim  |Não  |
+|{{site.data.keyword.iotelectronics}}  |Sim  |Sim  |Não | Não|
+|{{site.data.keyword.languagetranslatorshort}} |Sim  |Sim  |Sim  |Sim  |
+|{{site.data.keyword.dwl_short}}  |Sim  |Sim  |Não  |Não|
+|{{site.data.keyword.pm_short}} | Sim | Sim | Não | Não |
+|{{site.data.keyword.messagehub}}		|Sim		|Sim		|Sim | Sim|
+|{{site.data.keyword.manda}}			|Sim		|Sim		|Sim |Não  |
+|{{site.data.keyword.nlclassifiershort}} 	|Sim 		|Sim 		|Sim |Não  |
+|{{site.data.keyword.nlushort}} | Sim | Sim | Sim | Não |
+|{{site.data.keyword.personalityinsightsshort}}	|Sim		|Sim		|Sim|Sim  |
+|{{site.data.keyword.mobilepushshort}}		|Sim		|Sim		|Sim |Sim  |
+|{{site.data.keyword.retrieveandrankshort}}	|Sim 		|Sim 		|Sim|Não  |
+|{{site.data.keyword.SecureGateway}}		|Sim		|Sim		|Sim |Sim  |
+|{{site.data.keyword.ssofull}}			|Sim		|Não		|Não| Não|
+|{{site.data.keyword.speechtotextshort}}	|Sim 		|Sim	 	|Sim|Sim  |
+|{{site.data.keyword.streaminganalyticsshort}}	|Sim		|Sim		|Sim |Não  |
+|{{site.data.keyword.texttospeechshort}} 	|Sim 		|Sim	 	|Sim|Sim  |
+|{{site.data.keyword.toneanalyzershort}} 	|Sim 		|Sim 		|Sim|Sim  |
+|{{site.data.keyword.visualrecognitionshort}}	|Sim 		|Sim	 	|Sim|Não  |
+|{{site.data.keyword.weather_short}}		|Sim		|Sim		|Sim|Não  |
+|{{site.data.keyword.workloadscheduler}}	|Sim		|Sim		|Sim |Sim  |
 {: caption="Tabela 4. Serviços disponíveis para organização do {{site.data.keyword.Bluemix_notm}} Public por região" caption-side="top"}
 {: #table04}
 
-**Observação**: os serviços de terceiros não são incluídos na tabela. Verifique seu catálogo dedicado para obter as opções de serviço de terceiros.
-
+**Observação**: os serviços de terceiros não são incluídos na tabela. Verifique seu catálogo para obter as opções de serviço de terceiros.
 
 
 ## Arquitetura do {{site.data.keyword.Bluemix_dedicated_notm}}

@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-05-31"
+lastupdated: "2017-08-09"
 
 ---
 
@@ -32,7 +32,6 @@ lastupdated: "2017-05-31"
 |組み込み| [{{site.data.keyword.Bluemix_notm}} ランタイム](/docs/cfapps/runtimes.html) | ランタイムはアプリを素早く立ち上げて実行するために使用します。マシンとオペレーティング・システムのセットアップと管理は不要です。すべての {{site.data.keyword.Bluemix_notm}} ランタイムが、{{site.data.keyword.Bluemix_dedicated_notm}} インスタンスで使用可能です。|
 | 組み込み| [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | ポリシーに基づいて、アプリケーションの計算能力を動的に増減します。このサービスを使用することで、{{site.data.keyword.Bluemix_dedicated_notm}} 環境で使用量が無制限になります。注: Auto-scaling は現在、Cloud Foundry ランタイムでのみ動作します。|
 |オプション| [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} は、{{site.data.keyword.APIM}} と IBM StrongLoop を単一のオファリングに統合し、API とマイクロサービスを作成、実行、管理、および強化する包括的な解決策を提供します。|
-|オプション| [{{site.data.keyword.rules_short}}](/docs/services/rules/rules.html) | {{site.data.keyword.rules_short}} では、頻繁に出現する、反復可能なルール・ベースのビジネス意思決定を自動化し実行する包括的な環境を提供します。これはまた、IT 技術の必要性を低減することで、ビジネス・ユーザーや開発者がより低コストで意思決定を速やかにモデル化してテストすることも可能にします。|
 |オプション| [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} は、常に稼働している完全管理 NoSQL JSON データ層へのアクセスを提供します。このサービスは CouchDB と互換性があり、モバイル・アプリケーション・モデルおよび Web アプリケーション・モデル用の、簡単に使用できる HTTP インターフェースでアクセスできます。|
 |オプション| [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | {{site.data.keyword.Bluemix_dedicated_notm}} で Docker コンテナーを実行します。コンテナーは、アプリが実行のために必要とするすべてのエレメントを含む仮想ソフトウェア・オブジェクトです。コンテナーには、リソースの分離と割り振りの利点がありますが、例えば仮想マシンなどよりも、移植可能性と効率性が高まっています。ハードウェア要件について詳しくは、『[ {{site.data.keyword.Bluemix_dedicated_notm}} および Bluemix Local における {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)』を参照してください。|
 | オプション| [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | {{site.data.keyword.contdelivery_short}} Dedicated を使用して、ビルド、単体テスト、デプロイメントなどを自動化します。機能豊富な Web ベース IDE により、コードの編集およびプッシュを行います。開発、デプロイメント、および運用の作業をサポートするツール統合を実現するツールチェーンを作成します。|
@@ -59,7 +58,6 @@ lastupdated: "2017-05-31"
 |Dedicated {{site.data.keyword.apiconnect_short}} Professional 10 万回の API 呼び出し容量の増加| 1 月当たり 10 万回の API 呼び出し容量を追加する {{site.data.keyword.apiconnect_short}} Professional 環境の拡張。|
 |Dedicated {{site.data.keyword.apiconnect_short}} Enterprise 2500 万回の API 呼び出し| 企業全体の API プロジェクトを対象にした、1 月当たり 2500 万回の API 呼び出し容量を持つ専用環境内で {{site.data.keyword.apiconnect_short}} の専用バージョンを実行できる環境。|
 |Dedicated {{site.data.keyword.apiconnect_short}} Enterprise 10 万回の API 呼び出し容量の増加| 1 月当たり 10 万回の API 呼び出し容量を追加する {{site.data.keyword.apiconnect_short}} Enterprise 環境の拡張。|
-|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.rules_short}} 100 万回の「ルールに基づく意思決定」| 「ルールに基づく意思決定」は、ルール実行サーバーからルールセットを呼び出すことで生じる結果をいいます。請求期間中に実行または処理され、最も近い 100 万単位に切り上げられた「ルールに基づく意思決定」の合計数に対応する十分なライセンスが取得されていなければなりません。本「クラウド・サービス」で課金される「ルールに基づく意思決定」は、意思決定を得るためにルール実行サーバーに対して行われる呼び出しです。「クラウド・サービス」の Dedicated デプロイメントには、関連課金メトリックで測定される合意済みの容量が設定されています。{{site.data.keyword.Bluemix_dedicated_notm}} プラットフォームでの {{site.data.keyword.rules_short}} サービスのデフォルトのスペース割り振りは 16 GB で、権限がある「ルールに基づく意思決定」を実行するために、それぞれ 1 GB の最大 10 個のインスタンスを呼び出すことができます。当該使用制限を超えた場合、その使用をカバーするために追加容量を購入する必要があります。|
 |Dedicated {{site.data.keyword.cloudant}} の 1.6 TB の容量増加| 設計容量が 1.6 テラバイトの専用環境内での {{site.data.keyword.cloudantfull}} の専用バージョンの実行が組み込まれます。|
 |Dedicated {{site.data.keyword.datacshort}} および {{site.data.keyword.sescashort}} の 50 GB の容量増加| 最大 50 GB の累積容量まで「{{site.data.keyword.datacshort}}」および「{{site.data.keyword.sescashort}}」のインスタンスをデプロイして実行することができる環境。|
 |{{site.data.keyword.contdelivery_short}} Dedicated インスタンス| 専用環境内で実行されるプライベート・バージョンの {{site.data.keyword.contdelivery_short}}。容量は、{{site.data.keyword.contdelivery_short}} Dedicated 許可ユーザーのライセンスで決まります。|
@@ -103,62 +101,52 @@ lastupdated: "2017-05-31"
 
 専用環境用にサービスのプライベート・インスタンスを保有している場合、カタログ内でサービス名と共に「Dedicated」というタグが示されます。同様に、カスタム・サービスである場合 (つまり、サービス・ブローカーを使用して作成した場合)、サービス名と共に「カスタム」と表示されます。「専用」というタグも「カスタム」というタグも付いていない、リスト中の他のサービスはすべて、{{site.data.keyword.Bluemix_notm}} Public からシンジケーションを使用して利用可能です。シンジケートされたサービスは、パブリック・サービスとプライベート・サービスからなるハイブリッド・アプリケーションを作成する機能を提供します。
 
-|サービス	|米国南部地域で利用可能|ヨーロッパ英国地域で利用可能|オーストラリア、シドニー地域で利用可能|
-|:----------|:------------------------------|:------------------|:------------------|
-|{{site.data.keyword.alchemyapishort}} 		|はい	   	|はい  		|はい|
-|{{site.data.keyword.alertnotificationshort}}	|はい		|はい		|はい	|
-|{{site.data.keyword.apiconnect_short}}         |はい|はい|はい|
-|{{site.data.keyword.appseccloudshort}}		|はい		|はい		|はい|
-|{{site.data.keyword.apiconnect_short}} 	|はい   	 	|はい   	 	|はい|
-|Automated Accessibility Checker|はい|はい|はい|
-|{{site.data.keyword.rules_short}}		|はい		|はい		|はい|
-|{{site.data.keyword.cloudant}}			|はい		|はい		|はい|
-|{{site.data.keyword.iotmapinsights_short}}    |はい|はい|はい|
-|{{site.data.keyword.conversationshort}}  |はい|はい|はい|
-|{{site.data.keyword.dashdbshort}}		|はい		|はい		|はい|
-|{{site.data.keyword.dataworks_short}}		|はい		|はい		|いいえ|
-|{{site.data.keyword.DB2OnCloud_short}}		|はい		|はい		|はい|
-|Digital Content Checker|はい|はい|はい|
-|{{site.data.keyword.documentconversionshort}}	|はい		|はい		|はい|
-|{{site.data.keyword.iotdriverinsights_short}}  |はい|はい|はい|
-|{{site.data.keyword.geospatialshort_Geospatial}}	|はい	|はい		|はい|
-|{{site.data.keyword.GlobalizationPipeline_short}}	|はい		| はい		| はい|
-|{{site.data.keyword.identitymixershort}}		|はい		|はい		|はい|
-|{{site.data.keyword.iot4auto_short}} |はい|はい|はい|
-|{{site.data.keyword.iotelectronics}}  |はい|はい|いいえ|
-|{{site.data.keyword.iotinsurance_short}} |いいえ|いいえ|はい|
-|{{site.data.keyword.twittershort}}		|はい		|はい		|はい|
-|{{site.data.keyword.languagetranslationshort}}	|はい		|はい		|はい|
-|{{site.data.keyword.languagetranslatorshort}} |はい|はい|はい|
-|{{site.data.keyword.dwl_short}}  |はい|はい|いいえ|
-|{{site.data.keyword.eventhubshort}}		|はい		|いいえ		|いいえ|
-|{{site.data.keyword.messagehub}}		|はい		|はい		|いいえ|
-|{{site.data.keyword.manda}}			|はい		|はい		|はい|
-|{{site.data.keyword.amashort}}			|はい		|はい		|はい|
-|{{site.data.keyword.mqa}}			|はい		|はい		|はい|
-|{{site.data.keyword.mql}}			|いいえ		|いいえ		|はい|
-|{{site.data.keyword.nlclassifierlshort}} 	|はい  		|はい  		|はい|
-|{{site.data.keyword.personalityinsightsshort}}	|はい		|はい		|はい|
-|{{site.data.keyword.pm_short}}			|はい		|はい		|いいえ|
-|{{site.data.keyword.mobilepushshort}}		|はい		|はい		|はい|
-|{{site.data.keyword.retrieveandrankshort}}	|はい  		|はい  		|はい|
-|{{site.data.keyword.runbook_short}}		|はい		|はい		|はい|
-|{{site.data.keyword.SecureGateway}}		|はい		|はい		|はい|
-|{{site.data.keyword.ssofull}}			|はい		|いいえ		|いいえ|
-|{{site.data.keyword.speechtotextshort}}	|はい  		|はい	   	|はい|
-|{{site.data.keyword.streaminganalyticsshort}}	|はい		|はい		|はい|
-|{{site.data.keyword.texttospeechshort}} 	|はい  		|はい	   	|はい|
-|{{site.data.keyword.toneanalyzershort}} 	|はい  		|はい  		|はい|
-|{{site.data.keyword.tradeoffanalyticsshort}}	|はい		|はい		|はい|
-|{{site.data.keyword.visualrecognitionshort}}	|はい  		|はい	   	|はい|
-|{{site.data.keyword.iot_short}}		|はい		|はい		|いいえ|
-|{{site.data.keyword.weather_short}}		|はい		|はい		|はい|
-|{{site.data.keyword.workloadscheduler}}	|はい		|はい		|はい|
+|サービス	|米国南部地域で利用可能|ヨーロッパ英国地域で利用可能|オーストラリア、シドニー地域で利用可能|ドイツ地域で利用可能|
+|:----------|:------------------------------|:------------------|:------------------|:------------------|
+|{{site.data.keyword.alertnotificationshort}} | はい| はい| はい| いいえ|
+|{{site.data.keyword.appseccloudshort}}		|はい		|はい		|はい|いいえ|
+|Automated Accessibility Checker|はい|はい|はい|はい|いいえ|
+|{{site.data.keyword.cloudant}}			|はい		|はい		|はい|はい|
+|{{site.data.keyword.evtmgt_short}} | はい| はい| はい| いいえ|
+|{{site.data.keyword.iotmapinsights_short}}    |はい|はい|はい|いいえ|
+|{{site.data.keyword.uccr_short}} | はい| いいえ| いいえ| いいえ|
+|{{site.data.keyword.conversationshort}}  |はい|はい|はい|はい|
+|{{site.data.keyword.dataworks_short}}		|はい		|はい		|いいえ|いいえ|
+|Db2 hosted | はい| はい| はい| はい|
+|{{site.data.keyword.DB2OnCloud_short}}		|はい		|はい		|はい|はい|
+|{{site.data.keyword.dashdbshort_notm}} | はい| はい| はい| はい|
+|Digital Content Checker|はい|はい|はい|いいえ|
+|{{site.data.keyword.servicediscoveryshort}} | はい| はい| はい| いいえ|
+|{{site.data.keyword.documentconversionshort}}	|はい		|はい		|はい|いいえ|
+|{{site.data.keyword.iotdriverinsights_short}}  |はい|はい|はい|いいえ|
+|{{site.data.keyword.geospatialshort_Geospatial}}	|はい	|はい		|はい|いいえ|
+|{{site.data.keyword.GlobalizationPipeline_short}}	|はい		| はい		| はい|はい|
+|{{site.data.keyword.identitymixershort}}		|はい		|はい		|はい|いいえ|
+|{{site.data.keyword.iot4auto_short}} |はい|はい|はい|いいえ|
+|{{site.data.keyword.iotelectronics}}  |はい|はい|いいえ| いいえ|
+|{{site.data.keyword.languagetranslatorshort}} |はい|はい|はい|はい|
+|{{site.data.keyword.dwl_short}}  |はい|はい|いいえ|いいえ|
+|{{site.data.keyword.pm_short}} | はい| はい| いいえ| いいえ|
+|{{site.data.keyword.messagehub}}		|はい		|はい		|はい| はい|
+|{{site.data.keyword.manda}}			|はい		|はい		|はい|いいえ|
+|{{site.data.keyword.nlclassifiershort}} 	|はい  		|はい  		|はい|いいえ|
+|{{site.data.keyword.nlushort}} | はい| はい| はい| いいえ|
+|{{site.data.keyword.personalityinsightsshort}}	|はい		|はい		|はい|はい|
+|{{site.data.keyword.mobilepushshort}}		|はい		|はい		|はい|はい|
+|{{site.data.keyword.retrieveandrankshort}}	|はい  		|はい  		|はい|いいえ|
+|{{site.data.keyword.SecureGateway}}		|はい		|はい		|はい|はい|
+|{{site.data.keyword.ssofull}}			|はい		|いいえ		|いいえ| いいえ|
+|{{site.data.keyword.speechtotextshort}}	|はい  		|はい	   	|はい|はい|
+|{{site.data.keyword.streaminganalyticsshort}}	|はい		|はい		|はい|いいえ|
+|{{site.data.keyword.texttospeechshort}} 	|はい  		|はい	   	|はい|はい|
+|{{site.data.keyword.toneanalyzershort}} 	|はい  		|はい  		|はい|はい|
+|{{site.data.keyword.visualrecognitionshort}}	|はい  		|はい	   	|はい|いいえ|
+|{{site.data.keyword.weather_short}}		|はい		|はい		|はい|いいえ|
+|{{site.data.keyword.workloadscheduler}}	|はい		|はい		|はい|はい|
 {: caption="表 4. {{site.data.keyword.Bluemix_notm}} Public からのシンジケーションに使用可能な、地域別のサービス" caption-side="top"}
 {: #table04}
 
-**注**: サード・パーティー・サービスは表に含まれていません。サード・パーティー・サービス・オプションについては、専用カタログを確認してください。
-
+**注**: サード・パーティー・サービスは表に含まれていません。サード・パーティー・サービス・オプションについては、カタログを確認してください。
 
 
 ## {{site.data.keyword.Bluemix_dedicated_notm}} アーキテクチャー

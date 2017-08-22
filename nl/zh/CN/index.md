@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-05-31"
+lastupdated: "2017-08-09"
 
 ---
 
@@ -32,7 +32,6 @@ lastupdated: "2017-05-31"
 |已包含| [{{site.data.keyword.Bluemix_notm}} 运行时](/docs/cfapps/runtimes.html)| 使用运行时可快速启动并运行应用程序，无需设置和管理计算机与操作系统。所有 {{site.data.keyword.Bluemix_notm}} 运行时都可供您在 {{site.data.keyword.Bluemix_dedicated_notm}} 实例中使用。|
 | 已包含| [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | 根据策略，动态增大或减小应用程序的计算容量。通过此服务，您在 {{site.data.keyword.Bluemix_dedicated_notm}} 环境中的使用不受限制。注：自动扩展目前只适用于 Cloud Foundry 运行时|
 |可选| [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} 将 {{site.data.keyword.APIM}} 和 IBM StrongLoop 集成到单个产品中，以提供一个综合解决方案来创建、运行、管理和强制执行 API 与微服务。|
-|可选| [{{site.data.keyword.rules_short}}](/docs/services/rules/rules.html) | {{site.data.keyword.rules_short}} 提供了一个综合环境来自动化和执行频繁发生且可重复的基于规则的业务决策。此外，它通过降低对 IT 技能的需求，支持业务用户或开发者以更低的成本快速对决策建模并进行测试。|
 |可选| [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} 提供了对始终启用的完全受管 NoSQL JSON 数据层的访问。此服务兼容 CouchDB，并且可通过易用的 HTTP 接口供移动和 Web 应用程序模型访问。|
 |可选| [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | 在 {{site.data.keyword.Bluemix_dedicated_notm}} 上运行 Docker 容器。容器是包含应用程序运行所需的所有元素的虚拟软件对象。容器不仅具有资源隔离和分配的好处，而且还比虚拟机器（举例来说）的可移植性更好，且更有效率。有关硬件需求的信息，请参阅 [{{site.data.keyword.Bluemix_dedicated_notm}} 和 Bluemix Local 中的 {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)。|
 | 可选| [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | 使用 {{site.data.keyword.contdelivery_short}} Dedicated 可自动执行构建、单元测试、部署等操作。通过丰富的基于 Web 的 IDE 来编辑和推送代码。创建工具链以便进行支持开发、部署和操作任务的工具集成。|
@@ -59,7 +58,6 @@ lastupdated: "2017-05-31"
 |Dedicated {{site.data.keyword.apiconnect_short}} Professional 增加 10 万次 API 调用| {{site.data.keyword.apiconnect_short}} Professional 环境的扩展，用于每月提供额外 10 万次 API 调用容量。|
 |Dedicated {{site.data.keyword.apiconnect_short}} Enterprise 2500 万次 API 调用| 此环境允许在专用环境中运行 {{site.data.keyword.apiconnect_short}} 的专用版本，容量为每月针对企业级 API 项目进行 2500 万次 API 调用。|
 |Dedicated {{site.data.keyword.apiconnect_short}} Enterprise 增加 10 万次 API 调用| {{site.data.keyword.apiconnect_short}} Enterprise 环境的扩展，用于每月提供额外 10 万次 API 调用容量。|
-|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.rules_short}} 100 万个规则决策| 规则决策是从规则执行服务器调用规则集的结果。必须获得充分的权利才能涵盖结算周期内执行或处理的规则决策总数（四舍五入到最接近的百万数）。由此云服务度量的规则决策是为了获取决策而对规则执行服务器发出的调用。云服务的专用部署按照相关费用度量值来度量约定的容量。在 {{site.data.keyword.Bluemix_dedicated_notm}} 平台上 {{site.data.keyword.rules_short}} 服务分配的缺省空间为 16 GB，在此空间中最多可以调用 10 个 1 GB 实例来执行授权的规则决策。如果超过该使用量限制，您必须另外购买容量来满足该使用量。|
 |Dedicated {{site.data.keyword.cloudant}} 增加 1.6 TB 容量| 包含在专用环境中运行 {{site.data.keyword.cloudantfull}} 的专用版本，设计容量为 1.6 TB。|
 |Dedicated {{site.data.keyword.datacshort}} 和 {{site.data.keyword.sescashort}} 增加 50 GB 容量| 此环境允许部署和运行 {{site.data.keyword.datacshort}} 和 {{site.data.keyword.sescashort}} 实例，最高累计容量为 50 GB。|
 |{{site.data.keyword.contdelivery_short}} Dedicated 实例| 在专用环境中运行的 {{site.data.keyword.contdelivery_short}} 专用版本。容量由 {{site.data.keyword.contdelivery_short}} Dedicated 授权用户权利确定。|
@@ -103,62 +101,52 @@ lastupdated: "2017-05-31"
 
 如果您的专用环境有私有的服务实例，那么您将看到目录中的该服务名称带有“专用”标记。与此类似，如果这是定制服务（即您使用的是服务代理程序创建的服务），那么您将看到列出服务名称时有“定制”字样。通过从 {{site.data.keyword.Bluemix_notm}} Public 使用联合，即可使用不带“专用”或“定制”标记列出的其他所有服务。联合服务提供了用于创建混合应用程序的功能，混合应用程序由公共服务和私有服务组成。
 
-|服务|在美国南部区域中可用|在欧洲英国区域中可用|在澳洲悉尼区域中可用|
-|:----------|:------------------------------|:------------------|:------------------|
-|{{site.data.keyword.alchemyapishort}} 		|是|是|是|
-|{{site.data.keyword.alertnotificationshort}}	|是|是|是|
-|{{site.data.keyword.apiconnect_short}}         |是|是|是|
-|{{site.data.keyword.appseccloudshort}}		|是|是|是|
-|{{site.data.keyword.apiconnect_short}} 	|是|是|是|
-|Automated Accessibility Checker|是|是|是|
-|{{site.data.keyword.rules_short}}		|是|是|是|
-|{{site.data.keyword.cloudant}}			|是|是|是|
-|{{site.data.keyword.iotmapinsights_short}}    |是|是|是|
-|{{site.data.keyword.conversationshort}}  |是|是|是|
-|{{site.data.keyword.dashdbshort}}		|是|是|是|
-|{{site.data.keyword.dataworks_short}}		|是|是|否|
-|{{site.data.keyword.DB2OnCloud_short}}		|是|是|是|
-|Digital Content Checker|是|是|是|
-|{{site.data.keyword.documentconversionshort}}	|是|是|是|
-|{{site.data.keyword.iotdriverinsights_short}}  |是|是|是|
-|{{site.data.keyword.geospatialshort_Geospatial}}	|是|是|是|
-|{{site.data.keyword.GlobalizationPipeline_short}}	|是| 是| 是|
-|{{site.data.keyword.identitymixershort}}		|是|是|是|
-|{{site.data.keyword.iot4auto_short}} |是|是|是|
-|{{site.data.keyword.iotelectronics}}  |是|是|否|
-|{{site.data.keyword.iotinsurance_short}} |否|否|是|
-|{{site.data.keyword.twittershort}}		|是|是|是|
-|{{site.data.keyword.languagetranslationshort}}	|是|是|是|
-|{{site.data.keyword.languagetranslatorshort}} |是|是|是|
-|{{site.data.keyword.dwl_short}}  |是|是|否|
-|{{site.data.keyword.eventhubshort}}		|是|否|否|
-|{{site.data.keyword.messagehub}}		|是|是|否|
-|{{site.data.keyword.manda}}			|是|是|是|
-|{{site.data.keyword.amashort}}			|是|是|是|
-|{{site.data.keyword.mqa}}			|是|是|是|
-|{{site.data.keyword.mql}}			|否|否|是|
-|{{site.data.keyword.nlclassifierlshort}} 	|是|是|是|
-|{{site.data.keyword.personalityinsightsshort}}	|是|是|是|
-|{{site.data.keyword.pm_short}}			|是|是|否|
-|{{site.data.keyword.mobilepushshort}}		|是|是|是|
-|{{site.data.keyword.retrieveandrankshort}}	|是|是|是|
-|{{site.data.keyword.runbook_short}}		|是|是|是|
-|{{site.data.keyword.SecureGateway}}		|是|是|是|
-|{{site.data.keyword.ssofull}}			|是|否|否|
-|{{site.data.keyword.speechtotextshort}}	|是|是|是|
-|{{site.data.keyword.streaminganalyticsshort}}	|是|是|是|
-|{{site.data.keyword.texttospeechshort}} 	|是|是|是|
-|{{site.data.keyword.toneanalyzershort}} 	|是|是|是|
-|{{site.data.keyword.tradeoffanalyticsshort}}	|是|是|是|
-|{{site.data.keyword.visualrecognitionshort}}	|是|是|是|
-|{{site.data.keyword.iot_short}}		|是|是|否|
-|{{site.data.keyword.weather_short}}		|是|是|是|
-|{{site.data.keyword.workloadscheduler}}	|是|是|是|
+|服务|在美国南部区域中可用|在欧洲英国区域中可用|在澳洲悉尼区域中可用|在德国区域中可用|
+|:----------|:------------------------------|:------------------|:------------------|:------------------|
+|{{site.data.keyword.alertnotificationshort}} | 是| 是| 是| 否|
+|{{site.data.keyword.appseccloudshort}}		|是|是|是|否|
+|Automated Accessibility Checker|是|是|是|是|否|
+|{{site.data.keyword.cloudant}}			|是|是|是|是|
+|{{site.data.keyword.evtmgt_short}} | 是| 是| 是| 否|
+|{{site.data.keyword.iotmapinsights_short}}    |是|是|是|否|
+|{{site.data.keyword.uccr_short}} | 是| 否| 否| 否|
+|{{site.data.keyword.conversationshort}}  |是|是|是|是|
+|{{site.data.keyword.dataworks_short}}		|是|是|否|否|
+|Db2 hosted | 是| 是| 是| 是|
+|{{site.data.keyword.DB2OnCloud_short}}		|是|是|是|是|
+|{{site.data.keyword.dashdbshort_notm}} | 是| 是| 是| 是|
+|Digital Content Checker|是|是|是|否|
+|{{site.data.keyword.servicediscoveryshort}} | 是| 是| 是| 否|
+|{{site.data.keyword.documentconversionshort}}	|是|是|是|否|
+|{{site.data.keyword.iotdriverinsights_short}}  |是|是|是|否|
+|{{site.data.keyword.geospatialshort_Geospatial}}	|是|是|是|否|
+|{{site.data.keyword.GlobalizationPipeline_short}}	|是| 是| 是|是|
+|{{site.data.keyword.identitymixershort}}		|是|是|是|否|
+|{{site.data.keyword.iot4auto_short}} |是|是|是|否|
+|{{site.data.keyword.iotelectronics}}  |是|是|否| 否|
+|{{site.data.keyword.languagetranslatorshort}} |是|是|是|是|
+|{{site.data.keyword.dwl_short}}  |是|是|否|否|
+|{{site.data.keyword.pm_short}} | 是| 是| 否| 否|
+|{{site.data.keyword.messagehub}}		|是|是|是| 是|
+|{{site.data.keyword.manda}}			|是|是|是|否|
+|{{site.data.keyword.nlclassifiershort}} 	|是|是|是|否|
+|{{site.data.keyword.nlushort}} | 是| 是| 是| 否|
+|{{site.data.keyword.personalityinsightsshort}}	|是|是|是|是|
+|{{site.data.keyword.mobilepushshort}}		|是|是|是|是|
+|{{site.data.keyword.retrieveandrankshort}}	|是|是|是|否|
+|{{site.data.keyword.SecureGateway}}		|是|是|是|是|
+|{{site.data.keyword.ssofull}}			|是|否|否| 否|
+|{{site.data.keyword.speechtotextshort}}	|是|是|是|是|
+|{{site.data.keyword.streaminganalyticsshort}}	|是|是|是|否|
+|{{site.data.keyword.texttospeechshort}} 	|是|是|是|是|
+|{{site.data.keyword.toneanalyzershort}} 	|是|是|是|是|
+|{{site.data.keyword.visualrecognitionshort}}	|是|是|是|否|
+|{{site.data.keyword.weather_short}}		|是|是|是|否|
+|{{site.data.keyword.workloadscheduler}}	|是|是|是|是|
 {: caption="表 4. 按区域为 {{site.data.keyword.Bluemix_notm}} Public 联合提供的服务" caption-side="top"}
 {: #table04}
 
-**注**：此表中未包含第三方服务。请检查专用目录以获取第三方服务选项。
-
+**注**：此表中未包含第三方服务。请检查目录以获取第三方服务选项。
 
 
 ## {{site.data.keyword.Bluemix_dedicated_notm}} 体系结构

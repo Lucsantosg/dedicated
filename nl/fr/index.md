@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-05-31"
+lastupdated: "2017-08-09"
 
 ---
 
@@ -45,7 +45,6 @@ ou que vous pouvez acheter si vous le souhaitez.
 |Inclus | Contextes d'exécution [{{site.data.keyword.Bluemix_notm}}](/docs/cfapps/runtimes.html) | Utilisez des contextes d'exécution pour que votre application soit opérationnelle rapidement, sans qu'il soit nécessaire de configurer et de gérer des machines et des systèmes d'exploitation. Vous pouvez utiliser tous les contextes d'exécution {{site.data.keyword.Bluemix_notm}} dans votre instance {{site.data.keyword.Bluemix_dedicated_notm}}.|
 | Inclus | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | Augmentez ou diminuez dynamiquement la capacité de traitement de votre application en fonction de règles. Avec ce service, vous bénéficiez d'une utilisation illimitée dans votre environnement {{site.data.keyword.Bluemix_dedicated_notm}}. Remarque : Actuellement, la mise à l'échelle automatique fonctionne uniquement avec les contextes d'exécution Cloud Foundry. |
 |Facultatif | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} intègre {{site.data.keyword.APIM}} et IBM StrongLoop dans une offre unique qui fournit une solution complète pour la création, l'exécution, la gestion et l'application d'API et de microservices. |
-|Facultatif | [{{site.data.keyword.rules_short}}](/docs/services/rules/rules.html) | {{site.data.keyword.rules_short}} offre un environnement complet permettant d'automatiser et d'exécuter des décisions métier basées sur des règles reproductibles qui se produisent fréquemment. Il permet également aux utilisateurs métier et aux développeurs de modéliser rapidement les décisions et de les tester à moindre coût en réduisant le besoin de compétences informatiques. |
 |Facultatif | [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} fournit l'accès à une couche de données JSON NoSQL entièrement gérée toujours active. Ce service est compatible avec CouchDB et accessible via une interface HTTP facile à utiliser pour les modèles d'application mobile et Web. |
 |Facultatif | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | Conteneurs Run Docker dans l'environnement {{site.data.keyword.Bluemix_dedicated_notm}}. Les conteneurs sont des objets logiciels virtuels qui incluent tous les éléments qu'une application a besoin d'exécuter. Un conteneur tire parti de l'isolation et de l'allocation des ressources, mais est plus portable et efficace que, par exemple, une machine virtuelle. Pour plus d'informations sur la configuration matérielle requise, voir [{{site.data.keyword.containershort}} dans {{site.data.keyword.Bluemix_dedicated_notm}} et Bluemix Local](/docs/containers/container_ov.html#container_dl).|
 | Facultatif | [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | {{site.data.keyword.contdelivery_short}} dédié permet d'automatiser les générations, les tests unitaires, les déploiements, etc. Editez et insérez du code via l'interface IDE Web enrichie. Créez des chaînes d'outils pour activer les intégrations d'outils prenant en charge des tâches de développement, de déploiement et d'opérations. |
@@ -75,7 +74,6 @@ depuis la vignette Service dans votre catalogue.
 |Dedicated {{site.data.keyword.apiconnect_short}} Professional 100 thousand API Calls increase | Extension de l'environnement {{site.data.keyword.apiconnect_short}} Professional offrant une capacité supplémentaire de 100000 appels d'API par mois. |
 |Dedicated {{site.data.keyword.apiconnect_short}} Enterprise 25 Million API Calls | Environnement permettant l'exécution d'une version privée de {{site.data.keyword.apiconnect_short}} dans l'environnement dédié avec une capacité de 25 millions d'appels d'API par mois ciblant des projets d'API au niveau de l'entreprise. |
 |Dedicated {{site.data.keyword.apiconnect_short}} Enterprise 100 thousand API Calls increase | Extension de l'environnement {{site.data.keyword.apiconnect_short}} Enterprise offrant une capacité supplémentaire de 100000 appels d'API par mois. |
-|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.rules_short}} 1 Million Rules Decisions | Une décision Règles est le résultat de l'appel d'un ensemble de règles à partir d'un serveur d'exécution de règle. Les autorisations d'utilisation appropriées doivent être obtenues pour couvrir le nombre total de décisions Règles, arrondi au million le plus proche, exécuté ou traité, lors de la période de facturation. Les décisions Règles mesurées par ce service de cloud sont les appels émis vers ce serveur d'exécution de règle pour obtenir une décision. Les déploiements dédiés du service Cloud ont une capacité accordée qui est mesurée par le paramètre de calcul des frais pertinent. L'allocation d'espace par défaut par le service {{site.data.keyword.rules_short}} sur la plateforme {{site.data.keyword.Bluemix_dedicated_notm}} est de 16 Go, dont un maximum de dix instances d'1 Go chacune peutêtre appelé pour exécuter des décisions Règles autorisées. Si vous dépassez cette limite d'utilisation, vous devez acheter de la capacité supplémentaire pour cette utilisation. |
 |Dedicated {{site.data.keyword.cloudant}}  1.6 TB capacity increase | Inclut l'exécution d'une version privée de {{site.data.keyword.cloudantfull}} dans l'environnement dédié avec une capacité de conception de 1,6 téraoctets  |
 |Dedicated {{site.data.keyword.datacshort}} and {{site.data.keyword.sescashort}} 50 GB capacity increase | Environnement permettant le déploiement et l'exécution d'instances {{site.data.keyword.datacshort}} et {{site.data.keyword.sescashort}} jusqu'à une capacité cumulée de 50 Go. |
 |{{site.data.keyword.contdelivery_short}} Dedicated Instance | Version privée de {{site.data.keyword.contdelivery_short}} exécutée dans un environnement dédié. La capacité est déterminée par les autorisations de {{site.data.keyword.contdelivery_short}} Dedicated Authorized User. |
@@ -125,62 +123,52 @@ répertoriés sans l'étiquette "Dédié" ou "Personnalisé" sont disponibles vi
 {{site.data.keyword.Bluemix_notm}} public. Les services syndiqués permettent la création d'applications hybrides composées de services
 publics et privés.
 
-|Service	|Disponible dans la région Sud des Etats-Unis	|Disponible dans la région Europe-Royaume-Uni |Disponible dans la région Australie-Sydney|
-|:----------|:------------------------------|:------------------|:------------------|
-|{{site.data.keyword.alchemyapishort}} 		|Oui	   	|Oui  		|Oui|
-|{{site.data.keyword.alertnotificationshort}}	|Oui		|Oui		|Oui	|
-|{{site.data.keyword.apiconnect_short}}         |Oui            |Oui            |Oui  |
-|{{site.data.keyword.appseccloudshort}}		|Oui		|Oui		|Oui |
-|{{site.data.keyword.apiconnect_short}} 	|Oui   	 	|Oui  	 	|Oui   |
-|Automated Accessibility Checker |Oui       |Oui    |Oui   |
-|{{site.data.keyword.rules_short}}		|Oui		|Oui		|Oui |
-|{{site.data.keyword.cloudant}}			|Oui		|Oui		|Oui |
-|{{site.data.keyword.iotmapinsights_short}}    |Oui  |Oui  |Oui  |
-|{{site.data.keyword.conversationshort}}  |Oui  |Oui  |Oui  |
-|{{site.data.keyword.dashdbshort}}		|Oui		|Oui		|Oui |
-|{{site.data.keyword.dataworks_short}}		|Oui		|Oui		|Non|
-|{{site.data.keyword.DB2OnCloud_short}}		|Oui		|Oui		|Oui |
-|Digital Content Checker |Oui  |Oui  |Oui  |
-|{{site.data.keyword.documentconversionshort}}	|Oui		|Oui		|Oui|
-|{{site.data.keyword.iotdriverinsights_short}}  |Oui |Oui  |Oui  |
-|{{site.data.keyword.geospatialshort_Geospatial}}	|Oui	|Oui		|Oui |
-|{{site.data.keyword.GlobalizationPipeline_short}}	|Oui		| Oui		| Oui |
-|{{site.data.keyword.identitymixershort}}		|Oui		|Oui		|Oui|
-|{{site.data.keyword.iot4auto_short}} |Oui   |Oui  |Oui  |
-|{{site.data.keyword.iotelectronics}}  |Oui  |Oui  |Non |
-|{{site.data.keyword.iotinsurance_short}} |Non   |Non   |Oui  |
-|{{site.data.keyword.twittershort}}		|Oui		|Oui		|Oui|
-|{{site.data.keyword.languagetranslationshort}}	|Oui		|Oui		|Oui |
-|{{site.data.keyword.languagetranslatorshort}} |Oui  |Oui  |Oui  |
-|{{site.data.keyword.dwl_short}}  |Oui  |Oui  |Non  |
-|{{site.data.keyword.eventhubshort}}		|Oui		|Non		|Non|
-|{{site.data.keyword.messagehub}}		|Oui		|Oui		|Non|
-|{{site.data.keyword.manda}}			|Oui		|Oui		|Oui |
-|{{site.data.keyword.amashort}}			|Oui		|Oui		|Oui |
-|{{site.data.keyword.mqa}}			|Oui		|Oui		|Oui |
-|{{site.data.keyword.mql}}			|Non		|Non		|Oui |
-|{{site.data.keyword.nlclassifierlshort}} 	|Oui 		|Oui 		|Oui|
-|{{site.data.keyword.personalityinsightsshort}}	|Oui		|Oui		|Oui|
-|{{site.data.keyword.pm_short}}			|Oui		|Oui		|Non |
-|{{site.data.keyword.mobilepushshort}}		|Oui		|Oui		|Oui |
-|{{site.data.keyword.retrieveandrankshort}}	|Oui 		|Oui 		|Oui|
-|{{site.data.keyword.runbook_short}}		|Oui		|Oui		|Oui|
-|{{site.data.keyword.SecureGateway}}		|Oui		|Oui		|Oui |
-|{{site.data.keyword.ssofull}}			|Oui		|Non		|Non|
-|{{site.data.keyword.speechtotextshort}}	|Oui 		|Oui	 	|Oui|
-|{{site.data.keyword.streaminganalyticsshort}}	|Oui		|Oui		|Oui |
-|{{site.data.keyword.texttospeechshort}} 	|Oui 		|Oui	 	|Oui|
-|{{site.data.keyword.toneanalyzershort}} 	|Oui 		|Oui 		|Oui|
-|{{site.data.keyword.tradeoffanalyticsshort}}	|Oui		|Oui		|Oui|
-|{{site.data.keyword.visualrecognitionshort}}	|Oui 		|Oui	 	|Oui|
-|{{site.data.keyword.iot_short}}		|Oui		|Oui		|Non|
-|{{site.data.keyword.weather_short}}		|Oui		|Oui		|Oui|
-|{{site.data.keyword.workloadscheduler}}	|Oui		|Oui		|Oui |
+|Service	|Disponible dans la région Sud des Etats-Unis	|Disponible dans la région Europe-Royaume-Uni |Disponible dans la région Australie-Sydney|Disponible dans la région Allemagne|
+|:----------|:------------------------------|:------------------|:------------------|:------------------|
+|{{site.data.keyword.alertnotificationshort}} | Oui | Oui | Oui | Non |
+|{{site.data.keyword.appseccloudshort}}		|Oui		|Oui		|Oui |Non  |
+|Automated Accessibility Checker |Oui       |Oui    |Oui   |Oui  |Non |
+|{{site.data.keyword.cloudant}}			|Oui		|Oui		|Oui |Oui  |
+|{{site.data.keyword.evtmgt_short}} | Oui | Oui | Oui | Non |
+|{{site.data.keyword.iotmapinsights_short}}    |Oui  |Oui  |Oui  |Non  |
+|{{site.data.keyword.uccr_short}} | Oui | Non | Non | Non |
+|{{site.data.keyword.conversationshort}}  |Oui  |Oui  |Oui  |Oui  |
+|{{site.data.keyword.dataworks_short}}		|Oui		|Oui		|Non|Non|
+|Hébergée sous Db2 | Oui | Oui | Oui | Oui |
+|{{site.data.keyword.DB2OnCloud_short}}		|Oui		|Oui		|Oui |Oui  |
+|{{site.data.keyword.dashdbshort_notm}} | Oui | Oui | Oui | Oui |
+|Digital Content Checker |Oui  |Oui  |Oui  |Non  |
+|{{site.data.keyword.servicediscoveryshort}} | Oui | Oui | Oui | Non |
+|{{site.data.keyword.documentconversionshort}}	|Oui		|Oui		|Oui|Non  |
+|{{site.data.keyword.iotdriverinsights_short}}  |Oui |Oui  |Oui  |Non  |
+|{{site.data.keyword.geospatialshort_Geospatial}}	|Oui	|Oui		|Oui |Non  |
+|{{site.data.keyword.GlobalizationPipeline_short}}	|Oui		| Oui		| Oui |Oui  |
+|{{site.data.keyword.identitymixershort}}		|Oui		|Oui		|Oui|Non  |
+|{{site.data.keyword.iot4auto_short}} |Oui   |Oui  |Oui  |Non  |
+|{{site.data.keyword.iotelectronics}}  |Oui  |Oui  |Non | Non|
+|{{site.data.keyword.languagetranslatorshort}} |Oui  |Oui  |Oui  |Oui  |
+|{{site.data.keyword.dwl_short}}  |Oui  |Oui  |Non  |Non|
+|{{site.data.keyword.pm_short}} | Oui | Oui | Non | Non |
+|{{site.data.keyword.messagehub}}		|Oui		|Oui		|Oui | Oui|
+|{{site.data.keyword.manda}}			|Oui		|Oui		|Oui |Non  |
+|{{site.data.keyword.nlclassifiershort}} 	|Oui 		|Oui 		|Oui |Non  |
+|{{site.data.keyword.nlushort}} | Oui | Oui | Oui | Non |
+|{{site.data.keyword.personalityinsightsshort}}	|Oui		|Oui		|Oui|Oui  |
+|{{site.data.keyword.mobilepushshort}}		|Oui		|Oui		|Oui |Oui  |
+|{{site.data.keyword.retrieveandrankshort}}	|Oui 		|Oui 		|Oui|Non  |
+|{{site.data.keyword.SecureGateway}}		|Oui		|Oui		|Oui |Oui  |
+|{{site.data.keyword.ssofull}}			|Oui		|Non		|Non| Non|
+|{{site.data.keyword.speechtotextshort}}	|Oui 		|Oui	 	|Oui|Oui  |
+|{{site.data.keyword.streaminganalyticsshort}}	|Oui		|Oui		|Oui |Non  |
+|{{site.data.keyword.texttospeechshort}} 	|Oui 		|Oui	 	|Oui|Oui  |
+|{{site.data.keyword.toneanalyzershort}} 	|Oui 		|Oui 		|Oui|Oui  |
+|{{site.data.keyword.visualrecognitionshort}}	|Oui 		|Oui	 	|Oui|Non  |
+|{{site.data.keyword.weather_short}}		|Oui		|Oui		|Oui|Non  |
+|{{site.data.keyword.workloadscheduler}}	|Oui		|Oui		|Oui |Oui  |
 {: caption="Tableau 4. Services disponibles par région pour la syndication depuis {{site.data.keyword.Bluemix_notm}} Public" caption-side="top"}
 {: #table04}
 
-**Remarque** : les services tiers ne sont pas répertoriés dans le tableau. Consultez votre catalogue dédié pour prendre connaissance des services tiers disponibles.
-
+**Remarque** : les services tiers ne sont pas répertoriés dans le tableau. Consultez votre catalogue pour prendre connaissance des services tiers disponibles.
 
 
 ## Architecture {{site.data.keyword.Bluemix_dedicated_notm}}

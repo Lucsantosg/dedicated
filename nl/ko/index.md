@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-05-31"
+lastupdated: "2017-08-09"
 
 ---
 
@@ -32,7 +32,6 @@ lastupdated: "2017-05-31"
 |포함| [{{site.data.keyword.Bluemix_notm}} 런타임](/docs/cfapps/runtimes.html) | 시스템 및 운영 체제를 설정하고 관리할 필요 없이 신속하게 앱을 시작하고 실행하려면 런타임을 사용하십시오. 모든 {{site.data.keyword.Bluemix_notm}} 런타임은 {{site.data.keyword.Bluemix_dedicated_notm}} 인스턴스에서 사용 가능합니다.|
 | 포함| [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | 정책에 따라 애플리케이션의 컴퓨팅 용량을 동적으로 늘리거나 줄입니다. 이 서비스를 사용하면 {{site.data.keyword.Bluemix_dedicated_notm}} 환경에서 무제한 사용이 가능합니다. 참고: Auto-Scaling은 현재 Cloud Foundry 런타임에서만 작동합니다.|
 |선택사항| [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}}는 {{site.data.keyword.APIM}}와 IBM StrongLoop를 API 및 마이크로서비스를 작성, 실행, 관리 및 적용하기 위한 포괄적 솔루션을 제공하는 단일 오퍼링으로 통합합니다.|
-|선택사항| [{{site.data.keyword.rules_short}}](/docs/services/rules/rules.html) | {{site.data.keyword.rules_short}}는 자주 발생하는 반복 가능한 규칙 기반 비즈니스 의사결정을 자동화하고 실행하기 위한 포괄적 환경을 제공합니다. 또한 이를 통해 IT 기술의 필요성을 줄여 비즈니스 사용자 또는 개발자가 저비용으로 신속하게 의사결정을 모델링하고 테스트할 수 있습니다.|
 |선택사항| [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}}에서는 항상 작동 상태인 완전히 관리되는 NoSQL JSON 데이터 계층에 대한 액세스를 제공합니다. 이 서비스는 CouchDB와 호환 가능하며, 모바일 및 웹 애플리케이션 모델을 위한 사용이 간편한 HTTP 인터페이스를 통해 액세스할 수 있습니다.|
 |선택사항| [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | {{site.data.keyword.Bluemix_dedicated_notm}}에서 Docker 컨테이너를 실행합니다. 컨테이너는 앱에서 실행해야 하는 모든 요소를 포함하는 가상 소프트웨어 오브젝트입니다. 컨테이너는 리소스 격리와 할당의 이점이 있으며 가상 머신 등보다 휴대가 간편하고 효율적입니다. 하드웨어 요구사항에 대한 정보는 [{{site.data.keyword.Bluemix_dedicated_notm}} 및 Bluemix 로컬의 {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)를 참조하십시오.|
 | 선택사항| [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | {{site.data.keyword.contdelivery_short}} 데디케이티드를 사용하여 빌드, 단위 테스트, 배치 등을 자동화합니다. 풍부한 웹 기반 IDE을 통해 코드를 편집하고 푸시하십시오. 개발, 배치 및 오퍼레이션 태스크를 지원하는 도구 통합을 가능하게 하는 도구 체인을 작성합니다.|
@@ -59,7 +58,6 @@ lastupdated: "2017-05-31"
 |데디케이티드 {{site.data.keyword.apiconnect_short}} Professional 10만 API 호출 증가| 매월 10만 API 호출의 추가 용량을 제공하는 {{site.data.keyword.apiconnect_short}} Professional 환경의 확장입니다. |
 |데디케이티드 {{site.data.keyword.apiconnect_short}} Enterprise 2,500만 API 호출| 엔터프라이즈 전체 API 프로젝트 방향으로 대상 지정된 월간 2,500만 API 호출의 용량을 지닌 데디케이티드 환경 내의 {{site.data.keyword.apiconnect_short}}의 개인용 버전 실행을 허용하는 환경입니다. |
 |데디케이티드 {{site.data.keyword.apiconnect_short}} Enterprise 10만 API 호출 증가| 매월 10만 API 호출의 추가 용량을 제공하는 {{site.data.keyword.apiconnect_short}} Enterprise 환경의 확장입니다. |
-|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.rules_short}} 1백만 규칙 의사결정| 규칙 의사결정은 규칙 실행 서버에서 규칙 세트를 호출한 결과입니다. 청구 기간 중에 실행되거나 처리된 총 규칙 의사 결정 수(가장 가까운 백만 단위로 반올림됨)를 커버하려면 충분한 인타이틀먼트를 확보해야 합니다. 클라우드 서비스에서 측정되는 규칙 의사결정은 의사결정을 얻기 위해 규칙 실행 서버로 이루어진 호출입니다. 클라우드 서비스의 전용 배치에서 합의된 용량은 관련 비용 메트릭으로 측정됩니다. {{site.data.keyword.Bluemix_dedicated_notm}} 플랫폼의 {{site.data.keyword.rules_short}} 서비스 기본 영역 할당량은 16GB이며, 규칙 의사결정을 실행하기 위해 각각 1GB인 인스턴스를 10개까지 호출할 수 있습니다. 사용 한계를 초과하면 이 초과 사용을 위해 추가 용량을 구매해야 합니다.|
 |데디케이티드 {{site.data.keyword.cloudant}} 1.6TB 용량 증가| 1.6TB 디자인 용량의 데디케이티드 환경 내에서 {{site.data.keyword.cloudantfull}}의 개인용 버전 실행을 포함합니다.|
 |데디케이티드 {{site.data.keyword.datacshort}} 및 {{site.data.keyword.sescashort}} 50GB 용량 증가| 최대 50GB 누적 용량까지 {{site.data.keyword.datacshort}} 및 {{site.data.keyword.sescashort}} 인스턴스의 배치 및 실행을 허용하는 환경입니다.|
 |{{site.data.keyword.contdelivery_short}} 데디케이티드 인스턴스| 전용 환경에서 실행되는 개인용 버전의 {{site.data.keyword.contdelivery_short}}입니다. 용량은 {{site.data.keyword.contdelivery_short}} 데디케이티드 권한 부여된 사용자 인타이틀먼트로 결정됩니다.|
@@ -103,62 +101,52 @@ lastupdated: "2017-05-31"
 
 데디케이티드 환경에 대한 서비스의 개인용 인스턴스가 있으면 카탈로그에 서비스 이름과 함께 "데디케이티드" 태그가 표시됩니다. 마찬가지로, 사용자 정의 서비스인 경우(즉, 서비스 브로커를 사용하여 작성한 경우)에는 서비스 이름과 함께 "사용자 정의"가 나열됩니다. "데디케이티드" 또는 "사용자 정의" 태그 없이 나열된 기타 모든 서비스는 {{site.data.keyword.Bluemix_notm}} 퍼블릭에서 신디케이션을 사용하여 사용할 수 있습니다. 신디케이트된(각 클라우드 형태 간 동일하게 연동된) 카탈로그는 공용 및 개인 서비스로 구성되는 하이브리드 애플리케이션을 작성하는 기능을 제공합니다. 
 
-|서비스	|미국 남부 지역에서 사용 가능|유럽 영국 지역에서 사용 가능|오스트레일리아 시드니 지역에서 사용 가능|
-|:----------|:------------------------------|:------------------|:------------------|
-|{{site.data.keyword.alchemyapishort}} 		|예	   	|예  		|예|
-|{{site.data.keyword.alertnotificationshort}}	|예		|예		|예	|
-|{{site.data.keyword.apiconnect_short}}         |예|예|예|
-|{{site.data.keyword.appseccloudshort}}		|예		|예		|예|
-|{{site.data.keyword.apiconnect_short}} 	|예   	 	|예   	 	|예|
-|Automated Accessibility Checker|예|예|예|
-|{{site.data.keyword.rules_short}}		|예		|예		|예|
-|{{site.data.keyword.cloudant}}			|예		|예		|예|
-|{{site.data.keyword.iotmapinsights_short}}    |예|예|예|
-|{{site.data.keyword.conversationshort}}  |예|예|예|
-|{{site.data.keyword.dashdbshort}}		|예		|예		|예|
-|{{site.data.keyword.dataworks_short}}		|예		|예		|아니오|
-|{{site.data.keyword.DB2OnCloud_short}}		|예		|예		|예|
-|Digital Content Checker|예|예|예|
-|{{site.data.keyword.documentconversionshort}}	|예		|예		|예|
-|{{site.data.keyword.iotdriverinsights_short}}  |예|예|예|
-|{{site.data.keyword.geospatialshort_Geospatial}}	|예	|예		|예|
-|{{site.data.keyword.GlobalizationPipeline_short}}	|예		| 예		| 예|
-|{{site.data.keyword.identitymixershort}}		|예		|예		|예|
-|{{site.data.keyword.iot4auto_short}} |예|예|예|
-|{{site.data.keyword.iotelectronics}}  |예|예|아니오|
-|{{site.data.keyword.iotinsurance_short}} |아니오|아니오|예|
-|{{site.data.keyword.twittershort}}		|예		|예		|예|
-|{{site.data.keyword.languagetranslationshort}}	|예		|예		|예|
-|{{site.data.keyword.languagetranslatorshort}} |예|예|예|
-|{{site.data.keyword.dwl_short}}  |예|예|아니오|
-|{{site.data.keyword.eventhubshort}}		|예		|아니오		|아니오|
-|{{site.data.keyword.messagehub}}		|예		|예		|아니오|
-|{{site.data.keyword.manda}}			|예		|예		|예|
-|{{site.data.keyword.amashort}}			|예		|예		|예|
-|{{site.data.keyword.mqa}}			|예		|예		|예|
-|{{site.data.keyword.mql}}			|아니오		|아니오		|예|
-|{{site.data.keyword.nlclassifierlshort}} 	|예  		|예  		|예|
-|{{site.data.keyword.personalityinsightsshort}}	|예		|예		|예|
-|{{site.data.keyword.pm_short}}			|예		|예		|아니오|
-|{{site.data.keyword.mobilepushshort}}		|예		|예		|예|
-|{{site.data.keyword.retrieveandrankshort}}	|예  		|예  		|예|
-|{{site.data.keyword.runbook_short}}		|예		|예		|예|
-|{{site.data.keyword.SecureGateway}}		|예		|예		|예|
-|{{site.data.keyword.ssofull}}			|예		|아니오		|아니오|
-|{{site.data.keyword.speechtotextshort}}	|예  		|예	   	|예|
-|{{site.data.keyword.streaminganalyticsshort}}	|예		|예		|예|
-|{{site.data.keyword.texttospeechshort}} 	|예  		|예	   	|예|
-|{{site.data.keyword.toneanalyzershort}} 	|예  		|예  		|예|
-|{{site.data.keyword.tradeoffanalyticsshort}}	|예		|예		|예|
-|{{site.data.keyword.visualrecognitionshort}}	|예  		|예	   	|예|
-|{{site.data.keyword.iot_short}}		|예		|예		|아니오|
-|{{site.data.keyword.weather_short}}		|예		|예		|예|
-|{{site.data.keyword.workloadscheduler}}	|예		|예		|예|
+|서비스	|미국 남부 지역에서 사용 가능|유럽 영국 지역에서 사용 가능|오스트레일리아 시드니 지역에서 사용 가능|독일 지역에서 사용 가능|
+|:----------|:------------------------------|:------------------|:------------------|:------------------|
+|{{site.data.keyword.alertnotificationshort}} | 예| 예| 예| 아니오|
+|{{site.data.keyword.appseccloudshort}}		|예		|예		|예|아니오|
+|Automated Accessibility Checker|예|예|예|예|아니오|
+|{{site.data.keyword.cloudant}}			|예		|예		|예|예|
+|{{site.data.keyword.evtmgt_short}} | 예| 예| 예| 아니오|
+|{{site.data.keyword.iotmapinsights_short}}    |예|예|예|아니오|
+|{{site.data.keyword.uccr_short}} | 예| 아니오| 아니오| 아니오|
+|{{site.data.keyword.conversationshort}}  |예|예|예|예|
+|{{site.data.keyword.dataworks_short}}		|예		|예		|아니오|아니오|
+|Db2 호스팅 | 예| 예| 예| 예|
+|{{site.data.keyword.DB2OnCloud_short}}		|예		|예		|예|예|
+|{{site.data.keyword.dashdbshort_notm}} | 예| 예| 예| 예|
+|Digital Content Checker|예|예|예|아니오|
+|{{site.data.keyword.servicediscoveryshort}} | 예| 예| 예| 아니오|
+|{{site.data.keyword.documentconversionshort}}	|예		|예		|예|아니오|
+|{{site.data.keyword.iotdriverinsights_short}}  |예|예|예|아니오|
+|{{site.data.keyword.geospatialshort_Geospatial}}	|예	|예		|예|아니오|
+|{{site.data.keyword.GlobalizationPipeline_short}}	|예		| 예		| 예|예|
+|{{site.data.keyword.identitymixershort}}		|예		|예		|예|아니오|
+|{{site.data.keyword.iot4auto_short}} |예|예|예|아니오|
+|{{site.data.keyword.iotelectronics}}  |예|예|아니오| 아니오|
+|{{site.data.keyword.languagetranslatorshort}} |예|예|예|예|
+|{{site.data.keyword.dwl_short}}  |예|예|아니오|아니오|
+|{{site.data.keyword.pm_short}} | 예| 예| 아니오| 아니오|
+|{{site.data.keyword.messagehub}}		|예		|예		|예| 예|
+|{{site.data.keyword.manda}}			|예		|예		|예|아니오|
+|{{site.data.keyword.nlclassifiershort}} 	|예  		|예  		|예|아니오|
+|{{site.data.keyword.nlushort}} | 예| 예| 예| 아니오|
+|{{site.data.keyword.personalityinsightsshort}}	|예		|예		|예|예|
+|{{site.data.keyword.mobilepushshort}}		|예		|예		|예|예|
+|{{site.data.keyword.retrieveandrankshort}}	|예  		|예  		|예|아니오|
+|{{site.data.keyword.SecureGateway}}		|예		|예		|예|예|
+|{{site.data.keyword.ssofull}}			|예		|아니오		|아니오| 아니오|
+|{{site.data.keyword.speechtotextshort}}	|예  		|예	   	|예|예|
+|{{site.data.keyword.streaminganalyticsshort}}	|예		|예		|예|아니오|
+|{{site.data.keyword.texttospeechshort}} 	|예  		|예	   	|예|예|
+|{{site.data.keyword.toneanalyzershort}} 	|예  		|예  		|예|예|
+|{{site.data.keyword.visualrecognitionshort}}	|예  		|예	   	|예|아니오|
+|{{site.data.keyword.weather_short}}		|예		|예		|예|아니오|
+|{{site.data.keyword.workloadscheduler}}	|예		|예		|예|예|
 {: caption="표 4. 지역별 {{site.data.keyword.Bluemix_notm}} 퍼블릭에서 신디케이션에 사용 가능한 서비스" caption-side="top"}
 {: #table04}
 
-**참고**: 표에 써드파티 서비스가 포함되어 있지 않습니다. 써드파티 서비스 옵션에 대한 데디케이티드 카탈로그를 확인하십시오. 
-
+**참고**: 표에 써드파티 서비스가 포함되어 있지 않습니다. 써드파티 서비스 옵션에 대한 카탈로그를 확인하십시오. 
 
 
 ## {{site.data.keyword.Bluemix_dedicated_notm}} 아키텍처

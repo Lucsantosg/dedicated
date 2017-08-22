@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-05-31"
+lastupdated: "2017-08-09"
 
 ---
 
@@ -27,12 +27,11 @@ Sie haben standardmäßig Zugriff auf Ihre private {{site.data.keyword.Bluemix_n
 
 Darüber hinaus gibt es eine Reihe von Services und Komponenten, die inbegriffen sind oder optional erworben werden können. In der folgenden Tabelle wird aufgeführt, welche Komponenten inbegriffen sind und welche optional käuflich erworben werden können.
 
-| **Typ** | **Name** | **Beschreibung** |
+| **Typ**        | **Name**            | **Beschreibung** |
 |-----------------|-------------------|-------------------|
 |Inbegriffen | [{{site.data.keyword.Bluemix_notm}}-Laufzeiten](/docs/cfapps/runtimes.html) | Machen Sie mit Laufzeiten Ihre App schnell betriebsbereit, ohne Maschinen und Betriebssysteme einrichten und verwalten zu müssen. Alle {{site.data.keyword.Bluemix_notm}}-Laufzeiten stehen Ihnen zur Verwendung in Ihrer {{site.data.keyword.Bluemix_dedicated_notm}}-Instanz zur Verfügung.|
 | Inbegriffen | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | Dynamisches Erhöhen oder Verringern der Rechenleistung Ihrer Anwendung basierend auf Richtlinien. Mit diesem Service können Sie Ihre {{site.data.keyword.Bluemix_dedicated_notm}}-Umgebung unbegrenzt nutzen. Hinweis: Auto-Scaling funktioniert gegenwärtig nur mit Cloud Foundry-Laufzeiten. |
 |Optional | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} integriert {{site.data.keyword.APIM}} und IBM StrongLoop in ein einzelnes Angebot, das eine Komplettlösung bietet, um APIs und Microservices zu erstellen, auszuführen, zu verwalten und durchzusetzen. |
-|Optional | [{{site.data.keyword.rules_short}}](/docs/services/rules/rules.html) | {{site.data.keyword.rules_short}} stellen eine umfassende Umgebung bereit, in der häufig vorkommende, wiederholbare regelbasierte Geschäftsentscheidungen automatisiert und ausgeführt werden können. Fachanwender oder Entwickler können darüber hinaus schnell Entscheidungen modellieren und testen und dabei aufgrund des geringeren Bedarfs an IT-Kenntnissen Kosten reduzieren. |
 |Optional | [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} bietet Zugriff auf eine vollständig verwaltete NoSQL-JSON-Datenebene, die permanent aktiv ist. Dieser Service ist mit CouchDB kompatibel und über eine einfache HTTP-Schnittstelle für mobile Anwendungsmodelle und Webanwendungsmodelle zugänglich. |
 |Optional | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | Docker-Container in {{site.data.keyword.Bluemix_dedicated_notm}} ausführen. Container sind virtuelle Softwareobjekte, die alle für die Ausführung von Apps erforderlichen Elemente enthalten. Container bieten den Vorteil der Ressourcenisolation und -zuordnung, wobei sie besser portierbar und effizienter als beispielsweise virtuelle Maschinen sind. Informationen zu den Hardwarevoraussetzungen finden Sie unter [{{site.data.keyword.containershort}} in {{site.data.keyword.Bluemix_dedicated_notm}} und Bluemix Local](/docs/containers/container_ov.html#container_dl).|
 | Optional | [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | Mit {{site.data.keyword.contdelivery_short}} Dedicated können Sie Builds, Komponententests, Bereitstellungen und weitere Tasks automatisieren. In der umfangreichen webbasierten IDE können Sie Code bearbeiten und mit einer Push-Operation übertragen. Durch die Erstellung von Toolchains werden Toolintegrationen ermöglicht, die Entwicklungs-, Bereitstellungs- und Betriebstasks unterstützten. |
@@ -55,11 +54,10 @@ Durch optionale Komponenten, die zusätzlich zum Kauf angeboten werden, können 
 
 | **Name**            | **Beschreibung** |
 |-------------------|-------------------|
-|Dedicated {{site.data.keyword.apiconnect_short}} Professional - 5 Millionen API-Aufrufe| Diese Umgebung ermöglicht die Ausführung einer privaten Version von {{site.data.keyword.apiconnect_short}} innerhalb der dedizierten Umgebung mit einer Kapazität von 5 Millionen API-Aufrufen pro Monat. Richtet sich an API-Projekte auf Abteilungsebene. |
+|Dedicated {{site.data.keyword.apiconnect_short}} Professional - 5 Millionen API-Aufrufe | Diese Umgebung ermöglicht die Ausführung einer privaten Version von {{site.data.keyword.apiconnect_short}} innerhalb der dedizierten Umgebung mit einer Kapazität von 5 Millionen API-Aufrufen pro Monat. Richtet sich an API-Projekte auf Abteilungsebene. |
 |Dedicated {{site.data.keyword.apiconnect_short}} Professional - Kapazitätserweiterung auf 100.000 API-Aufrufe | Diese Erweiterung der {{site.data.keyword.apiconnect_short}} Professional-Umgebung bietet eine zusätzliche Kapazität von 100.000 API-Aufrufen pro Monat. |
 |Dedicated {{site.data.keyword.apiconnect_short}} Enterprise - 25 Millionen API-Aufrufe | Diese Umgebung ermöglicht die Ausführung einer privaten Version von {{site.data.keyword.apiconnect_short}} innerhalb der dedizierten Umgebung mit einer Kapazität von 25 Millionen API-Aufrufen pro Monat. Richtet sich an API-Projekte auf Unternehmensebene. |
 |Dedicated {{site.data.keyword.apiconnect_short}} Enterprise - Kapazitätserweiterung auf 100.000 API-Aufrufe | Diese Erweiterung der {{site.data.keyword.apiconnect_short}} Enterprise-Umgebung bietet eine zusätzliche Kapazität von 100.000 API-Aufrufen pro Monat. |
-|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.rules_short}} - 1 Million Regelentscheidungen | Eine Regelentscheidung ist das Ergebnis eines Aufrufs eines Regelsatzes über einen Regelausführungsserver (Rule Execution Server). Ausreichende Berechtigungen müssen angefordert werden, um die gesamte Anzahl von Regelentscheidungen (Rules Decisions), aufgerundet auf die nächste Million, abzudecken, die während des Abrechnungszeitraums ausgeführt oder verarbeitet werden. Die Regelentscheidungen, die durch diesen Cloud-Service gemessen werden, sind die Aufrufe, die an den Regelausführungsserver gesendet werden, um eine Entscheidung abzurufen. Dedicated-Bereitstellungen des Cloud-Service haben eine vereinbarte Kapazität, die mit der relevanten Gebührenmetrik gemessen wird. Die Standardbereichszuordnung für den {{site.data.keyword.rules_short}}-Service auf der {{site.data.keyword.Bluemix_dedicated_notm}}-Plattform beträgt 16 GB, von denen bis zu zehn Instanzen von 1 GB aufgerufen werden können, um berechtigte Regelentscheidungen auszuführen. Wenn Sie diese Nutzungsbegrenzung überschreiten, müssen Sie zusätzliche Kapazität kaufen, um diese Nutzung abzudecken. |
 |Dedicated {{site.data.keyword.cloudant}} - Kapazitätserweiterung auf 1,6 TB | Beinhaltet die Ausführung einer privaten Version von {{site.data.keyword.cloudantfull}} in der dedizierten Umgebung mit einer Designkapazität von 1,6 Terabyte.  |
 |Dedicated {{site.data.keyword.datacshort}} und {{site.data.keyword.sescashort}} -  Kapazitätserweiterung auf 50 GB | Diese Umgebung ermöglicht die Bereitstellung und Ausführung von {{site.data.keyword.datacshort}}- und {{site.data.keyword.sescashort}}-Instanzen mit einer kumulativen Kapazität bis zu 50 GB. |
 |{{site.data.keyword.contdelivery_short}} Dedicated-Instanz | Eine private Version von {{site.data.keyword.contdelivery_short}}, die in einer dedizierten Umgebung ausgeführt wird. Die Kapazität wird anhand von {{site.data.keyword.contdelivery_short}} Dedicated Authorized User-Berechtigungen ermittelt. |
@@ -103,62 +101,52 @@ Durch optionale Komponenten, die zusätzlich zum Kauf angeboten werden, können 
 
 Wenn Sie über eine private Serviceinstanz Ihrer dedizierten Umgebung verfügen, wird bei den Servicenamen in Ihrem Katalog das Tag "Dedicated" angezeigt. Entsprechend sehen Sie "Angepasst" bei den Servicekacheln (d. h. Sie haben einen Servicebroker für die Erstellung verwendet), wenn es sich um einen benutzerdefinierten Service handelt. Alle anderen aufgelisteten Services ohne das Tag "Dediziert" oder "Angepasst" sind über die Syndikation aus {{site.data.keyword.Bluemix_notm}} Public verfügbar. Syndizierte Services bieten die Funktion zum Erstellen von Hybridanwendungen, die aus öffentlichen und privaten Services bestehen.
 
-|Service	|Verfügbar in Region 'US South'	|Verfügbar in Region 'Europe United Kingdom' |Verfügbar in Region 'Australia Sydney'|
-|:----------|:------------------------------|:------------------|:------------------|
-|{{site.data.keyword.alchemyapishort}} 		|Ja	   	|Ja   |Ja|
-|{{site.data.keyword.alertnotificationshort}}	|Ja		|Ja		|Ja	   	|
-|{{site.data.keyword.apiconnect_short}}         |Ja            |Ja            |Ja  |
-|{{site.data.keyword.appseccloudshort}}		|Ja		|Ja		|Ja |
-|{{site.data.keyword.apiconnect_short}} 	|Ja   	 	|Ja   	 	|Ja   |
-|Automatisches Prüfprogramm für Eingabehilfen |Ja       |Ja    |Ja   |
-|{{site.data.keyword.rules_short}}		|Ja		|Ja		|Ja |
-|{{site.data.keyword.cloudant}}			|Ja		|Ja		|Ja |
-|{{site.data.keyword.iotmapinsights_short}}    |Ja  |Ja  |Ja  |
-|{{site.data.keyword.conversationshort}}  |Ja  |Ja  |Ja  |
-|{{site.data.keyword.dashdbshort}}		|Ja		|Ja		|Ja |
-|{{site.data.keyword.dataworks_short}}		|Ja		|Ja		|Nein|
-|{{site.data.keyword.DB2OnCloud_short}}		|Ja		|Ja		|Ja |
-|Prüfprogramm für digitalen Inhalt |Ja  |Ja  |Ja  |
-|{{site.data.keyword.documentconversionshort}}	|Ja		|Ja		|Ja|
-|{{site.data.keyword.iotdriverinsights_short}}  |Ja |Ja  |Ja  |
-|{{site.data.keyword.geospatialshort_Geospatial}}	|Ja	   	|Ja		|Ja |
-|{{site.data.keyword.GlobalizationPipeline_short}}	|Ja		| Ja		| Ja |
-|{{site.data.keyword.identitymixershort}}		|Ja		|Ja		|Ja|
-|{{site.data.keyword.iot4auto_short}} |Ja   |Ja  |Ja  |
-|{{site.data.keyword.iotelectronics}}  |Ja  |Ja  |Nein |
-|{{site.data.keyword.iotinsurance_short}} |Nein   |Nein   |Ja  |
-|{{site.data.keyword.twittershort}}		|Ja		|Ja		|Ja|
-|{{site.data.keyword.languagetranslationshort}}	|Ja		|Ja		|Ja |
-|{{site.data.keyword.languagetranslatorshort}} |Ja  |Ja  |Ja  |
-|{{site.data.keyword.dwl_short}}  |Ja  |Ja  |Nein  |
-|{{site.data.keyword.eventhubshort}}		|Ja		|Nein		|Nein|
-|{{site.data.keyword.messagehub}}		|Ja		|Ja		|Nein|
-|{{site.data.keyword.manda}}			|Ja		|Ja		|Ja |
-|{{site.data.keyword.amashort}}			|Ja		|Ja		|Ja |
-|{{site.data.keyword.mqa}}			|Ja		|Ja		|Ja |
-|{{site.data.keyword.mql}}			|Nein		|Nein		|Ja |
-|{{site.data.keyword.nlclassifierlshort}} 	|Ja   |Ja   |Ja|
-|{{site.data.keyword.personalityinsightsshort}}	|Ja		|Ja		|Ja|
-|{{site.data.keyword.pm_short}}			|Ja		|Ja		|Nein |
-|{{site.data.keyword.mobilepushshort}}		|Ja		|Ja		|Ja |
-|{{site.data.keyword.retrieveandrankshort}}	|Ja   |Ja   |Ja|
-|{{site.data.keyword.runbook_short}}		|Ja		|Ja		|Ja|
-|{{site.data.keyword.SecureGateway}}		|Ja		|Ja		|Ja |
-|{{site.data.keyword.ssofull}}			|Ja		|Nein		|Nein|
-|{{site.data.keyword.speechtotextshort}}	|Ja   |Ja	   	|Ja|
-|{{site.data.keyword.streaminganalyticsshort}}	|Ja		|Ja		|Ja |
-|{{site.data.keyword.texttospeechshort}} 	|Ja   |Ja	   	|Ja|
-|{{site.data.keyword.toneanalyzershort}} 	|Ja   |Ja   |Ja|
-|{{site.data.keyword.tradeoffanalyticsshort}}	|Ja		|Ja		|Ja|
-|{{site.data.keyword.visualrecognitionshort}}	|Ja   |Ja	   	|Ja|
-|{{site.data.keyword.iot_short}}		|Ja		|Ja		|Nein|
-|{{site.data.keyword.weather_short}}		|Ja		|Ja		|Ja|
-|{{site.data.keyword.workloadscheduler}}	|Ja		|Ja		|Ja |
+|Service	|Verfügbar in Region 'US South'	|Verfügbar in Region 'Europe United Kingdom' |Verfügbar in Region 'Australia Sydney'|Verfügbar in Region 'Deutschland'	|
+|:----------|:------------------------------|:------------------|:------------------|:------------------|
+|{{site.data.keyword.alertnotificationshort}} | Ja | Ja | Ja | Nein |
+|{{site.data.keyword.appseccloudshort}}		|Ja		|Ja		|Ja |Nein  |
+|Automatisches Prüfprogramm für Eingabehilfen |Ja       |Ja    |Ja   |Ja  |Nein |
+|{{site.data.keyword.cloudant}}			|Ja		|Ja		|Ja |Ja  |
+|{{site.data.keyword.evtmgt_short}} | Ja | Ja | Ja | Nein |
+|{{site.data.keyword.iotmapinsights_short}}    |Ja  |Ja  |Ja  |Nein  |
+|{{site.data.keyword.uccr_short}} | Ja | Nein | Nein | Nein |
+|{{site.data.keyword.conversationshort}}  |Ja  |Ja  |Ja  |Ja  |
+|{{site.data.keyword.dataworks_short}}		|Ja		|Ja		|Nein|Nein|
+|Db2-gehostet | Ja | Ja | Ja | Ja |
+|{{site.data.keyword.DB2OnCloud_short}}		|Ja		|Ja		|Ja |Ja  |
+|{{site.data.keyword.dashdbshort_notm}} | Ja | Ja | Ja | Ja |
+|Prüfprogramm für digitalen Inhalt |Ja  |Ja  |Ja  |Nein  |
+|{{site.data.keyword.servicediscoveryshort}} | Ja | Ja | Ja | Nein |
+|{{site.data.keyword.documentconversionshort}}	|Ja		|Ja		|Ja|Nein  |
+|{{site.data.keyword.iotdriverinsights_short}}  |Ja |Ja  |Ja  |Nein  |
+|{{site.data.keyword.geospatialshort_Geospatial}}	|Ja	|Ja		|Ja |Nein  |
+|{{site.data.keyword.GlobalizationPipeline_short}}	|Ja		| Ja		| Ja |Ja  |
+|{{site.data.keyword.identitymixershort}}		|Ja		|Ja		|Ja|Nein  |
+|{{site.data.keyword.iot4auto_short}} |Ja   |Ja  |Ja  |Nein  |
+|{{site.data.keyword.iotelectronics}}  |Ja  |Ja  |Nein | Nein|
+|{{site.data.keyword.languagetranslatorshort}} |Ja  |Ja  |Ja  |Ja  |
+|{{site.data.keyword.dwl_short}}  |Ja  |Ja  |Nein  |Nein|
+|{{site.data.keyword.pm_short}} | Ja | Ja | Nein | Nein |
+|{{site.data.keyword.messagehub}}		|Ja		|Ja		|Ja | Ja|
+|{{site.data.keyword.manda}}			|Ja		|Ja		|Ja |Nein  |
+|{{site.data.keyword.nlclassifiershort}} 	|Ja 		|Ja 		|Ja |Nein  |
+|{{site.data.keyword.nlushort}} | Ja | Ja | Ja | Nein |
+|{{site.data.keyword.personalityinsightsshort}}	|Ja		|Ja		|Ja|Ja  |
+|{{site.data.keyword.mobilepushshort}}		|Ja		|Ja		|Ja |Ja  |
+|{{site.data.keyword.retrieveandrankshort}}	|Ja 		|Ja 		|Ja|Nein  |
+|{{site.data.keyword.SecureGateway}}		|Ja		|Ja		|Ja |Ja  |
+|{{site.data.keyword.ssofull}}			|Ja		|Nein		|Nein| Nein|
+|{{site.data.keyword.speechtotextshort}}	|Ja 		|Ja	 	|Ja|Ja  |
+|{{site.data.keyword.streaminganalyticsshort}}	|Ja		|Ja		|Ja |Nein  |
+|{{site.data.keyword.texttospeechshort}} 	|Ja 		|Ja	 	|Ja|Ja  |
+|{{site.data.keyword.toneanalyzershort}} 	|Ja 		|Ja 		|Ja|Ja  |
+|{{site.data.keyword.visualrecognitionshort}}	|Ja 		|Ja	 	|Ja|Nein  |
+|{{site.data.keyword.weather_short}}		|Ja		|Ja		|Ja|Nein  |
+|{{site.data.keyword.workloadscheduler}}	|Ja		|Ja		|Ja |Ja  |
 {: caption="Tabelle 4. Verfügbare Services für die Syndikation aus {{site.data.keyword.Bluemix_notm}} Public nach Region" caption-side="top"}
 {: #table04}
 
-**Hinweis:** Diese Tabelle enthält keine Services von Drittanbietern. Überprüfen Sie Ihren dedizierten Katalog auf Optionen für Services von Drittanbietern.
-
+**Hinweis:** Diese Tabelle enthält keine Services von Drittanbietern. Überprüfen Sie Ihren Katalog auf Optionen für Services von Drittanbietern.
 
 
 ## {{site.data.keyword.Bluemix_dedicated_notm}}-Architektur
@@ -317,7 +305,7 @@ In der Konzeptionsphase wird die {{site.data.keyword.Bluemix_dedicated_notm}}-Um
 |Festlegen von Konformitätsstandards | Ermitteln Sie Behörden-, Branchen- und proprietäre Unternehmensstandards, die für die Umgebung erforderlich sind. | Kunde |
 |Erstellen eines Sicherheits- und Konformitätsintegrationsplans | Erstellen Sie einen Sicherheits- und Integrationsplan, der Kosten, Planung und Ressourcen einbezieht, die für die Einhaltung von Sicherheitsbestimmungen erforderlich sind. | IBM |
 |Genehmigen des Konformitätsplans | Genehmigen Sie den Konformitätsplan. | Kunde |
-|Dimensionieren der Umgebung |  	Dimensionieren Sie die Umgebung auf der Basis von vordefinierten Optionen, die die Hochverfügbarkeits- und Disaster-Recovery-Ziele sowie die ursprüngliche CELL-Komponente und die Servicebereitstellung berücksichtigen, die zur Unterstützung der mit der Plattform erstellten Apps erforderlich sind. Gemeinsam mit IBM definieren Sie beispielsweise, welche Datenbanken erforderlich sind, welche Services im syndizierten Katalog des Benutzers angeboten werden und vieles mehr.| IBM und Kunde |
+|Dimensionieren der Umgebung |  	Dimensionieren Sie die Umgebung auf der Basis von vordefinierten Optionen, die die Hochverfügbarkeits- und Disaster-Recovery-Ziele sowie die ursprüngliche CELL-Komponente und die Servicebereitstellung berücksichtigen, die zur Unterstützung der mit der Plattform erstellten Apps erforderlich sind. Gemeinsam mit IBM definieren Sie beispielsweise, welche Datenbanken erforderlich sind, welche Services im syndizierten Katalog des Benutzers angeboten werden und vieles mehr. | IBM und Kunde |
 |Auswählen der Architektur | Wählen Sie die Architektur auf der Basis vordefinierter Optionen aus, die Hochverfügbarkeits- und Disaster-Recovery-Anforderungen berücksichtigen. | IBM |
 |Definieren von Disaster-Recovery-Zielen | Definieren Sie die Disaster-Recovery-Anforderungen für die Umgebung. | Kunde |
 |Erstellen eines Disaster-Recovery-Plans | Konsultieren und definieren Sie den Disaster-Recovery-Plan. IBM erstellt ein Disaster-Recovery-Modell und berät mit Ihnen, wo Sie Feedback bereitstellen und den Plan genehmigen. | IBM und Kunde |
@@ -326,7 +314,7 @@ In der Konzeptionsphase wird die {{site.data.keyword.Bluemix_dedicated_notm}}-Um
 |Definieren eines Eskalationsplans | Definieren Sie den Eskalationsplan zur Klassifizierung und Auflösung von Ereignissen, die von Überwachungskomponenten erkannt werden. | IBM |
 |Unterzeichnen von Infrastruktur-, Plattform- und Supportvereinbarungen | Unterzeichnen Sie die Abonnementvereinbarung, einschließlich der finanziellen Vertragsbedingungen für die Umgebung. Unterzeichnen Sie das Supportabonnement. | Kunde |
 |Beschaffen einer Umgebung | Beschaffen Sie Rechenressourcen, Netz und Speicher, einschließlich Core- und Services-VLAN zum Hosten von {{site.data.keyword.Bluemix_notm}} sowie Bare-Metal-Services zum Hosten von Data Power und {{site.data.keyword.Bluemix_notm}} Firewall. Stellen Sie eine Infrastruktur bereit, die einen VPN-Tunnel ermöglicht. | IBM |
-|Installieren von Fabric-, Anwendungs- sowie Überwachungs- und Verwaltungskomponenten | Installieren, konfigurieren und überprüfen Sie Fabric-Komponenten wie BOSH Director, Cloud-Controller, Statusmanager, Messaging, Router, CELLs und Service-Provider sowie die Überwachungskomponenten, die im Eskalations- und Problemerkennungsplan definiert sind.| IBM |
+|Installieren von Fabric-, Anwendungs- sowie Überwachungs- und Verwaltungskomponenten | Installieren, konfigurieren und überprüfen Sie Fabric-Komponenten wie BOSH Director, Cloud-Controller, Statusmanager, Messaging, Router, CELLs und Service-Provider sowie die Überwachungskomponenten, die im Eskalations- und Problemerkennungsplan definiert sind. | IBM |
 |Installieren und Konfigurieren von Sicherheitskomponenten | Installieren und konfigurieren Sie Sicherheitskomponenten, die in den Überwachungs- und Eskalationsplan eingebunden sind, darunter IBM QRadar, Vault für Berechtigungsnachweise, Abwehrsystem gegen Angriffe von außen, IBM BigFix und IBM Security Privileged Identity Management. | IBM |
 |Installieren und Konfigurieren von angepassten Komponenten |  	Installieren und konfigurieren Sie angepasste Komponenten, die sich außerhalb des Geltungsbereichs des {{site.data.keyword.Bluemix_notm}}-Produkts und der -Services befinden. | Kunde |
 |Einrichten einer Netzerstkonfiguration | Richten Sie eine Netzerstkonfiguration mit Firewalls, DataPower, Fortigate und DNS ein. | IBM |

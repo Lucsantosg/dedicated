@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-05-31"
+lastupdated: "2017-08-09"
 
 ---
 
@@ -32,7 +32,6 @@ lastupdated: "2017-05-31"
 |內含| [{{site.data.keyword.Bluemix_notm}} 運行環境](/docs/cfapps/runtimes.html) | 使用運行環境可快速啟動並執行您的應用程式，而不需要設定及管理機器和作業系統。您可以在 {{site.data.keyword.Bluemix_dedicated_notm}} 實例中使用所有 {{site.data.keyword.Bluemix_notm}} 運行環境。|
 | 內含| [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | 根據原則，動態增加或減少應用程式的運算能力。使用此服務，即可在 {{site.data.keyword.Bluemix_dedicated_notm}} 環境中無限制地使用。附註：自動擴充目前僅與 Cloud Foundry 運行環境搭配使用|
 |選用| [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} 將 {{site.data.keyword.APIM}} 及 IBM StrongLoop 整合成單一供應項目，提供綜合性解決方案來建立、執行、管理及強制執行 API 和微服務。|
-|選用| [{{site.data.keyword.rules_short}}](/docs/services/rules/rules.html) | {{site.data.keyword.rules_short}} 提供綜合性環境，以自動化及執行經常發生且可重複的規則型商業決策。它也可降低 IT 技能需求，讓商業使用者或開發人員，快速建立決策模型並以較低的成本進行測試。|
 |選用| [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} 提供對於始終處於開啟狀態之完整受管理 NoSQL JSON 資料層的存取。此服務與 CouchDB 相容，而且可透過方便使用的 HTTP 介面來存取，可用於行動及 Web 應用程式模型。|
 |選用| [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | 在 {{site.data.keyword.Bluemix_dedicated_notm}} 上執行 Docker 容器。容器是虛擬軟體物件，其中包含應用程式執行所需的所有元素。容器具有資源隔離及配置的優點，而且比虛擬機器（舉例來說）更容易攜帶且更具效率。如需硬體需求的相關資訊，請參閱 [{{site.data.keyword.Bluemix_dedicated_notm}} 及 Bluemix 本端中的 {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)。|
 | 選用| [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | 使用「{{site.data.keyword.contdelivery_short}} 專用」來自動進行建置、單元測試、部署及其他作業。透過豐富的 Web 型 IDE 編輯及推送程式碼。建立工具鏈來啟用工具整合，以支援開發、部署及操作作業。|
@@ -59,7 +58,6 @@ lastupdated: "2017-05-31"
 |專用 {{site.data.keyword.apiconnect_short}} Professional 10 萬個 API 呼叫增加| {{site.data.keyword.apiconnect_short}} Professional 環境的延伸，每月可提供 10 萬個 API 呼叫的額外容量。|
 |專用 {{site.data.keyword.apiconnect_short}} Enterprise 2500 萬個 API 呼叫| 此環境允許在容量為每月 2500 萬個 API 呼叫的專用環境內，執行專用版本的 {{site.data.keyword.apiconnect_short}}，目標為整個企業的 API 專案。|
 |專用 {{site.data.keyword.apiconnect_short}} Enterprise 10 萬個 API 呼叫增加| {{site.data.keyword.apiconnect_short}} Enterprise 環境的延伸，每月可提供 10 萬個 API 呼叫的額外容量。|
-|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.rules_short}} 1 百萬個規則決策| 「規則決策」為從規則執行伺服器呼叫規則集所產生的結果。必須取得足夠的授權，才能涵蓋在計費期間執行或處理的「規則決策」總數（四捨五入至最接近的百萬位數）。此「雲端服務」所測量的「規則決策」是對規則執行伺服器進行以取得決策的呼叫。「雲端服務」的專用部署具有經過協議的容量，且是按照相關費用度量值來測量。{{site.data.keyword.Bluemix_dedicated_notm}} 平台上的 {{site.data.keyword.rules_short}} 服務預設空間配置是 16 GB，在其中，可以呼叫最多十個各 1 GB 的實例來執行授與的「規則決策」。如果您超出該使用限制，則必須購買額外的容量來涵蓋這項使用。|
 |專用 {{site.data.keyword.cloudant}} 1.6 TB 容量增加| 包括在設計容量為 1.6 TB 的專用環境內，執行專用版本的 {{site.data.keyword.cloudantfull}}。|
 |專用 {{site.data.keyword.datacshort}} 及 {{site.data.keyword.sescashort}} 50 GB 容量增加| 此環境允許部署及執行 {{site.data.keyword.datacshort}} 和 {{site.data.keyword.sescashort}} 實例，最多有 50 GB 的累積容量。|
 |{{site.data.keyword.contdelivery_short}} 專用實例| 在專用環境內執行的 {{site.data.keyword.contdelivery_short}} 的專用版本。容量取決於「{{site.data.keyword.contdelivery_short}} 專用授權使用者」授權。|
@@ -72,7 +70,7 @@ lastupdated: "2017-05-31"
 |IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions High Availability 2.8.500| 支援「線上交易處理 (OLTP)」工作負載的專用實例，具有 8GB RAM 及 500 GB 空間來放置資料及日誌，並且包括一部額外的「待命」伺服器來取得高可用性。|
 |IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions High Availability 12.128.1400| 支援「線上交易處理 (OLTP)」工作負載的專用實例，具有 128GB RAM 及 1.4 TB SSD 儲存空間來放置資料及日誌，並且包括一部額外的「待命」伺服器來取得高可用性。|
 |{{site.data.keyword.Bluemix_dedicated_notm}} 社群服務| 此環境允許部署及執行社群服務，每一個社群服務最多有 50 個實例。|
-|{{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.cloudant}} 叢集實例| 此選用元件包括您負責提供基礎架構的 3 節點叢集，以及儲存空間及運算容量（您可以根據您的特定需要來決定）。{{site.data.keyword.cloudant}} 提供對於始終處於開啟狀態之完整受管理 NoSQL JSON 資料層的存取。此服務與 CouchDB 相容，而且可透過方便使用的 HTTP 介面來存取，可用於行動及 Web 應用程式模型。|
+|{{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.cloudant}} 叢集實例| 此選用性元件包括您負責提供基礎架構的 3 節點叢集，以及儲存空間及運算容量（您可以根據您的特定需要來決定）。{{site.data.keyword.cloudant}} 提供對於始終處於開啟狀態之完整受管理 NoSQL JSON 資料層的存取。此服務與 CouchDB 相容，而且可透過方便使用的 HTTP 介面來存取，可用於行動及 Web 應用程式模型。|
 |IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.messagehub}}| 提供發佈/訂閱傳訊的環境，每個分割區可提供高達 10 GB 的傳訊，限制為 100 個分割區。|
 |IBM Bluemix 專用 {{site.data.keyword.mobilepushshort}}| 此環境允許部署及執行每秒可接受 300 個要求的 {{site.data.keyword.mobilepushshort}} 實例。|
 |{{site.data.keyword.iot_short}} 專用漸進式增加| 此環境增加允許在專用環境內執行專用版本的 {{site.data.keyword.iot_short}}，其容量為 100,000 台同時連接的裝置或應用程式，以及 0.5 TB 的資料交換。|
@@ -103,62 +101,52 @@ lastupdated: "2017-05-31"
 
 如果有適用於您專用環境的服務專用實例，則會在型錄中看到服務名稱含有「專用」標籤。同樣地，如果它是自訂服務（表示您已使用服務分配管理系統來建立它），則會看到服務名稱列有「自訂」。透過從「{{site.data.keyword.Bluemix_notm}} 公用」進行聯合，可以使用已列出且沒有「專用」或「自訂」標籤的所有其他服務。聯合服務提供建立包含公用及專用服務之混合式應用程式的功能。
 
-|服務	|可在美國南部地區使用|可在歐洲英國地區使用|可在澳洲雪梨地區使用|
-|:----------|:------------------------------|:------------------|:------------------|
-|{{site.data.keyword.alchemyapishort}} 		|是	   	|是  		|是|
-|{{site.data.keyword.alertnotificationshort}}	|是		|是		|是	|
-|{{site.data.keyword.apiconnect_short}}         |是|是|是|
-|{{site.data.keyword.appseccloudshort}}		|是		|是		|是|
-|{{site.data.keyword.apiconnect_short}} 	|是   	 	|是  	 	|是|
-|Automated Accessibility Checker|是|是|是|
-|{{site.data.keyword.rules_short}}		|是		|是		|是|
-|{{site.data.keyword.cloudant}}			|是		|是		|是|
-|{{site.data.keyword.iotmapinsights_short}}    |是|是|是|
-|{{site.data.keyword.conversationshort}}  |是|是|是|
-|{{site.data.keyword.dashdbshort}}		|是		|是		|是|
-|{{site.data.keyword.dataworks_short}}		|是		|是		|否|
-|{{site.data.keyword.DB2OnCloud_short}}		|是		|是		|是|
-|Digital Content Checker|是|是|是|
-|{{site.data.keyword.documentconversionshort}}	|是		|是		|是|
-|{{site.data.keyword.iotdriverinsights_short}}  |是|是|是|
-|{{site.data.keyword.geospatialshort_Geospatial}}	|是	|是		|是|
-|{{site.data.keyword.GlobalizationPipeline_short}}	|是		| 是		| 是|
-|{{site.data.keyword.identitymixershort}}		|是		|是		|是|
-|{{site.data.keyword.iot4auto_short}} |是|是|是|
-|{{site.data.keyword.iotelectronics}}  |是|是|否|
-|{{site.data.keyword.iotinsurance_short}} |否|否|是|
-|{{site.data.keyword.twittershort}}		|是		|是		|是|
-|{{site.data.keyword.languagetranslationshort}}	|是		|是		|是|
-|{{site.data.keyword.languagetranslatorshort}} |是|是|是|
-|{{site.data.keyword.dwl_short}}  |是|是|否|
-|{{site.data.keyword.eventhubshort}}		|是		|否		|否|
-|{{site.data.keyword.messagehub}}		|是		|是		|否|
-|{{site.data.keyword.manda}}			|是		|是		|是|
-|{{site.data.keyword.amashort}}			|是		|是		|是|
-|{{site.data.keyword.mqa}}			|是		|是		|是|
-|{{site.data.keyword.mql}}			|否		|否		|是|
-|{{site.data.keyword.nlclassifierlshort}} 	|是 		|是 		|是|
-|{{site.data.keyword.personalityinsightsshort}}	|是		|是		|是|
-|{{site.data.keyword.pm_short}}			|是		|是		|否|
-|{{site.data.keyword.mobilepushshort}}		|是		|是		|是|
-|{{site.data.keyword.retrieveandrankshort}}	|是 		|是 		|是|
-|{{site.data.keyword.runbook_short}}		|是		|是		|是|
-|{{site.data.keyword.SecureGateway}}		|是		|是		|是|
-|{{site.data.keyword.ssofull}}			|是		|否		|否|
-|{{site.data.keyword.speechtotextshort}}	|是 		|是	 	|是|
-|{{site.data.keyword.streaminganalyticsshort}}	|是		|是		|是|
-|{{site.data.keyword.texttospeechshort}} 	|是 		|是	 	|是|
-|{{site.data.keyword.toneanalyzershort}} 	|是 		|是 		|是|
-|{{site.data.keyword.tradeoffanalyticsshort}}	|是		|是		|是|
-|{{site.data.keyword.visualrecognitionshort}}	|是 		|是	 	|是|
-|{{site.data.keyword.iot_short}}		|是		|是		|否|
-|{{site.data.keyword.weather_short}}		|是		|是		|是|
-|{{site.data.keyword.workloadscheduler}}	|是		|是		|是|
+|服務	|可在美國南部地區使用|可在歐洲英國地區使用|可在澳洲雪梨地區使用|可在德國地區使用|
+|:----------|:------------------------------|:------------------|:------------------|:------------------|
+|{{site.data.keyword.alertnotificationshort}} | 是| 是| 是| 否|
+|{{site.data.keyword.appseccloudshort}}		|是		|是		|是|否|
+|Automated Accessibility Checker|是|是|是|是|否|
+|{{site.data.keyword.cloudant}}			|是		|是		|是|是|
+|{{site.data.keyword.evtmgt_short}} | 是| 是| 是| 否|
+|{{site.data.keyword.iotmapinsights_short}}    |是|是|是|否|
+|{{site.data.keyword.uccr_short}} | 是| 否| 否| 否|
+|{{site.data.keyword.conversationshort}}  |是|是|是|是|
+|{{site.data.keyword.dataworks_short}}		|是		|是		|否|否|
+|Db2 Hosted | 是| 是| 是| 是|
+|{{site.data.keyword.DB2OnCloud_short}}		|是		|是		|是|是|
+|{{site.data.keyword.dashdbshort_notm}} | 是| 是| 是| 是|
+|Digital Content Checker|是|是|是|否|
+|{{site.data.keyword.servicediscoveryshort}} | 是| 是| 是| 否|
+|{{site.data.keyword.documentconversionshort}}	|是		|是		|是|否|
+|{{site.data.keyword.iotdriverinsights_short}}  |是|是|是|否|
+|{{site.data.keyword.geospatialshort_Geospatial}}	|是	|是		|是|否|
+|{{site.data.keyword.GlobalizationPipeline_short}}	|是		| 是		| 是|是|
+|{{site.data.keyword.identitymixershort}}		|是		|是		|是|否|
+|{{site.data.keyword.iot4auto_short}} |是|是|是|否|
+|{{site.data.keyword.iotelectronics}}  |是|是|否| 否|
+|{{site.data.keyword.languagetranslatorshort}} |是|是|是|是|
+|{{site.data.keyword.dwl_short}}  |是|是|否|否|
+|{{site.data.keyword.pm_short}} | 是| 是| 否| 否|
+|{{site.data.keyword.messagehub}}		|是		|是		|是| 是|
+|{{site.data.keyword.manda}}			|是		|是		|是|否|
+|{{site.data.keyword.nlclassifiershort}} 	|是 		|是 		|是|否|
+|{{site.data.keyword.nlushort}} | 是| 是| 是| 否|
+|{{site.data.keyword.personalityinsightsshort}}	|是		|是		|是|是|
+|{{site.data.keyword.mobilepushshort}}		|是		|是		|是|是|
+|{{site.data.keyword.retrieveandrankshort}}	|是 		|是 		|是|否|
+|{{site.data.keyword.SecureGateway}}		|是		|是		|是|是|
+|{{site.data.keyword.ssofull}}			|是		|否		|否| 否|
+|{{site.data.keyword.speechtotextshort}}	|是 		|是	 	|是|是|
+|{{site.data.keyword.streaminganalyticsshort}}	|是		|是		|是|否|
+|{{site.data.keyword.texttospeechshort}} 	|是 		|是	 	|是|是|
+|{{site.data.keyword.toneanalyzershort}} 	|是 		|是 		|是|是|
+|{{site.data.keyword.visualrecognitionshort}}	|是 		|是	 	|是|否|
+|{{site.data.keyword.weather_short}}		|是		|是		|是|否|
+|{{site.data.keyword.workloadscheduler}}	|是		|是		|是|是|
 {: caption="表 4. 依地區可從「{{site.data.keyword.Bluemix_notm}} 公用」聯合的服務" caption-side="top"}
 {: #table04}
 
-**附註**：此表格不包括協力廠商服務。請檢查協力廠商服務選項的專用型錄。
-
+**附註**：此表格不包括協力廠商服務。請檢查協力廠商服務選項的型錄。
 
 
 ## {{site.data.keyword.Bluemix_dedicated_notm}} 架構
@@ -187,7 +175,7 @@ lastupdated: "2017-05-31"
 </dd>
 <dt>{{site.data.keyword.Bluemix_dedicated_notm}}</dt>
 <dd>
-這最少包含 Cloud Foundry 元件及一些專用應用程式服務。{{site.data.keyword.Bluemix_notm}} 同時提供 Cloud Foundry 及 {{site.data.keyword.containerlong}} 型運算環境。企業可能已配置這兩個運算環境的其中一個或兩者。<br>
+這最少包含 Cloud Foundry 元件及一些專用應用程式服務。{{site.data.keyword.Bluemix_notm}} 同時提供 Cloud Foundry 及以 {{site.data.keyword.containerlong}} 為基礎的運算環境。企業可能已配置這兩個運算環境的其中一個或兩者。<br>
 企業可以新增其他專用應用程式服務。<br>
 如需可以新增的其他服務及運算功能，請參閱[表 2](#table02)。
 </dd>
