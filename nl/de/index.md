@@ -101,7 +101,7 @@ Durch optionale Komponenten, die zusätzlich zum Kauf angeboten werden, können 
 
 Wenn Sie über eine private Serviceinstanz Ihrer dedizierten Umgebung verfügen, wird bei den Servicenamen in Ihrem Katalog das Tag "Dedicated" angezeigt. Entsprechend sehen Sie "Angepasst" bei den Servicekacheln (d. h. Sie haben einen Servicebroker für die Erstellung verwendet), wenn es sich um einen benutzerdefinierten Service handelt. Alle anderen aufgelisteten Services ohne das Tag "Dediziert" oder "Angepasst" sind über die Syndikation aus {{site.data.keyword.Bluemix_notm}} Public verfügbar. Syndizierte Services bieten die Funktion zum Erstellen von Hybridanwendungen, die aus öffentlichen und privaten Services bestehen.
 
-|Service	|Verfügbar in Region 'US South'	|Verfügbar in Region 'Europe United Kingdom' |Verfügbar in Region 'Australia Sydney'|Verfügbar in Region 'Deutschland'	|
+|Service	|Verfügbar in Region 'US South'	|Verfügbar in Region 'Europe United Kingdom' |Verfügbar in Region 'Australia Sydney'|Verfügbar in Region 'Deutschland'|
 |:----------|:------------------------------|:------------------|:------------------|:------------------|
 |{{site.data.keyword.alertnotificationshort}} | Ja | Ja | Ja | Nein |
 |{{site.data.keyword.appseccloudshort}}		|Ja		|Ja		|Ja |Nein  |

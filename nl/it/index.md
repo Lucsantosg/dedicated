@@ -106,7 +106,7 @@ Sono presenti dei componenti facoltativi disponibili per te da acquistare per ri
 
 Se disponi di un'istanza privata del servizio per il tuo ambiente dedicato, vedi una tag "Dedicato" con i nomi del servizio nel tuo catalogo. Allo stesso modo, se si tratta di un servizio personalizzato, il che significa che hai utilizzato un broker dei servizi per crearlo, vedi "Personalizzato" elencato insieme al nome del servizio. Tutti gli altri servizi elencati che non presentano una tag "dedicato" o "personalizzato" sono disponibili tramite la diffusione da {{site.data.keyword.Bluemix_notm}} pubblico. I servizi diffusi forniscono la funzione per creare applicazioni ibride composte da servizi pubblici e privati.
 
-|Servizio	|Disponibile nella regione Stati Uniti Sud	|Disponibile nella regione Europa Regno Unito |Disponibile nella regione di Sydney in Australia|Disponibile nella regione Germania |
+|Servizio	|Disponibile nella regione Stati Uniti Sud	|Disponibile nella regione Europa Regno Unito |Disponibile nella regione di Sydney in Australia|Disponibile nella regione Germania|
 |:----------|:------------------------------|:------------------|:------------------|:------------------|
 |{{site.data.keyword.alertnotificationshort}} | Sì | Sì | Sì | No |
 |{{site.data.keyword.appseccloudshort}}		|Sì		|Sì		|Sì |No  |
