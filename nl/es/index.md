@@ -369,21 +369,21 @@ La etapa final de la finalización representa el final de la relación entre ust
 ##Mantenimiento de la instancia dedicada
 {: #maintaindedicated}
 
-IBM mantiene e instala actualizaciones y arreglos como IBM considere adecuado para los tiempos de ejecución y servicios de {{site.data.keyword.Bluemix_notm}}. Es posible que los servicios no estén disponibles durante las ventanas de mantenimiento. Además, IBM trabaja con usted para planificar actualizaciones de mantenimiento para la plataforma {{site.data.keyword.Bluemix_notm}}.
+IBM mantiene e instala actualizaciones y arreglos como IBM considere adecuado para los tiempos de ejecución y servicios de {{site.data.keyword.Bluemix_notm}}. Es posible que los servicios no estén disponibles durante los períodos de mantenimiento. Además, IBM trabaja con usted para planificar actualizaciones de mantenimiento para la plataforma {{site.data.keyword.Bluemix_notm}}.
 
 Se requieren los siguientes tipos de mantenimiento para {{site.data.keyword.Bluemix_dedicated_notm}}:
 <dl>
 <dt>**Mantenimiento estándar para servicios**</dt>
-<dd>Los servicios utilizan ventanas de mantenimiento estándar y predefinidas, lo cual podría hacer que los servicios no estén disponibles. IBM no requiere aprobación del cliente para realizar el mantenimiento de servicios, aunque intenta minimizar el impacto en los servicios.<br />
+<dd>Los servicios utilizan períodos de mantenimiento estándar y predefinidos, lo cual podría hacer que los servicios no estén disponibles. IBM no requiere aprobación del cliente para realizar el mantenimiento de servicios, aunque intenta minimizar el impacto en los servicios.<br />
 <br />
-IBM envía mensajes de difusión general de los cambios planificados para cada ventana de mantenimiento en la página Estado.<br />
+IBM envía mensajes de difusión general de los cambios planificados para cada período de mantenimiento en la página Estado.<br />
 <br />
 **Importante**: Es posible que algún servicio no esté disponible durante el periodo de mantenimiento.</dd>
 
 <dt>**Mantenimiento estándar para la plataforma de {{site.data.keyword.Bluemix_notm}}**</dt>
-<dd>Las actualizaciones de mantenimiento se aplican en función de la coordinación entre el usuario e IBM dentro de un periodo de 21 días. Proporcione a IBM ventanas de mantenimiento y fechas u horas específicas aprobadas previamente que pueden no funcionar para usted, e IBM trabaja para planificar actualizaciones durante o alrededor de las fechas seleccionadas.
+<dd>Las actualizaciones de mantenimiento se aplican en función de la coordinación entre el usuario e IBM dentro de un periodo de 21 días. Proporcione a IBM períodos de mantenimiento y fechas u horas específicas preaprobadas que pueden no funcionar para usted, e IBM trabaja para planificar actualizaciones durante o alrededor de las fechas seleccionadas.
 <p>
-<p>Vaya a **ADMINISTRACIÓN > INFORMACIÓN DEL SISTEMA** para ver las actualizaciones de mantenimiento planificadas y pendientes. Para obtener más información sobre cómo establecer las ventanas aprobadas previamente y las fechas no disponibles y para visualizar o aprobar actualizaciones de mantenimiento planificadas, consulte <a href="/docs/admin/index.html#oc_schedulemaintenance">Actualizaciones de mantenimiento</a>.</p></dd>
+<p>Vaya a **ADMINISTRACIÓN > INFORMACIÓN DEL SISTEMA** para ver las actualizaciones de mantenimiento planificadas y pendientes. Para obtener más información sobre cómo establecer los períodos preaprobados y las fechas de no disponibilidad y para visualizar o aprobar actualizaciones de mantenimiento planificadas, consulte <a href="/docs/admin/index.html#oc_schedulemaintenance">Actualizaciones de mantenimiento</a>.</p></dd>
 </dl>
 
 **Importante**: IBM se reserva el derecho de interrumpir servicios para aplicar mantenimiento emergencia si es necesario. IBM puede modificar las horas de mantenimiento planificadas, pero le notificará cualquier cambio, así como la información de mantenimiento de emergencia.
