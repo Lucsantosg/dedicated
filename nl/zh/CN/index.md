@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-08-09"
+lastupdated: "2017-10-02"
 
 ---
 
@@ -36,13 +36,11 @@ lastupdated: "2017-08-09"
 |可选| [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | 在 {{site.data.keyword.Bluemix_dedicated_notm}} 上运行 Docker 容器。容器是包含应用程序运行所需的所有元素的虚拟软件对象。容器不仅具有资源隔离和分配的好处，而且还比虚拟机器（举例来说）的可移植性更好，且更有效率。有关硬件需求的信息，请参阅 [{{site.data.keyword.Bluemix_dedicated_notm}} 和 Bluemix Local 中的 {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)。|
 | 可选| [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | 使用 {{site.data.keyword.contdelivery_short}} Dedicated 可自动执行构建、单元测试、部署等操作。通过丰富的基于 Web 的 IDE 来编辑和推送代码。创建工具链以便进行支持开发、部署和操作任务的工具集成。|
 | 可选| [{{site.data.keyword.dashdbshort}}](/docs/services/dashDB/dashDB.html) | IBM {{site.data.keyword.dashdbshort}} for Analytics 是完全管理的 SQL 云数据库服务，针对数据仓库和分析工作负载而进行了优化。IBM {{site.data.keyword.dashdbshort}} for Transactions 是完全管理的 SQL 云数据库服务，针对一般目的、Web 应用程序和事务工作负载而进行了优化。|
-| 可选| [{{site.data.keyword.datacshort}}](/docs/services/DataCache/index.html#data_cache) | 此服务提供内存中数据网格，支持应用程序使用分布式高速缓存方案。包含 50 GB 内存中高速缓存。|
 | 可选| [Dedicated GitHub Enterprise](/docs/services/ghededicated/index.html)| {{site.data.keyword.ghe_long}} 是 IBM Cloud 托管且完全管理的 GitHub 版本，提供了开发者喜爱的社交功能。此服务目前只可用于 {{site.data.keyword.Bluemix_dedicated_notm}} 环境。|
 | 可选 (Beta)| [日志记录](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov)| 为 {{site.data.keyword.Bluemix_notm}} 用户界面中的 Cloud Foundry 应用程序和 Kibana 中的可搜索日志和仪表板提供日志。|
 | 可选| [{{site.data.keyword.messagehub}}](/docs/services/MessageHub/index.html#messagehub) | {{site.data.keyword.messagehub}} 是一种可扩展的分布式消息传递总线，吞吐量高，可将内部部署和外部部署技术融合在一起。{{site.data.keyword.messagehub}} 基于 Apache Kafka，这是一种高速、耐用的可扩展实时消息传递引擎。|
 |可选| [{{site.data.keyword.mobilepushshort}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepushshort}} 是可用于向 iOS 和 Android 设备发送通知的服务。通知可以针对所有应用程序用户发送，也可以针对一组使用标记的特定用户和设备发送。您可以管理设备、标记和预订。还可以使用 SDK（软件开发包）和具象状态传输 (REST) 应用程序编程接口 (API) 来进一步开发您的客户机应用程序。|
 |可选| [{{site.data.keyword.SecureGateway}}](/docs/services/SecureGateway/secure_gateway.html) | {{site.data.keyword.SecureGateway}} 服务使您能够以安全方式将 {{site.data.keyword.Bluemix_notm}} 应用程序连接到内部部署或云中的远程位置。|
-|可选| [{{site.data.keyword.sescashort}}](/docs/services/SessionCache/index.html#session_cache) | 为了提高冗余度，{{site.data.keyword.sescashort}} 提供了高速缓存中存储的会话的副本。因此，万一发生掉线或中断，客户机应用程序能够继续访问高速缓存中的会话。此服务支持 Web 和移动应用程序的会话高速缓存场景。|
 | 可选| [{{site.data.keyword.iot_short}}](/docs/services/IoT/index.html) | 此服务允许应用程序与连接的设备、传感器和网关进行通信，以及使用这些设备、传感器和网关收集的数据。基本产品允许在专用环境中运行 {{site.data.keyword.iot_short}} 的专用版本，容量为 100,000 个并行连接设备或应用程序，数据交换量为 1.6 TB。|
 | 可选| [{{site.data.keyword.appserver_short}}](/docs/services/ApplicationServeronCloud/index.html) | IBM {{site.data.keyword.appserver_short}} for IBM {{site.data.keyword.Bluemix_notm}} 是有助于在 {{site.data.keyword.Bluemix_notm}} 上托管的云环境中预配置的 {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment 或 Traditional WebSphere Java EE 实例上执行快速设置的服务。|
 {: caption="表 1. 专用服务" caption-side="top"}
@@ -59,7 +57,6 @@ lastupdated: "2017-08-09"
 |Dedicated {{site.data.keyword.apiconnect_short}} Enterprise 2500 万次 API 调用| 此环境允许在专用环境中运行 {{site.data.keyword.apiconnect_short}} 的专用版本，容量为每月针对企业级 API 项目进行 2500 万次 API 调用。|
 |Dedicated {{site.data.keyword.apiconnect_short}} Enterprise 增加 10 万次 API 调用| {{site.data.keyword.apiconnect_short}} Enterprise 环境的扩展，用于每月提供额外 10 万次 API 调用容量。|
 |Dedicated {{site.data.keyword.cloudant}} 增加 1.6 TB 容量| 包含在专用环境中运行 {{site.data.keyword.cloudantfull}} 的专用版本，设计容量为 1.6 TB。|
-|Dedicated {{site.data.keyword.datacshort}} 和 {{site.data.keyword.sescashort}} 增加 50 GB 容量| 此环境允许部署和运行 {{site.data.keyword.datacshort}} 和 {{site.data.keyword.sescashort}} 实例，最高累计容量为 50 GB。|
 |{{site.data.keyword.contdelivery_short}} Dedicated 实例| 在专用环境中运行的 {{site.data.keyword.contdelivery_short}} 专用版本。容量由 {{site.data.keyword.contdelivery_short}} Dedicated 授权用户权利确定。|
 |{{site.data.keyword.contdelivery_short}} Dedicated 授权用户| 授予对指定 {{site.data.keyword.contdelivery_short}} Dedicated 环境的授权用户访问权，并授权使用该环境。必须对属于包含 {{site.data.keyword.contdelivery_short}} 服务实例的 {{site.data.keyword.Bluemix_notm}} 组织的每一位用户都进行授权。|
 |Dedicated {{site.data.keyword.dashdbshort}} Enterprise 64.1| 专用服务器上每个服务实例一个数据库，RAM 为 64 GB，16 个 vCPU。根据典型压缩率，建议预装入数据最多为 1 TB。|

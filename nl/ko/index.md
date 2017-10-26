@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-08-09"
+lastupdated: "2017-10-02"
 
 ---
 
@@ -36,13 +36,11 @@ lastupdated: "2017-08-09"
 |선택사항| [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | {{site.data.keyword.Bluemix_dedicated_notm}}에서 Docker 컨테이너를 실행합니다. 컨테이너는 앱에서 실행해야 하는 모든 요소를 포함하는 가상 소프트웨어 오브젝트입니다. 컨테이너는 리소스 격리와 할당의 이점이 있으며 가상 머신 등보다 휴대가 간편하고 효율적입니다. 하드웨어 요구사항에 대한 정보는 [{{site.data.keyword.containershort}}를 {{site.data.keyword.Bluemix_dedicated_notm}} 및 Bluemix 로컬](/docs/containers/container_ov.html#container_dl)에서 참조하십시오.|
 | 선택사항| [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | {{site.data.keyword.contdelivery_short}} 데디케이티드를 사용하여 빌드, 단위 테스트, 배치 등을 자동화합니다. 풍부한 웹 기반 IDE을 통해 코드를 편집하고 푸시하십시오. 개발, 배치 및 오퍼레이션 태스크를 지원하는 도구 통합을 가능하게 하는 도구 체인을 작성합니다.|
 | 선택사항| [{{site.data.keyword.dashdbshort}}](/docs/services/dashDB/dashDB.html) | IBM {{site.data.keyword.dashdbshort}} for Analytics는 전체 관리되는 SQL 클라우드 데이터베이스 서비스이고, 데이터 웨어하우스와 분석 워크로드를 위해 최적화되어 있습니다. IBM {{site.data.keyword.dashdbshort}} for Transactions는 전체 관리되는 SQL 클라우드 데이터베이스 서비스이고 일반적인 용도, 웹 앱 및 트랜잭션 워크로드를 위해 최적화되어 있습니다.|
-| 선택사항| [{{site.data.keyword.datacshort}}](/docs/services/DataCache/index.html#data_cache) | 이 서비스는 앱에 대한 분산 캐싱 시나리오를 지원하는 인메모리 데이터 그리드를 제공합니다. 50GB의 인메모리 캐시가 포함됩니다.|
 | 선택사항| [Dedicated GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}}는 IBM 클라우드에 호스팅되고 완전하게 관리되는 GitHub Enterprise 버전이며 개발자가 선호하는 소셜 경험을 제공합니다. 이 서비스는 현재 {{site.data.keyword.Bluemix_dedicated_notm}} 환경에서만 사용할 수 있습니다. |
 | 선택사항(베타)| [로깅](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov) | Kibana의 검색 가능한 로그 및 대시보드와 {{site.data.keyword.Bluemix_notm}} 사용자 인터페이스의 Cloud Foundry 앱에 대한 로그를 제공합니다.|
 | 선택사항| [{{site.data.keyword.messagehub}}](/docs/services/MessageHub/index.html#messagehub) | {{site.data.keyword.messagehub}}는 온프레미스와 오프프레미스 기술을 통합하는 확장 가능하고 처리량이 많은 분산 메시지 버스입니다. {{site.data.keyword.messagehub}}는 빠르고 확장 가능하고 내구성 강한 실시간 메시징 엔진인 Apache Kafka를 기반으로 합니다.|
 |선택사항| [{{site.data.keyword.mobilepushshort}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepushshort}}는 iOS 및 Android 디바이스에 알림을 보내는 데 사용할 수 있는 서비스입니다. 알림은 모든 애플리케이션 사용자와 태그를 사용하는 특정 디바이스 및 사용자 세트를 대상으로 할 수 있습니다. 디바이스, 태그 및 구독을 관리할 수 있습니다. SDK(Software Development Kit) 및 REST(Representational State Transfer) API(Application Program Interface)를 사용하여 클라이언트 애플리케이션을 추가적으로 개발할 수도 있습니다.|
 |선택사항| [{{site.data.keyword.SecureGateway}}](/docs/services/SecureGateway/secure_gateway.html) | {{site.data.keyword.SecureGateway}} 서비스는 온프레미스 또는 클라우드를 통해 {{site.data.keyword.Bluemix_notm}} 애플리케이션을 원격 위치에 연결하는 안전한 방법을 제공합니다.|
-|선택사항| [{{site.data.keyword.sescashort}}](/docs/services/SessionCache/index.html#session_cache) | 증가된 중복성을 위해 {{site.data.keyword.sescashort}}에서는 캐시에 저장된 세션의 복제본을 제공합니다. 따라서 등화 관제 또는 가동 중단의 상황에서도 클라이언트 애플리케이션은 캐시의 세션에 계속 액세스할 수 있습니다. 이 서비스는 웹 및 모바일 애플리케이션에 대한 세션 캐싱 시나리오를 지원합니다.|
 | 선택사항| [{{site.data.keyword.iot_short}}](/docs/services/IoT/index.html) | 이 서비스를 사용하여 앱은 연결된 디바이스, 센서 및 게이트웨이와 통신하고 여기서 수집한 데이터를 이용할 수 있습니다. 기본 오퍼링은 1.6TB의 데이터 교환과 100,000개의 동시 연결된 디바이스 또는 애플리케이션의 용량을 지닌 데디케이티드 환경 내에서 {{site.data.keyword.iot_short}}의 개인용 버전 실행을 허용합니다.|
 | 선택사항| [{{site.data.keyword.appserver_short}}](/docs/services/ApplicationServeronCloud/index.html) | IBM {{site.data.keyword.appserver_short}} for IBM {{site.data.keyword.Bluemix_notm}}는 {{site.data.keyword.Bluemix_notm}}의 호스팅 클라우드 환경에서 사전 구성된 {{site.data.keyword.appserver_short}} Liberty, 기존 네트워크 배치 또는 기존 WebSphere Java EE 인스턴스를 빠르게 설정할 수 있는 편리한 서비스입니다. |
 {: caption="표 1. 전용 서비스" caption-side="top"}
@@ -59,7 +57,6 @@ lastupdated: "2017-08-09"
 |데디케이티드 {{site.data.keyword.apiconnect_short}} Enterprise 2,500만 API 호출| 엔터프라이즈 전체 API 프로젝트 방향으로 대상 지정된 월간 2,500만 API 호출의 용량을 지닌 데디케이티드 환경 내의 {{site.data.keyword.apiconnect_short}}의 개인용 버전 실행을 허용하는 환경입니다. |
 |데디케이티드 {{site.data.keyword.apiconnect_short}} Enterprise 10만 API 호출 증가| 매월 10만 API 호출의 추가 용량을 제공하는 {{site.data.keyword.apiconnect_short}} Enterprise 환경의 확장입니다. |
 |데디케이티드 {{site.data.keyword.cloudant}} 1.6TB 용량 증가| 1.6TB 디자인 용량의 데디케이티드 환경 내에서 {{site.data.keyword.cloudantfull}}의 개인용 버전 실행을 포함합니다.|
-|데디케이티드 {{site.data.keyword.datacshort}} 및 {{site.data.keyword.sescashort}} 50GB 용량 증가| 최대 50GB 누적 용량까지 {{site.data.keyword.datacshort}} 및 {{site.data.keyword.sescashort}} 인스턴스의 배치 및 실행을 허용하는 환경입니다.|
 |{{site.data.keyword.contdelivery_short}} 데디케이티드 인스턴스| 전용 환경에서 실행되는 개인용 버전의 {{site.data.keyword.contdelivery_short}}입니다. 용량은 {{site.data.keyword.contdelivery_short}} 데디케이티드 권한 부여된 사용자 인타이틀먼트로 결정됩니다.|
 |{{site.data.keyword.contdelivery_short}} 데디케이티드 권한 부여된 사용자| 지정된 {{site.data.keyword.contdelivery_short}} 데디케이티드 환경 사용을 위해 권한 부여된 사용자에게 액세스 권한을 부여합니다. {{site.data.keyword.contdelivery_short}} 서비스 인스턴스를 포함하는 {{site.data.keyword.Bluemix_notm}} 조직에 속한 모든 사용자에게 권한이 부여되어야 합니다.|
 |데디케이티드 {{site.data.keyword.dashdbshort}} Enterprise 64.1| 64GB RAM, 16 vCPU의 데디케이티드 서버에서 서비스 인스턴스당 하나의 데이터베이스. 일반 압축을 기반으로 최대 1TB의 사전 로드 데이터에 권장됩니다.|

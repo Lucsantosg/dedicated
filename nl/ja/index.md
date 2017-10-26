@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-08-09"
+lastupdated: "2017-10-02"
 
 ---
 
@@ -36,13 +36,11 @@ lastupdated: "2017-08-09"
 |オプション| [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | {{site.data.keyword.Bluemix_dedicated_notm}} で Docker コンテナーを実行します。コンテナーは、アプリが実行のために必要とするすべてのエレメントを含む仮想ソフトウェア・オブジェクトです。コンテナーには、リソースの分離と割り振りの利点がありますが、例えば仮想マシンなどよりも、移植可能性と効率性が高まっています。ハードウェア要件について詳しくは、『[ {{site.data.keyword.Bluemix_dedicated_notm}} および Bluemix Local における {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)』を参照してください。|
 | オプション| [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | {{site.data.keyword.contdelivery_short}} Dedicated を使用して、ビルド、単体テスト、デプロイメントなどを自動化します。機能豊富な Web ベース IDE により、コードの編集およびプッシュを行います。開発、デプロイメント、および運用の作業をサポートするツール統合を実現するツールチェーンを作成します。|
 | オプション| [{{site.data.keyword.dashdbshort}}](/docs/services/dashDB/dashDB.html) | IBM {{site.data.keyword.dashdbshort}} for Analytics は、データウェアハウスおよび分析のワークロード用に最適化された完全管理の SQL クラウド・データベース・サービスです。IBM {{site.data.keyword.dashdbshort}} for Transactions は、汎用、Web アプリ、およびトランザクションのワークロード用に最適化された完全管理の SQL クラウド・データベース・サービスです。|
-| オプション| [{{site.data.keyword.datacshort}}](/docs/services/DataCache/index.html#data_cache) | このサービスは、アプリで分散キャッシュ・シナリオをサポートするメモリー内データ・グリッドを提供します。50 GB のメモリー内キャッシュが含まれます。|
 | オプション| [Dedicated GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}} は、IBM Cloud でホストされて完全に管理されるバージョンの GitHub Enterprise であり、開発者が愛好するソーシャル・エクスペリエンスを提供します。このサービスは、現在は {{site.data.keyword.Bluemix_dedicated_notm}} 環境でのみ使用可能です。|
 | オプション (ベータ版)| [ロギング](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov) | {{site.data.keyword.Bluemix_notm}} ユーザー・インターフェースで Cloud Foundry アプリのログおよび Kibana で検索可能なログとダッシュボードを提供します。|
 | オプション| [{{site.data.keyword.messagehub}}](/docs/services/MessageHub/index.html#messagehub) | {{site.data.keyword.messagehub}} は、配布されたスケーラブルで高スループットのメッセージ・バスであり、オンプレミス・テクノロジーとオフプレミス・テクノロジーを統合します。{{site.data.keyword.messagehub}} は、Apache Kafka に基づいています。これは、高速かつスケーラブルで永続的なリアルタイムのメッセージング・エンジンです。|
 |オプション| [{{site.data.keyword.mobilepushshort}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepushshort}} は、通知を iOS および Android デバイスに送信するために使用することができるサービスです。通知は、すべてのアプリケーション・ユーザー、またはタグを使用して特定のユーザーとデバイスのセットを対象にすることができます。デバイス、タグ、およびサブスクリプションを管理することができます。SDK (Software Development Kit) および　Representational State Transfer (REST) アプリケーション・プログラム・インターフェース (API) を使用して、さらにクライアント・アプリケーションを開発することも可能です。|
 |オプション| [{{site.data.keyword.SecureGateway}}](/docs/services/SecureGateway/secure_gateway.html) | {{site.data.keyword.SecureGateway}} サービスは、{{site.data.keyword.Bluemix_notm}} アプリケーションをオンプレミスまたはクラウド内のリモート・ロケーションに接続するための安全な方法を提供します。|
-|オプション| [{{site.data.keyword.sescashort}}](/docs/services/SessionCache/index.html#session_cache) | 冗長性を高めるために、{{site.data.keyword.sescashort}} は、キャッシュに保管されたセッションのレプリカを提供します。これにより、ブラウンアウトまたは障害が発生した場合、クライアント・アプリケーションはキャッシュ内のセッションへのアクセスを維持できます。サービスでは、Web アプリケーションとモバイル・アプリケーションのセッション・キャッシュ・シナリオがサポートされます。|
 | オプション| [{{site.data.keyword.iot_short}}](/docs/services/IoT/index.html) | このサービスにより、アプリは、接続されたデバイス、センサー、およびゲートウェイが収集したデータと通信して、それらのデータを取り込むことができます。基本オファリングでは、100,000 個の同時接続されたデバイスまたはアプリケーションと 1.6 TB のデータ交換の容量を備えた専用環境内で {{site.data.keyword.iot_short}} の専用バージョンを実行することができます。|
 | オプション| [{{site.data.keyword.appserver_short}}](/docs/services/ApplicationServeronCloud/index.html) | IBM {{site.data.keyword.appserver_short}} for IBM {{site.data.keyword.Bluemix_notm}} は、{{site.data.keyword.Bluemix_notm}} 上でホストされるクラウド環境で、事前定義済みの {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment、または Traditional WebSphere Java EE インスタンスを迅速にセットアップできるようにするサービスです。|
 {: caption="表 1. Dedicated のサービス" caption-side="top"}
@@ -59,7 +57,6 @@ lastupdated: "2017-08-09"
 |Dedicated {{site.data.keyword.apiconnect_short}} Enterprise 2500 万回の API 呼び出し| 企業全体の API プロジェクトを対象にした、1 月当たり 2500 万回の API 呼び出し容量を持つ専用環境内で {{site.data.keyword.apiconnect_short}} の専用バージョンを実行できる環境。|
 |Dedicated {{site.data.keyword.apiconnect_short}} Enterprise 10 万回の API 呼び出し容量の増加| 1 月当たり 10 万回の API 呼び出し容量を追加する {{site.data.keyword.apiconnect_short}} Enterprise 環境の拡張。|
 |Dedicated {{site.data.keyword.cloudant}} の 1.6 TB の容量増加| 設計容量が 1.6 テラバイトの専用環境内での {{site.data.keyword.cloudantfull}} の専用バージョンの実行が組み込まれます。|
-|Dedicated {{site.data.keyword.datacshort}} および {{site.data.keyword.sescashort}} の 50 GB の容量増加| 最大 50 GB の累積容量まで「{{site.data.keyword.datacshort}}」および「{{site.data.keyword.sescashort}}」のインスタンスをデプロイして実行することができる環境。|
 |{{site.data.keyword.contdelivery_short}} Dedicated インスタンス| 専用環境内で実行されるプライベート・バージョンの {{site.data.keyword.contdelivery_short}}。容量は、{{site.data.keyword.contdelivery_short}} Dedicated 許可ユーザーのライセンスで決まります。|
 |{{site.data.keyword.contdelivery_short}} Dedicated 許可ユーザー| 指定された {{site.data.keyword.contdelivery_short}} Dedicated 環境へのアクセスと使用を許可ユーザーに認可します。{{site.data.keyword.contdelivery_short}} サービス・インスタンスを含む {{site.data.keyword.Bluemix_notm}} 組織に属するすべてのユーザーが許可されなければなりません。|
 |Dedicated {{site.data.keyword.dashdbshort}} Enterprise 64.1| 64 GB RAM、16 vCPU 搭載の専用サーバー上のサービス・インスタンスごとに 1 つのデータベース。標準圧縮に基づき、最大 1 TB のプリロード・データに対して推奨。|
