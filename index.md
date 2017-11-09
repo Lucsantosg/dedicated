@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-10-02"
+lastupdated: "2017-08-09"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2017-10-02"
 {: #dedicated}
 
 
-{{site.data.keyword.Bluemix}} is an open-standards, cloud-based platform for building, running, and managing applications. With {{site.data.keyword.Bluemix_dedicated_notm}}, you get the power and simplicity of {{site.data.keyword.Bluemix_notm}}&mdash;in your own dedicated SoftLayer environment that is securely connected to both the {{site.data.keyword.Bluemix_notm}} Public environment and your own network.
+{{site.data.keyword.Bluemix}} is an open-standards, cloud-based platform for building, running, and managing applications. With {{site.data.keyword.Bluemix_dedicated_notm}}, you get the power and simplicity of {{site.data.keyword.Bluemix_notm}} &mdash; in your own dedicated SoftLayer environment that is securely connected to both the {{site.data.keyword.Bluemix_notm}} Public environment and your own network.
 {:shortdesc}
 
 All dedicated deployments of {{site.data.keyword.Bluemix_notm}} include the following benefits and features at no additional cost: VPN, private virtual local area network (VLAN), firewall, connectivity with your LDAP, ability to leverage existing on-premises databases and apps, 24/7 on-site security, dedicated hardware, and standard support.
@@ -33,14 +33,16 @@ In addition, there is a set of services and components that are included or opti
 | Included | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | Dynamically increase or decrease the compute capacity of your application based on policies. With this service, you have unlimited use in your {{site.data.keyword.Bluemix_dedicated_notm}} environment. Note: Auto-scaling currently only works with Cloud Foundry runtimes |
 |Optional | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} integrates {{site.data.keyword.APIM}} and IBM StrongLoop into a single offering that provides a comprehensive solution to create, run, manage, and enforce APIs and microservices. |
 |Optional | [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} provides access to a fully managed NoSQL JSON data layer that's always on. This service is compatible with CouchDB, and accessible through a simple to use HTTP interface for mobile and web application models. |
-|Optional | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | Run Docker containers on {{site.data.keyword.Bluemix_dedicated_notm}}. Containers are virtual software objects that include all of the elements that an app needs to run. A container has the benefits of resource isolation and allocation, but is more portable and efficient than, for example, a virtual machine. For information about the hardware requirements, see [{{site.data.keyword.containershort}} in {{site.data.keyword.Bluemix_dedicated_notm}} and Bluemix Local](/docs/containers/container_ov.html#container_dl).|
+|Optional | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | Run Docker containers on {{site.data.keyword.Bluemix_dedicated_notm}}. Containers are virtual software objects that include all of the elements that an app needs to run. A container has the benefits of resource isolation and allocation, but is more portable and efficient than, for example, a virtual machine. For information about the hardware requirements, see [{{site.data.keyword.containershort}} in {{site.data.keyword.Bluemix_dedicated_notm}} and {{site.data.keyword.Bluemix_local_notm}}](/docs/containers/container_ov.html#container_dl).|
 | Optional | [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | Use {{site.data.keyword.contdelivery_short}} Dedicated to automate builds, unit tests, deployments, and more. Edit and push code through the rich web based IDE. Create toolchains to enable tool integrations that support development, deployment, and operations tasks. |
 | Optional | [{{site.data.keyword.dashdbshort}}](/docs/services/dashDB/dashDB.html) | IBM {{site.data.keyword.dashdbshort}} for Analytics is a fully managed SQL cloud database service, optimized for data warehouse and analytics workloads. IBM {{site.data.keyword.dashdbshort}} for Transactions is a fully managed SQL cloud database service, optimized for general purpose, web apps, and transactional workloads. |
+| Optional | [{{site.data.keyword.datacshort}}](/docs/services/DataCache/index.html#data_cache) | This service provides an in-memory data grid that supports distributed caching scenarios for your apps. Includes 50 GB of in-memory Cache. |
 | Optional | [Dedicated GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}} is the IBM Cloud-hosted and fully managed version of GitHub Enterprise that provides the social experience that developers love. This service is currently available exclusively to {{site.data.keyword.Bluemix_dedicated_notm}} environments. |
 | Optional (Beta) | [Logging](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov) | Provides logs for your Cloud Foundry apps in your {{site.data.keyword.Bluemix_notm}} user interface and searchable logs and dashboards in Kibana. |
 | Optional | [{{site.data.keyword.messagehub}}](/docs/services/MessageHub/index.html#messagehub) | {{site.data.keyword.messagehub}} is a scalable, distributed, high throughput message bus to unite your on-premises and off-premises technologies. {{site.data.keyword.messagehub}} is based on Apache Kafka, which is a fast, scalable, and durable real-time messaging engine. |
-|Optional | [{{site.data.keyword.mobilepushshort}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepushshort}} is a service that you can use to send notifications to iOS and Android device. Notifications can be targeted to all application users or to a specific set of users and devices using tags. You can administer devices, tags, and subscriptions. You can also use an SDK (software development kit) and Representational State Transfer (REST) application program interface (APIs) to further develop your client applications.|
+|Optional | [{{site.data.keyword.mobilepushshort}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepushshort}} is a service that you can use to send notifications to iOS and Android device. Notifications can be targeted to all application users or to a specific set of users and devices using tags. You can administer devices, tags, and subscriptions. You can also use an SDK (Software Development Kit) and Representational State Transfer (REST) application program interface (APIs) to further develop your client applications.|
 |Optional | [{{site.data.keyword.SecureGateway}}](/docs/services/SecureGateway/secure_gateway.html) | The {{site.data.keyword.SecureGateway}} service provides a secure way to connect {{site.data.keyword.Bluemix_notm}} applications to remote locations on-premises or in the cloud.  |
+|Optional | [{{site.data.keyword.sescashort}}](/docs/services/SessionCache/index.html#session_cache) | For increased redundancy, {{site.data.keyword.sescashort}} provides a replica of a session stored in the cache. Therefore, in the event of a brownout or outage, your client application maintains access to the session in the cache. The service supports session caching scenarios for web and mobile applications. |
 | Optional | [{{site.data.keyword.iot_short}}](/docs/services/IoT/index.html) | This service lets your apps communicate with and consume data collected by your connected devices, sensors and gateways. The base offering permits running a private version of the {{site.data.keyword.iot_short}} within the dedicated environment with a capacity of 100,000 concurrently connected devices or applications and 1.6 TB of data exchange. |
 | Optional | [{{site.data.keyword.appserver_short}}](/docs/services/ApplicationServeronCloud/index.html) | IBM {{site.data.keyword.appserver_short}} for IBM {{site.data.keyword.Bluemix_notm}} is a service that facilitates quick setup on a pre-configured {{site.data.keyword.appserver_short}} Liberty, Traditional Network Deployment, or Traditional WebSphere Java EE instance in a hosted cloud environment on {{site.data.keyword.Bluemix_notm}}. |
 {: caption="Table 1. Dedicated Services" caption-side="top"}
@@ -57,6 +59,7 @@ There are optional components that are available for you to purchase to scale an
 |Dedicated {{site.data.keyword.apiconnect_short}} Enterprise 25 Million API Calls | An environment that permits running a private version of {{site.data.keyword.apiconnect_short}} within the dedicated environment with a capacity of 25 million API Calls a month targeted towards enterprise wide API projects. |
 |Dedicated {{site.data.keyword.apiconnect_short}} Enterprise 100 thousand API Calls increase | An extension of the {{site.data.keyword.apiconnect_short}} Enterprise environment to provide additional capacity of 100 thousand API Calls a month. |
 |Dedicated {{site.data.keyword.cloudant}}  1.6 TB capacity increase | Includes running a private version of the {{site.data.keyword.cloudantfull}} within the dedicated environment with a design capacity of 1.6 terabytes.  |
+|Dedicated {{site.data.keyword.datacshort}} and {{site.data.keyword.sescashort}} 50 GB capacity increase | An environment that permits deploying and running {{site.data.keyword.datacshort}} and {{site.data.keyword.sescashort}} instances up to a cumulative capacity of 50 GB. |
 |{{site.data.keyword.contdelivery_short}} Dedicated Instance | A private version of {{site.data.keyword.contdelivery_short}} running within a dedicated environment. The capacity is determined by {{site.data.keyword.contdelivery_short}} Dedicated Authorized User entitlements. |
 |{{site.data.keyword.contdelivery_short}} Dedicated Authorized User | Grants an Authorized User access to and for the use of a designated {{site.data.keyword.contdelivery_short}} Dedicated environment. Every user belonging to a {{site.data.keyword.Bluemix_notm}} Organization containing a {{site.data.keyword.contdelivery_short}} service instance must be authorized. |
 |Dedicated {{site.data.keyword.dashdbshort}} Enterprise 64.1 | One database per service instance on a dedicated server with 64 GB RAM, 16 vCPUs. Recommended for up to 1 TB of pre-load data, based on typical compression.  |
@@ -69,12 +72,12 @@ There are optional components that are available for you to purchase to scale an
 |{{site.data.keyword.Bluemix_dedicated_notm}} community services  | An environment that permits deploying and running  community services up to a total of 50 instances for each community service.  |
 |{{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.cloudant}} Cluster Instance | This optional component includes a 3-node cluster for which you are responsible for providing the infrastructure, and the storage and compute capacity can be determined based on your specific needs. {{site.data.keyword.cloudant}} provides access to a fully managed NoSQL JSON data layer that's always on. This service is compatible with CouchDB, and accessible through a simple to use HTTP interface for mobile and web application models. |
 |IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.messagehub}} | An environment that provides publish/subscribe messaging of up to 10 GB per partition, limited to 100 partitions. |
-|IBM Bluemix Dedicated {{site.data.keyword.mobilepushshort}} | An environment that permits deployment and execution of {{site.data.keyword.mobilepushshort}} instances with ability to accept 300 requests per second. |
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.mobilepushshort}} | An environment that permits deployment and execution of {{site.data.keyword.mobilepushshort}} instances with ability to accept 300 requests per second. |
 |{{site.data.keyword.iot_short}} Dedicated incremental increase | An environment increase that permits running a private version of the {{site.data.keyword.iot_short}} within the dedicated environment with a capacity of 100,000 concurrently connected devices or applications and 0.5 TB of data exchange. |
-|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - Dedicated Small| A pre-configured {{site.data.keyword.appserver_short}} Liberty, Traditional Network Deployment, or Traditional WebSphere Java EE instance in a hosted cloud environment on {{site.data.keyword.Bluemix_notm}} with 64 vCores, 128GB RAM and 1TB HDD per month. |
-|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - Dedicated Medium| A pre-configured {{site.data.keyword.appserver_short}} Liberty, Traditional Network Deployment, or Traditional WebSphere Java EE instance in a hosted cloud environment on {{site.data.keyword.Bluemix_notm}} with 128 vCores, 256GB RAM and 2TB HDD per month. |
-|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - Dedicated Large| A pre-configured {{site.data.keyword.appserver_short}} Liberty, Traditional Network Deployment, or Traditional WebSphere Java EE instance in a hosted cloud environment on {{site.data.keyword.Bluemix_notm}} with 256 vCores, 512GB RAM and 4TB HDD per month. |
-|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - Dedicated| A pre-configured {{site.data.keyword.appserver_short}} Liberty, Traditional Network Deployment, or Traditional WebSphere Java EE instance in a hosted cloud environment on {{site.data.keyword.Bluemix_notm}} with HDD Expansion and 1TB per month. |
+|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_dedicated_notm}} Small| A pre-configured {{site.data.keyword.appserver_short}} Liberty, Traditional Network Deployment, or Traditional WebSphere Java EE instance in a hosted cloud environment on {{site.data.keyword.Bluemix_notm}} with 64 vCores, 128GB RAM and 1TB HDD per month. |
+|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_dedicated_notm}} Medium| A pre-configured {{site.data.keyword.appserver_short}} Liberty, Traditional Network Deployment, or Traditional WebSphere Java EE instance in a hosted cloud environment on {{site.data.keyword.Bluemix_notm}} with 128 vCores, 256GB RAM and 2TB HDD per month. |
+|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_dedicated_notm}} Large| A pre-configured {{site.data.keyword.appserver_short}} Liberty, Traditional Network Deployment, or Traditional WebSphere Java EE instance in a hosted cloud environment on {{site.data.keyword.Bluemix_notm}} with 256 vCores, 512GB RAM and 4TB HDD per month. |
+|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_dedicated_notm}}| A pre-configured {{site.data.keyword.appserver_short}} Liberty, Traditional Network Deployment, or Traditional WebSphere Java EE instance in a hosted cloud environment on {{site.data.keyword.Bluemix_notm}} with HDD Expansion and 1TB per month. |
 {: caption="Table 2. Optional service components for purchase" caption-side="top"}
 {: #table02}
 
@@ -85,7 +88,7 @@ There are optional components that are available for you to purchase to scale an
 |Dedicated runtimes 16 GB capacity increase  | An extension of the runtimes environment to provide an extra 16 GB of runtime capacity. |
 |Dedicated Direct Link 1 Gbps capacity | A dedicated network link that connects directly to the appropriate {{site.data.keyword.BluSoftlayer}} network point of presence designed for data transfers of up to 1 Gbps. |
 |Dedicated Direct Link 10 Gbps capacity | A dedicated network link that connects directly to the appropriate {{site.data.keyword.BluSoftlayer}} network point of presence designed for data transfers of up to 10 Gbps. |
-|IBM Bluemix Dedicated Hardware Firewall - High Availability | A redundant 1 Gbps hardware firewall configured for protection for single, multiple, or all servers on same VLAN within the Dedicated environment. |
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} Hardware Firewall - High Availability | A redundant 1 Gbps hardware firewall configured for protection for single, multiple, or all servers on same VLAN within the Dedicated environment. |
 {: caption="Table 3. Optional platform add-on components for purchase" caption-side="top"}
 {: #table03}
 
@@ -96,7 +99,7 @@ There are optional components that are available for you to purchase to scale an
 
 {{site.data.keyword.Bluemix_dedicated_notm}} includes a private catalog that brings together approved services across your public, dedicated and local deployments. You can even publish and manage access to your own services through the {{site.data.keyword.Bluemix_notm}} catalog. You have the option to decide which public services meet the requirements for your business based on your data privacy and security criteria.
 
-If you have a private instance of the service for your dedicated environment, you see a "Dedicated" tag with the service names in your catalog. Similarly, if it is a custom service, meaning you used a service broker to create it, you see "Custom" listed with the service name. All other services listed that do not have a "dedicated" or "custom" tag are available by using syndication from {{site.data.keyword.Bluemix_notm}} Public. Syndicated services provide the function to create hybrid applications that consist of public and private services.
+If you have a private instance of the service for your dedicated environment, you see a `Dedicated` tag with the service names in your catalog. Similarly, if it is a custom service, meaning you used a service broker to create it, you see "Custom" listed with the service name. All other services listed that do not have a "dedicated" or "custom" tag are available by using syndication from {{site.data.keyword.Bluemix_notm}} Public. Syndicated services provide the function to create hybrid applications that consist of public and private services.
 
 |Service	|Available in US South region	|Available in Europe United Kingdom region |Available in Australian Sydney region|Available in Germany region|
 |:----------|:------------------------------|:------------------|:------------------|:------------------|
@@ -146,6 +149,7 @@ If you have a private instance of the service for your dedicated environment, yo
 **Note**: Third-party services are not included in the table. Check your catalog for third-party service options.
 
 
+
 ## {{site.data.keyword.Bluemix_dedicated_notm}} architecture
 {: #dedicatedarch}
 
@@ -158,7 +162,7 @@ Each {{site.data.keyword.Bluemix_dedicated_notm}} deployment is dedicated to a s
 Figure 1. Detailed {{site.data.keyword.Bluemix_dedicated_notm}} diagram default architecture
 {: #figure01}
 
-The significant architectureal components depicted in the previous architecture diagram include the following:
+The significant architectural components depicted in the previous architecture diagram include the following:
 
 <dl>
 <dt>{{site.data.keyword.IBM_notm}} Cloud</dt>
@@ -245,7 +249,7 @@ You can expect a process similar to the following list for the initial deploymen
 <li>You can start using your dedicated instance that is monitored by the IBM operations team in order to respond to alerts.</li>
 </ol>
 
-After your {{site.data.keyword.Bluemix_notm}} instance is set up, you can monitor and manage your {{site.data.keyword.Bluemix_notm}} instance by using the Administration page. For more information, see [Managing {{site.data.keyword.Bluemix_notm}} Local and Dedicated](../admin/index.html#mng). For information about upgrades and maintenance, see [Maintaining your dedicated instance](index.html#maintaindedicated).
+After your {{site.data.keyword.Bluemix_notm}} instance is set up, you can monitor and manage your {{site.data.keyword.Bluemix_notm}} instance by using the Administration page. For more information, see [Managing {{site.data.keyword.Bluemix_local_notm}} and {{site.data.keyword.Bluemix_dedicated_notm}}](../admin/index.html#mng). For information about upgrades and maintenance, see [Maintaining your dedicated instance](index.html#maintaindedicated).
 
 ##Roles and responsibilities
 {: #rolesresponsibilities}
@@ -266,7 +270,7 @@ The following list shows the customer roles and responsibilities that you assign
 <dt>**DevOps focal**</dt>
 <dd>Works with the IBM representative to plan and apply the maintenance updates that are needed for the {{site.data.keyword.Bluemix_notm}} platform, services, and runtimes. The person assigned to this role also works with the IBM representative on the configuration of your {{site.data.keyword.Bluemix_dedicated_notm}} instance.</dd>
 <dt>Operations focal</dt>
-<dd>Works with the IBM support team as needed once the environment is up and running. This is someone with Superuser access to the Administration console who can approve and schedule maintenance updates for the Bluemix environment and be available at all times in the event of a critical incident. The person assigned to this role must have technical knowledge of the Bluemix environment and be in a position to reach others within company that have expert skills in an area that might be affected including networking or security, for example.</dd>
+<dd>Works with the IBM support team as needed once the environment is up and running. This is someone with Superuser access to the Administration console who can approve and schedule maintenance updates for the {{site.data.keyword.Bluemix_notm}} environment and be available at all times in the event of a critical incident. The person assigned to this role must have technical knowledge of the {{site.data.keyword.Bluemix_notm}} environment and be in a position to reach others within company that have expert skills in an area that might be affected including networking or security, for example.</dd>
 </dl>
 
 Your customer representatives work with IBM specialists that work together to ensure that you always have the support that you need. You can upgrade to the Premium support tier to work with a dedicated Client Success Manager (CSM) for your account. For more information about the different support tiers, see [Contacting support](../support/index.html#contacting-support).The CSM completes the following types of tasks:
@@ -392,7 +396,7 @@ If there is a reported issue following a maintenance update, you agree with {{si
 
 ### Customer-detected issues
 
-If you identify an issue that needs attention from IBM support and operations, you can contact support by using a few different methods. For information about how to contact support, see [Contacting support](../support/index.html#contacting-bluemix-support-local). Depending on the issue, you, IBM, or both work together to fix the issue.
+If you identify an issue that needs attention from IBM support and operations, you can contact support by using a few different methods. For information about how to contact support, see [Contacting support](../support/index.html#contacting-bluemix-support-dedicated-local). Depending on the issue, you, IBM, or both work together to fix the issue.
 
 ### IBM-detected critical incidents
 
@@ -404,18 +408,18 @@ If you want to integrate your notifications with a web service that supports web
 
 Figure 2. Incident response process
 
-Depending on the issue, you, IBM, or both of you work together to fix the issue. If you have a question regarding the incident, or if you need an IBM representative to help you resolve the issue, then you can open a support ticket. For information about how to contact support, see [Contacting support](/docs/support/index.html#contacting-bluemix-support-local).
+Depending on the issue, you, IBM, or both of you work together to fix the issue. If you have a question regarding the incident, or if you need an IBM representative to help you resolve the issue, then you can open a support ticket. For information about how to contact support, see [Contacting support](/docs/support/index.html#contacting-bluemix-support-dedicated-local).
 
-**Note**: Severity 1 support tickets are monitored 24 hours a day, 7 days a week. Other tickets are processed from Sunday 10:00 pm GMT through Saturday 12:00 am GMT. For more information about severity of support tickets and working with support, see <a href="/docs/support/index.html#contacting-bluemix-support-local">Contacting support</a>.
+**Note**: Severity 1 support tickets are monitored 24 hours a day, 7 days a week. Other tickets are processed from Sunday 10:00 pm GMT through Saturday 12:00 am GMT. For more information about severity of support tickets and working with support, see <a href="/docs/support/index.html#contacting-bluemix-support-dedicated-local">Contacting support</a>.
 
 
 ## Disaster recovery for {{site.data.keyword.Bluemix_dedicated_notm}}
 {: #dr}
 
-Disaster recovery for {{site.data.keyword.Bluemix_short}} Dedicated can be set up similarly to the way that it works when you use {{site.data.keyword.Bluemix_short}} Public. {{site.data.keyword.Bluemix_short}} Public provides a continuously available platform for innovation with multiple fail-safe measures to ensure that your orgs, spaces, and apps are always available. Deploying apps to multiple geographic regions enables continuous availability that protects against unplanned, simultaneous loss of multiple hardware or software components, or the loss of an entire data center, so that even in the event of a natural disaster in one geographic location, your distributed {{site.data.keyword.Bluemix_notm}} Public app instances in alternate geographic locations will be available.
+Disaster recovery for {{site.data.keyword.Bluemix_dedicated_notm}} can be set up similarly to the way that it works when you use {{site.data.keyword.Bluemix_short}} Public. {{site.data.keyword.Bluemix_short}} Public provides a continuously available platform for innovation with multiple fail-safe measures to ensure that your orgs, spaces, and apps are always available. Deploying apps to multiple geographic regions enables continuous availability that protects against unplanned, simultaneous loss of multiple hardware or software components, or the loss of an entire data center, so that even in the event of a natural disaster in one geographic location, your distributed {{site.data.keyword.Bluemix_notm}} Public app instances in alternate geographic locations will be available.
 {: shortdesc}
 
-Disaster recovery for {{site.data.keyword.Bluemix_short}} Dedicated is made possible through continuous availability for your apps, the inherent high availability of the platform, and the ability to restore your instance in the event of a failure. You are responsible for enabling continuous availability of your apps by deploying to multiple regions. High availability is built in at the platform level through  technologies included in Cloud Foundry and other components. And, you can work together with IBM to ensure your data is properly backed up in the case that you need to restore your instance at any time.
+Disaster recovery for {{site.data.keyword.Bluemix_dedicated_notm}} is made possible through continuous availability for your apps, the inherent high availability of the platform, and the ability to restore your instance in the event of a failure. You are responsible for enabling continuous availability of your apps by deploying to multiple regions. High availability is built in at the platform level through  technologies included in Cloud Foundry and other components. And, you can work together with IBM to ensure your data is properly backed up in the case that you need to restore your instance at any time.
 
 ### Enabling continuous availability for {{site.data.keyword.Bluemix_dedicated_notm}}
 {: #enabling}
