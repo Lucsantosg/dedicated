@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-10-02"
+lastupdated: "2017-08-09"
 
 ---
 
@@ -16,7 +16,7 @@ lastupdated: "2017-10-02"
 {: #dedicated}
 
 
-{{site.data.keyword.Bluemix}} es una plataforma de estándares abiertos basada en la nube para crear, ejecutar y gestionar apps. Con {{site.data.keyword.Bluemix_dedicated_notm}}, obtendrá la potencia y la simplicidad de {{site.data.keyword.Bluemix_notm}}&mdash;en su propio entorno dedicado de SoftLayer, que se conecta de forma segura tanto al entorno público de {{site.data.keyword.Bluemix_notm}} como a su propia red.
+{{site.data.keyword.Bluemix}} es una plataforma de estándares abiertos basada en la nube para crear, ejecutar y gestionar apps. Con {{site.data.keyword.Bluemix_dedicated_notm}}, obtendrá la potencia y la simplicidad de {{site.data.keyword.Bluemix_notm}} &mdash;en su propio entorno dedicado de SoftLayer, que se conecta de forma segura tanto al entorno público de {{site.data.keyword.Bluemix_notm}} como a su propia red.
 {:shortdesc}
 
 Los despliegues dedicados de {{site.data.keyword.Bluemix_notm}} incluyen los siguientes beneficios y características sin ningún coste adicional: VPN, red de área local virtual (VLAN) privada, cortafuegos, conectividad con LDAP, optimización de las apps y bases de datos locales existentes, seguridad local 24 horas al día/7 días por semana, hardware dedicado y soporte estándar.
@@ -33,7 +33,7 @@ Además, hay varios servicios y componentes que se incluyen o que están disponi
 | Incluido | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | Aumente o reduzca de forma dinámica la capacidad de cálculo de la app en función de políticas. Con este servicio, dispone de un uso ilimitado del entorno de {{site.data.keyword.Bluemix_dedicated_notm}}. Nota: El escalado automático sólo funciona en este momento con tiempos de ejecución de Cloud Foundry |
 |Opcional | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} integra {{site.data.keyword.APIM}} e IBM StrongLoop en una única oferta que proporciona una solución completa para crear, ejecutar gestionar e imponer API y microservicios. |
 |Opcional | [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} proporciona acceso a una capa de datos JSON de NoSQL completamente gestionada que siempre está activa. Este servicio es compatible con CouchDB y se puede acceder a través de una interfaz HTTP fácil de utilizar para los modelos de aplicación web y móvil. |
-|Opcional | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | Ejecutar contenedores de Docker en {{site.data.keyword.Bluemix_dedicated_notm}}. Los contenedores son objetos de software virtuales que incluyen todos los elementos que una app necesita para ejecutarse. Un contenedor tiene las ventajas del aislamiento y asignación de recursos, pero es más portable y eficiente que, por ejemplo, una máquina virtual. Para obtener información sobre los requisitos de hardware, consulte [{{site.data.keyword.containershort}} en {{site.data.keyword.Bluemix_dedicated_notm}} y Bluemix Local](/docs/containers/container_ov.html#container_dl).|
+|Opcional | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | Ejecutar contenedores de Docker en {{site.data.keyword.Bluemix_dedicated_notm}}. Los contenedores son objetos de software virtuales que incluyen todos los elementos que una app necesita para ejecutarse. Un contenedor tiene las ventajas del aislamiento y asignación de recursos, pero es más portable y eficiente que, por ejemplo, una máquina virtual. Para obtener información sobre los requisitos de hardware, consulte [{{site.data.keyword.containershort}} en {{site.data.keyword.Bluemix_dedicated_notm}} y {{site.data.keyword.Bluemix_local_notm}}](/docs/containers/container_ov.html#container_dl).|
 | Opcional | [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | Utilice {{site.data.keyword.contdelivery_short}} dedicado para automatizar las compilaciones, las pruebas de unidad, los despliegues y más. Edite y envíe el código a través de un potente IDE basado en web. Cree cadenas de herramientas para habilitar las integraciones de herramientas que dan soporte a las tareas de desarrollo, despliegue y operaciones. |
 | Opcional | [{{site.data.keyword.dashdbshort}}](/docs/services/dashDB/dashDB.html) | IBM {{site.data.keyword.dashdbshort}} for Analytics es un servicio de base de datos de nube de SQL totalmente gestionado, optimizado para el almacén de datos y las cargas de trabajo de análisis. IBM {{site.data.keyword.dashdbshort}} for Transactions es un servicio de base de datos de nube de SQL totalmente gestionado, optimizado para el uso general, las apps web y las cargas de trabajo transaccionales. |
 | Opcional | [Dedicated GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}} es la versión alojada en IBM y totalmente gestionada de GitHub Enterprise que proporciona la experiencia social preferida por los desarrolladores. Este servicio actualmente solo está disponible para entornos de {{site.data.keyword.Bluemix_dedicated_notm}}. |
@@ -69,12 +69,12 @@ Hay componentes opcionales que se pueden adquirir para escalar y ampliar la capa
 |Servicios de la comunidad de {{site.data.keyword.Bluemix_dedicated_notm}}  | Un entorno que permite desplegar y ejecutar servicios de comunidad hasta un total de 50 instancias para cada servicio de comunidad.  |
 |Instancia de clúster de {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.cloudant}} | Este componente opcional incluye un clúster de 3 nodos para el que usted es responsable de proporcionar la infraestructura, y la capacidad de almacenamiento y de cálculo se puede determinar en función de sus necesidades específicas. {{site.data.keyword.cloudant}} proporciona acceso a una capa de datos JSON de NoSQL completamente gestionada que siempre está activa. Este servicio es compatible con CouchDB y se puede acceder a través de una interfaz HTTP fácil de utilizar para los modelos de aplicación web y móvil. |
 |IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.messagehub}} | Un entorno que proporciona mensajería de publicación/suscripción de hasta 10 GB por partición, con un límite de hasta 100 particiones. |
-|IBM Bluemix Dedicated {{site.data.keyword.mobilepushshort}} | Un entorno que permite el despliegue y la ejecución de instancias de {{site.data.keyword.mobilepushshort}} con capacidad para aceptar 300 solicitudes por segundo. |
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.mobilepushshort}} | Un entorno que permite el despliegue y la ejecución de instancias de {{site.data.keyword.mobilepushshort}} con capacidad para aceptar 300 solicitudes por segundo. |
 |Aumento incremental de {{site.data.keyword.iot_short}} dedicado | Un incremento de entorno que permite ejecutar una versión privada de {{site.data.keyword.iot_short}} dentro del entorno dedicado con una capacidad de 100.000 aplicaciones o dispositivos conectados simultáneamente y 0,5 TB de intercambio de datos. |
-|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - Dedicado pequeño| Una instancia preconfigurada de {{site.data.keyword.appserver_short}} Liberty, Traditional Network Deployment o Traditional WebSphere Java EE en un entorno de nube alojado en {{site.data.keyword.Bluemix_notm}} con 64 vCores, 128 GB de RAM y 1 TB de HDD al mes. |
-|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - Dedicado medio| Una instancia preconfigurada de {{site.data.keyword.appserver_short}} Liberty, Traditional Network Deployment o Traditional WebSphere Java EE en un entorno de nube alojado en {{site.data.keyword.Bluemix_notm}} con 128 vCores, 256 GB de RAM y 2 TB de HDD al mes. |
-|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - Dedicado grande| Una instancia preconfigurada de {{site.data.keyword.appserver_short}} Liberty, Traditional Network Deployment o Traditional WebSphere Java EE en un entorno de nube alojado en {{site.data.keyword.Bluemix_notm}} con 256 vCores, 512 GB de RAM y 4 TB de HDD al mes. |
-|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - Dedicado| Una instancia preconfigurada de {{site.data.keyword.appserver_short}} Liberty, Traditional Network Deployment o Traditional WebSphere Java EE en un entorno de nube alojado en {{site.data.keyword.Bluemix_notm}} con expansión de HDD y 1 TB de HDD al mes. |
+|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_dedicated_notm}} Pequeño| Una instancia preconfigurada de {{site.data.keyword.appserver_short}} Liberty, Traditional Network Deployment o Traditional WebSphere Java EE en un entorno de nube alojado en {{site.data.keyword.Bluemix_notm}} con 64 vCores, 128 GB de RAM y 1 TB de HDD al mes. |
+|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_dedicated_notm}} Medio| Una instancia preconfigurada de {{site.data.keyword.appserver_short}} Liberty, Traditional Network Deployment o Traditional WebSphere Java EE en un entorno de nube alojado en {{site.data.keyword.Bluemix_notm}} con 128 vCores, 256 GB de RAM y 2 TB de HDD al mes. |
+|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_dedicated_notm}} Grande| Una instancia preconfigurada de {{site.data.keyword.appserver_short}} Liberty, Traditional Network Deployment o Traditional WebSphere Java EE en un entorno de nube alojado en {{site.data.keyword.Bluemix_notm}} con 256 vCores, 512 GB de RAM y 4 TB de HDD al mes. |
+|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_dedicated_notm}}| Una instancia preconfigurada de {{site.data.keyword.appserver_short}} Liberty, Traditional Network Deployment o Traditional WebSphere Java EE en un entorno de nube alojado en {{site.data.keyword.Bluemix_notm}} con expansión de HDD y 1 TB de HDD al mes. |
 {: caption="Tabla 2. Componentes de servicio opcionales para comprar" caption-side="top"}
 {: #table02}
 
@@ -85,7 +85,7 @@ Hay componentes opcionales que se pueden adquirir para escalar y ampliar la capa
 |Aumento de capacidad de 16 GB de tiempos de ejecución dedicados  | Extensión del entorno de tiempos de ejecución para proporcionar 16 GB adicionales de capacidad de tiempo de ejecución. |
 |Capacidad de 1 de enlace directo dedicado | Un enlace de red dedicado que conecta directamente con el punto de presencia de red de {{site.data.keyword.BluSoftlayer}} correcto para las transferencias de datos de hasta 1 Gbps. |
 |Capacidad de 10 Gbps de enlace directo dedicado | Un enlace de red dedicado que conecta directamente con el punto de presencia de red de {{site.data.keyword.BluSoftlayer}} correcto para las transferencias de datos de hasta 10 Gbps. |
-|IBM Bluemix Dedicated Hardware Firewall - Alta disponibilidad | Un cortafuegos de hardware de 1 Gbps redundante configurado para la protección para un solo servidor, varios servidores o todos los servidores en la misma VLAN dentro del entorno dedicado. |
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} Hardware Firewall - Alta disponibilidad | Un cortafuegos de hardware de 1 Gbps redundante configurado para la protección para un solo servidor, varios servidores o todos los servidores en la misma VLAN dentro del entorno dedicado. |
 {: caption="Tabla 3. Componentes de complemento de plataforma opcionales para su compra" caption-side="top"}
 {: #table03}
 
@@ -96,7 +96,7 @@ Hay componentes opcionales que se pueden adquirir para escalar y ampliar la capa
 
 {{site.data.keyword.Bluemix_dedicated_notm}} incluye un catálogo privado que aúna servicios aprobados de los despliegues públicos, dedicados y locales. Incluso puede publicar y gestionar el acceso a sus propios servicios a través del catálogo de {{site.data.keyword.Bluemix_notm}}. Tiene la opción de decidir qué servicios públicos cumplen los requisitos de su empresa en función de sus criterios de privacidad de datos y de seguridad.
 
-Si es una instancia privada del servicio para el entorno dedicado, verá una etiqueta "Dedicado" con los nombres del servicio en el catálogo. De forma parecida, si es un servicio personalizado (es decir, para cuya creación se ha utilizado un intermediario de servicio) verá "Personalizado" listado con el nombre del servicio. El resto de servicios listados que no incluyen la etiqueta "dedicado" o "personalizado" están disponibles mediante la sindicación desde {{site.data.keyword.Bluemix_notm}} público. Los servicios sindicados proporcionan la función para crear aplicaciones híbridas que constan de servicios públicos o privados.
+Si es una instancia privada del servicio para el entorno dedicado, verá una etiqueta `Dedicado` con los nombres del servicio en el catálogo. De forma parecida, si es un servicio personalizado (es decir, para cuya creación se ha utilizado un intermediario de servicio) verá "Personalizado" listado con el nombre del servicio. El resto de servicios listados que no incluyen la etiqueta "dedicado" o "personalizado" están disponibles mediante la sindicación desde {{site.data.keyword.Bluemix_notm}} público. Los servicios sindicados proporcionan la función para crear aplicaciones híbridas que constan de servicios públicos o privados.
 
 |Servicio	|Disponible en la región EE.UU. sur	|Disponible en la región Europa Reino Unido |Disponible en la región Australiana Sídney|Disponible en la región Alemania|
 |:----------|:------------------------------|:------------------|:------------------|:------------------|
@@ -146,6 +146,7 @@ Si es una instancia privada del servicio para el entorno dedicado, verá una eti
 **Nota**: Los servicios de terceros no están incluidos en la tabla. Compruebe el catálogo para opciones de servicio de terceros.
 
 
+
 ## Arquitectura de {{site.data.keyword.Bluemix_dedicated_notm}}
 {: #dedicatedarch}
 
@@ -158,7 +159,7 @@ Cada despliegue de {{site.data.keyword.Bluemix_dedicated_notm}} se dedica a una 
 Figura 1. Arquitectura predeterminada de diagrama de {{site.data.keyword.Bluemix_dedicated_notm}} detallada
 {: #figure01}
 
-Los componentes arquitectónicos significativos descritos en el diagrama de arquitectura anterior incluye lo siguiente:
+Los componentes arquitectónicos significativos descritos en el diagrama de arquitectura anterior incluyen lo siguiente:
 
 <dl>
 <dt>{{site.data.keyword.IBM_notm}} Cloud</dt>
@@ -245,7 +246,7 @@ Puede prever un proceso similar a la siguiente lista para el despliegue y la con
 <li>Puede empezar utilizando la instancia dedicada que está supervisada por el equipo de operaciones de IBM para responder a las alertas.</li>
 </ol>
 
-Una vez que se configure la instancia de {{site.data.keyword.Bluemix_notm}}, puede supervisar y gestionar la instancia de {{site.data.keyword.Bluemix_notm}} utilizando la página Administración. Para obtener más información, consulte [Gestión de {{site.data.keyword.Bluemix_notm}} local y dedicado](../admin/index.html#mng). Para obtener información sobre las actualizaciones y el mantenimiento, consulte [Mantenimiento de la instancia dedicada](index.html#maintaindedicated).
+Una vez que se configure la instancia de {{site.data.keyword.Bluemix_notm}}, puede supervisar y gestionar la instancia de {{site.data.keyword.Bluemix_notm}} utilizando la página Administración. Para obtener más información, consulte [Gestión de {{site.data.keyword.Bluemix_local_notm}} y {{site.data.keyword.Bluemix_dedicated_notm}}](../admin/index.html#mng). Para obtener información sobre las actualizaciones y el mantenimiento, consulte [Mantenimiento de la instancia dedicada](index.html#maintaindedicated).
 
 ##Roles y responsabilidades
 {: #rolesresponsibilities}
@@ -266,7 +267,7 @@ La lista siguiente muestra los roles y responsabilidades de cliente que se asign
 <dt>**Contacto de DevOps**</dt>
 <dd>Trabaja con el representante de IBM para planificar y aplicar las actualizaciones de mantenimiento necesarias para la plataforma, servicios y tiempos de ejecución de {{site.data.keyword.Bluemix_notm}}. La persona asignada a este rol también trabaja con el representante de IBM en la configuración de la instancia de {{site.data.keyword.Bluemix_dedicated_notm}}.</dd>
 <dt>Contacto de operaciones</dt>
-<dd>Trabaja con el equipo de soporte de IBM cuando sea necesario una vez el entorno está activo y en ejecución. Se trata de alguien con acceso de Superusuario a la consola de administración que puede aprobar y planificar actualizaciones de mantenimiento para el entorno Bluemix y que está siempre disponible en el caso de que se produzca un incidente crítico. La persona asignada a este rol debe tener conocimientos técnicos del entorno Bluemix y debe tener capacidad para establecer contacto con la persona de la organización con los conocimientos específicos del área que se vea afectada, incluidas, por ejemplo, las áreas de red o de seguridad.</dd>
+<dd>Trabaja con el equipo de soporte de IBM cuando sea necesario una vez el entorno está activo y en ejecución. Se trata de alguien con acceso de Superusuario a la consola de administración que puede aprobar y planificar actualizaciones de mantenimiento para el entorno {{site.data.keyword.Bluemix_notm}} y que está siempre disponible en el caso de que se produzca un incidente crítico. La persona asignada a este rol debe tener conocimientos técnicos del entorno {{site.data.keyword.Bluemix_notm}} y debe tener capacidad para establecer contacto con la persona de la organización con los conocimientos específicos del área que se vea afectada, incluidas, por ejemplo, las áreas de red o de seguridad.</dd>
 </dl>
 
 Los representantes de los clientes trabajan con los especialistas de IBM que trabajan conjuntamente para asegurarse de que siempre tenga el soporte que necesita. Puede actualizar al nivel de soporte Premium para trabajar con un CSM (Client Success Manager) dedicado para su cuenta. Para obtener más información sobre los distintos niveles de soporte, consulte [Cómo obtener soporte](../support/index.html#contacting-support). El CSM completa los siguientes tipos de tareas:
@@ -393,7 +394,7 @@ Si hay un problema después de una actualización de mantenimiento, acuerda con 
 ### Problemas detectados por el cliente
 
 Si detecta un problema que necesite la atención de operaciones y soporte de IBM puede ponerse en contacto con el soporte mediante diversos
-métodos. Para obtener información sobre cómo contactar con el soporte, consulte [Cómo obtener soporte](../support/index.html#contacting-bluemix-support-local). Según la naturaleza del problema, el usuario, IBM o ambos pueden trabajar para solucionarlo.
+métodos. Para obtener información sobre cómo contactar con el soporte, consulte [Cómo obtener soporte](../support/index.html#contacting-bluemix-support-dedicated-local). Según la naturaleza del problema, el usuario, IBM o ambos pueden trabajar para solucionarlo.
 
 ### Incidencias críticas detectadas por IBM
 
@@ -410,21 +411,21 @@ cómo ampliar las funciones de notificación.
 
 Figura 2. Proceso de respuesta de incidencias
 
-Según la naturaleza del problema, el usuario, IBM o ambos pueden trabajar para solucionarlo. Si tiene alguna pregunta relativa a la incidencia, o si necesita que un representante de IBM le ayude a resolver el problema, puede abrir una incidencia de soporte. Para obtener información sobre cómo contactar con el soporte, consulte [Cómo obtener soporte](/docs/support/index.html#contacting-bluemix-support-local).
+Según la naturaleza del problema, el usuario, IBM o ambos pueden trabajar para solucionarlo. Si tiene alguna pregunta relativa a la incidencia, o si necesita que un representante de IBM le ayude a resolver el problema, puede abrir una incidencia de soporte. Para obtener información sobre cómo contactar con el soporte, consulte [Cómo obtener soporte](/docs/support/index.html#contacting-bluemix-support-dedicated-local).
 
 **Nota**: Las incidencias de soporte de gravedad 1 se supervisan 24 horas al día, 7 días por semana. Otras incidencias
 se procesan desde las 22:00 del domingo (GMT) hasta las 00:00 del sábado (GMT). Para obtener más información sobre la gravedad de
-las incidencias de soporte y cómo trabajar con soporte, consulte <a href="/docs/support/index.html#contacting-bluemix-support-local">Cómo obtener soporte</a>.
+las incidencias de soporte y cómo trabajar con soporte, consulte <a href="/docs/support/index.html#contacting-bluemix-support-dedicated-local">Cómo obtener soporte</a>.
 
 
 ## Recuperación tras desastre para {{site.data.keyword.Bluemix_dedicated_notm}}
 {: #dr}
 
-La recuperación tras desastre para {{site.data.keyword.Bluemix_short}} dedicado puede configurarse de forma parecida a la forma en que funciona cuando utiliza
+La recuperación tras desastre para {{site.data.keyword.Bluemix_dedicated_notm}} puede configurarse de forma parecida a la forma en que funciona cuando utiliza
 {{site.data.keyword.Bluemix_short}} público. {{site.data.keyword.Bluemix_short}} público proporciona una plataforma disponible de forma continua para la innovación con varias medidas libre de errores para garantizar que las organizaciones, los espacios y las apps estén siempre disponibles. El despliegue de apps en varias regiones geográficas permite la disponibilidad continua, que protege frente a la pérdida no planificada y simultánea de varios componentes de hardware o software, o la pérdida de todo un centro de datos, de modo que, incluso en el caso de un desastre natural en una ubicación geográfica, las instancias distribuidas de la app de {{site.data.keyword.Bluemix_notm}} público, situadas en ubicaciones geográficas alternativas, seguirán estando disponibles.
 {: shortdesc}
 
-La recuperación en caso de error de {{site.data.keyword.Bluemix_short}} dedicado es posible gracias a la disponibilidad continua de sus apps, la alta disponibilidad inherente de la plataforma y la capacidad de restaurar la instancia en caso de error. Es responsable de habilitar una disponibilidad continua de sus apps desplegándolas en varias regiones. La alta disponibilidad está integrada en el nivel de la plataforma mediante tecnologías incluidas en Cloud Foundry y otros componentes. También puede trabajar conjuntamente con IBM para asegurarse de que se ha hecho una copia de seguridad correcta de sus datos en el caso de que necesite restaurar su instancia en cualquier momento.
+La recuperación en caso de error de {{site.data.keyword.Bluemix_dedicated_notm}} es posible gracias a la disponibilidad continua de sus apps, la alta disponibilidad inherente de la plataforma y la capacidad de restaurar la instancia en caso de error. Es responsable de habilitar una disponibilidad continua de sus apps desplegándolas en varias regiones. La alta disponibilidad está integrada en el nivel de la plataforma mediante tecnologías incluidas en Cloud Foundry y otros componentes. También puede trabajar conjuntamente con IBM para asegurarse de que se ha hecho una copia de seguridad correcta de sus datos en el caso de que necesite restaurar su instancia en cualquier momento.
 
 ### Habilitación de la disponibilidad continua para {{site.data.keyword.Bluemix_dedicated_notm}}
 {: #enabling}

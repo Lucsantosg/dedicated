@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-10-02"
+lastupdated: "2017-08-09"
 
 ---
 
@@ -33,7 +33,7 @@ lastupdated: "2017-10-02"
 | 已包含| [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | 根据策略，动态增大或减小应用程序的计算容量。通过此服务，您在 {{site.data.keyword.Bluemix_dedicated_notm}} 环境中的使用不受限制。注：自动扩展目前只适用于 Cloud Foundry 运行时|
 |可选| [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} 将 {{site.data.keyword.APIM}} 和 IBM StrongLoop 集成到单个产品中，以提供一个综合解决方案来创建、运行、管理和强制执行 API 与微服务。|
 |可选| [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} 提供了对始终启用的完全受管 NoSQL JSON 数据层的访问。此服务兼容 CouchDB，并且可通过易用的 HTTP 接口供移动和 Web 应用程序模型访问。|
-|可选| [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | 在 {{site.data.keyword.Bluemix_dedicated_notm}} 上运行 Docker 容器。容器是包含应用程序运行所需的所有元素的虚拟软件对象。容器不仅具有资源隔离和分配的好处，而且还比虚拟机器（举例来说）的可移植性更好，且更有效率。有关硬件需求的信息，请参阅 [{{site.data.keyword.Bluemix_dedicated_notm}} 和 Bluemix Local 中的 {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)。|
+|可选| [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | 在 {{site.data.keyword.Bluemix_dedicated_notm}} 上运行 Docker 容器。容器是包含应用程序运行所需的所有元素的虚拟软件对象。容器不仅具有资源隔离和分配的好处，而且还比虚拟机器（举例来说）的可移植性更好，且更有效率。有关硬件需求的信息，请参阅 [{{site.data.keyword.Bluemix_dedicated_notm}} 和 {{site.data.keyword.Bluemix_local_notm}} 中的 {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)。|
 | 可选| [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | 使用 {{site.data.keyword.contdelivery_short}} Dedicated 可自动执行构建、单元测试、部署等操作。通过丰富的基于 Web 的 IDE 来编辑和推送代码。创建工具链以便进行支持开发、部署和操作任务的工具集成。|
 | 可选| [{{site.data.keyword.dashdbshort}}](/docs/services/dashDB/dashDB.html) | IBM {{site.data.keyword.dashdbshort}} for Analytics 是完全管理的 SQL 云数据库服务，针对数据仓库和分析工作负载而进行了优化。IBM {{site.data.keyword.dashdbshort}} for Transactions 是完全管理的 SQL 云数据库服务，针对一般目的、Web 应用程序和事务工作负载而进行了优化。|
 | 可选| [Dedicated GitHub Enterprise](/docs/services/ghededicated/index.html)| {{site.data.keyword.ghe_long}} 是 IBM Cloud 托管且完全管理的 GitHub 版本，提供了开发者喜爱的社交功能。此服务目前只可用于 {{site.data.keyword.Bluemix_dedicated_notm}} 环境。|
@@ -69,12 +69,12 @@ lastupdated: "2017-10-02"
 |{{site.data.keyword.Bluemix_dedicated_notm}} 社区服务| 此环境允许部署和运行社区服务，每个社区服务最多共 50 个实例。|
 |{{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.cloudant}} 集群实例| 此可选组件包含您负责为其提供基础架构的 3 节点集群，并且存储和计算能力可以根据您的特定需求来确定。{{site.data.keyword.cloudant}} 提供了对始终启用的完全受管 NoSQL JSON 数据层的访问。此服务兼容 CouchDB，并且可通过易用的 HTTP 接口供移动和 Web 应用程序模型访问。|
 |IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.messagehub}}| 该环境提供每个分区高达 10 GB 的发布/预订消息传递，限制为 100 个分区。|
-|IBM Bluemix Dedicated {{site.data.keyword.mobilepushshort}}| 此环境允许部署和执行 {{site.data.keyword.mobilepushshort}} 实例，每秒能接受 300 个请求。|
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.mobilepushshort}}| 此环境允许部署和执行 {{site.data.keyword.mobilepushshort}} 实例，每秒能接受 300 个请求。|
 |{{site.data.keyword.iot_short}} Dedicated 递增增加| 此环境允许在专用环境中运行 {{site.data.keyword.iot_short}} 的专用版本，容量为 100,000 个并行连接设备或应用程序，数据交换量为 0.5 TB。|
-|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - Dedicated Small| 在 {{site.data.keyword.Bluemix_notm}} 上托管的云环境中预配置的 {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment 或 Traditional WebSphere Java EE 实例，每月 64 个 vCore、128GB RAM 和 1TB HDD。|
-|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - Dedicated Medium| 在 {{site.data.keyword.Bluemix_notm}} 上托管的云环境中预配置的 {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment 或 Traditional WebSphere Java EE 实例，每月 128 个 vCore、256GB RAM 和 2TB HDD。|
-|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - Dedicated Large| 在 {{site.data.keyword.Bluemix_notm}} 上托管的云环境中预配置的 {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment 或 Traditional WebSphere Java EE 实例，每月 256 个 vCore、512GB RAM 和 4TB HDD。|
-|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_notm}} - Dedicated| 在 {{site.data.keyword.Bluemix_notm}} 上托管的云环境中预配置的 {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment 或 Traditional WebSphere Java EE 实例，具有 HDD 扩展和每月 1TB HDD。|
+|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_dedicated_notm}} Small| 在 {{site.data.keyword.Bluemix_notm}} 上托管的云环境中预配置的 {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment 或 Traditional WebSphere Java EE 实例，每月 64 个 vCore、128GB RAM 和 1TB HDD。|
+|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_dedicated_notm}} Medium| 在 {{site.data.keyword.Bluemix_notm}} 上托管的云环境中预配置的 {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment 或 Traditional WebSphere Java EE 实例，每月 128 个 vCore、256GB RAM 和 2TB HDD。|
+|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_dedicated_notm}} Large| 在 {{site.data.keyword.Bluemix_notm}} 上托管的云环境中预配置的 {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment 或 Traditional WebSphere Java EE 实例，每月 256 个 vCore、512GB RAM 和 4TB HDD。|
+|IBM {{site.data.keyword.appserver_short}} for {{site.data.keyword.Bluemix_dedicated_notm}}| 在 {{site.data.keyword.Bluemix_notm}} 上托管的云环境中预配置的 {{site.data.keyword.appserver_short}} Liberty、Traditional Network Deployment 或 Traditional WebSphere Java EE 实例，具有 HDD 扩展和每月 1TB HDD。|
 {: caption="表 2. 可购买的可选服务组件" caption-side="top"}
 {: #table02}
 
@@ -85,7 +85,7 @@ lastupdated: "2017-10-02"
 |Dedicated Runtimes 增加 16 GB 容量| 扩展运行时环境，以额外提供 16 GB 运行时容量。|
 |Dedicated Direct Link 1 Gbps 容量| 此专用网络链路直接连接到相应的现有 {{site.data.keyword.BluSoftlayer}} 网络点，设计数据传输量最高 1 Gbps。|
 |Dedicated Direct Link 10 Gbps 容量| 此专用网络链路直接连接到相应的现有 {{site.data.keyword.BluSoftlayer}} 网络点，设计数据传输量最高 10 Gbps。|
-|IBM Bluemix Dedicated 硬件防火墙 - 高可用性| 冗余 1 Gbps 硬件防火墙，配置用于保护专用环境中同一 VLAN 中的单台服务器、多台服务器或所有服务器。|
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} 硬件防火墙 - 高可用性| 冗余 1 Gbps 硬件防火墙，配置用于保护专用环境中同一 VLAN 中的单台服务器、多台服务器或所有服务器。|
 {: caption="表 3. 可购买的可选平台附加组件" caption-side="top"}
 {: #table03}
 
@@ -96,7 +96,7 @@ lastupdated: "2017-10-02"
 
 {{site.data.keyword.Bluemix_dedicated_notm}} 包含一个私有目录，用于将公共部署、专用部署和本地部署中已批准的服务集中在一起。您甚至可以通过 {{site.data.keyword.Bluemix_notm}} 目录来发布您自己的服务并管理对这些服务的访问权。您可以选择根据自己的数据隐私和安全标准来确定哪些公共服务满足您的业务需求。
 
-如果您的专用环境有私有的服务实例，那么您将看到目录中的该服务名称带有“专用”标记。与此类似，如果这是定制服务（即您使用的是服务代理程序创建的服务），那么您将看到列出服务名称时有“定制”字样。通过从 {{site.data.keyword.Bluemix_notm}} Public 使用联合，即可使用不带“专用”或“定制”标记列出的其他所有服务。联合服务提供了用于创建混合应用程序的功能，混合应用程序由公共服务和私有服务组成。
+如果您的专用环境有私有的服务实例，那么您将看到“目录”中服务名称带有“`专用`”标记。与此类似，如果这是定制服务（即您使用的是服务代理程序创建的服务），那么您将看到列出服务名称时有“定制”字样。通过从 {{site.data.keyword.Bluemix_notm}} Public 使用联合，即可使用不带“专用”或“定制”标记列出的其他所有服务。联合服务提供了用于创建混合应用程序的功能，混合应用程序由公共服务和私有服务组成。
 
 |服务|在美国南部区域中可用|在欧洲英国区域中可用|在澳洲悉尼区域中可用|在德国区域中可用|
 |:----------|:------------------------------|:------------------|:------------------|:------------------|
@@ -144,6 +144,7 @@ lastupdated: "2017-10-02"
 {: #table04}
 
 **注**：此表中未包含第三方服务。请检查目录以获取第三方服务选项。
+
 
 
 ## {{site.data.keyword.Bluemix_dedicated_notm}} 体系结构
@@ -243,7 +244,7 @@ IBM 为您提供了使用受密码保护的登录来访问 {{site.data.keyword.B
 <li>您可以开始使用您的专用实例来响应警报，该实例由 IBM 操作团队进行监视。</li>
 </ol>
 
-{{site.data.keyword.Bluemix_notm}} 实例设置完成后，您可以使用“管理”页面来监视和管理 {{site.data.keyword.Bluemix_notm}} 实例。有关更多信息，请参阅[管理 {{site.data.keyword.Bluemix_notm}} Local 和 Dedicated](../admin/index.html#mng)。有关升级和维护的信息，请参阅[维护专用实例](index.html#maintaindedicated)。
+{{site.data.keyword.Bluemix_notm}} 实例设置完成后，您可以使用“管理”页面来监视和管理 {{site.data.keyword.Bluemix_notm}} 实例。有关更多信息，请参阅[管理 {{site.data.keyword.Bluemix_local_notm}} 和 {{site.data.keyword.Bluemix_dedicated_notm}}](../admin/index.html#mng)。有关升级和维护的信息，请参阅[维护专用实例](index.html#maintaindedicated)。
 
 ##角色和责任
 {: #rolesresponsibilities}
@@ -264,7 +265,7 @@ IBM 为您提供了使用受密码保护的登录来访问 {{site.data.keyword.B
 <dt>**DevOps 联系人**</dt>
 <dd>与 IBM 代表一起规划和应用 {{site.data.keyword.Bluemix_notm}} 平台、服务和运行时所需的维护更新。分配有此角色的人员还将与 IBM 代表一起配置 {{site.data.keyword.Bluemix_dedicated_notm}} 实例。</dd>
 <dt>运营联系人</dt>
-<dd>环境启动并开始运行后，可根据需要与 IBM 支持团队一起工作。此人员对管理控制台具有 Superuser 访问权，可以批准和安排 Bluemix 环境的维护更新，并且在发生关键事件时可随时与此人员取得联系。分配有此角色的人员必须具备 Bluemix 环境的技术知识，并且必须能够联系到公司内具备可能受影响的某一领域（包括联网或安全性，等等）相关专家技能的其他人员。
+<dd>环境启动并开始运行后，可根据需要与 IBM 支持团队一起工作。此人员对管理控制台具有 Superuser 访问权，可以批准和安排 {{site.data.keyword.Bluemix_notm}} 环境的维护更新，并且在发生关键事件时可随时与此人员取得联系。例如，被分配了此角色的人员必须具备 {{site.data.keyword.Bluemix_notm}} 环境的技术知识，并且必须在公司中承担一定职位，能够联系到可能受影响的具有某一领域（包括联网或安全性）专家技能的其他人员。
 </dd>
 </dl>
 
@@ -390,7 +391,7 @@ IBM 会发送有关在“状态”页面上针对每个维护时段计划进行�
 
 ### 客户检测到的问题
 
-如果识别到需要 IBM 支持和操作人员关注的问题，您可以使用多种不同的方法来联系支持人员。有关如何联系支持人员的信息，请参阅[联系支持人员](../support/index.html#contacting-bluemix-support-local)。根据问题情况，您和/或 IBM 可合作解决问题。
+如果识别到需要 IBM 支持和操作人员关注的问题，您可以使用多种不同的方法来联系支持人员。有关如何联系支持人员的信息，请参阅[联系支持人员](../support/index.html#contacting-bluemix-support-dedicated-local)。根据问题情况，您和/或 IBM 可合作解决问题。
 
 ### IBM 检测到的严重事件
 
@@ -402,18 +403,18 @@ IBM 会发送有关在“状态”页面上针对每个维护时段计划进行�
 
 图 2. 事件响应过程
 
-根据问题情况，您和/或 IBM 可合作解决问题。如果您有与事件相关的疑问，或者需要 IBM 代表帮助您解决问题，那么可以开具支持凭单。有关如何联系支持人员的信息，请参阅[联系支持人员](/docs/support/index.html#contacting-bluemix-support-local)。
+根据问题情况，您和/或 IBM 可合作解决问题。如果您有与事件相关的疑问，或者需要 IBM 代表帮助您解决问题，那么可以开具支持凭单。有关如何联系支持人员的信息，请参阅[联系支持人员](/docs/support/index.html#contacting-bluemix-support-dedicated-local)。
 
-**注**：将全天候监视严重性为 1 的支持凭单。其他凭单的处理时间是周日晚上 10:00 GMT 到周六凌晨 12:00 GMT。有关支持凭单严重性和使用支持的更多信息，请参阅<a href="/docs/support/index.html#contacting-bluemix-support-local">联系支持人员</a>。
+**注**：将全天候监视严重性为 1 的支持凭单。其他凭单的处理时间是周日晚上 10:00 GMT 到周六凌晨 12:00 GMT。有关支持凭单严重性和使用支持的更多信息，请参阅<a href="/docs/support/index.html#contacting-bluemix-support-dedicated-local">联系支持人员</a>。
 
 
 ## {{site.data.keyword.Bluemix_dedicated_notm}} 的灾难恢复
 {: #dr}
 
-{{site.data.keyword.Bluemix_short}} Dedicated 灾难恢复可按照与使用 {{site.data.keyword.Bluemix_short}} Public 时类似的方式进行设置。{{site.data.keyword.Bluemix_short}} Public 提供了持续可用的创新平台，具有多种自动防故障措施，可确保您的组织、空间和应用程序始终可用。将应用程序部署到多个地理区域可实现持续可用性，避免多个硬件或软件组件同时发生意外故障，或者整个数据中心发生故障。这样，即使一个地理位置发生自然灾害，分布在其他地理位置中的 {{site.data.keyword.Bluemix_notm}} Public 应用程序实例也会可用。
+{{site.data.keyword.Bluemix_dedicated_notm}} 灾难恢复可按照与使用 {{site.data.keyword.Bluemix_short}} Public 时类似的方式进行设置。{{site.data.keyword.Bluemix_short}} Public 提供了持续可用的创新平台，具有多种自动防故障措施，可确保您的组织、空间和应用程序始终可用。将应用程序部署到多个地理区域可实现持续可用性，避免多个硬件或软件组件同时发生意外故障，或者整个数据中心发生故障。这样，即使一个地理位置发生自然灾害，分布在其他地理位置中的 {{site.data.keyword.Bluemix_notm}} Public 应用程序实例也会可用。
 {: shortdesc}
 
-{{site.data.keyword.Bluemix_short}} Dedicated 的灾难恢复是通过应用程序的持续可用性、平台固有的高可用性以及发生故障时恢复实例的能力来实现的。您负责通过将应用程序部署到多个区域来实现应用程序的持续可用性。高可用性是通过 Cloud Foundry 和其他组件中包含的各种技术在平台级别构建的。此外，您可以与 IBM 合作，共同来确保数据已正确备份，可随时满足您的实例复原需求。
+{{site.data.keyword.Bluemix_dedicated_notm}} 的灾难恢复是通过应用程序的持续可用性、平台固有的高可用性以及发生故障时复原实例的能力来实现的。您负责通过将应用程序部署到多个区域来实现应用程序的持续可用性。高可用性是通过 Cloud Foundry 和其他组件中包含的各种技术在平台级别构建的。此外，您可以与 IBM 合作，共同来确保数据已正确备份，可随时满足您的实例复原需求。
 
 ### 实现 {{site.data.keyword.Bluemix_dedicated_notm}} 的持续可用性
 {: #enabling}
