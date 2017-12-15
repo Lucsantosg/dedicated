@@ -98,7 +98,7 @@ There are optional components that are available for you to purchase to scale an
 
 If you have a private instance of the service for your dedicated environment, you see a `Dedicated` tag with the service names in your catalog. Similarly, if it is a custom service, meaning you used a service broker to create it, you see "Custom" listed with the service name. All other services listed that do not have a "dedicated" or "custom" tag are available by using syndication from {{site.data.keyword.Bluemix_notm}} Public. Syndicated services provide the function to create hybrid applications that consist of public and private services.
 
-|Service	|Available in US South region	|Available in Europe United Kingdom region |Available in Germany region region|Available in US East region|Available in Australian Sydney region|
+|Service	|Available in US South region	|Available in Europe United Kingdom region |Available in Germany region |Available in US East region|Available in Australian Sydney region|
 |:----------|:------------------------------|:------------------|:------------------|:------------------|:--------------|
 |{{site.data.keyword.alertnotificationshort}} | Yes | Yes | No | No | Yes |
 |{{site.data.keyword.appseccloudshort}}		| Yes | Yes | No | No | Yes |
