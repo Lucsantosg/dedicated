@@ -19,7 +19,7 @@ lastupdated: "2017-12-15"
 {{site.data.keyword.Bluemix}} is an open-standards, cloud-based platform for building, running, and managing applications. With {{site.data.keyword.Bluemix_dedicated_notm}}, you get the power and simplicity of {{site.data.keyword.Bluemix_notm}} &mdash; in your own dedicated SoftLayer environment that is securely connected to both the {{site.data.keyword.Bluemix_notm}} Public environment and your own network.
 {:shortdesc}
 
-All dedicated deployments of {{site.data.keyword.Bluemix_notm}} include the following benefits and features at no additional cost: VPN, private virtual local area network (VLAN), firewall, connectivity with your LDAP, ability to leverage existing on-premises databases and apps, 24/7 on-site security, dedicated hardware, and standard support.
+All dedicated deployments of {{site.data.keyword.Bluemix_notm}} include the following benefits and features at no additional cost: VPN, private virtual local area network (VLAN), firewall, ability to leverage existing on-premises databases and apps, 24/7 on-site security, dedicated hardware, and standard support.
 
 By default, access to your private {{site.data.keyword.Bluemix_notm}} instance is only accessible from your corporate network. If you need the {{site.data.keyword.Bluemix_notm}} environment to be accessible directly from the internet, a mobile device, or a dedicated database, for example, then an additional network security component is required at additional cost.
 
@@ -152,7 +152,7 @@ If you have a private instance of the service for your dedicated environment, yo
 
 {{site.data.keyword.Bluemix_dedicated_notm}} can be deployed in any [{{site.data.keyword.IBM_notm}} SoftLayer data center ![External link icon](../icons/launch-glyph.svg)](http://www.softlayer.com/data-centers){: new_window} around the world. {{site.data.keyword.IBM_notm}} SoftLayer provides the highest performing cloud infrastructure. Each data center has 24 hour, 7 days a week security, and rigorous controls.
 
-Each {{site.data.keyword.Bluemix_dedicated_notm}} deployment is dedicated to a single enterprise on {{site.data.keyword.IBM_notm}} SoftLayer dedicated hardware in it's own private network. {{site.data.keyword.Bluemix_dedicated_notm}} environments have the same security standards as the public {{site.data.keyword.Bluemix_notm}} in terms of infrastructure, operational, and physical security. However, developer access to the dedicated {{site.data.keyword.Bluemix_notm}} is controlled by your LDAP policies, which can be configured by the {{site.data.keyword.Bluemix_notm}} team when they set up your environment. Within the dedicated environment, you can manage user roles and permissions. See [Managing users and permissions](/docs/admin/index.html#oc_useradmin) for details. The following figure depicts the logical architecture of a default {{site.data.keyword.Bluemix_dedicated_notm}} deployment.
+Each {{site.data.keyword.Bluemix_dedicated_notm}} deployment is dedicated to a single enterprise on {{site.data.keyword.IBM_notm}} SoftLayer dedicated hardware in it's own private network. {{site.data.keyword.Bluemix_dedicated_notm}} environments have the same security standards as the public {{site.data.keyword.Bluemix_notm}} in terms of infrastructure, operational, and physical security. However, developer access to the dedicated {{site.data.keyword.Bluemix_notm}} is controlled by your security policies, which can be configured by the {{site.data.keyword.Bluemix_notm}} team when they set up your environment. Within the dedicated environment, you can manage user roles and permissions. See [Managing users and permissions](/docs/admin/index.html#oc_useradmin) for details. The following figure depicts the logical architecture of a default {{site.data.keyword.Bluemix_dedicated_notm}} deployment.
 
 ![{{site.data.keyword.Bluemix_dedicated_notm}}](images/bm_dedicated_arch.png "{{site.data.keyword.Bluemix_dedicated_notm}} default architecture")
 
@@ -187,7 +187,7 @@ An {{site.data.keyword.Bluemix_dedicated_notm}} might include an outbound connec
 </dd>
 <dt>Enterprise</dt>
 <dd>
-The enterprise network environment may have a secured private bi-directional network link to {{site.data.keyword.Bluemix_dedicated_notm}}. This allows applications hosted in {{site.data.keyword.Bluemix_dedicated_notm}} to access services and resources in the enterprise, including data sources and enterprise services. This network link also allows {{site.data.keyword.Bluemix_dedicated_notm}} to use your LDAP for authentication of your enterprise's developers and administrators.<br>
+The enterprise network environment may have a secured private bi-directional network link to {{site.data.keyword.Bluemix_dedicated_notm}}. This allows applications hosted in {{site.data.keyword.Bluemix_dedicated_notm}} to access services and resources in the enterprise, including data sources and enterprise services.<br>
 <br>
 There are several options for creating the secured private network link. Talk to your IBM technical specialist about the best networking option for your enterprise.<br>
 <br>
@@ -217,14 +217,14 @@ To set up your private version of {{site.data.keyword.Bluemix_notm}}:
 	<ol type="a">
 	<li>IBM installs monitoring and security infrastructure for the dedicated instance.</li>
 	<li>IBM installs the single-tenant dedicated services that you selected.</li>
-	<li>You provide network configuration and endpoints for things such as IP addresses or firewalls and access to your LDAP for integration into {{site.data.keyword.Bluemix_notm}}.</li>
+	<li>You provide network configuration and endpoints for things such as IP addresses or firewalls for integration into {{site.data.keyword.Bluemix_notm}}.</li>
 	</ol>
 </li>
 <li>Identify and assign roles for your administrative team for the environment.
 	<ol type="a">
-	<li>IBM configures network access and LDAP based on what you provided. Administrative access is given to the contacts that you designate. You must also designate a contact for support and billing.</li>
+	<li>IBM configures network access based on what you provided. Administrative access is given to the contacts that you designate. You must also designate a contact for support and billing.</li>
 	<li>IBM sets up a syndicated catalog in your dedicated environment to show your dedicated services. The syndicated catalog includes additional services that are syndicated from and available for you to use from {{site.data.keyword.Bluemix_notm}} Public. You have the option to decide which public services meet the requirements for your business based on your data privacy and security criteria.</li>
-	<li>You validate network and firewall configuration and the LDAP endpoint and access.</li>
+	<li>You validate network and firewall configuration and access.</li>
 	</ol>
 </li>
 </ol>
@@ -317,7 +317,7 @@ The inception phase is used to establish the {{site.data.keyword.Bluemix_dedicat
 |Connect {{site.data.keyword.Bluemix_notm}} pipeline | Connect {{site.data.keyword.Bluemix_notm}} continuous integration and continuous delivery pipeline with IBM repositories. | IBM |
 |Customize external solution components | Customize load balancers for disaster recovery scenarios. | Customer |
 |Install VPN solution | Install bidirectional VPN solution. | IBM |
-|Configure login server | Configure the login server for use with the corporate LDAP. | IBM |
+|Configure login server | Configure the login server for use with SAML if needed. | IBM |
 |Track status for security, compliance, and audit controls  | Track status up to the point where all tools and processes are in place to achieve identified compliance. | Customer |
 |Review physical infrastructure | Review physical premises that host the solution components for threats and review of security controls to protect the data center. | Customer |
 |Inspect monitoring software | Inspect monitoring and management components as defined in the escalation and problem determination plan. | Customer |
