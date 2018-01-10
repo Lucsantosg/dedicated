@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-08-09"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -50,7 +50,7 @@ ou que vous pouvez acheter si vous le souhaitez.
 | Facultatif | [Dedicated GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}} est la version entièrement gérée et hébergée dans le cloud IBM de GitHub Enterprise, qui propose une expérience sociale très appréciée des développeurs. Ce service n'est actuellement disponible que dans les environnements {{site.data.keyword.Bluemix_dedicated_notm}}. |
 | Facultatif (bêta) | [Logging](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov) | Fournit des journaux pour vos applications Cloud Foundry dans votre interface utilisateur {{site.data.keyword.Bluemix_notm}} et des journaux permettant une recherche et des tableaux de bord dans Kibana. |
 | Facultatif | [{{site.data.keyword.messagehub}}](/docs/services/MessageHub/index.html#messagehub) | {{site.data.keyword.messagehub}} est un bus de messages évolutif, distribué et à haut débit permettant de combiner vos technologies sur site et hors site. {{site.data.keyword.messagehub}} s'appuie sur Apache Kafka, qui est un moteur de messagerie en temps réel rapide, évolutif et durable. |
-|Facultatif | [{{site.data.keyword.mobilepushshort}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepushshort}} est un service que vous pouvez utiliser pour envoyer des notifications à un périphérique iOS ou Android. Les notifications peuvent être ciblées pour tous les utilisateurs d'application ou pour un ensemble spécifique d'utilisateurs et de périphériques à l'aide d'étiquettes. Vous pouvez administrer des périphériques, des étiquettes et des abonnements. Vous pouvez aussi utiliser un logiciel SDK (Kit de développement de logiciels) et des API (interfaces de programme d'application) REST (Representational State Transfer) pour développer plus en détail vos applications client. |
+|Facultatif | [{{site.data.keyword.mobilepushshort}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepushshort}} est un service que vous pouvez utiliser pour envoyer des notifications à un périphérique iOS ou Android. Les notifications peuvent être ciblées pour tous les utilisateurs d'application ou pour un ensemble spécifique d'utilisateurs et de périphériques à l'aide d'étiquettes. Vous pouvez administrer des périphériques, des étiquettes et des abonnements. Vous pouvez aussi utiliser un logiciel SDK (Kit de développement de logiciels) et des API (interfaces de programme d'application) REST (Representational State Transfer) pour développer plus en détail vos applications client.|
 |Facultatif | [{{site.data.keyword.SecureGateway}}](/docs/services/SecureGateway/secure_gateway.html) | Le service {{site.data.keyword.SecureGateway}} fournit un moyen sécurisé pour connecter des applications {{site.data.keyword.Bluemix_notm}} à des emplacements distants sur site ou dans le cloud.  |
 | Facultatif | [{{site.data.keyword.iot_short}}](/docs/services/IoT/index.html) | Ce service permet à vos applications de communiquer et de consommer les données collectées par vos périphériques connectés, capteurs et passerelles. Le service de base permet d'exécuter une version privée de {{site.data.keyword.iot_short}} dans l'environnement dédié, avec une capacité de 100000 périphériques ou applications connectés simultanément et avec 1,6 To d'échange de données. |
 | Facultatif | [{{site.data.keyword.appserver_short}}](/docs/services/ApplicationServeronCloud/index.html) | IBM {{site.data.keyword.appserver_short}} for IBM {{site.data.keyword.Bluemix_notm}} est un service qui facilite la configuration rapide sur une instance Java EE {{site.data.keyword.appserver_short}} Liberty, Traditional Network Deployment ou Traditional WebSphere préconfigurée dans un environnement de cloud hébergé sur {{site.data.keyword.Bluemix_notm}}. |
@@ -118,48 +118,48 @@ répertoriés sans l'étiquette "Dédié" ou "Personnalisé" sont disponibles vi
 {{site.data.keyword.Bluemix_notm}} public. Les services syndiqués permettent la création d'applications hybrides composées de services
 publics et privés.
 
-|Service	|Disponible dans la région Sud des Etats-Unis	|Disponible dans la région Europe-Royaume-Uni |Disponible dans la région Australie-Sydney|Disponible dans la région Allemagne|
-|:----------|:------------------------------|:------------------|:------------------|:------------------|
-|{{site.data.keyword.alertnotificationshort}} | Oui | Oui | Oui | Non |
-|{{site.data.keyword.appseccloudshort}}		|Oui		|Oui		|Oui |Non  |
-|Automated Accessibility Checker |Oui       |Oui    |Oui   |Oui  |Non |
-|{{site.data.keyword.cloudant}}			|Oui		|Oui		|Oui |Oui  |
-|{{site.data.keyword.evtmgt_short}} | Oui | Oui | Oui | Non |
-|{{site.data.keyword.iotmapinsights_short}}    |Oui  |Oui  |Oui  |Non  |
-|{{site.data.keyword.uccr_short}} | Oui | Non | Non | Non |
-|{{site.data.keyword.conversationshort}}  |Oui  |Oui  |Oui  |Oui  |
-|{{site.data.keyword.dataworks_short}}		|Oui		|Oui		|Non|Non|
-|Hébergée sous Db2 | Oui | Oui | Oui | Oui |
-|{{site.data.keyword.DB2OnCloud_short}}		|Oui		|Oui		|Oui |Oui  |
-|{{site.data.keyword.dashdbshort_notm}} | Oui | Oui | Oui | Oui |
-|Digital Content Checker |Oui  |Oui  |Oui  |Non  |
-|{{site.data.keyword.servicediscoveryshort}} | Oui | Oui | Oui | Non |
-|{{site.data.keyword.documentconversionshort}}	|Oui		|Oui		|Oui|Non  |
-|{{site.data.keyword.iotdriverinsights_short}}  |Oui |Oui  |Oui  |Non  |
-|{{site.data.keyword.geospatialshort_Geospatial}}	|Oui	|Oui		|Oui |Non  |
-|{{site.data.keyword.GlobalizationPipeline_short}}	|Oui		| Oui		| Oui |Oui  |
-|{{site.data.keyword.identitymixershort}}		|Oui		|Oui		|Oui|Non  |
-|{{site.data.keyword.iot4auto_short}} |Oui   |Oui  |Oui  |Non  |
-|{{site.data.keyword.iotelectronics}}  |Oui  |Oui  |Non | Non|
-|{{site.data.keyword.languagetranslatorshort}} |Oui  |Oui  |Oui  |Oui  |
-|{{site.data.keyword.dwl_short}}  |Oui  |Oui  |Non  |Non|
-|{{site.data.keyword.pm_short}} | Oui | Oui | Non | Non |
-|{{site.data.keyword.messagehub}}		|Oui		|Oui		|Oui | Oui|
-|{{site.data.keyword.manda}}			|Oui		|Oui		|Oui |Non  |
-|{{site.data.keyword.nlclassifiershort}} 	|Oui 		|Oui 		|Oui |Non  |
-|{{site.data.keyword.nlushort}} | Oui | Oui | Oui | Non |
-|{{site.data.keyword.personalityinsightsshort}}	|Oui		|Oui		|Oui|Oui  |
-|{{site.data.keyword.mobilepushshort}}		|Oui		|Oui		|Oui |Oui  |
-|{{site.data.keyword.retrieveandrankshort}}	|Oui 		|Oui 		|Oui|Non  |
-|{{site.data.keyword.SecureGateway}}		|Oui		|Oui		|Oui |Oui  |
-|{{site.data.keyword.ssofull}}			|Oui		|Non		|Non| Non|
-|{{site.data.keyword.speechtotextshort}}	|Oui 		|Oui	 	|Oui|Oui  |
-|{{site.data.keyword.streaminganalyticsshort}}	|Oui		|Oui		|Oui |Non  |
-|{{site.data.keyword.texttospeechshort}} 	|Oui 		|Oui	 	|Oui|Oui  |
-|{{site.data.keyword.toneanalyzershort}} 	|Oui 		|Oui 		|Oui|Oui  |
-|{{site.data.keyword.visualrecognitionshort}}	|Oui 		|Oui	 	|Oui|Non  |
-|{{site.data.keyword.weather_short}}		|Oui		|Oui		|Oui|Non  |
-|{{site.data.keyword.workloadscheduler}}	|Oui		|Oui		|Oui |Oui  |
+|Service	|Disponible dans la région Sud des Etats-Unis	|Disponible dans la région Europe-Royaume-Uni |Disponible dans la région Allemagne |Disponible dans la région Est des Etats-Unis|Disponible dans la région Australie-Sydney|
+|:----------|:------------------------------|:------------------|:------------------|:------------------|:--------------|
+|{{site.data.keyword.alertnotificationshort}} | Oui | Oui | Non | Non | Oui |
+|{{site.data.keyword.appseccloudshort}}		| Oui | Oui | Non | Non | Oui |
+|Automated Accessibility Checker |Oui       |Oui    |Oui   | Non  | Oui |
+|{{site.data.keyword.cloudant}}			| Oui		| Oui		| Oui | Oui  | Oui |
+|{{site.data.keyword.evtmgt_short}} | Oui | Oui | Non | Non | Oui |
+|{{site.data.keyword.iotmapinsights_short}}    | Oui  | Oui  | Non  | Non | Oui |
+|{{site.data.keyword.uccr_short}} | Oui | Non | Non | Non | Non |
+|{{site.data.keyword.conversationshort}}  | Oui  | Oui  | Oui  | Non | Oui |
+|{{site.data.keyword.dataworks_short}}		| Oui		| Oui		| Non | Non | Non |
+|Hébergée sous Db2 | Oui | Oui | Oui | Non | Oui |
+|{{site.data.keyword.DB2OnCloud_short}}		| Oui		| Oui		| Oui | Non | Oui |
+|{{site.data.keyword.dashdbshort_notm}} | Oui | Oui | Oui | Non | Oui |
+|Digital Content Checker | Oui  | Oui  | Non | Non | Oui |
+|{{site.data.keyword.servicediscoveryshort}} | Oui | Oui | Non | Non | Oui |
+|{{site.data.keyword.documentconversionshort}}	| Oui		| Oui		| Non | Non | Oui |
+|{{site.data.keyword.iotdriverinsights_short}}  | Oui | Oui | Non | Non | Oui |
+|{{site.data.keyword.geospatialshort_Geospatial}}	| Oui	| Oui		| Non | Non  | Oui |
+|{{site.data.keyword.GlobalizationPipeline_short}}	| Oui		| Oui		| Oui | Non | Oui |
+|{{site.data.keyword.identitymixershort}}		| Oui		| Oui		| Non | Non | Oui |
+|{{site.data.keyword.iot4auto_short}} | Oui   | Oui  | Non | Non | Oui |
+|{{site.data.keyword.iotelectronics}}  | Oui  | Oui  | Non | Non | Non |
+|{{site.data.keyword.languagetranslatorshort}} | Oui | Oui | Oui | Non | Oui |
+|{{site.data.keyword.dwl_short}}  | Oui  | Oui  | Non  | Non | Non |
+|{{site.data.keyword.pm_short}} | Oui | Oui | Non | Non | Non |
+|{{site.data.keyword.messagehub}}		| Oui		| Oui		| Oui | Non | Oui |
+|{{site.data.keyword.manda}}			| Oui		| Oui		| Oui | Non | Oui |
+|{{site.data.keyword.nlclassifiershort}} 	| Oui 		| Oui 		| Non | Non  | Oui |
+|{{site.data.keyword.nlushort}} | Oui | Oui | Non | Non | Oui |
+|{{site.data.keyword.personalityinsightsshort}}	| Oui		| Oui		| Oui | Non | Oui |
+|{{site.data.keyword.mobilepushshort}}		| Oui		| Oui		| Oui | Non | Oui |
+|{{site.data.keyword.retrieveandrankshort}}	| Oui 		| Oui 		| Non | Non | Oui |
+|{{site.data.keyword.SecureGateway}}		| Oui		| Oui		| Oui | Oui | Oui |
+|{{site.data.keyword.ssofull}}			| Oui		| Non		| Non | Non| Non |
+|{{site.data.keyword.speechtotextshort}}	| Oui 		| Oui	 	| Oui | Non | Oui |
+|{{site.data.keyword.streaminganalyticsshort}}	| Oui		| Oui		| Non | Non | Oui |
+|{{site.data.keyword.texttospeechshort}} 	| Oui 		| Oui	 	| Oui | Non | Oui |
+|{{site.data.keyword.toneanalyzershort}} 	| Oui 		| Oui 		| Oui | Non | Oui |
+|{{site.data.keyword.visualrecognitionshort}}	| Oui 		| Oui	 	| Non | Non | Oui |
+|{{site.data.keyword.weather_short}}		| Oui		| Oui		| Non | Non | Oui |
+|{{site.data.keyword.workloadscheduler}}	| Oui		| Oui		| Oui | Non | Oui |
 {: caption="Tableau 4. Services disponibles par région pour la syndication depuis {{site.data.keyword.Bluemix_notm}} Public" caption-side="top"}
 {: #table04}
 
@@ -483,7 +483,7 @@ d'annuler la mise à jour. Si vous parvenez à un accord, IBM annule la mise à 
 ### Problèmes détectés par le client
 
 Si vous identifiez un problème nécessitant l'attention du centre des opérations et du support IBM, vous pouvez prendre contact avec le support de
-plusieurs façons. Pour des informations sur la façon de contacter le support, voir [Contacter le service de support](../support/index.html#contacting-bluemix-support-dedicated-local).Selon le problème, vous et IBM travaillerez ensemble
+plusieurs façons. Pour des informations sur la façon de contacter le support, voir [Contacter le service de support](../support/index.html#contacting-bluemix-support-dedicated-local). Selon le problème, vous et IBM travaillerez ensemble
 ou individuellement pour le résoudre.
 
 ### Incidents critiques détectés par IBM
