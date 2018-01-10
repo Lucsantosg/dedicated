@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2017-12-15"
+lastupdated: "2018-01-10"
 
 ---
 
@@ -152,7 +152,7 @@ If you have a private instance of the service for your dedicated environment, yo
 
 {{site.data.keyword.Bluemix_dedicated_notm}} can be deployed in any [{{site.data.keyword.IBM_notm}} SoftLayer data center ![External link icon](../icons/launch-glyph.svg)](http://www.softlayer.com/data-centers){: new_window} around the world. {{site.data.keyword.IBM_notm}} SoftLayer provides the highest performing cloud infrastructure. Each data center has 24 hour, 7 days a week security, and rigorous controls.
 
-Each {{site.data.keyword.Bluemix_dedicated_notm}} deployment is dedicated to a single enterprise on {{site.data.keyword.IBM_notm}} SoftLayer dedicated hardware in it's own private network. {{site.data.keyword.Bluemix_dedicated_notm}} environments have the same security standards as the public {{site.data.keyword.Bluemix_notm}} in terms of infrastructure, operational, and physical security. However, developer access to the dedicated {{site.data.keyword.Bluemix_notm}} is controlled by your security policies, which can be configured by the {{site.data.keyword.Bluemix_notm}} team when they set up your environment. Within the dedicated environment, you can manage user roles and permissions. See [Managing users and permissions](/docs/admin/index.html#oc_useradmin) for details. The following figure depicts the logical architecture of a default {{site.data.keyword.Bluemix_dedicated_notm}} deployment.
+Each {{site.data.keyword.Bluemix_dedicated_notm}} deployment is dedicated to a single enterprise on {{site.data.keyword.IBM_notm}} SoftLayer dedicated hardware in it's own private network. {{site.data.keyword.Bluemix_dedicated_notm}} environments have the same security standards as the public {{site.data.keyword.Bluemix_notm}} in terms of infrastructure, operational, and physical security. However, developer access to the dedicated {{site.data.keyword.Bluemix_notm}} is controlled by your security policies, which can be configured by the {{site.data.keyword.Bluemix_notm}} team when they set up your environment. Within the dedicated environment, you can manage user roles and permissions. See [Managing users and permissions](/docs/hybrid/index.html#oc_useradmin) for details. The following figure depicts the logical architecture of a default {{site.data.keyword.Bluemix_dedicated_notm}} deployment.
 
 ![{{site.data.keyword.Bluemix_dedicated_notm}}](images/bm_dedicated_arch.png "{{site.data.keyword.Bluemix_dedicated_notm}} default architecture")
 
@@ -246,7 +246,7 @@ You can expect a process similar to the following list for the initial deploymen
 <li>You can start using your dedicated instance that is monitored by the IBM operations team in order to respond to alerts.</li>
 </ol>
 
-After your {{site.data.keyword.Bluemix_notm}} instance is set up, you can monitor and manage your {{site.data.keyword.Bluemix_notm}} instance by using the Administration page. For more information, see [Managing {{site.data.keyword.Bluemix_local_notm}} and {{site.data.keyword.Bluemix_dedicated_notm}}](../admin/index.html#mng). For information about upgrades and maintenance, see [Maintaining your dedicated instance](index.html#maintaindedicated).
+After your {{site.data.keyword.Bluemix_notm}} instance is set up, you can monitor and manage your {{site.data.keyword.Bluemix_notm}} instance by using the Administration page. For more information, see [Managing {{site.data.keyword.Bluemix_local_notm}} and {{site.data.keyword.Bluemix_dedicated_notm}}](../hybrid/index.html#mng). For information about upgrades and maintenance, see [Maintaining your dedicated instance](index.html#maintaindedicated).
 
 ##Roles and responsibilities
 {: #rolesresponsibilities}
@@ -381,7 +381,7 @@ IBM sends broadcast messages of the changes that are planned for each maintenanc
 <dt>**Standard maintenance for the {{site.data.keyword.Bluemix_notm}} platform**</dt>
 <dd>Maintenance updates are applied based on coordination between you and IBM within a 21-day window. You provide IBM with preapproved maintenance windows and specific dates or times that might not work for you, and IBM works to schedule updates during or around the dates that you selected.
 <p>
-<p>Go to **ADMINISTRATION > SYSTEM INFORMATION** to view scheduled and pending maintenance updates. For more information about setting your preapproved windows, unavailable dates, and viewing or approving scheduled maintenance updates, see <a href="/docs/admin/index.html#oc_schedulemaintenance">Maintenance updates</a>.</p></dd>
+<p>Go to **ADMINISTRATION > SYSTEM INFORMATION** to view scheduled and pending maintenance updates. For more information about setting your preapproved windows, unavailable dates, and viewing or approving scheduled maintenance updates, see <a href="/docs/hybrid/index.html#oc_schedulemaintenance">Maintenance updates</a>.</p></dd>
 </dl>
 
 **Important**: IBM reserves the right to interrupt services to apply emergency maintenance as needed. IBM might change scheduled maintenance hours, but will notify you of any such changes, as well as any emergency maintenance information.
@@ -397,9 +397,9 @@ If you identify an issue that needs attention from IBM support and operations, y
 
 ### IBM-detected critical incidents
 
-Critical incidents are urgent, unexpected service outages, and stability issues that affect your environment or your users. If IBM detects a critical incident within your environment, you are notified by a notification on the **Status** page. You can also check the Status page for any known issues for the platform or your services. For more information about the Status page, see [Viewing status](../admin/index.html#oc_status).
+Critical incidents are urgent, unexpected service outages, and stability issues that affect your environment or your users. If IBM detects a critical incident within your environment, you are notified by a notification on the **Status** page. You can also check the Status page for any known issues for the platform or your services. For more information about the Status page, see [Viewing status](../hybrid/index.html#oc_status).
 
-If you want to integrate your notifications with a web service that supports web hooks, see [Notifications and event subscriptions](../admin/index.html#oc_eventsubscription) for information about how to extend your notification capabilities.
+If you want to integrate your notifications with a web service that supports web hooks, see [Notifications and event subscriptions](../hybrid/index.html#oc_eventsubscription) for information about how to extend your notification capabilities.
 
 ![Incident response process](../local/images/incidentresponseprocess.png "Incident response process")
 
