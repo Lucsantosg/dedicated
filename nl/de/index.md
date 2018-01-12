@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-08-09"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -39,7 +39,7 @@ Darüber hinaus gibt es eine Reihe von Services und Komponenten, die inbegriffen
 | Optional | [Dedicated GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}} ist die von IBM Cloud gehostete und vollständig verwaltbare Version von GitHub Enterprise, die ein von Entwicklern gewünschtes Social Experience bietet. Dieser Service ist zurzeit nur für {{site.data.keyword.Bluemix_dedicated_notm}}-Umgebungen verfügbar. |
 | Optional (Beta) | [Protokollierung](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov) | Stellt Protokolle für Ihre Cloud Foundry-Apps in der {{site.data.keyword.Bluemix_notm}}-Benutzerschnittstelle sowie durchsuchbare Protokolle und Dashboards in Kibana bereit. |
 | Optional | [{{site.data.keyword.messagehub}}](/docs/services/MessageHub/index.html#messagehub) | {{site.data.keyword.messagehub}} ist ein skalierbarer, dezentraler Nachrichtenbus mit hohem Durchsatz, um Ihre lokalen und nicht lokalen Technologien zu verbinden. {{site.data.keyword.messagehub}} basiert auf Apache Kafka, einer schnellen, skalierbaren und dauerhaft echtzeitorientierten Messaging-Engine. |
-|Optional | [{{site.data.keyword.mobilepushshort}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepushshort}} ist ein Service, mit dem Sie Benachrichtigungen an iOS- und Android-Geräte senden können. Benachrichtigungen können sich an alle Anwendungsbenutzer oder mithilfe von Tags an eine bestimmte Gruppe von Benutzern und Geräten wenden. Sie können Geräte, Tags und Abonnements verwalten. Sie können auch ein SDK (Software Development Kit) und REST-APIs (REST, Representational State Transfer; API, Application Program Interface) verwenden, um die Clientanwendungen weiterzuentwickeln. |
+|Optional | [{{site.data.keyword.mobilepushshort}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepushshort}} ist ein Service, mit dem Sie Benachrichtigungen an iOS- und Android-Geräte senden können. Benachrichtigungen können sich an alle Anwendungsbenutzer oder mithilfe von Tags an eine bestimmte Gruppe von Benutzern und Geräten wenden. Sie können Geräte, Tags und Abonnements verwalten. Sie können auch ein SDK (Software Development Kit) und REST-APIs (REST, Representational State Transfer; API, Application Program Interface) verwenden, um die Clientanwendungen weiterzuentwickeln.|
 |Optional | [{{site.data.keyword.SecureGateway}}](/docs/services/SecureGateway/secure_gateway.html) | Der {{site.data.keyword.SecureGateway}}-Service stellt eine sichere Methode zur Verbindung von {{site.data.keyword.Bluemix_notm}}-Anwendungen mit fernen Standorten lokal oder in der Cloud bereit.  |
 | Optional | [{{site.data.keyword.iot_short}}](/docs/services/IoT/index.html) | Dieser Service ermöglicht Ihren Apps die Kommunikation mit und die Nutzung der erfassten Daten von Ihren verbundenen Geräten, Sensoren und Gateways. Das Basisangebot ermöglicht die Ausführung einer privaten Version von {{site.data.keyword.iot_short}} in der dedizierten Umgebung mit einer Kapazität für 100.000 gleichzeitig verbundene Geräte oder Anwendungen und 1,6 Terabyte (TB) für den Datenaustausch. |
 | Optional | [{{site.data.keyword.appserver_short}}](/docs/services/ApplicationServeronCloud/index.html) | IBM {{site.data.keyword.appserver_short}} for IBM {{site.data.keyword.Bluemix_notm}} ist ein Service, der eine schnelle Einrichtung in einer vorkonfigurierten {{site.data.keyword.appserver_short}} Liberty-, einer klassischen Network Deployment- oder einer klassischen WebSphere Java EE-Instanz in einer gehosteten Cloudumgebung unter {{site.data.keyword.Bluemix_notm}} ermöglicht. |
@@ -94,52 +94,52 @@ Durch optionale Komponenten, die zusätzlich zum Kauf angeboten werden, können 
 ## Syndizierter Katalog
 {: #catalogdedicated}
 
-{{site.data.keyword.Bluemix_dedicated_notm}} umfasst einen privaten Katalog, der genehmigte Services der öffentlichen, dedizierten und lokalen Bereitstellungen kombiniert. Sie können sogar Ihre eigenen Services über den {{site.data.keyword.Bluemix_notm}}-Katalog veröffentlichen und verwalten. Sie können auf der Basis Ihrer Kriterien für Datenschutz und Sicherheit entscheiden, welche öffentlichen Services die Anforderungen Ihres Unternehmens erfüllen.
+{{site.data.keyword.Bluemix_dedicated_notm}} umfasst einen privaten Katalog, der genehmigte Services der öffentlichen, dedizierten und lokalen Bereitstellungen kombiniert. Sie können sogar den Zugriff auf Ihre eigenen Services über den {{site.data.keyword.Bluemix_notm}}-Katalog veröffentlichen und verwalten. Sie können auf der Basis Ihrer Kriterien für Datenschutz und Sicherheit entscheiden, welche öffentlichen Services die Anforderungen Ihres Unternehmens erfüllen.
 
 Wenn Sie über eine private Serviceinstanz Ihrer dedizierten Umgebung verfügen, wird bei den Servicenamen in Ihrem Katalog das Tag `Dedicated` angezeigt. Entsprechend sehen Sie "Angepasst" bei den Servicekacheln (d. h. Sie haben einen Servicebroker für die Erstellung verwendet), wenn es sich um einen benutzerdefinierten Service handelt. Alle anderen aufgelisteten Services ohne das Tag "Dediziert" oder "Angepasst" sind über die Syndikation aus {{site.data.keyword.Bluemix_notm}} Public verfügbar. Syndizierte Services bieten die Funktion zum Erstellen von Hybridanwendungen, die aus öffentlichen und privaten Services bestehen.
 
-|Service	|Verfügbar in Region 'US South'	|Verfügbar in Region 'Europe United Kingdom' |Verfügbar in Region 'Australia Sydney'|Verfügbar in Region 'Deutschland'|
-|:----------|:------------------------------|:------------------|:------------------|:------------------|
-|{{site.data.keyword.alertnotificationshort}} | Ja | Ja | Ja | Nein |
-|{{site.data.keyword.appseccloudshort}}		|Ja		|Ja		|Ja |Nein  |
-|Automatisches Prüfprogramm für Eingabehilfen |Ja       |Ja    |Ja   |Ja  |Nein |
-|{{site.data.keyword.cloudant}}			|Ja		|Ja		|Ja |Ja  |
-|{{site.data.keyword.evtmgt_short}} | Ja | Ja | Ja | Nein |
-|{{site.data.keyword.iotmapinsights_short}}    |Ja  |Ja  |Ja  |Nein  |
-|{{site.data.keyword.uccr_short}} | Ja | Nein | Nein | Nein |
-|{{site.data.keyword.conversationshort}}  |Ja  |Ja  |Ja  |Ja  |
-|{{site.data.keyword.dataworks_short}}		|Ja		|Ja		|Nein|Nein|
-|Db2-gehostet | Ja | Ja | Ja | Ja |
-|{{site.data.keyword.DB2OnCloud_short}}		|Ja		|Ja		|Ja |Ja  |
-|{{site.data.keyword.dashdbshort_notm}} | Ja | Ja | Ja | Ja |
-|Prüfprogramm für digitalen Inhalt |Ja  |Ja  |Ja  |Nein  |
-|{{site.data.keyword.servicediscoveryshort}} | Ja | Ja | Ja | Nein |
-|{{site.data.keyword.documentconversionshort}}	|Ja		|Ja		|Ja|Nein  |
-|{{site.data.keyword.iotdriverinsights_short}}  |Ja |Ja  |Ja  |Nein  |
-|{{site.data.keyword.geospatialshort_Geospatial}}	|Ja	|Ja		|Ja |Nein  |
-|{{site.data.keyword.GlobalizationPipeline_short}}	|Ja		| Ja		| Ja |Ja  |
-|{{site.data.keyword.identitymixershort}}		|Ja		|Ja		|Ja|Nein  |
-|{{site.data.keyword.iot4auto_short}} |Ja   |Ja  |Ja  |Nein  |
-|{{site.data.keyword.iotelectronics}}  |Ja  |Ja  |Nein | Nein|
-|{{site.data.keyword.languagetranslatorshort}} |Ja  |Ja  |Ja  |Ja  |
-|{{site.data.keyword.dwl_short}}  |Ja  |Ja  |Nein  |Nein|
-|{{site.data.keyword.pm_short}} | Ja | Ja | Nein | Nein |
-|{{site.data.keyword.messagehub}}		|Ja		|Ja		|Ja | Ja|
-|{{site.data.keyword.manda}}			|Ja		|Ja		|Ja |Nein  |
-|{{site.data.keyword.nlclassifiershort}} 	|Ja 		|Ja 		|Ja |Nein  |
-|{{site.data.keyword.nlushort}} | Ja | Ja | Ja | Nein |
-|{{site.data.keyword.personalityinsightsshort}}	|Ja		|Ja		|Ja|Ja  |
-|{{site.data.keyword.mobilepushshort}}		|Ja		|Ja		|Ja |Ja  |
-|{{site.data.keyword.retrieveandrankshort}}	|Ja 		|Ja 		|Ja|Nein  |
-|{{site.data.keyword.SecureGateway}}		|Ja		|Ja		|Ja |Ja  |
-|{{site.data.keyword.ssofull}}			|Ja		|Nein		|Nein| Nein|
-|{{site.data.keyword.speechtotextshort}}	|Ja 		|Ja	 	|Ja|Ja  |
-|{{site.data.keyword.streaminganalyticsshort}}	|Ja		|Ja		|Ja |Nein  |
-|{{site.data.keyword.texttospeechshort}} 	|Ja 		|Ja	 	|Ja|Ja  |
-|{{site.data.keyword.toneanalyzershort}} 	|Ja 		|Ja 		|Ja|Ja  |
-|{{site.data.keyword.visualrecognitionshort}}	|Ja 		|Ja	 	|Ja|Nein  |
-|{{site.data.keyword.weather_short}}		|Ja		|Ja		|Ja|Nein  |
-|{{site.data.keyword.workloadscheduler}}	|Ja		|Ja		|Ja |Ja  |
+|Service	|Verfügbar in Region 'Vereinigte Staaten (Süden)'	|Verfügbar in Region 'Europa - Vereinigtes Königreich' |Verfügbar in Region 'Deutschland' |Verfügbar in Region 'Vereinigte Staaten (Osten)'|Verfügbar in Region 'Sydney, Australien'|
+|:----------|:------------------------------|:------------------|:------------------|:------------------|:--------------|
+|{{site.data.keyword.alertnotificationshort}} | Ja | Ja | Nein | Nein | Ja |
+|{{site.data.keyword.appseccloudshort}}		| Ja | Ja | Nein | Nein | Ja |
+|Automatisches Prüfprogramm für Eingabehilfen |Ja       |Ja    |Ja   | Nein  | Ja |
+|{{site.data.keyword.cloudant}}			| Ja		| Ja		| Ja | Ja  | Ja |
+|{{site.data.keyword.evtmgt_short}} | Ja | Ja | Nein | Nein | Ja |
+|{{site.data.keyword.iotmapinsights_short}}    | Ja  | Ja  | Nein  | Nein | Ja |
+|{{site.data.keyword.uccr_short}} | Ja | Nein | Nein | Nein | Nein |
+|{{site.data.keyword.conversationshort}}  | Ja  | Ja  | Ja  | Nein | Ja |
+|{{site.data.keyword.dataworks_short}}		| Ja		| Ja		| Nein | Nein | Nein |
+|Db2-gehostet | Ja | Ja | Ja | Nein | Ja |
+|{{site.data.keyword.DB2OnCloud_short}}		| Ja		| Ja		| Ja | Nein | Ja |
+|{{site.data.keyword.dashdbshort_notm}} | Ja | Ja | Ja | Nein | Ja |
+|Prüfprogramm für digitalen Inhalt | Ja  | Ja  | Nein | Nein | Ja |
+|{{site.data.keyword.servicediscoveryshort}} | Ja | Ja | Nein | Nein | Ja |
+|{{site.data.keyword.documentconversionshort}}	| Ja		| Ja		| Nein | Nein | Ja |
+|{{site.data.keyword.iotdriverinsights_short}}  | Ja | Ja | Nein | Nein | Ja |
+|{{site.data.keyword.geospatialshort_Geospatial}}	| Ja	| Ja		| Nein | Nein  | Ja |
+|{{site.data.keyword.GlobalizationPipeline_short}}	| Ja		| Ja		| Ja | Nein | Ja |
+|{{site.data.keyword.identitymixershort}}		| Ja		| Ja		| Nein | Nein | Ja |
+|{{site.data.keyword.iot4auto_short}} | Ja   | Ja  | Nein | Nein | Ja |
+|{{site.data.keyword.iotelectronics}}  | Ja  | Ja  | Nein | Nein | Nein |
+|{{site.data.keyword.languagetranslatorshort}} | Ja | Ja | Ja | Nein | Ja |
+|{{site.data.keyword.dwl_short}}  | Ja  | Ja  | Nein  | Nein | Nein |
+|{{site.data.keyword.pm_short}} | Ja | Ja | Nein | Nein | Nein |
+|{{site.data.keyword.messagehub}}		| Ja		| Ja		| Ja | Nein | Ja |
+|{{site.data.keyword.manda}}			| Ja		| Ja		| Ja | Nein | Ja |
+|{{site.data.keyword.nlclassifiershort}} 	| Ja 		| Ja 		| Nein | Nein  | Ja |
+|{{site.data.keyword.nlushort}} | Ja | Ja | Nein | Nein | Ja |
+|{{site.data.keyword.personalityinsightsshort}}	| Ja		| Ja		| Ja | Nein | Ja |
+|{{site.data.keyword.mobilepushshort}}		| Ja		| Ja		| Ja | Nein | Ja |
+|{{site.data.keyword.retrieveandrankshort}}	| Ja 		| Ja 		| Nein | Nein | Ja |
+|{{site.data.keyword.SecureGateway}}		| Ja		| Ja		| Ja | Ja | Ja |
+|{{site.data.keyword.ssofull}}			| Ja		| Nein		| Nein | Nein| Nein |
+|{{site.data.keyword.speechtotextshort}}	| Ja 		| Ja	 	| Ja | Nein | Ja |
+|{{site.data.keyword.streaminganalyticsshort}}	| Ja		| Ja		| Nein | Nein | Ja |
+|{{site.data.keyword.texttospeechshort}} 	| Ja 		| Ja	 	| Ja | Nein | Ja |
+|{{site.data.keyword.toneanalyzershort}} 	| Ja 		| Ja 		| Ja | Nein | Ja |
+|{{site.data.keyword.visualrecognitionshort}}	| Ja 		| Ja	 	| Nein | Nein | Ja |
+|{{site.data.keyword.weather_short}}		| Ja		| Ja		| Nein | Nein | Ja |
+|{{site.data.keyword.workloadscheduler}}	| Ja		| Ja		| Ja | Nein | Ja |
 {: caption="Tabelle 4. Verfügbare Services für die Syndikation aus {{site.data.keyword.Bluemix_notm}} Public nach Region" caption-side="top"}
 {: #table04}
 
