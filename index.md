@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-01-10"
+lastupdated: "2018-01-17"
 
 ---
 
@@ -270,7 +270,7 @@ The following list shows the customer roles and responsibilities that you assign
 <dd>Works with the IBM support team as needed once the environment is up and running. This is someone with Superuser access to the Administration console who can approve and schedule maintenance updates for the {{site.data.keyword.Bluemix_notm}} environment and be available at all times in the event of a critical incident. The person assigned to this role must have technical knowledge of the {{site.data.keyword.Bluemix_notm}} environment and be in a position to reach others within company that have expert skills in an area that might be affected including networking or security, for example.</dd>
 </dl>
 
-Your customer representatives work with IBM specialists that work together to ensure that you always have the support that you need. You can upgrade to the Premium support tier to work with a dedicated Client Success Manager (CSM) for your account. For more information about the different support tiers, see [Contacting support](../support/index.html#contacting-support).The CSM completes the following types of tasks:
+Your customer representatives work with IBM specialists that work together to ensure that you always have the support that you need. You can upgrade to the Premium support tier to work with a dedicated Client Success Manager (CSM) for your account. For more information about the different support tiers, see [Types of support](/docs/get-support/getstarttssup.html#typesofsupport).The CSM completes the following types of tasks:
 
 <ul>
 <li>Enables rapid adoption of your {{site.data.keyword.Bluemix_dedicated_notm}} environment.</li>
@@ -393,7 +393,7 @@ If there is a reported issue following a maintenance update, you agree with {{si
 
 ### Customer-detected issues
 
-If you identify an issue that needs attention from IBM support and operations, you can contact support by using a few different methods. For information about how to contact support, see [Contacting support](../support/index.html#contacting-bluemix-support-dedicated-local). Depending on the issue, you, IBM, or both work together to fix the issue.
+If you identify an issue that needs attention from IBM support and operations, you can contact support by using a few different methods. For information about how to contact support, see [Contacting support](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local). Depending on the issue, you, IBM, or both work together to fix the issue.
 
 ### IBM-detected critical incidents
 
@@ -405,9 +405,9 @@ If you want to integrate your notifications with a web service that supports web
 
 Figure 2. Incident response process
 
-Depending on the issue, you, IBM, or both of you work together to fix the issue. If you have a question regarding the incident, or if you need an IBM representative to help you resolve the issue, then you can open a support ticket. For information about how to contact support, see [Contacting support](/docs/support/index.html#contacting-bluemix-support-dedicated-local).
+Depending on the issue, you, IBM, or both of you work together to fix the issue. If you have a question regarding the incident, or if you need an IBM representative to help you resolve the issue, then you can open a support ticket. For information about how to contact support, see [Contacting support](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local).
 
-**Note**: Severity 1 support tickets are monitored 24 hours a day, 7 days a week. Other tickets are processed from Sunday 10:00 pm GMT through Saturday 12:00 am GMT. For more information about severity of support tickets and working with support, see <a href="/docs/support/index.html#contacting-bluemix-support-dedicated-local">Contacting support</a>.
+**Note**: Severity 1 support tickets are monitored 24 hours a day, 7 days a week. Other tickets are processed from Sunday 10:00 pm GMT through Saturday 12:00 am GMT. For more information about severity of support tickets and working with support, see <a href="/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local">Contacting support</a>.
 
 
 ## Disaster recovery for {{site.data.keyword.Bluemix_dedicated_notm}}
