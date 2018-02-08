@@ -4,9 +4,9 @@
 
 copyright:
 
-  years: 2015, 2017
+  years: 2015, 2018
 
-lastupdated: "2017-12-15"
+lastupdated: "2018-01-17"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2017-12-15"
 {{site.data.keyword.Bluemix}} es una plataforma de estándares abiertos basada en la nube para crear, ejecutar y gestionar apps. Con {{site.data.keyword.Bluemix_dedicated_notm}}, obtendrá la potencia y la simplicidad de {{site.data.keyword.Bluemix_notm}} &mdash;en su propio entorno dedicado de SoftLayer, que se conecta de forma segura tanto al entorno público de {{site.data.keyword.Bluemix_notm}} como a su propia red.
 {:shortdesc}
 
-Los despliegues dedicados de {{site.data.keyword.Bluemix_notm}} incluyen los siguientes beneficios y características sin ningún coste adicional: VPN, red de área local virtual (VLAN) privada, cortafuegos, conectividad con LDAP, optimización de las apps y bases de datos locales existentes, seguridad local 24 horas al día/7 días por semana, hardware dedicado y soporte estándar.
+Todos los despliegues dedicados de {{site.data.keyword.Bluemix_notm}} incluyen los siguientes beneficios y características sin ningún coste adicional: VPN, red de área local virtual privada (VLAN), cortafuegos, optimización de las apps y bases de datos locales existentes, seguridad local 24 horas al día/7 días por semana, hardware dedicado y soporte estándar.
 
 De forma predeterminada, el acceso a su instancia {{site.data.keyword.Bluemix_notm}} privada solo es accesible desde la red corporativa. Si necesita que el entorno de {{site.data.keyword.Bluemix_notm}} sea accesible directamente desde Internet, un dispositivo móvil o una base de datos dedicada, por poner un ejemplo, entonces será necesario un componente de seguridad de red adicional con coste adicional.
 
@@ -152,7 +152,7 @@ Si es una instancia privada del servicio para el entorno dedicado, verá una eti
 
 {{site.data.keyword.Bluemix_dedicated_notm}} se puede desplegar en cualquier centro de datos de [{{site.data.keyword.IBM_notm}} SoftLayer ![icono de enlace externo](../icons/launch-glyph.svg)](http://www.softlayer.com/data-centers){: new_window} del mundo. {{site.data.keyword.IBM_notm}} SoftLayer proporciona la infraestructura de nube que más funciona. Cada centro de datos dispone de servicios de seguridad 24 horas, 7 días `por semana y rigurosos controles.
 
-Cada despliegue de {{site.data.keyword.Bluemix_dedicated_notm}} se dedica a una sola empresa en el hardware dedicado de {{site.data.keyword.IBM_notm}} SoftLayer en su propia red privada. Los entornos de {{site.data.keyword.Bluemix_dedicated_notm}} tienen los mismos estándares de seguridad que {{site.data.keyword.Bluemix_notm}} público en la infraestructura y en la seguridad física y operativa. Sin embargo, el acceso de desarrollador a {{site.data.keyword.Bluemix_notm}} dedicado está controlado por políticas de LDAP, que las pueden configurar el equipo de {{site.data.keyword.Bluemix_notm}} al configurar el entorno. En el entorno dedicado, puede gestionar los roles y permisos de usuarios. Consulte [Gestión de usuarios y permisos](/docs/admin/index.html#oc_useradmin) para ver más detalles. La figura siguiente ilustra la arquitectura lógica de un despliegue de {{site.data.keyword.Bluemix_dedicated_notm}} predeterminado.
+Cada despliegue de {{site.data.keyword.Bluemix_dedicated_notm}} se dedica a una sola empresa en el hardware dedicado de {{site.data.keyword.IBM_notm}} SoftLayer en su propia red privada. Los entornos de {{site.data.keyword.Bluemix_dedicated_notm}} tienen los mismos estándares de seguridad que {{site.data.keyword.Bluemix_notm}} público en la infraestructura y en la seguridad física y operativa. Sin embargo, el acceso de desarrollador a {{site.data.keyword.Bluemix_notm}} dedicado está controlado por las políticas de seguridad, que puede configurar el equipo de {{site.data.keyword.Bluemix_notm}} al configurar el entorno. En el entorno dedicado, puede gestionar los roles y permisos de usuarios. Consulte [Gestión de usuarios y permisos](/docs/hybrid/index.html#oc_useradmin) para ver más detalles.La figura siguiente ilustra la arquitectura lógica de un despliegue de {{site.data.keyword.Bluemix_dedicated_notm}} predeterminado.
 
 ![{{site.data.keyword.Bluemix_dedicated_notm}}](images/bm_dedicated_arch.png "{{site.data.keyword.Bluemix_dedicated_notm}} arquitectura predeterminada")
 
@@ -187,7 +187,7 @@ Un {{site.data.keyword.Bluemix_dedicated_notm}} puede incluir una conexión de s
 </dd>
 <dt>Empresa</dt>
 <dd>
-El entorno de red de la empresa puede tener un enlace de red bidireccional privado seguro a {{site.data.keyword.Bluemix_dedicated_notm}}. Esto permite que las aplicaciones alojadas en {{site.data.keyword.Bluemix_dedicated_notm}} puedan acceder a los servicios y recursos de la empresa, incluidas fuentes de datos y servicios de empresa. Este enlace de red también permite a {{site.data.keyword.Bluemix_dedicated_notm}} utilizar su LDAP para la autenticación de desarrolladores y administradores de la empresa.<br>
+El entorno de red de la empresa puede tener un enlace de red bidireccional privado seguro a {{site.data.keyword.Bluemix_dedicated_notm}}. Esto permite que las aplicaciones alojadas en {{site.data.keyword.Bluemix_dedicated_notm}} puedan acceder a los servicios y recursos de la empresa, incluidas fuentes de datos y servicios de empresa. <br>
 <br>
 Existen varias opciones para crear el enlace de red privada protegido. Póngase en contacto con el técnico especialista de IBM para ver la mejor opción de red para su empresa.<br>
 <br>
@@ -217,14 +217,14 @@ Para configurar su versión privada de {{site.data.keyword.Bluemix_notm}}:
 	<ol type="a">
 	<li>IBM instala la infraestructura de supervisión y seguridad para la instancia dedicada.</li>
 	<li>IBM instala los servicios dedicados de arrendatario único que seleccione.</li>
-	<li>El cliente proporciona la configuración de la red y puntos finales para elementos tales como direcciones IP o cortafuegos y acceso a LDAP para la integración en {{site.data.keyword.Bluemix_notm}}.</li>
+	<li>Proporcione la configuración de red y los puntos finales para elementos tales como direcciones IP o cortafuegos para la integración en {{site.data.keyword.Bluemix_notm}}.</li>
 	</ol>
 </li>
 <li>Identifique y asigne roles para el equipo de administración del entorno.
 	<ol type="a">
-	<li>IBM configura el acceso a la red y LDAP en función de lo que proporcione el usuario. Se ofrece acceso de administración a los contactos que designe el cliente. También debe designar un contacto para soporte y facturación.</li>
+	<li>IBM configura el acceso a la red en función de lo que proporcione. Se ofrece acceso de administración a los contactos que designe el cliente. También debe designar un contacto para soporte y facturación.</li>
 	<li>IBM configura un catálogo sindicado en el entorno dedicado para mostrar los servicios dedicados. El catálogo sindicado incluye servicios adicionales sindicados y disponibles para que los utilice el usuario a partir de {{site.data.keyword.Bluemix_notm}} público. Tiene la opción de decidir qué servicios públicos cumplen los requisitos de su empresa en función de sus criterios de privacidad de datos y de seguridad.</li>
-	<li>El cliente debe validar la configuración de la red y del cortafuegos, además del punto final LDAP y el acceso.</li>
+	<li>Valide la configuración y el acceso de la red y el cortafuegos.</li>
 	</ol>
 </li>
 </ol>
@@ -246,7 +246,7 @@ Puede prever un proceso similar a la siguiente lista para el despliegue y la con
 <li>Puede empezar utilizando la instancia dedicada que está supervisada por el equipo de operaciones de IBM para responder a las alertas.</li>
 </ol>
 
-Una vez que se configure la instancia de {{site.data.keyword.Bluemix_notm}}, puede supervisar y gestionar la instancia de {{site.data.keyword.Bluemix_notm}} utilizando la página Administración. Para obtener más información, consulte [Gestión de {{site.data.keyword.Bluemix_local_notm}} y {{site.data.keyword.Bluemix_dedicated_notm}}](../admin/index.html#mng). Para obtener información sobre las actualizaciones y el mantenimiento, consulte [Mantenimiento de la instancia dedicada](index.html#maintaindedicated).
+Una vez que se configure la instancia de {{site.data.keyword.Bluemix_notm}}, puede supervisar y gestionar la instancia de {{site.data.keyword.Bluemix_notm}} utilizando la página Administración. Para obtener más información, consulte [Gestión de {{site.data.keyword.Bluemix_local_notm}} y {{site.data.keyword.Bluemix_dedicated_notm}}](../hybrid/index.html#mng). Para obtener información sobre las actualizaciones y el mantenimiento, consulte [Mantenimiento de la instancia dedicada](index.html#maintaindedicated).
 
 ##Roles y responsabilidades
 {: #rolesresponsibilities}
@@ -270,7 +270,7 @@ La lista siguiente muestra los roles y responsabilidades de cliente que se asign
 <dd>Trabaja con el equipo de soporte de IBM cuando sea necesario una vez el entorno está activo y en ejecución. Se trata de alguien con acceso de Superusuario a la consola de administración que puede aprobar y planificar actualizaciones de mantenimiento para el entorno {{site.data.keyword.Bluemix_notm}} y que está siempre disponible en el caso de que se produzca un incidente crítico. La persona asignada a este rol debe tener conocimientos técnicos del entorno {{site.data.keyword.Bluemix_notm}} y debe tener capacidad para establecer contacto con la persona de la organización con los conocimientos específicos del área que se vea afectada, incluidas, por ejemplo, las áreas de red o de seguridad.</dd>
 </dl>
 
-Los representantes de los clientes trabajan con los especialistas de IBM que trabajan conjuntamente para asegurarse de que siempre tenga el soporte que necesita. Puede actualizar al nivel de soporte Premium para trabajar con un CSM (Client Success Manager) dedicado para su cuenta. Para obtener más información sobre los distintos niveles de soporte, consulte [Cómo obtener soporte](../support/index.html#contacting-support). El CSM completa los siguientes tipos de tareas:
+Los representantes de los clientes trabajan con los especialistas de IBM que trabajan conjuntamente para asegurarse de que siempre tenga el soporte que necesita. Puede actualizar al nivel de soporte Premium para trabajar con un CSM (Client Success Manager) dedicado para su cuenta. Para obtener más información sobre los distintos niveles de soporte, consulte [Tipos de soporte](/docs/get-support/getstarttssup.html#typesofsupport). El CSM completa los siguientes tipos de tareas:
 
 <ul>
 <li>Permite una adopción rápida del entorno {{site.data.keyword.Bluemix_dedicated_notm}}.</li>
@@ -317,7 +317,7 @@ La fase inicial se utiliza para establecer el entorno de {{site.data.keyword.Blu
 |Conectar el conducto de {{site.data.keyword.Bluemix_notm}} | Conectar la integración continua y el conducto de entrega continua de {{site.data.keyword.Bluemix_notm}} con repositorios de IBM. | IBM |
 |Personalizar componentes de soluciones externas | Personalizar equilibradores de carga para escenarios de recuperación en caso de error. | Cliente |
 |Instalar una solución VPN | Instalar una solución VPN bidireccional. | IBM |
-|Configurar un servidor de inicio de sesión | Configurar el servidor de inicio de sesión para utilizarlo con el LDAP corporativo. | IBM |
+|Configurar un servidor de inicio de sesión | Configurar el servidor de registro para utilizarlo con SAML si es necesario. | IBM |
 |Hacer un seguimiento del estado de la seguridad, la conformidad y los controles de auditoría  | Hacer un seguimiento del estado hasta el punto en que todas las herramientas y procesos estén en regla para conseguir la conformidad identificada. | Cliente |
 |Revisar la infraestructura física | Revisar las instalaciones físicas que alojan los componentes de la solución para detectar amenazas y revisar los controles de seguridad para proteger el centro de datos. | Cliente |
 |Inspeccionar el software de supervisión | Inspeccionar los componentes de supervisión y gestión, como se define en el plan de escalamiento y determinación de problemas. | Cliente |
@@ -381,7 +381,7 @@ IBM envía mensajes de difusión general de los cambios planificados para cada p
 <dt>**Mantenimiento estándar para la plataforma de {{site.data.keyword.Bluemix_notm}}**</dt>
 <dd>Las actualizaciones de mantenimiento se aplican en función de la coordinación entre el usuario e IBM dentro de un periodo de 21 días. Proporcione a IBM períodos de mantenimiento y fechas u horas específicas preaprobadas que pueden no funcionar para usted, e IBM trabaja para planificar actualizaciones durante o alrededor de las fechas seleccionadas.
 <p>
-<p>Vaya a **ADMINISTRACIÓN > INFORMACIÓN DEL SISTEMA** para ver las actualizaciones de mantenimiento planificadas y pendientes. Para obtener más información sobre cómo establecer los períodos preaprobados y las fechas de no disponibilidad y para visualizar o aprobar actualizaciones de mantenimiento planificadas, consulte <a href="/docs/admin/index.html#oc_schedulemaintenance">Actualizaciones de mantenimiento</a>.</p></dd>
+<p>Vaya a **ADMINISTRACIÓN > INFORMACIÓN DEL SISTEMA** para ver las actualizaciones de mantenimiento planificadas y pendientes. Para obtener más información sobre cómo establecer los períodos preaprobados y las fechas de no disponibilidad y para visualizar o aprobar actualizaciones de mantenimiento planificadas, consulte <a href="/docs/hybrid/index.html#oc_schedulemaintenance">Actualizaciones de mantenimiento</a>.</p></dd>
 </dl>
 
 **Importante**: IBM se reserva el derecho de interrumpir servicios para aplicar mantenimiento emergencia si es necesario. IBM puede modificar las horas de mantenimiento planificadas, pero le notificará cualquier cambio, así como la información de mantenimiento de emergencia.
@@ -394,28 +394,28 @@ Si hay un problema después de una actualización de mantenimiento, acuerda con 
 ### Problemas detectados por el cliente
 
 Si detecta un problema que necesite la atención de operaciones y soporte de IBM puede ponerse en contacto con el soporte mediante diversos
-métodos. Para obtener información sobre cómo contactar con el soporte, consulte [Cómo obtener soporte](../support/index.html#contacting-bluemix-support-dedicated-local). Según la naturaleza del problema, el usuario, IBM o ambos pueden trabajar para solucionarlo.
+métodos. Para obtener información sobre cómo contactar con el soporte, consulte [Cómo obtener soporte](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local). Según la naturaleza del problema, el usuario, IBM o ambos pueden trabajar para solucionarlo.
 
 ### Incidencias críticas detectadas por IBM
 
 Las incidencias críticas son urgentes, cortes de servicio inesperados y problemas de estabilidad que afectan a su
 entorno o sus usuarios. Si IBM detecta una incidencia crítica en su entorno, se le envía una notificación en la página
 **Estado**. También se puede revisar la página Estado para buscar problemas conocidos para la plataforma o
-sus servicios. Para obtener más información sobre la página Estado, consulte [Visualización de estado](../admin/index.html#oc_status).
+sus servicios. Para obtener más información sobre la página Estado, consulte [Visualización de estado](../hybrid/index.html#oc_status).
 
 Si quiere integrar sus notificaciones con un servicio web que admita ganchos (hooks), consulte
-[Notificaciones y suscripciones de sucesos](../admin/index.html#oc_eventsubscription) para obtener información sobre
+[Notificaciones y suscripciones de sucesos](../hybrid/index.html#oc_eventsubscription) para obtener información sobre
 cómo ampliar las funciones de notificación.
 
 ![Proceso de respuesta de incidencias](../local/images/incidentresponseprocess.png "Proceso de respuesta de incidencias")
 
 Figura 2. Proceso de respuesta de incidencias
 
-Según la naturaleza del problema, el usuario, IBM o ambos pueden trabajar para solucionarlo. Si tiene alguna pregunta relativa a la incidencia, o si necesita que un representante de IBM le ayude a resolver el problema, puede abrir una incidencia de soporte. Para obtener información sobre cómo contactar con el soporte, consulte [Cómo obtener soporte](/docs/support/index.html#contacting-bluemix-support-dedicated-local).
+Según la naturaleza del problema, el usuario, IBM o ambos pueden trabajar para solucionarlo. Si tiene alguna pregunta relativa a la incidencia, o si necesita que un representante de IBM le ayude a resolver el problema, puede abrir una incidencia de soporte. Para obtener información sobre cómo contactar con el soporte, consulte [Cómo obtener soporte](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local).
 
 **Nota**: Las incidencias de soporte de gravedad 1 se supervisan 24 horas al día, 7 días por semana. Otras incidencias
 se procesan desde las 22:00 del domingo (GMT) hasta las 00:00 del sábado (GMT). Para obtener más información sobre la gravedad de
-las incidencias de soporte y cómo trabajar con soporte, consulte <a href="/docs/support/index.html#contacting-bluemix-support-dedicated-local">Cómo obtener soporte</a>.
+las incidencias de soporte y cómo trabajar con soporte, consulte <a href="/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local">Cómo obtener soporte</a>.
 
 
 ## Recuperación tras desastre para {{site.data.keyword.Bluemix_dedicated_notm}}
