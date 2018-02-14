@@ -4,9 +4,9 @@
 
 copyright:
 
-  years: 2015, 2017
+  years: 2015, 2018
 
-lastupdated: "2017-12-15"
+lastupdated: "2018-01-17"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2017-12-15"
 {{site.data.keyword.Bluemix}} 是一种基于云的开放标准平台，用于构建、运行和管理应用程序。通过 {{site.data.keyword.Bluemix_dedicated_notm}}，您可以在您自己的专用 SoftLayer 环境中享受到 {{site.data.keyword.Bluemix_notm}} 为您提供的强大功能和简便性。该环境是以安全方式连接到 {{site.data.keyword.Bluemix_notm}} Public 环境和您自己的网络。
 {:shortdesc}
 
-无需额外付费，{{site.data.keyword.Bluemix_notm}} 的所有专用部署中都包含以下亮点和功能：VPN、专用虚拟局域网 (VLAN)、防火墙、与 LDAP 的连接、利用现有内部部署数据库和应用程序的能力、全天候现场安全防护、专用硬件以及标准支持。
+无需额外付费，{{site.data.keyword.Bluemix_notm}} 的所有专用部署中都包含以下优点和功能：VPN、专用虚拟局域网 (VLAN)、防火墙、利用现有内部部署数据库和应用程序的能力、全天候现场安全防护、专用硬件以及标准支持。
 
 缺省情况下，只能通过公司网络访问您的私有 {{site.data.keyword.Bluemix_notm}} 实例。例如，如果需要可直接从因特网、移动设备或专用数据库访问 {{site.data.keyword.Bluemix_notm}} 环境，那么需要额外的网络安全组件，这需要额外付费。
 
@@ -152,7 +152,7 @@ lastupdated: "2017-12-15"
 
 {{site.data.keyword.Bluemix_dedicated_notm}} 可以在全世界任何一个 [{{site.data.keyword.IBM_notm}} SoftLayer 数据中心 ![外部链接图标](../icons/launch-glyph.svg)](http://www.softlayer.com/data-centers){: new_window} 内进行部署。{{site.data.keyword.IBM_notm}} SoftLayer 提供了能达到最高性能的云基础架构。每个数据中心都采用严格的全天候安全控制。
 
-每个 {{site.data.keyword.Bluemix_dedicated_notm}} 部署都专用于单一企业中专用网络内的 {{site.data.keyword.IBM_notm}} SoftLayer 专用硬件上。{{site.data.keyword.Bluemix_dedicated_notm}} 环境在基础架构、操作和物理安全方面所采用的安全标准与公共 {{site.data.keyword.Bluemix_notm}} 相同。但是，开发者对专用 {{site.data.keyword.Bluemix_notm}} 的访问由 LDAP 策略进行控制，这些策略可以由 {{site.data.keyword.Bluemix_notm}} 团队在设置您的环境时进行配置。在该专用环境中，您可以管理用户角色和许可权。有关详细信息，请参阅[管理用户和许可权](/docs/admin/index.html#oc_useradmin)。下图描述缺省 {{site.data.keyword.Bluemix_dedicated_notm}} 部署的逻辑体系结构。
+每个 {{site.data.keyword.Bluemix_dedicated_notm}} 部署都专用于单一企业中专用网络内的 {{site.data.keyword.IBM_notm}} SoftLayer 专用硬件上。{{site.data.keyword.Bluemix_dedicated_notm}} 环境在基础架构、操作和物理安全方面所采用的安全标准与公共 {{site.data.keyword.Bluemix_notm}} 相同。但是，开发者对专用 {{site.data.keyword.Bluemix_notm}} 的访问由安全策略进行控制，这些策略可以由 {{site.data.keyword.Bluemix_notm}} 团队在设置您的环境时进行配置。在该专用环境中，您可以管理用户角色和许可权。有关详细信息，请参阅[管理用户和许可权](/docs/hybrid/index.html#oc_useradmin)。下图描述缺省 {{site.data.keyword.Bluemix_dedicated_notm}} 部署的逻辑体系结构。
 
 ![{{site.data.keyword.Bluemix_dedicated_notm}}](images/bm_dedicated_arch.png "{{site.data.keyword.Bluemix_dedicated_notm}} default architecture")
 
@@ -187,8 +187,7 @@ lastupdated: "2017-12-15"
 </dd>
 <dt>企业</dt>
 <dd>
-企业网络环境可能具有与 {{site.data.keyword.Bluemix_dedicated_notm}} 的安全专用双向网络链路。此网络链路允许在 {{site.data.keyword.Bluemix_dedicated_notm}} 中托管的应用程序访问企业中的服务和资源，包括数据源和企业服务。另外，此网络链路还允许 {{site.data.keyword.Bluemix_dedicated_notm}} 使用 LDAP 来认证企业开发者和管理员。
-<br>
+企业网络环境可能具有与 {{site.data.keyword.Bluemix_dedicated_notm}} 的安全专用双向网络链路。此网络链路允许在 {{site.data.keyword.Bluemix_dedicated_notm}} 中托管的应用程序访问企业中的服务和资源，包括数据源和企业服务。<br>
 <br>
 有多个选项可用于创建受保护的专用网络链路。请与 IBM 技术专家交流有关您企业的最佳联网选项。<br>
 <br>
@@ -216,14 +215,14 @@ IBM 为您提供了使用受密码保护的登录来访问 {{site.data.keyword.B
 <li>定义并建立企业网络与 {{site.data.keyword.Bluemix_dedicated_notm}} 实例之间的网络连接。有一个必需的网络安全设备，包含防火墙和防侵入功能，但此选项会产生关联成本。<ol type="a">
 	<li>IBM 为专用实例安装监视和安全基础架构。</li>
 	<li>IBM 安装您所选的单租户专用服务。</li>
-	<li>您提供网络配置和端点（IP 地址或防火墙等）以及对 LDAP 的访问权（以便集成到 {{site.data.keyword.Bluemix_notm}} 中）。</li>
+	<li>您针对 IP 地址或防火墙等提供网络配置和端点以便集成到 {{site.data.keyword.Bluemix_notm}} 中。</li>
 	</ol>
 </li>
 <li>为您环境的管理团队确定并分配角色。
 	<ol type="a">
-	<li>IBM 根据您提供的信息配置网络访问和 LDAP。为您指定的联系人授予管理访问权。还必须指定一名联系人来负责记帐和提供相应支持。</li>
+	<li>IBM 根据您提供的信息配置网络访问。为您指定的联系人授予管理访问权。还必须指定一名联系人来负责记帐和提供相应支持。</li>
 	<li>IBM 在您的专用环境中设置联合目录，用于显示您的专用服务。联合目录还包含从 {{site.data.keyword.Bluemix_notm}} Public 联合的其他服务，供您使用。您可以选择根据自己的数据隐私和安全标准来确定哪些公共服务满足您的业务需求。</li>
-	<li>您验证网络和防火墙配置以及 LDAP 端点和访问权。</li>
+	<li>您验证网络和防火墙配置以及访问权。</li>
 	</ol>
 </li>
 </ol>
@@ -244,7 +243,7 @@ IBM 为您提供了使用受密码保护的登录来访问 {{site.data.keyword.B
 <li>您可以开始使用您的专用实例来响应警报，该实例由 IBM 操作团队进行监视。</li>
 </ol>
 
-{{site.data.keyword.Bluemix_notm}} 实例设置完成后，您可以使用“管理”页面来监视和管理 {{site.data.keyword.Bluemix_notm}} 实例。有关更多信息，请参阅[管理 {{site.data.keyword.Bluemix_local_notm}} 和 {{site.data.keyword.Bluemix_dedicated_notm}}](../admin/index.html#mng)。有关升级和维护的信息，请参阅[维护专用实例](index.html#maintaindedicated)。
+{{site.data.keyword.Bluemix_notm}} 实例设置完成后，您可以使用“管理”页面来监视和管理 {{site.data.keyword.Bluemix_notm}} 实例。有关更多信息，请参阅[管理 {{site.data.keyword.Bluemix_local_notm}} 和 {{site.data.keyword.Bluemix_dedicated_notm}}](../hybrid/index.html#mng)。有关升级和维护的信息，请参阅[维护专用实例](index.html#maintaindedicated)。
 
 ##角色和责任
 {: #rolesresponsibilities}
@@ -269,7 +268,7 @@ IBM 为您提供了使用受密码保护的登录来访问 {{site.data.keyword.B
 </dd>
 </dl>
 
-您的客户代表会与 IBM 专家进行合作，共同来确保您始终拥有所需的支持。对于您的帐户，您可以升级到“高级”支持层，以便与专用客户成功经理 (CSM) 进行合作。有关不同支持层的更多信息，请参阅[联系支持](../support/index.html#contacting-support)。CSM 会完成以下类型的任务：
+您的客户代表会与 IBM 专家进行合作，共同来确保您始终拥有所需的支持。对于您的帐户，您可以升级到“高级”支持层，以便与专用客户成功经理 (CSM) 进行合作。有关不同支持层的更多信息，请参阅[支持类型](/docs/get-support/getstarttssup.html#typesofsupport)。CSM 会完成以下类型的任务：
 
 <ul>
 <li>实现 {{site.data.keyword.Bluemix_dedicated_notm}} 环境的快速采用。</li>
@@ -316,7 +315,7 @@ IBM 为您提供了使用受密码保护的登录来访问 {{site.data.keyword.B
 |连接 {{site.data.keyword.Bluemix_notm}} 管道| 将 {{site.data.keyword.Bluemix_notm}} 持续集成和持续交付管道与 IBM 存储库相连接。| IBM|
 |定制外部解决方案组件| 为灾难恢复方案定制负载均衡器。| 客户|
 |安装 VPN 解决方案| 安装双向 VPN 解决方案。| IBM|
-|配置登录服务器| 配置登录服务器以与公司 LDAP 配合使用。| IBM|
+|配置登录服务器| 根据需要，配置登录服务器以与 SAML 配合使用。| IBM|
 |跟踪安全性、合规性和审计控制的状态| 跟踪状态，直到所有工具和流程全部落实到位，达到确定的合规性为止。| 客户|
 |审查物理基础架构| 审查托管解决方案组件的物理部署是否有威胁，并查看用于保护数据中心的安全性控制。| 客户|
 |检查监视软件| 检查上报和问题确定计划中定义的监视和管理组件。| 客户|
@@ -379,7 +378,7 @@ IBM 会发送有关在“状态”页面上针对每个维护时段计划进行�
 
 <dt>**{{site.data.keyword.Bluemix_notm}} 平台标准维护**</dt>
 <dd>将根据您与 IBM 的协商在 21 天时段中应用维护更新。您为 IBM 提供了预先批准的维护时段以及可能不适用于您的特定日期或时间，IBM 会尽量将更新安排在您选择的日期内或相邻日期执行。<p>
-<p>转至**管理 > 系统信息**以查看安排的和暂挂的维护更新。有关设置预先批准的时段、不可用的日期以及查看或批准安排的维护更新的更多信息，请参阅<a href="/docs/admin/index.html#oc_schedulemaintenance">维护更新</a>。</p></dd>
+<p>转至**管理 > 系统信息**以查看安排的和暂挂的维护更新。有关设置预先批准的时段、不可用的日期以及查看或批准安排的维护更新的更多信息，请参阅<a href="/docs/hybrid/index.html#oc_schedulemaintenance">维护更新</a>。</p></dd>
 </dl>
 
 **重要信息**：IBM 保留在必要时中断服务来实施紧急维护的权利。IBM 可能会更改所安排的维护时间，但会通知您任何此类更改以及任何紧急维护信息。
@@ -391,21 +390,21 @@ IBM 会发送有关在“状态”页面上针对每个维护时段计划进行�
 
 ### 客户检测到的问题
 
-如果识别到需要 IBM 支持和操作人员关注的问题，您可以使用多种不同的方法来联系支持人员。有关如何联系支持人员的信息，请参阅[联系支持人员](../support/index.html#contacting-bluemix-support-dedicated-local)。根据问题情况，您和/或 IBM 可合作解决问题。
+如果识别到需要 IBM 支持和操作人员关注的问题，您可以使用多种不同的方法来联系支持人员。有关如何联系支持人员的信息，请参阅[联系支持人员](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)。根据问题情况，您和/或 IBM 可合作解决问题。
 
 ### IBM 检测到的严重事件
 
-严重事件是指紧迫的意外服务中断以及影响您的环境或用户的稳定性问题。如果 IBM 检测到您的环境内有严重事件，那么会在**状态**页面上借助通知来告知您。您还可以检查“状态”页面来获取平台或服务的任何已知问题。有关“状态”页面的更多信息，请参阅[查看状态](../admin/index.html#oc_status)。
+严重事件是指紧迫的意外服务中断以及影响您的环境或用户的稳定性问题。如果 IBM 检测到您的环境内有严重事件，那么会在**状态**页面上借助通知来告知您。您还可以检查“状态”页面来获取平台或服务的任何已知问题。有关“状态”页面的更多信息，请参阅[查看状态](../hybrid/index.html#oc_status)。
 
-如果要将通知与支持 Web Hook 的 Web Service 集成在一起，请参阅[通知和事件预订](../admin/index.html#oc_eventsubscription)，以获取有关如何扩展通知功能的信息。
+如果要将通知与支持 Web Hook 的 Web Service 集成在一起，请参阅[通知和事件预订](../hybrid/index.html#oc_eventsubscription)，以获取有关如何扩展通知功能的信息。
 
 ![事件响应过程](../local/images/incidentresponseprocess.png "事件响应过程")
 
 图 2. 事件响应过程
 
-根据问题情况，您和/或 IBM 可合作解决问题。如果您有与事件相关的疑问，或者需要 IBM 代表帮助您解决问题，那么可以开具支持凭单。有关如何联系支持人员的信息，请参阅[联系支持人员](/docs/support/index.html#contacting-bluemix-support-dedicated-local)。
+根据问题情况，您和/或 IBM 可合作解决问题。如果您有与事件相关的疑问，或者需要 IBM 代表帮助您解决问题，那么可以开具支持凭单。有关如何联系支持人员的信息，请参阅[联系支持人员](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)。
 
-**注**：将全天候监视严重性为 1 的支持凭单。其他凭单的处理时间是周日晚上 10:00 GMT 到周六凌晨 12:00 GMT。有关支持凭单严重性和使用支持的更多信息，请参阅<a href="/docs/support/index.html#contacting-bluemix-support-dedicated-local">联系支持人员</a>。
+**注**：将全天候监视严重性为 1 的支持凭单。其他凭单的处理时间是周日晚上 10:00 GMT 到周六凌晨 12:00 GMT。有关支持凭单严重性和使用支持的更多信息，请参阅<a href="/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local">联系支持人员</a>。
 
 
 ## {{site.data.keyword.Bluemix_dedicated_notm}} 的灾难恢复

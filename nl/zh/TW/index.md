@@ -4,9 +4,9 @@
 
 copyright:
 
-  years: 2015, 2017
+  years: 2015, 2018
 
-lastupdated: "2017-12-15"
+lastupdated: "2018-01-17"
 
 ---
 
@@ -19,7 +19,7 @@ lastupdated: "2017-12-15"
 {{site.data.keyword.Bluemix}} 是一種以雲端為基礎的開放標準平台，用於建置、執行及管理應用程式。使用 {{site.data.keyword.Bluemix_dedicated_notm}}，即可在您自己的專用 SoftLayer 環境中，使用強大而簡潔的 {{site.data.keyword.Bluemix_notm}}，而這個環境同時安全地連接至「{{site.data.keyword.Bluemix_notm}} 公用」環境及您自己的網路。
 {:shortdesc}
 
-{{site.data.keyword.Bluemix_notm}} 的所有專用部署都包括下列好處及特性，而且不需額外付費：VPN、專用虛擬區域網路 (VLAN)、防火牆、與 LDAP 的連線功能、運用現有內部部署資料庫及應用程式的能力、24 小時全年無休的現場安全防護、專用硬體及標準支援。
+{{site.data.keyword.Bluemix_notm}} 的所有專用部署都包括下列好處及特性，而且不需額外付費：VPN、專用虛擬區域網路 (VLAN)、防火牆、運用現有內部部署資料庫及應用程式的能力、24 小時全年無休的現場安全防護、專用硬體及標準支援。
 
 依預設，只能從組織網路進行專用 {{site.data.keyword.Bluemix_notm}} 實例的存取。例如，如果您需要直接從網際網路、行動裝置或專用資料庫存取 {{site.data.keyword.Bluemix_notm}} 環境，則需要使用其他網路安全元件並額外付費。
 
@@ -152,7 +152,7 @@ lastupdated: "2017-12-15"
 
 {{site.data.keyword.Bluemix_dedicated_notm}} 可以部署於全球的任何 [{{site.data.keyword.IBM_notm}} SoftLayer 資料中心 ![外部鏈結圖示](../icons/launch-glyph.svg)](http://www.softlayer.com/data-centers){: new_window}。{{site.data.keyword.IBM_notm}} SoftLayer 提供最高執行雲端基礎架構。每一個資料中心都有 24 小時全年無休的安全防護及嚴格控管。
 
-每一個 {{site.data.keyword.Bluemix_dedicated_notm}} 部署都為 {{site.data.keyword.IBM_notm}} SoftLayer 專用硬體（位於它自己的專用網路）上的單一企業所專用。就基礎架構、作業及實體安全而言，{{site.data.keyword.Bluemix_dedicated_notm}} 環境的安全標準與公用 {{site.data.keyword.Bluemix_notm}} 相同。不過，開發人員對專用 {{site.data.keyword.Bluemix_notm}} 的存取會受到您的 LDAP 原則所控制，而 {{site.data.keyword.Bluemix_notm}} 團隊可以在設定環境時配置這些 LDAP 原則。在專用環境內，您可以管理使用者角色及許可權。如需詳細資料，請參閱[管理使用者及許可權](/docs/admin/index.html#oc_useradmin)。下圖說明預設 {{site.data.keyword.Bluemix_dedicated_notm}} 部署的邏輯架構。
+每一個 {{site.data.keyword.Bluemix_dedicated_notm}} 部署都為 {{site.data.keyword.IBM_notm}} SoftLayer 專用硬體（位於它自己的專用網路）上的單一企業所專用。就基礎架構、作業及實體安全而言，{{site.data.keyword.Bluemix_dedicated_notm}} 環境的安全標準與公用 {{site.data.keyword.Bluemix_notm}} 相同。不過，開發人員對專用 {{site.data.keyword.Bluemix_notm}} 的存取會受到您的安全原則所控制，而 {{site.data.keyword.Bluemix_notm}} 團隊可以在設定環境時配置這些安全原則。在專用環境內，您可以管理使用者角色及許可權。如需詳細資料，請參閱[管理使用者及許可權](/docs/hybrid/index.html#oc_useradmin)。下圖說明預設 {{site.data.keyword.Bluemix_dedicated_notm}} 部署的邏輯架構。
 
 ![{{site.data.keyword.Bluemix_dedicated_notm}}](images/bm_dedicated_arch.png "{{site.data.keyword.Bluemix_dedicated_notm}} 預設架構")
 
@@ -187,7 +187,7 @@ lastupdated: "2017-12-15"
 </dd>
 <dt>企業</dt>
 <dd>
-企業網路環境可能具有 {{site.data.keyword.Bluemix_dedicated_notm}} 的安全專用雙向網路鏈結。這可讓 {{site.data.keyword.Bluemix_dedicated_notm}} 中所管理的應用程式存取企業中的服務及資源（包括資料來源及企業服務）。此網路鏈結也可讓 {{site.data.keyword.Bluemix_dedicated_notm}} 使用您的 LDAP 鑑別您企業的開發人員及管理者。<br>
+企業網路環境可能具有 {{site.data.keyword.Bluemix_dedicated_notm}} 的安全專用雙向網路鏈結。這可讓 {{site.data.keyword.Bluemix_dedicated_notm}} 中所管理的應用程式存取企業中的服務及資源（包括資料來源及企業服務）。<br>
 <br>
 有數個選項可建立安全專用網路鏈結。請與 IBM 技術專家商討最適合貴企業的網路選項。<br>
 <br>
@@ -216,14 +216,14 @@ IBM 讓您能使用受到密碼保護的登入方式來存取 {{site.data.keywor
 	<ol type="a">
 	<li>IBM 針對專用實例安裝監視及安全基礎架構。</li>
 	<li>IBM 會安裝您選取的單一承租戶專用服務。</li>
-	<li>針對 IP 位址或防火牆之類的事物提供網路配置及端點，並提供 LDAP 的存取權，以整合至 {{site.data.keyword.Bluemix_notm}}。</li>
+	<li>針對 IP 位址或防火牆之類的事物提供網路配置及端點，以整合至 {{site.data.keyword.Bluemix_notm}}。</li>
 	</ol>
 </li>
 <li>識別並指派環境的管理團隊角色。
 	<ol type="a">
-	<li>IBM 會根據您提供的資訊，配置網路存取權及 LDAP。管理存取權會授與給您指定的聯絡人。您也必須指定聯絡人來負責支援及計費。</li>
+	<li>IBM 會根據您提供的資訊，配置網路存取權。管理存取權會授與給您指定的聯絡人。您也必須指定聯絡人來負責支援及計費。</li>
 	<li>IBM 會在您的專用環境中設定聯合型錄，以顯示您的專用服務。聯合型錄包含來自「{{site.data.keyword.Bluemix_notm}} 公用」，用來形成聯合組織且可供您使用的其他服務。您可以選擇根據資料隱私及安全準則來決定符合商業需求的公用服務。</li>
-	<li>您會驗證網路和防火牆配置，以及 LDAP 端點和存取權。</li>
+	<li>您會驗證網路和防火牆配置以及存取權。</li>
 	</ol>
 </li>
 </ol>
@@ -245,7 +245,7 @@ IBM 讓您能使用受到密碼保護的登入方式來存取 {{site.data.keywor
 <li>您可以開始使用您的專用實例來回應警示，該實例由 IBM 作業中心的團隊進行監視。</li>
 </ol>
 
-在設定 {{site.data.keyword.Bluemix_notm}} 實例之後，您可以使用「管理」頁面來監視和管理 {{site.data.keyword.Bluemix_notm}} 實例。如需相關資訊，請參閱[管理 {{site.data.keyword.Bluemix_local_notm}} 及 {{site.data.keyword.Bluemix_dedicated_notm}}](../admin/index.html#mng)。如需升級和維護的相關資訊，請參閱[維護專用實例](index.html#maintaindedicated)。
+在設定 {{site.data.keyword.Bluemix_notm}} 實例之後，您可以使用「管理」頁面來監視和管理 {{site.data.keyword.Bluemix_notm}} 實例。如需相關資訊，請參閱[管理 {{site.data.keyword.Bluemix_local_notm}} 及 {{site.data.keyword.Bluemix_dedicated_notm}}](../hybrid/index.html#mng)。如需升級和維護的相關資訊，請參閱[維護專用實例](index.html#maintaindedicated)。
 
 ##角色及責任
 {: #rolesresponsibilities}
@@ -270,7 +270,7 @@ IBM 讓您能使用受到密碼保護的登入方式來存取 {{site.data.keywor
 </dd>
 </dl>
 
-您的客戶代表會與其他合作的 IBM 專家一起合作，確保您隨時擁有所需的支援。您可以升級至「超值」支援層，以與您帳戶的專用「客戶成功經理 (CSM)」合作。如需不同支援層的相關資訊，請參閱[與支援中心聯絡](../support/index.html#contacting-support)。CSM 會完成下列類型的作業：
+您的客戶代表會與其他合作的 IBM 專家一起合作，確保您隨時擁有所需的支援。您可以升級至「超值」支援層，以與您帳戶的專用「客戶成功經理 (CSM)」合作。如需不同支援層的相關資訊，請參閱[支援類型](/docs/get-support/getstarttssup.html#typesofsupport)。CSM 會完成下列類型的作業：
 
 <ul>
 <li>促成 {{site.data.keyword.Bluemix_dedicated_notm}} 環境的快速採用。</li>
@@ -317,7 +317,7 @@ IBM 讓您能使用受到密碼保護的登入方式來存取 {{site.data.keywor
 |連接 {{site.data.keyword.Bluemix_notm}} 管線| 連接 {{site.data.keyword.Bluemix_notm}} 持續整合及持續交付管線與 IBM 儲存庫。| IBM|
 |自訂外部解決方案元件| 針對災難回復情境自訂負載平衡器。| 客戶|
 |安裝 VPN 解決方案| 安裝雙向 VPN 解決方案。| IBM|
-|配置登入伺服器| 配置要與組織 LDAP 搭配使用的登入伺服器。| IBM|
+|配置登入伺服器| 配置要與 SAML 搭配使用的登入伺服器（必要的話）。| IBM|
 |追蹤安全、規範及審核控制的狀態| 追蹤狀態，直到所有工具及處理程序都準備好可達到所識別的規範為止。| 客戶|
 |檢查實體基礎架構| 檢查可管理威脅解決方案元件的實體場所，並檢查保護資料中心用的安全控制。| 客戶|
 |檢查監視軟體| 檢查監視及管理元件（如呈報及問題判斷計劃中所定義）。| 客戶|
@@ -381,7 +381,7 @@ IBM 會針對「狀態」頁面上每一個維護時間範圍所計劃的變更�
 <dt>**{{site.data.keyword.Bluemix_notm}} 平台的標準維護**</dt>
 <dd>維護更新是根據 21 天的時間範圍內，您與 IBM 之間的協調來套用。您將您不適用但 IBM 適用的預先核准維護時間範圍及特定日期或時間提供給 IBM，來排定在所選取日期期間或大約時間進行更新。
 <p>
-<p>移至**管理 > 系統資訊**，以檢視已排定及擱置維護更新。如需設定預先核准時間範圍、設定無法使用日期，以及檢視或核准排定之維護更新的相關資訊，請參閱<a href="/docs/admin/index.html#oc_schedulemaintenance">維護更新</a>。</p></dd>
+<p>移至**管理 > 系統資訊**，以檢視已排定及擱置維護更新。如需設定預先核准時間範圍、設定無法使用日期，以及檢視或核准排定之維護更新的相關資訊，請參閱<a href="/docs/hybrid/index.html#oc_schedulemaintenance">維護更新</a>。</p></dd>
 </dl>
 
 **重要事項**：IBM 保留視需要岔斷服務以套用緊急維護的權利。IBM 可能會變更排定的維護時間，但是一旦有這類變更以及任何緊急維護資訊時，就會通知您。
@@ -393,21 +393,21 @@ IBM 會針對「狀態」頁面上每一個維護時間範圍所計劃的變更�
 
 ### 客戶偵測到的問題
 
-如果您識別到需要 IBM 支援中心及作業注意的問題，則可以使用數種不同的方法來與支援中心聯絡。如需如何與支援中心聯絡的相關資訊，請參閱[與支援中心聯絡](../support/index.html#contacting-bluemix-support-dedicated-local)。視問題而定，您及（或）IBM 會一起合作來修正問題。
+如果您識別到需要 IBM 支援中心及作業注意的問題，則可以使用數種不同的方法來與支援中心聯絡。如需如何與支援中心聯絡的相關資訊，請參閱[與支援中心聯絡](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)。視問題而定，您及（或）IBM 會一起合作來修正問題。
 
 ### IBM 偵測到的重要突發事件
 
-重要突發事件包含緊急、非預期的服務中斷，以及影響環境或使用者的穩定性問題。如果 IBM 在您的環境內偵測到重要突發事件，則會透過**狀態**頁面上的通知來通知您。您也可以檢查「狀態」頁面，以尋找平台或您服務的任何已知問題。如需「狀態」頁面的相關資訊，請參閱[檢視狀態](../admin/index.html#oc_status)。
+重要突發事件包含緊急、非預期的服務中斷，以及影響環境或使用者的穩定性問題。如果 IBM 在您的環境內偵測到重要突發事件，則會透過**狀態**頁面上的通知來通知您。您也可以檢查「狀態」頁面，以尋找平台或您服務的任何已知問題。如需「狀態」頁面的相關資訊，請參閱[檢視狀態](../hybrid/index.html#oc_status)。
 
-如果您要整合您的通知與支援 Webhook 的 Web 服務，請參閱[通知及事件訂閱](../admin/index.html#oc_eventsubscription)，以取得如何延伸通知功能的相關資訊。
+如果您要整合您的通知與支援 Webhook 的 Web 服務，請參閱[通知及事件訂閱](../hybrid/index.html#oc_eventsubscription)，以取得如何延伸通知功能的相關資訊。
 
 ![突發事件回應程序](../local/images/incidentresponseprocess.png "突發事件回應程序")
 
 圖 2. 突發事件回應程序
 
-視問題而定，您及（或）IBM 會一起合作來修正問題。如果您有關於突發事件的問題，或者需要 IBM 業務代表來協助您解決問題，則可以開立支援問題單。如需如何與支援中心聯絡的相關資訊，請參閱[與支援中心聯絡](/docs/support/index.html#contacting-bluemix-support-dedicated-local)。
+視問題而定，您及（或）IBM 會一起合作來修正問題。如果您有關於突發事件的問題，或者需要 IBM 業務代表來協助您解決問題，則可以開立支援問題單。如需如何與支援中心聯絡的相關資訊，請參閱[與支援中心聯絡](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)。
 
-**附註**：我們會 24 小時全年無休地監視嚴重性 1 支援問題單。其他問題單的處理時間是從星期日晚上 10:00 GMT 到星期六凌晨 12:00 GMT。如需支援問題單嚴重性以及與支援中心合作的相關資訊，請參閱<a href="/docs/support/index.html#contacting-bluemix-support-dedicated-local">與支援中心聯絡</a>。
+**附註**：我們會 24 小時全年無休地監視嚴重性 1 支援問題單。其他問題單的處理時間是從星期日晚上 10:00 GMT 到星期六凌晨 12:00 GMT。如需支援問題單嚴重性以及與支援中心合作的相關資訊，請參閱<a href="/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local">與支援中心聯絡</a>。
 
 
 ## {{site.data.keyword.Bluemix_dedicated_notm}} 的災難回復
