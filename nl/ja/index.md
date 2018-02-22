@@ -152,7 +152,7 @@ lastupdated: "2018-01-17"
 
 {{site.data.keyword.Bluemix_dedicated_notm}} は、世界中のどの [{{site.data.keyword.IBM_notm}} SoftLayer データ・センター ![「外部リンク」アイコン](../icons/launch-glyph.svg)](http://www.softlayer.com/data-centers){: new_window} にもデプロイできます。 {{site.data.keyword.IBM_notm}} SoftLayer は、最高レベルの性能を示すクラウド・インフラストラクチャーを提供します。 各データ・センターは 1 週間に 7 日、1 日 24 時間のセキュリティー、および厳格な管理が施されています。
 
-{{site.data.keyword.Bluemix_dedicated_notm}} の各デプロイメントは、固有プライベート・ネットワーク内の {{site.data.keyword.IBM_notm}} SoftLayer 専用ハードウェア上の単一エンタープライズ専用です。 インフラストラクチャー、運用、および物理的セキュリティーの観点から、{{site.data.keyword.Bluemix_dedicated_notm}} 環境のセキュリティー標準はパブリック {{site.data.keyword.Bluemix_notm}} のセキュリティー標準と同じです。 ただし、専用 {{site.data.keyword.Bluemix_notm}} に対する開発者のアクセスはセキュリティー・ポリシーによって制御されます。{{site.data.keyword.Bluemix_notm}} チームは、ご使用の環境の設定時にこのポリシーを構成することができます。専用環境内で、ユーザーの役割および許可を管理できます。 詳しくは、『[ユーザーおよび許可の管理](/docs/hybrid/index.html#oc_useradmin)』を参照してください。 以下の図は、デフォルト {{site.data.keyword.Bluemix_dedicated_notm}} デプロイメントの論理アーキテクチャーを示したものです。
+{{site.data.keyword.Bluemix_dedicated_notm}} の各デプロイメントは、固有プライベート・ネットワーク内の {{site.data.keyword.IBM_notm}} SoftLayer 専用ハードウェア上の単一エンタープライズ専用です。 インフラストラクチャー、運用、および物理的セキュリティーの観点から、{{site.data.keyword.Bluemix_dedicated_notm}} 環境のセキュリティー標準はパブリック {{site.data.keyword.Bluemix_notm}} のセキュリティー標準と同じです。 ただし、専用 {{site.data.keyword.Bluemix_notm}} に対する開発者のアクセスはセキュリティー・ポリシーによって制御されます。{{site.data.keyword.Bluemix_notm}} チームは、ご使用の環境の設定時にこのポリシーを構成することができます。 専用環境内で、ユーザーの役割および許可を管理できます。 詳しくは、『[ユーザーおよび許可の管理](/docs/hybrid/index.html#oc_useradmin)』を参照してください。 以下の図は、デフォルト {{site.data.keyword.Bluemix_dedicated_notm}} デプロイメントの論理アーキテクチャーを示したものです。
 
 ![{{site.data.keyword.Bluemix_dedicated_notm}}](images/bm_dedicated_arch.png "{{site.data.keyword.Bluemix_dedicated_notm}} デフォルト・アーキテクチャー")
 
@@ -320,7 +320,7 @@ Success Manager (CSM) と連携できます。 異なるサポート層につい
 |{{site.data.keyword.Bluemix_notm}} パイプラインの接続 | {{site.data.keyword.Bluemix_notm}} の継続的統合および継続的配信のパイプラインを IBM リポジトリーと接続します。 | IBM |
 |外部ソリューション・コンポーネントのカスタマイズ | 災害復旧シナリオ用にロード・バランサーをカスタマイズします。 | お客様 |
 |VPN ソリューションのインストール | 双方向の VPN ソリューションをインストールします。 | IBM |
-|ログイン・サーバーの構成 | 必要な場合、SAML で使用するログイン・サーバーを構成します。| IBM |
+|ログイン・サーバーの構成 | 必要な場合、SAML で使用するログイン・サーバーを構成します。 | IBM |
 |セキュリティー、コンプライアンス、および監査管理の状況の追跡  | すべてのツールおよびプロセスが配備されて、特定したコンプライアンスが実現する時点まで状況を追跡します。 | お客様 |
 |物理的インフラストラクチャーのレビュー | データ・センターを保護するセキュリティー制御の脅威および審査のためのソリューション・コンポーネントをホストする物理的プレミスをレビューします。 | お客様 |
 |モニタリング・ソフトウェアの検査 | エスカレーションおよび問題判別の計画で定義したモニターおよび管理コンポーネントを検査します。 | お客様 |
@@ -406,7 +406,7 @@ IBM は、お客様が選択した日付の期間またはその近辺で更新�
 
 ### お客様が検出した問題
 
-IBM サポートおよび運用チームに知らせる必要のある問題を見つけた場合、サポートに連絡する方法はいくつかあります。 サポートへの連絡方法について詳しくは、[サポートへのお問い合わせ](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)を参照してください。問題に応じて、お客様または IBM が問題を修正するか、または協力して問題を修正します。
+IBM サポートおよび運用チームに知らせる必要のある問題を見つけた場合、サポートに連絡する方法はいくつかあります。 サポートへの連絡方法について詳しくは、[サポートへのお問い合わせ](/docs/get-support/howtogetsupport.html#contacting-bluemix-support-dedicated-local)を参照してください。 問題に応じて、お客様または IBM が問題を修正するか、または協力して問題を修正します。
 
 ### IBM が検出した重大インシデント
 
