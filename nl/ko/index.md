@@ -150,7 +150,7 @@ lastupdated: "2018-01-17"
 ## {{site.data.keyword.Bluemix_dedicated_notm}} 아키텍처
 {: #dedicatedarch}
 
-{{site.data.keyword.Bluemix_dedicated_notm}}를 전 세계의 [{{site.data.keyword.IBM_notm}} SoftLayer 데이터 센터 ![외부 링크 아이콘](../icons/launch-glyph.svg)](http://www.softlayer.com/data-centers){: new_window}에 배치할 수 있습니다. {{site.data.keyword.IBM_notm}} SoftLayer는 고성능 클라우드 인프라를 제공합니다. 각 데이터 센터에서는 연중무휴 하루 24시간 보안 및 엄격한 제어를 수행합니다. 
+{{site.data.keyword.Bluemix_dedicated_notm}}를 전 세계의 [{{site.data.keyword.IBM_notm}} SoftLayer 데이터 센터 ![외부 링크 아이콘](../icons/launch-glyph.svg)](http://www.softlayer.com/data-centers){: new_window}에 배치할 수 있습니다. {{site.data.keyword.IBM_notm}} SoftLayer는 고성능 클라우드 인프라를 제공합니다. 각 데이터 센터에서는 연중무휴의 보안 및 엄격한 제어를 수행합니다.
 
 각 {{site.data.keyword.Bluemix_dedicated_notm}} 배치는 자체 사설 네트워크에서 {{site.data.keyword.IBM_notm}} SoftLayer 데디케이티드 하드웨어에 연결된 단일 엔터프라이즈에만 사용됩니다. {{site.data.keyword.Bluemix_dedicated_notm}} 환경은 인프라, 운영 및 물리적 보안이라는 면에서 퍼블릭 {{site.data.keyword.Bluemix_notm}}와 보안 표준이 동일합니다. 그러나 데디케이티드 {{site.data.keyword.Bluemix_notm}}에 대한 개발자 액세스는 보안 정책에 의해 제어되며, 이 정책은 환경을 설정할 때 {{site.data.keyword.Bluemix_notm}} 팀에서 구성할 수 있습니다. 데디케이티드 환경 내에서는 사용자 역할 및 권한을 관리할 수 있습니다. 세부사항은 [관리자 및 권한 관리](/docs/hybrid/index.html#oc_useradmin)를 참조하십시오. 다음 그림은 기본 {{site.data.keyword.Bluemix_dedicated_notm}} 배치의 논리적 아키텍처를 보여줍니다.
 
@@ -317,7 +317,7 @@ IBM은 비밀번호로 보호되는 로그인을 사용하여 {{site.data.keywor
 |{{site.data.keyword.Bluemix_notm}} 파이프라인 연결 | {{site.data.keyword.Bluemix_notm}} 지속적 통합 및 지속적 딜리버리 파이프라인을 IBM 저장소에 연결합니다. | IBM |
 |외부 솔루션 컴포넌트 사용자 정의 | 재해 복구 시나리오에 대비해 로드 밸런서를 사용자 정의합니다. | 고객 |
 |VPN 솔루션 설치 | 양방향 VPN 솔루션을 설치합니다. | IBM |
-|로그인 서버 구성 | 필요한 경우 SAML에 사용할 로그인 서버를 구성합니다.| IBM |
+|로그인 서버 구성 | 필요한 경우 SAML에 사용할 로그인 서버를 구성합니다. | IBM |
 |보안, 규제 준수 및 감사 제어를 위한 상태 추적  | 모든 도구와 프로세스가 식별된 규제 준수 수준에 도달하는 시점까지 상태를 추적합니다. | 고객 |
 |실제 인프라 검토 | 위협에 대비한 솔루션 컴포넌트를 호스팅하는 실제 구내와 데이터 센터를 보호하기 위한 보안 제어를 검토합니다. | 고객 |
 |모니터링 소프트웨어 검사 | 단계적 확대 및 문제점 판별 플랜에 정의된 대로 모니터링 및 관리 컴포넌트를 검사합니다. | 고객 |
@@ -384,7 +384,7 @@ IBM은 각 유지보수 기간에 대해 계획된 변경사항에 대한 브로
 <p>**관리 > 시스템 정보**로 이동하여 스케줄 및 보류 중인 유지보수 업데이트를 확인하십시오. 사전 승인된 기간 설정, 사용 불가능한 날짜, 유지보수 업데이트 보기 또는 승인에 대한 자세한 정보는 <a href="/docs/hybrid/index.html#oc_schedulemaintenance">유지보수 업데이트</a>를 참조하십시오.</p></dd>
 </dl>
 
-**중요**: IBM은 필요에 따라 비상 유지보수를 적용할 수 있도록 서비스를 인터럽트할 수 있는 권한을 보유합니다. IBM은 스케줄된 유지보수 시간을 변경할 수 있습니다. 하지만 비상 유지보수 정보와 함께 해당 변경사항을 사용자에게 알릴 것입니다. 
+**중요**: IBM은 필요에 따라 비상 유지보수를 적용할 수 있도록 서비스를 인터럽트할 수 있는 권한을 보유합니다. IBM은 스케줄된 유지보수 시간을 변경할 수 있습니다. 하지만 비상 유지보수 정보와 함께 해당 변경사항을 사용자에게 알릴 것입니다.
 
 유지보수 업데이트 이후 문제가 보고되는 경우에는 IBM이 업데이트를 롤백하도록 허용하는 것이 최선인지 여부를 {{site.data.keyword.Bluemix_notm}} 지원 센터와 협의합니다. 협의가 이루어지면 IBM은 업데이트를 롤백하여 환경을 이전 단계로 복원합니다.
 
