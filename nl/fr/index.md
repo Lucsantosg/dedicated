@@ -292,7 +292,7 @@ utilisez au-delà de ce contrat d'abonnement.</li>
 	<ol type="a">
 	<li>IBM configure l'accès réseau en fonction des éléments que vous avez fournis. L'accès administrateur est accordé aux contacts que vous désignez. Vous devez également désigner un contact pour le support et la facturation.</li>
 	<li>IBM configure un catalogue mixte dans votre environnement dédié qui répertorie vos services dédiés. Ce catalogue comprend des services supplémentaires qui sont à votre disposition depuis l'environnement {{site.data.keyword.Bluemix_notm}} public. Vous pouvez choisir les services publics qui satisfont les exigences pour votre activité selon vos critères de sécurité et de confidentialité des données.</li>
-	<li>Vous validez la configuration du réseau et du pare-feu ainsi que l'accès. </li>
+	<li>Vous validez la configuration du réseau et du pare-feu ainsi que l'accès.</li>
 	</ol>
 </li>
 </ol>
