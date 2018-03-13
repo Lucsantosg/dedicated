@@ -238,7 +238,7 @@ You can expect a process similar to the following list for the initial deploymen
 <li>You identify an owner for the public account that is used to represent your company in {{site.data.keyword.Bluemix_notm}} Public. IBM uses this account for tracking syndicated services usage.</li>
 <li>You select the type of secure connection to your data center. You can select from {{site.data.keyword.Bluemix_notm}} VPN, {{site.data.keyword.Bluemix_notm}} Direct Link, and AT&T Net Bond.</li>
 <li>You decide whether there will be any access to your dedicated environment from the public Internet.</li>
-<li>You select the type of authentication that will be used. You can select from IBMid or Active Directory. For information about using and registering for an IBMid, see the <a href="https://www.ibm.com/account/profile/us?page=regfaqhelp#4">Help and FAQ</a> page.
+<li>{{site.data.keyword.Bluemix_dedicated_notm}} uses IBMid as the authentication system. You may opt to use SAML with IBMid if you need single sign-on federation with an existing authentication system. For information about using and registering for an IBMid, see the <a href="https://www.ibm.com/account/profile/us?page=regfaqhelp#4">Help and FAQ</a> page.
 </li>
 <li>You identify and assign roles for your administrative team for the environment. For information about the roles that you must assign, see <a href="/docs/dedicated/index.html#rolesresponsibilities">{{site.data.keyword.Bluemix_dedicated_notm}} roles and responsibilities</a>.</li>
 <li>IBM deploys the core platform that includes the elastic runtimes, console, administration feature, and monitoring.</li>
@@ -248,10 +248,13 @@ You can expect a process similar to the following list for the initial deploymen
 
 After your {{site.data.keyword.Bluemix_notm}} instance is set up, you can monitor and manage your {{site.data.keyword.Bluemix_notm}} instance by using the Administration page. For more information, see [Managing {{site.data.keyword.Bluemix_local_notm}} and {{site.data.keyword.Bluemix_dedicated_notm}}](../hybrid/index.html#mng). For information about upgrades and maintenance, see [Maintaining your dedicated instance](index.html#maintaindedicated).
 
+{{site.data.keyword.Bluemix_dedicated_notm}} architectural documents are made available at the time of handover. These include the core logical architecture as well as any customer specific configuration for given {{site.data.keyword.Bluemix_dedicated_notm}} environment. Configuration information is provided in two parts. The first part is viewable in the System Information tab of the Administration Console. This includes information like the host Data center, authentication configuration if applicable, system domain names and the versions of key components. The second part pertains to Network connectivity options that are documented separately. This includes configuration information from the customer's network to the Dedicated environment in the form of VPN, Direct Link and Public Internet access.
+If IBM makes any significant changes to the core architecture or configuration for an environment updated documents will be made available to the customer.
+
 ##Roles and responsibilities
 {: #rolesresponsibilities}
 
-If you set up a {{site.data.keyword.Bluemix_dedicated_notm}} account, you identify the people in your organization for the roles that are needed to get your instance up and running.
+If you set up an {{site.data.keyword.Bluemix_dedicated_notm}} account, you identify the people in your organization for the roles that are needed to get your instance up and running.
 
 ###Roles
 
@@ -349,7 +352,7 @@ Next is the progression phase. The progression phase describes the on-going, col
 |Resolution of security vulnerabilities | Resolve reported security vulnerabilities in the platform. | IBM |
 {: caption="Table 6. Progression phase tasks" caption-side="top"}
 
-The final stage of completion represents the end of the relationship between you and IBM {{site.data.keyword.Bluemix_notm}}. The primary tasks for this phase include the following:
+The final stage of completion represents the end of the relationship between you and {{site.data.keyword.Bluemix_notm}}. The primary tasks for this phase include the following:
 
 * Ending of the financial agreement
 * Removing all network connections
