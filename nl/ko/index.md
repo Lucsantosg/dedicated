@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-01-17"
+lastupdated: "2018-03-14"
 
 ---
 
@@ -29,15 +29,15 @@ lastupdated: "2018-01-17"
 
 | **유형**        | **이름**            | **설명** |
 |-----------------|-------------------|-------------------|
-|포함 | [{{site.data.keyword.Bluemix_notm}} 런타임](/docs/cfapps/runtimes.html) | 시스템 및 운영 체제를 설정하고 관리할 필요 없이 신속하게 앱을 시작하고 실행하려면 런타임을 사용하십시오. 모든 {{site.data.keyword.Bluemix_notm}} 런타임은 {{site.data.keyword.Bluemix_dedicated_notm}} 인스턴스에서 사용 가능합니다.|
+|포함 | [{{site.data.keyword.Bluemix_notm}} 런타임](/docs/runtimes/common/index.html#available_buildpacks) | 시스템 및 운영 체제를 설정하고 관리할 필요 없이 신속하게 앱을 시작하고 실행하려면 런타임을 사용하십시오. 모든 {{site.data.keyword.Bluemix_notm}} 런타임은 {{site.data.keyword.Bluemix_dedicated_notm}} 인스턴스에서 사용 가능합니다.|
 | 포함 | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | 정책에 따라 애플리케이션의 컴퓨팅 용량을 동적으로 늘리거나 줄입니다. 이 서비스를 사용하면 {{site.data.keyword.Bluemix_dedicated_notm}} 환경에서 무제한 사용이 가능합니다.  참고: Auto-Scaling은 현재 Cloud Foundry 런타임에서만 작동합니다. |
 |선택사항 | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}}는 {{site.data.keyword.APIM}}와 IBM StrongLoop를 API 및 마이크로서비스를 작성, 실행, 관리 및 적용하기 위한 포괄적 솔루션을 제공하는 단일 오퍼링으로 통합합니다. |
 |선택사항 | [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}}에서는 항상 작동 상태인 완전히 관리되는 NoSQL JSON 데이터 계층에 대한 액세스를 제공합니다. 이 서비스는 CouchDB와 호환 가능하며, 모바일 및 웹 애플리케이션 모델을 위한 사용이 간편한 HTTP 인터페이스를 통해 액세스할 수 있습니다. |
 |선택사항 | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | {{site.data.keyword.Bluemix_dedicated_notm}}에서 Docker 컨테이너를 실행합니다. 컨테이너는 앱에서 실행해야 하는 모든 요소를 포함하는 가상 소프트웨어 오브젝트입니다. 컨테이너는 리소스 격리와 할당의 이점이 있으며 가상 머신 등보다 휴대가 간편하고 효율적입니다. 하드웨어 요구사항에 대한 정보는 [{{site.data.keyword.Bluemix_dedicated_notm}} 및 {{site.data.keyword.Bluemix_local_notm}}의 {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)를 참조하십시오.|
 | 선택사항 | [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | {{site.data.keyword.contdelivery_short}} 데디케이티드를 사용하여 빌드, 단위 테스트, 배치 등을 자동화합니다. 풍부한 웹 기반 IDE을 통해 코드를 편집하고 푸시하십시오. 개발, 배치 및 오퍼레이션 태스크를 지원하는 도구 통합을 가능하게 하는 도구 체인을 작성합니다. |
-| 선택사항 | [{{site.data.keyword.dashdbshort}}](/docs/services/dashDB/dashDB.html) | IBM {{site.data.keyword.dashdbshort}} for Analytics는 전체 관리되는 SQL 클라우드 데이터베이스 서비스이고, 데이터 웨어하우스와 분석 워크로드를 위해 최적화되어 있습니다. IBM {{site.data.keyword.dashdbshort}} for Transactions는 전체 관리되는 SQL 클라우드 데이터베이스 서비스이고 일반적인 용도, 웹 앱 및 트랜잭션 워크로드를 위해 최적화되어 있습니다. |
+| 선택사항 | [{{site.data.keyword.dashdbshort}}](/docs/services/Db2whc/index.html#getting_started) | IBM {{site.data.keyword.dashdbshort}} for Analytics는 전체 관리되는 SQL 클라우드 데이터베이스 서비스이고, 데이터 웨어하우스와 분석 워크로드를 위해 최적화되어 있습니다. IBM {{site.data.keyword.dashdbshort}} for Transactions는 전체 관리되는 SQL 클라우드 데이터베이스 서비스이고 일반적인 용도, 웹 앱 및 트랜잭션 워크로드를 위해 최적화되어 있습니다. |
 | 선택사항 | [Dedicated GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}}는 IBM Cloud에 호스팅되고 완전하게 관리되는 GitHub Enterprise 버전이며 개발자가 선호하는 소셜 경험을 제공합니다. 이 서비스는 현재 {{site.data.keyword.Bluemix_dedicated_notm}} 환경에서만 사용할 수 있습니다. |
-| 선택사항(베타) | [로깅](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov) | Kibana의 검색 가능한 로그 및 대시보드와 {{site.data.keyword.Bluemix_notm}} 사용자 인터페이스의 Cloud Foundry 앱에 대한 로그를 제공합니다. |
+| 선택사항(베타) | [{{site.data.keyword.loganalysislong_notm}}](/docs/services/CloudLogAnalysis/containers/containers_kubernetes.html#dedicated) | Kibana의 검색 가능한 로그 및 대시보드와 {{site.data.keyword.Bluemix_notm}} 사용자 인터페이스의 Cloud Foundry 앱에 대한 로그를 제공합니다. |
 | 선택사항 | [{{site.data.keyword.messagehub}}](/docs/services/MessageHub/index.html#messagehub) | {{site.data.keyword.messagehub}}는 온프레미스와 오프프레미스 기술을 통합하는 확장 가능하고 처리량이 많은 분산 메시지 버스입니다. {{site.data.keyword.messagehub}}는 빠르고 확장 가능하고 내구성 강한 실시간 메시징 엔진인 Apache Kafka를 기반으로 합니다. |
 |선택사항 | [{{site.data.keyword.mobilepushshort}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepushshort}}는 iOS 및 Android 디바이스에 알림을 보내는 데 사용할 수 있는 서비스입니다. 알림은 모든 애플리케이션 사용자와 태그를 사용하는 특정 디바이스 및 사용자 세트를 대상으로 할 수 있습니다. 디바이스, 태그 및 구독을 관리할 수 있습니다. SDK(Software Development Kit) 및 REST(Representational State Transfer) API(Application Program Interface)를 사용하여 클라이언트 애플리케이션을 추가로 개발할 수도 있습니다.|
 |선택사항 | [{{site.data.keyword.SecureGateway}}](/docs/services/SecureGateway/secure_gateway.html) | {{site.data.keyword.SecureGateway}} 서비스는 온프레미스 또는 클라우드를 통해 {{site.data.keyword.Bluemix_notm}} 애플리케이션을 원격 위치에 연결하는 안전한 방법을 제공합니다.  |
@@ -234,11 +234,11 @@ IBM은 비밀번호로 보호되는 로그인을 사용하여 {{site.data.keywor
 <ol>
 <li>데디케이티드 인스턴스를 호스팅하는 데 사용할 데이터 센터를 선택합니다. 데이터 센터 옵션에 대한 정보는 <a href="http://www.softlayer.com/data-centers" target="_blank">{{site.data.keyword.BluSoftlayer}} 데이터 센터 위치 <img src="../icons/launch-glyph.svg" alt="외부 링크 아이콘"></a>를 참조하십시오.</li>
 <li>배치에 필요한 도메인 이름 및 사용할 ID를 지정합니다. {{site.data.keyword.Bluemix_notm}} 인스턴스를 설정하면 3개 도메인을 사용하게 됩니다. <code>*mycompany*.*region*.bluemix.net</code> 및 <code>*mycompany*.*region*.mybluemix.net</code>에 대한 접두부를 선택합니다. 그런 다음, 세 번째 도메인의 전체 이름을 선택합니다.<br />
-<p>사용자 정의 도메인은 필요한 만큼 선택할 수 있습니다. 그러나, 사용자 정의 도메인의 인증은 사용자 자신이 책임져야 합니다. 사용자 정의 도메인 작성에 대한 자세한 정보는 <a href="/docs/manageapps/updapps.html#domain">사용자 정의 도메인 작성 및 사용</a>을 참조하십시오.</p></li>
+<p>사용자 정의 도메인은 필요한 만큼 선택할 수 있습니다. 그러나, 사용자 정의 도메인의 인증은 사용자 자신이 책임져야 합니다. 사용자 정의 도메인 작성에 대한 자세한 정보는 <a href="/docs/apps/updapps.html#domain">사용자 정의 도메인 작성 및 사용</a>을 참조하십시오.</p></li>
 <li>{{site.data.keyword.Bluemix_notm}} 퍼블릭에서 사용자 회사를 나타내는 데 사용되는 공용 계정의 소유자를 식별합니다. 이 계정은 신디케이트된 서비스의 사용량을 추적하는 데 사용됩니다.</li>
 <li>데이터 센터에 대한 보안 연결의 유형을 선택합니다. {{site.data.keyword.Bluemix_notm}} VPN, {{site.data.keyword.Bluemix_notm}} Direct Link 및 AT&T Net Bond에서 선택할 수 있습니다.</li>
 <li>공용 인터넷에서 데디케이티드 환경에 제한 없이 액세스할 수 있는지 결정합니다.</li>
-<li>사용할 인증의 유형을 선택합니다. IBM ID 또는 Active Directory 중에서 선택할 수 있습니다. IBM ID의 사용과 등록에 대한 정보는 <a href="https://www.ibm.com/account/profile/us?page=regfaqhelp#4">Help and FAQ</a> 페이지를 참조하십시오.
+<li>{{site.data.keyword.Bluemix_dedicated_notm}}는 인증 시스템으로 IBM ID를 사용합니다. 기존 인증 시스템과의 싱글 사인온 연합이 필요하면 IBM ID와 함께 SAML을 사용할 수 있습니다. IBM ID의 사용과 등록에 대한 정보는 <a href="https://www.ibm.com/account/profile/us?page=regfaqhelp#4">Help and FAQ</a> 페이지를 참조하십시오.
 </li>
 <li>환경에서 관리 팀의 역할을 식별하고 지정합니다. 사용자가 지정해야 하는 역할에 대한 자세한 정보는 <a href="/docs/dedicated/index.html#rolesresponsibilities">{{site.data.keyword.Bluemix_dedicated_notm}} 역할 및 책임</a>을 참조하십시오.</li>
 <li>IBM이 탄력적 런타임, 콘솔, 관리 기능 및 모니터링을 포함하는 코어 플랫폼을 배치합니다.</li>
@@ -247,6 +247,8 @@ IBM은 비밀번호로 보호되는 로그인을 사용하여 {{site.data.keywor
 </ol>
 
 {{site.data.keyword.Bluemix_notm}} 인스턴스를 설정하고 나면 관리 페이지를 사용하여 {{site.data.keyword.Bluemix_notm}} 인스턴스를 모니터링하고 관리할 수 있습니다. 자세한 정보는 [{{site.data.keyword.Bluemix_local_notm}} 및 {{site.data.keyword.Bluemix_dedicated_notm}} 관리](../hybrid/index.html#mng)를 참조하십시오. 업그레이드 및 유지보수에 대한 자세한 정보는 [데디케이티드 인스턴스 유지보수](index.html#maintaindedicated)를 참조하십시오.
+
+{{site.data.keyword.Bluemix_dedicated_notm}} 아키텍처 문서는 인계 시에 제공됩니다. 여기에는 지정된 {{site.data.keyword.Bluemix_dedicated_notm}} 환경의 고객 특정 구성뿐만 아니라 핵심 논리 아키텍처가 포함됩니다. 구성 정보는 두 부분으로 제공됩니다. 첫 번째 부분은 관리 콘솔의 시스템 정보 탭에서 볼 수 있습니다. 여기에는 호스트 데이터 센터, 인증 구성(해당하는 경우), 시스템 도메인 이름 및 키 컴포넌트 버전과 같은 정보가 있습니다. 두 번째 부분은 별도로 문서화된 네트워크 연결 옵션과 관련됩니다. 여기에는 VPN 형식의 전용 환경, 직접 링크 및 공용 인터넷 액세스가 포함됩니다. IBM이 핵심 아키텍처나 환경 구성에 중대한 변경을 수행하면 업데이트된 문서가 고객에게 곧 제공됩니다. 
 
 ##역할 및 책임
 {: #rolesresponsibilities}
@@ -314,7 +316,7 @@ IBM은 비밀번호로 보호되는 로그인을 사용하여 {{site.data.keywor
 |보안 컴포넌트 설치 및 구성 | 모니터링 및 단계적 확대 플랜에 연결된 보안 컴포넌트(예: IBM QRadar, 신임 정보 저장소, 침입 방지 시스템, IBM BigFix, IBM Security Privileged Identity Management)를 설치하고 구성합니다. | IBM |
 |사용자 정의 컴포넌트 설치 및 구성 |  	{{site.data.keyword.Bluemix_notm}} 제품 및 서비스 범위의 외부에 상주하는 사용자 정의 컴포넌트를 설치하고 구성합니다. | 고객 |
 |초기 네트워크 구성 설정 | 방화벽, DataPower, Fortigate 및 DNS 등 초기 네트워크 구성을 설정합니다. | IBM |
-|{{site.data.keyword.Bluemix_notm}} 파이프라인 연결 | {{site.data.keyword.Bluemix_notm}} 지속적 통합 및 지속적 딜리버리 파이프라인을 IBM 저장소에 연결합니다. | IBM |
+|{{site.data.keyword.Bluemix_notm}} 파이프라인 연결 | {{site.data.keyword.Bluemix_notm}} 지속적 통합 및 지속적 Delivery Pipeline을 IBM 저장소에 연결합니다. | IBM |
 |외부 솔루션 컴포넌트 사용자 정의 | 재해 복구 시나리오에 대비해 로드 밸런서를 사용자 정의합니다. | 고객 |
 |VPN 솔루션 설치 | 양방향 VPN 솔루션을 설치합니다. | IBM |
 |로그인 서버 구성 | 필요한 경우 SAML에 사용할 로그인 서버를 구성합니다. | IBM |
@@ -349,7 +351,7 @@ IBM은 비밀번호로 보호되는 로그인을 사용하여 {{site.data.keywor
 |보안 취약점 해결 | 플랫폼에서 보고된 보안 취약점을 해결합니다. | IBM |
 {: caption="표 6. 진행 단계(Phase) 태스크" caption-side="top"}
 
-최종 완료 단계는 사용자와 IBM {{site.data.keyword.Bluemix_notm}} 사이의 관계 종료를 나타냅니다. 이 단계의 1차 태스크에는 다음이 포함됩니다.
+최종 완료 단계는 사용자와 {{site.data.keyword.Bluemix_notm}} 사이의 관계 종료를 나타냅니다. 이 단계의 1차 태스크에는 다음이 포함됩니다.
 
 * 재무 계약 종료
 * 모든 네트워크 연결 제거
