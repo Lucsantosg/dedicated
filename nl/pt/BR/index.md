@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-01-17"
+lastupdated: "2018-03-14"
 
 ---
 
@@ -29,15 +29,15 @@ Além disso, há um conjunto de serviços e componentes que são incluídos ou o
 
 | **Tipo**        | **Nome**            | **Descrição** |
 |-----------------|-------------------|-------------------|
-|Incluído | [Tempos de execução do {{site.data.keyword.Bluemix_notm}}](/docs/cfapps/runtimes.html) | Use tempos de execução para colocar seu app funcionando rapidamente, sem necessidade de configurar e gerenciar as máquinas e os sistemas operacionais. Todos os tempos de execução do {{site.data.keyword.Bluemix_notm}} estão disponíveis para você usar em sua instância do {{site.data.keyword.Bluemix_dedicated_notm}}.|
+|Incluído | [Tempos de execução do {{site.data.keyword.Bluemix_notm}}](/docs/runtimes/common/index.html#available_buildpacks) | Use tempos de execução para colocar seu app funcionando rapidamente, sem necessidade de configurar e gerenciar as máquinas e os sistemas operacionais. Todos os tempos de execução do {{site.data.keyword.Bluemix_notm}} estão disponíveis para você usar em sua instância do {{site.data.keyword.Bluemix_dedicated_notm}}.|
 | Incluído | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | Aumentar ou diminuir dinamicamente a capacidade de cálculo do aplicativo com base em políticas. Com esse serviço, você tem uso ilimitado em seu ambiente do {{site.data.keyword.Bluemix_dedicated_notm}}. Nota: o Auto-scaling funciona atualmente somente com os tempos de execução do Cloud Foundry |
 |Opcional | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | O {{site.data.keyword.apiconnect_long}} integra o {{site.data.keyword.APIM}} e o IBM StrongLoop em uma única oferta que fornece uma solução abrangente para criar, executar, gerenciar e impingir APIs e microsserviços. |
 |Opcional | [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | O {{site.data.keyword.cloudant}} fornece acesso a uma camada de dados do JSON NoSQL totalmente gerenciada que sempre está ativa. Esse serviço é compatível com o CouchDB e acessível por meio de uma interface HTTP simples de usar para modelos de aplicativos móveis e da web. |
 |Opcional | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | Execute os contêineres do Docker no {{site.data.keyword.Bluemix_dedicated_notm}}. Contêineres são objetos de software virtuais que incluem todos os elementos que um aplicativo precisa executar. Um contêiner tem os benefícios do isolamento e da alocação de recursos, mas é mais móvel e eficiente do que, por exemplo, uma máquina virtual. Para obter informações sobre os requisitos de hardware, veja [{{site.data.keyword.containershort}} no {{site.data.keyword.Bluemix_dedicated_notm}} e {{site.data.keyword.Bluemix_local_notm}}](/docs/containers/container_ov.html#container_dl).|
 | Opcional | [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | Use {{site.data.keyword.contdelivery_short}} Dedicated para automatizar construções, testes de unidade, implementações, etc. Edite e envie o código por push por meio do IDE avançado baseado na web. Crie cadeias de ferramentas para ativar integrações de ferramenta que suportam as tarefas de desenvolvimento, implementação e operações. |
-| Opcional | [{{site.data.keyword.dashdbshort}}](/docs/services/dashDB/dashDB.html) | O IBM {{site.data.keyword.dashdbshort}} for Analytics é um serviço de banco de dados de nuvem de SQL totalmente gerenciado, otimizado para data warehouse e cargas de trabalho de analítica. O IBM {{site.data.keyword.dashdbshort}} for Transactions é um serviço de banco de dados de nuvem de SQL totalmente gerenciado, otimizado para propósito geral, apps da web e cargas de trabalho transacionais. |
+| Opcional | [{{site.data.keyword.dashdbshort}}](/docs/services/Db2whc/index.html#getting_started) | O IBM {{site.data.keyword.dashdbshort}} for Analytics é um serviço de banco de dados de nuvem de SQL totalmente gerenciado, otimizado para data warehouse e cargas de trabalho de analítica. O IBM {{site.data.keyword.dashdbshort}} for Transactions é um serviço de banco de dados de nuvem de SQL totalmente gerenciado, otimizado para propósito geral, apps da web e cargas de trabalho transacionais. |
 | Opcional | [Dedicated GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}} é a versão hospedada em Nuvem IBM e completamente gerenciada do GitHub Enterprise que fornece a experiência social que os desenvolvedores amam. Esse serviço atualmente está disponível exclusivamente para ambientes do {{site.data.keyword.Bluemix_dedicated_notm}}. |
-| Opcional (Beta) | [Criação de log](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov) | Fornece logs para os aplicativos Cloud Foundry em sua interface com o usuário do {{site.data.keyword.Bluemix_notm}} e logs pesquisáveis e painéis em Kibana. |
+| Opcional (Beta) | [{{site.data.keyword.loganalysislong_notm}}](/docs/services/CloudLogAnalysis/containers/containers_kubernetes.html#dedicated) | Fornece logs para os aplicativos Cloud Foundry em sua interface com o usuário do {{site.data.keyword.Bluemix_notm}} e logs pesquisáveis e painéis em Kibana. |
 | Opcional | [{{site.data.keyword.messagehub}}](/docs/services/MessageHub/index.html#messagehub) | O {{site.data.keyword.messagehub}} é um barramento de mensagem escalável, distribuído, de alto rendimento, para unificar as suas tecnologias no local e remotas. O {{site.data.keyword.messagehub}} é baseado no Apache Kafka, que é um mecanismo do sistema de mensagens em tempo real rápido, escalável e durável. |
 |Opcional | [{{site.data.keyword.mobilepushshort}}](/docs/services/mobilepush/index.html) | O {{site.data.keyword.mobilepushshort}} é um serviço que você pode usar para enviar notificações para iOS e dispositivo Android. É possível direcionar notificações para todos os usuários do aplicativo ou para um conjunto específico de usuários e dispositivos usando tags. É possível administrar dispositivos, tags e assinaturas. É possível também usar um SDK (Software Development Kit) e interfaces de programação de aplicativos (APIs) de Representational State Transfer (REST) para desenvolver ainda mais seus aplicativos clientes.|
 |Opcional | [{{site.data.keyword.SecureGateway}}](/docs/services/SecureGateway/secure_gateway.html) | O serviço {{site.data.keyword.SecureGateway}} fornece uma maneira segura de conectar aplicativos {{site.data.keyword.Bluemix_notm}} a locais remotos no local ou na nuvem.  |
@@ -203,7 +203,7 @@ Na arquitetura padrão do {{site.data.keyword.Bluemix_dedicated_notm}}, conforme
 
 O {{site.data.keyword.Bluemix_dedicated_notm}} foi projetado para fornecer uma versão privada da oferta {{site.data.keyword.Bluemix_notm}} Public. É possível usar serviços e tempos de execução do {{site.data.keyword.Bluemix_notm}} para suportar suas necessidades computacionais em uma conta do {{site.data.keyword.BluSoftlayer}} hospedada pela IBM.
 
-A IBM fornece acesso ao {{site.data.keyword.Bluemix_dedicated_notm}} usando um login protegido por senha. É possível acessar os serviços, os tempos de execução e os recursos associados e implementar e remover apps do {{site.data.keyword.Bluemix_notm}}. A IBM usufrui das vantagens dos múltiplos locais do {{site.data.keyword.BluSoftlayer}} para entregar o {{site.data.keyword.Bluemix_dedicated_notm}} para que você possa obter sua versão privada em um local próximo a você.
+A IBM fornece acesso ao {{site.data.keyword.Bluemix_dedicated_notm}} usando um login assegurado por senha. É possível acessar os serviços, os tempos de execução e os recursos associados e implementar e remover apps do {{site.data.keyword.Bluemix_notm}}. A IBM usufrui das vantagens dos múltiplos locais do {{site.data.keyword.BluSoftlayer}} para entregar o {{site.data.keyword.Bluemix_dedicated_notm}} para que você possa obter sua versão privada em um local próximo a você.
 
 Para configurar sua versão privada do {{site.data.keyword.Bluemix_notm}}:
 
@@ -234,11 +234,11 @@ Para configurar sua versão privada do {{site.data.keyword.Bluemix_notm}}:
 <ol>
 <li>Selecione qual datacenter usar para hospedar sua instância dedicada. Para obter informações sobre as opções do datacenter, veja <a href="http://www.softlayer.com/data-centers" target="_blank">Local do datacenter do {{site.data.keyword.BluSoftlayer}} <img src="../icons/launch-glyph.svg" alt="Ícone de link externo"></a>.</li>
 <li>Especifique os nomes de domínio para a implementação e os IDs que deseja usar. Obtenha três domínios ao configurar sua instância do {{site.data.keyword.Bluemix_notm}}. Selecione o prefixo para a <code>*mycompany*.*region*.bluemix.net</code> e  <code>*mycompany*.*region*.mybluemix.net</code>. E, escolha o nome completo do terceiro domínio.<br />
-<p>É possível escolher quantos domínios customizados desejar. No entanto, você é responsável pelos certificados dos domínios customizados. Para obter informações sobre como criar seu domínio customizado, veja <a href="/docs/manageapps/updapps.html#domain">Criando e usando um domínio customizado</a>.</p></li>
+<p>É possível escolher quantos domínios customizados desejar. No entanto, você é responsável pelos certificados dos domínios customizados. Para obter informações sobre como criar seu domínio customizado, veja <a href="/docs/apps/updapps.html#domain">Criando e usando um domínio customizado</a>.</p></li>
 <li>Identifique um proprietário para a conta pública que é usada para representar sua empresa no {{site.data.keyword.Bluemix_notm}} Public. A IBM usa essa conta para rastrear o uso de serviços organizados.</li>
 <li>Selecione o tipo de conexão segura para seu datacenter. É possível selecionar a partir do {{site.data.keyword.Bluemix_notm}} VPN, {{site.data.keyword.Bluemix_notm}} Direct Link e AT&T Net Bond.</li>
 <li>Decida se haverá qualquer acesso ao seu ambiente dedicado a partir da Internet pública.</li>
-<li>Selecione o tipo de autenticação que será usada. É possível selecionar entre ID IBM ou Active Directory. Para obter informações sobre como usar e registrar um ID IBM, consulte a página <a href="https://www.ibm.com/account/profile/us?page=regfaqhelp#4">Ajuda e perguntas mais frequentes</a>.
+<li>O {{site.data.keyword.Bluemix_dedicated_notm}} usa o IBMid como o sistema de autenticação. Você poderá optar por usar o SAML com o IBMid se precisar de federação de conexão única com um sistema de autenticação existente. Para obter informações sobre como usar e registrar um ID IBM, consulte a página <a href="https://www.ibm.com/account/profile/us?page=regfaqhelp#4">Ajuda e perguntas mais frequentes</a>.
 </li>
 <li>Identifique e designe funções à sua equipe administrativa para o ambiente. Para obter informações sobre as funções que devem ser designadas, veja <a href="/docs/dedicated/index.html#rolesresponsibilities">Funções e responsabilidades do {{site.data.keyword.Bluemix_dedicated_notm}}</a>.</li>
 <li>A IBM implementa a plataforma principal que inclui os tempos de execução elásticos, o console, o recurso de administração e o monitoramento.</li>
@@ -248,10 +248,13 @@ Para configurar sua versão privada do {{site.data.keyword.Bluemix_notm}}:
 
 Depois que a instância do {{site.data.keyword.Bluemix_notm}} estiver configurada, será possível monitorar e gerenciar sua instância do {{site.data.keyword.Bluemix_notm}} usando a página Administração. Para obter mais informações, consulte [Gerenciando o {{site.data.keyword.Bluemix_local_notm}} e o {{site.data.keyword.Bluemix_dedicated_notm}}](../hybrid/index.html#mng). Para obter informações sobre upgrades e manutenção, veja [Mantendo sua instância dedicada](index.html#maintaindedicated).
 
+Os documentos arquiteturais do {{site.data.keyword.Bluemix_dedicated_notm}} são disponibilizados no momento da entrega. Eles incluem a arquitetura lógica principal, bem como qualquer configuração específica de cliente para um determinado ambiente {{site.data.keyword.Bluemix_dedicated_notm}}. As informações de configuração são fornecidas em duas partes. A primeira parte é visível na guia Informações do sistema do Console de administração. Isso inclui informações como o data center do host, configuração de autenticação, se aplicável, nomes de domínios do sistema e as versões de componentes chave. A segunda parte refere-se às opções de conectividade de rede que são documentadas separadamente. Isso inclui informações de configuração de rede do cliente para o ambiente Dedicado na forma de VPN, Link direto e acesso à Internet pública.
+Se a IBM fizer quaisquer mudanças significativas na arquitetura ou a configuração principal para um ambiente, os documentos atualizados serão disponibilizados para o cliente.
+
 ##Funções e Responsabilidades
 {: #rolesresponsibilities}
 
-Se você configurar uma conta do {{site.data.keyword.Bluemix_dedicated_notm}}, identificará as pessoas em sua organização para as funções necessárias para que sua instância funcione.
+Se você configurar uma conta do {{site.data.keyword.Bluemix_dedicated_notm}}, identifique as pessoas em sua organização para as funções que são necessárias para deixar sua instância funcionando.
 
 ###Funções
 
@@ -349,7 +352,7 @@ A fase seguinte é a de progressão. A fase de progressão descreve o relacionam
 |Resolução de vulnerabilidades de segurança | Resolver vulnerabilidades de segurança relatadas na plataforma. | IBM |
 {: caption="Tabela 6. Tarefas da fase de progressão" caption-side="top"}
 
-O estágio final da conclusão representa o término do relacionamento entre você e a IBM {{site.data.keyword.Bluemix_notm}}. As tarefas principais dessa fase incluem os itens a seguir:
+O estágio final da conclusão representa o término do relacionamento entre você e a {{site.data.keyword.Bluemix_notm}}. As tarefas principais dessa fase incluem os itens a seguir:
 
 * Término do contrato financeiro
 * Remoção de todas as conexões de rede
