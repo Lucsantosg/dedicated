@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-01-17"
+lastupdated: "2018-03-14"
 
 ---
 
@@ -29,15 +29,15 @@ lastupdated: "2018-01-17"
 
 | **タイプ**        | **名前**            | **説明** |
 |-----------------|-------------------|-------------------|
-|組み込み | [{{site.data.keyword.Bluemix_notm}} ランタイム](/docs/cfapps/runtimes.html) | ランタイムはアプリを素早く立ち上げて実行するために使用します。マシンとオペレーティング・システムのセットアップと管理は不要です。 すべての {{site.data.keyword.Bluemix_notm}} ランタイムが、{{site.data.keyword.Bluemix_dedicated_notm}} インスタンスで使用可能です。|
+|組み込み | [{{site.data.keyword.Bluemix_notm}} ランタイム](/docs/runtimes/common/index.html#available_buildpacks) | ランタイムはアプリを素早く立ち上げて実行するために使用します。マシンとオペレーティング・システムのセットアップと管理は不要です。 すべての {{site.data.keyword.Bluemix_notm}} ランタイムが、{{site.data.keyword.Bluemix_dedicated_notm}} インスタンスで使用可能です。|
 | 組み込み | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | ポリシーに基づいて、アプリケーションの計算能力を動的に増減します。 このサービスを使用することで、{{site.data.keyword.Bluemix_dedicated_notm}} 環境で使用量が無制限になります。 注: Auto-scaling は現在、Cloud Foundry ランタイムでのみ動作します。 |
 |オプション | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} は、{{site.data.keyword.APIM}} と IBM StrongLoop を単一のオファリングに統合し、API とマイクロサービスを作成、実行、管理、および強化する包括的な解決策を提供します。 |
 |オプション | [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} は、常に稼働している完全管理 NoSQL JSON データ層へのアクセスを提供します。 このサービスは CouchDB と互換性があり、モバイル・アプリケーション・モデルおよび Web アプリケーション・モデル用の、簡単に使用できる HTTP インターフェースでアクセスできます。 |
 |オプション | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | {{site.data.keyword.Bluemix_dedicated_notm}} で Docker コンテナーを実行します。 コンテナーは、アプリが実行のために必要とするすべてのエレメントを含む仮想ソフトウェア・オブジェクトです。 コンテナーには、リソースの分離と割り振りの利点がありますが、例えば仮想マシンなどよりも、移植可能性と効率性が高まっています。 ハードウェア要件について詳しくは、『[ {{site.data.keyword.Bluemix_dedicated_notm}} および {{site.data.keyword.Bluemix_local_notm}} における {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)』を参照してください。|
 | オプション | [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | {{site.data.keyword.contdelivery_short}} Dedicated を使用して、ビルド、単体テスト、デプロイメントなどを自動化します。 機能豊富な Web ベース IDE により、コードの編集およびプッシュを行います。 開発、デプロイメント、および運用の作業をサポートするツール統合を実現するツールチェーンを作成します。 |
-| オプション | [{{site.data.keyword.dashdbshort}}](/docs/services/dashDB/dashDB.html) | IBM {{site.data.keyword.dashdbshort}} for Analytics は、データウェアハウスおよび分析のワークロード用に最適化された完全管理の SQL クラウド・データベース・サービスです。 IBM {{site.data.keyword.dashdbshort}} for Transactions は、汎用、Web アプリ、およびトランザクションのワークロード用に最適化された完全管理の SQL クラウド・データベース・サービスです。 |
+| オプション | [{{site.data.keyword.dashdbshort}}](/docs/services/Db2whc/index.html#getting_started) | IBM {{site.data.keyword.dashdbshort}} for Analytics は、データウェアハウスおよび分析のワークロード用に最適化された完全管理の SQL クラウド・データベース・サービスです。 IBM {{site.data.keyword.dashdbshort}} for Transactions は、汎用、Web アプリ、およびトランザクションのワークロード用に最適化された完全管理の SQL クラウド・データベース・サービスです。 |
 | オプション | [Dedicated GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}} は、IBM Cloud でホストされて完全に管理されるバージョンの GitHub Enterprise であり、開発者が愛好するソーシャル・エクスペリエンスを提供します。 このサービスは、現在は {{site.data.keyword.Bluemix_dedicated_notm}} 環境でのみ使用可能です。 |
-| オプション (ベータ版) | [ロギング](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov) | {{site.data.keyword.Bluemix_notm}} ユーザー・インターフェースで Cloud Foundry アプリのログおよび Kibana で検索可能なログとダッシュボードを提供します。 |
+| オプション (ベータ版) | [{{site.data.keyword.loganalysislong_notm}}](/docs/services/CloudLogAnalysis/containers/containers_kubernetes.html#dedicated) | {{site.data.keyword.Bluemix_notm}} ユーザー・インターフェースで Cloud Foundry アプリのログおよび Kibana で検索可能なログとダッシュボードを提供します。 |
 | オプション | [{{site.data.keyword.messagehub}}](/docs/services/MessageHub/index.html#messagehub) | {{site.data.keyword.messagehub}} は、配布されたスケーラブルで高スループットのメッセージ・バスであり、オンプレミス・テクノロジーとオフプレミス・テクノロジーを統合します。 {{site.data.keyword.messagehub}} は、Apache Kafka に基づいています。これは、高速かつスケーラブルで永続的なリアルタイムのメッセージング・エンジンです。 |
 |オプション | [{{site.data.keyword.mobilepushshort}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepushshort}} は、通知を iOS および Android デバイスに送信するために使用することができるサービスです。 通知は、すべてのアプリケーション・ユーザー、またはタグを使用して特定のユーザーとデバイスのセットを対象にすることができます。 デバイス、タグ、およびサブスクリプションを管理することができます。 SDK (Software Development Kit) および　Representational State Transfer (REST) アプリケーション・プログラム・インターフェース (API) を使用して、さらにクライアント・アプリケーションを開発することも可能です。|
 |オプション | [{{site.data.keyword.SecureGateway}}](/docs/services/SecureGateway/secure_gateway.html) | {{site.data.keyword.SecureGateway}} サービスは、{{site.data.keyword.Bluemix_notm}} アプリケーションをオンプレミスまたはクラウド内のリモート・ロケーションに接続するための安全な方法を提供します。  |
@@ -150,7 +150,7 @@ lastupdated: "2018-01-17"
 ## {{site.data.keyword.Bluemix_dedicated_notm}} アーキテクチャー
 {: #dedicatedarch}
 
-{{site.data.keyword.Bluemix_dedicated_notm}} は、世界中のどの [{{site.data.keyword.IBM_notm}} SoftLayer データ・センター ![「外部リンク」アイコン](../icons/launch-glyph.svg)](http://www.softlayer.com/data-centers){: new_window} にもデプロイできます。 {{site.data.keyword.IBM_notm}} SoftLayer は、最高レベルの性能を示すクラウド・インフラストラクチャーを提供します。 各データ・センターは 1 週間に 7 日、1 日 24 時間のセキュリティー、および厳格な管理が施されています。
+{{site.data.keyword.Bluemix_dedicated_notm}} は、世界中のどの [{{site.data.keyword.IBM_notm}} SoftLayer データ・センター ![外部リンク・アイコン](../icons/launch-glyph.svg)](http://www.softlayer.com/data-centers){: new_window} にもデプロイできます。 {{site.data.keyword.IBM_notm}} SoftLayer は、最高レベルの性能を示すクラウド・インフラストラクチャーを提供します。 各データ・センターは 1 週間に 7 日、1 日 24 時間のセキュリティー、および厳格な管理が施されています。
 
 {{site.data.keyword.Bluemix_dedicated_notm}} の各デプロイメントは、固有プライベート・ネットワーク内の {{site.data.keyword.IBM_notm}} SoftLayer 専用ハードウェア上の単一エンタープライズ専用です。 インフラストラクチャー、運用、および物理的セキュリティーの観点から、{{site.data.keyword.Bluemix_dedicated_notm}} 環境のセキュリティー標準はパブリック {{site.data.keyword.Bluemix_notm}} のセキュリティー標準と同じです。 ただし、専用 {{site.data.keyword.Bluemix_notm}} に対する開発者のアクセスはセキュリティー・ポリシーによって制御されます。{{site.data.keyword.Bluemix_notm}} チームは、ご使用の環境の設定時にこのポリシーを構成することができます。 専用環境内で、ユーザーの役割および許可を管理できます。 詳しくは、『[ユーザーおよび許可の管理](/docs/hybrid/index.html#oc_useradmin)』を参照してください。 以下の図は、デフォルト {{site.data.keyword.Bluemix_dedicated_notm}} デプロイメントの論理アーキテクチャーを示したものです。
 
@@ -208,10 +208,10 @@ IBM は、お客様がパスワードで保護されたログインを使用し�
 {{site.data.keyword.Bluemix_notm}} の専用バージョンをセットアップするには、以下のようにします。
 
 <ol>
-<li>IBM 指定のアカウント担当者に連絡するか、<a href="https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs" target="_blank">{{site.data.keyword.Bluemix_notm}} に連絡 <img src="../icons/launch-glyph.svg" alt="「外部リンク」アイコン"></a> して、開始します。</li>
+<li>IBM 指定のアカウント担当者に連絡するか、<a href="https://console.ng.bluemix.net/?direct=classic/#/contactUs/cloudOEPaneId=contactUs" target="_blank">{{site.data.keyword.Bluemix_notm}} に連絡 <img src="../icons/launch-glyph.svg" alt="外部リンク・アイコン"></a> して、開始します。</li>
 <li>{{site.data.keyword.Bluemix_dedicated_notm}} インスタンスの料金について IBM と連携して決定します。 毎月繰り返し発生する料金は、使用する専用サービスと、すべての {{site.data.keyword.Bluemix_notm}} のパブリック・サービスのサブスクリプションに基づきます。 さらに、当該サブスクリプション契約を超えて使用したサービスに対する請求書を受け取ります。</li>
 <li>{{site.data.keyword.Bluemix_dedicated_notm}} インスタンスをセットアップする各フェーズの期限を特定します。 各フェーズおよび関連タスクについては、『<a href="/docs/dedicated/index.html#rolesresponsibilities">{{site.data.keyword.Bluemix_dedicated_notm}} の役割および責任</a>』を参照してください。</li>
-<li>専用インスタンス用の <a href="http://www.softlayer.com/data-centers" target="_blank">{{site.data.keyword.BluSoftlayer}} データ・センターのロケーション <img src="../icons/launch-glyph.svg" alt="「外部リンク」アイコン"></a> を選択します。 その後、専用プラットフォームおよびアカウントが作成されます。 アカウントについて、専用インスタンスを稼働するために必要な役割の組織内のユーザーを特定します。 割り当てる役割について詳しくは、『<a href="/docs/dedicated/index.html#rolesresponsibilities">{{site.data.keyword.Bluemix_dedicated_notm}} の役割および責任</a>』を参照してください。
+<li>専用インスタンス用の <a href="http://www.softlayer.com/data-centers" target="_blank">{{site.data.keyword.BluSoftlayer}} データ・センターのロケーション <img src="../icons/launch-glyph.svg" alt="外部リンク・アイコン"></a> を選択します。 その後、専用プラットフォームおよびアカウントが作成されます。 アカウントについて、専用インスタンスを稼働するために必要な役割の組織内のユーザーを特定します。 割り当てる役割について詳しくは、『<a href="/docs/dedicated/index.html#rolesresponsibilities">{{site.data.keyword.Bluemix_dedicated_notm}} の役割および責任</a>』を参照してください。
 </li>
 <li>お客様の企業ネットワークと {{site.data.keyword.Bluemix_dedicated_notm}} インスタンス間のネットワーク接続を定義して確立します。 このオプション用に、関連コストを伴う、ファイアウォール機能および侵入防御機能を含む必須ネットワーク・セキュリティー装置があります。
 	<ol type="a">
@@ -232,13 +232,13 @@ IBM は、お客様がパスワードで保護されたログインを使用し�
 ご使用の環境に合わせた初期デプロイメントおよび構成は、以下にリストするプロセスのようになると考えられます。 各タスクを誰が担当するかについて詳しくは、『[役割および責任](index.html#rolesresponsibilities)』を参照してください。
 
 <ol>
-<li>専用インスタンスをホストするためにどのデータ・センターを使用するかを選択します。 データ・センターのオプションについて詳しくは、<a href="http://www.softlayer.com/data-centers" target="_blank">{{site.data.keyword.BluSoftlayer}} データ・センターのロケーション <img src="../icons/launch-glyph.svg" alt="「外部リンク」アイコン"></a> を参照してください。</li>
+<li>専用インスタンスをホストするためにどのデータ・センターを使用するかを選択します。 データ・センターのオプションについて詳しくは、<a href="http://www.softlayer.com/data-centers" target="_blank">{{site.data.keyword.BluSoftlayer}} データ・センターのロケーション <img src="../icons/launch-glyph.svg" alt="外部リンク・アイコン"></a> を参照してください。</li>
 <li>ユーザーは、デプロイメント用のドメイン・ネームと、使用する ID を指定します。 {{site.data.keyword.Bluemix_notm}} インスタンスのセットアップ時に 3 つのドメインを取得します。 <code>*mycompany*.*region*.bluemix.net</code> および <code>*mycompany*.*region*.mybluemix.net</code> の接頭部を選択します。 そして、3 番目のドメインのフルネームはユーザーが選択します。<br />
-<p>カスタム・ドメインは必要な数だけ選択できます。 ただし、それらのカスタム・ドメインの証明書はユーザーの責任になります。 カスタム・ドメインの作成について詳しくは、『<a href="/docs/manageapps/updapps.html#domain">カスタム・ドメインの作成と使用</a>』を参照してください。</p></li>
+<p>カスタム・ドメインは必要な数だけ選択できます。 ただし、それらのカスタム・ドメインの証明書はユーザーの責任になります。 カスタム・ドメインの作成について詳しくは、『<a href="/docs/apps/updapps.html#domain">カスタム・ドメインの作成と使用</a>』を参照してください。</p></li>
 <li>{{site.data.keyword.Bluemix_notm}} Public 内でユーザーの企業を表すために使用されるパブリック・アカウントの所有者を特定します。 IBM はこのアカウントを使用して、シンジケートされたサービス使用量を追跡します。</li>
 <li>データ・センターへのセキュア接続のタイプを選択します。 {{site.data.keyword.Bluemix_notm}} VPN、{{site.data.keyword.Bluemix_notm}} Direct Link、および AT&T Net Bond の中から選択できます。</li>
 <li>パブリック・インターネットからユーザーの専用環境へのアクセスがあるかどうかを決定します。</li>
-<li>使用される認証のタイプを選択します。 IBM ID または Active Directory から選択できます。 IBM ID の使用および登録について詳しくは、<a href="https://www.ibm.com/account/profile/us?page=regfaqhelp#4">「ヘルプおよびよくある質問」</a>ページを参照してください。
+<li>{{site.data.keyword.Bluemix_dedicated_notm}} は、認証システムに IBM ID を使用します。既存の認証システムでシングル・サインオン・フェデレーションが必要な場合は、SAML を IBM ID と併せて使用することができます。IBM ID の使用および登録について詳しくは、<a href="https://www.ibm.com/account/profile/us?page=regfaqhelp#4">「ヘルプおよびよくある質問」</a>ページを参照してください。
 </li>
 <li>環境に合わせて管理チームの役割を特定し割り当てます。 割り当てが必要な役割については、『<a href="/docs/dedicated/index.html#rolesresponsibilities">{{site.data.keyword.Bluemix_dedicated_notm}} の役割および責任</a>』を参照してください。</li>
 <li>IBM は、Elastic Runtime、コンソール、管理フィーチャー、およびモニタリングを含むコア・プラットフォームをデプロイします。</li>
@@ -248,6 +248,9 @@ IBM は、お客様がパスワードで保護されたログインを使用し�
 
 {{site.data.keyword.Bluemix_notm}} インスタンスがセットアップされた後は、「管理」ページを使用して {{site.data.keyword.Bluemix_notm}} インスタンスをモニターおよび管理することができます。 詳しくは、[
 『{{site.data.keyword.Bluemix_local_notm}} および {{site.data.keyword.Bluemix_dedicated_notm}} の管理』](../hybrid/index.html#mng)を参照してください。 アップグレードおよび保守については、『[専用インスタンスの保守](index.html#maintaindedicated)』を参照してください。
+
+{{site.data.keyword.Bluemix_dedicated_notm}} のアーキテクチャー文書は、引き渡し時に使用可能になります。これらには、特定の {{site.data.keyword.Bluemix_dedicated_notm}} 環境の中核論理アーキテクチャーやお客様固有の構成などが含まれます。提供される構成情報には、2 つのパートがあります。1 つ目のパートは、管理コンソールの「システム情報」タブに表示されます。これには、ホスト・データ・センター、認証構成 (該当する場合)、システム・ドメイン・ネーム、およびキー・コンポーネントのバージョンなどの情報が含まれます。2 つ目のパートは、ネットワーク接続オプションに関連する情報で、これらのオプションは別々に記載されています。これには、お客様のネットワークから専用環境への VPN、直接リンク、およびパブリック・インターネットによるアクセスの構成情報が含まれています。
+IBM が、ある環境の中核アーキテクチャーまたは構成に重要な変更を行った場合、お客様に更新された文書を提供します。
 
 ##役割および責任
 {: #rolesresponsibilities}
@@ -352,7 +355,7 @@ Success Manager (CSM) と連携できます。 異なるサポート層につい
 |セキュリティー脆弱性の解決 | プラットフォームで報告されたセキュリティー脆弱性を解決します。 | IBM |
 {: caption="表 6. 進行フェーズのタスク" caption-side="top"}
 
-最終の完了ステージは、お客様と IBM {{site.data.keyword.Bluemix_notm}} 間の関係の終了を表します。 このフェーズの主なタスクには、以下のものがあります。
+最終の完了ステージは、お客様と {{site.data.keyword.Bluemix_notm}} 間の関係の終了を表します。 このフェーズの主なタスクには、以下のものがあります。
 
 * 金銭的合意の終了
 * すべてのネットワーク接続の削除
@@ -469,7 +472,7 @@ Public は、組織、スペース、およびアプリが常に使用可能で�
 * アプリケーション・ヘルス・チェックに基づいてサイト・フェイルオーバーを提供する
 * 複数のエンドポイント間で重み付きルーティングを使用する
 
-Akamai や Dyn などのグローバル・ロード・バランサーを選択できます。 グローバル・ロード・バランサーとしての Akamai の使用について詳しくは、『[GLOBAL TRAFFIC MANAGEMENT ![「外部リンク」アイコン](../icons/launch-glyph.svg)](https://www.akamai.com/us/en/solutions/products/web-performance/global-traffic-management.jsp "新しいウィンドウで開く"){: new_window}』を参照してください。 グローバル・ロード・バランサーとしての Dyn の使用について詳しくは、[4 Reasons Businesses Are Taking Global Load Balancing to the Cloud ![「外部リンク」アイコン](../icons/launch-glyph.svg)](http://dyn.com/blog/4-reasons-businesses-are-taking-global-load-balancing-to-the-cloud/){: new_window} を参照してください。
+Akamai や Dyn などのグローバル・ロード・バランサーを選択できます。 グローバル・ロード・バランサーとしての Akamai の使用について詳しくは、『[GLOBAL TRAFFIC MANAGEMENT ![外部リンク・アイコン](../icons/launch-glyph.svg)](https://www.akamai.com/us/en/solutions/products/web-performance/global-traffic-management.jsp "新しいウィンドウで開く"){: new_window}』を参照してください。 グローバル・ロード・バランサーとしての Dyn の使用について詳しくは、[4 Reasons Businesses Are Taking Global Load Balancing to the Cloud ![外部リンク・アイコン](../icons/launch-glyph.svg)](http://dyn.com/blog/4-reasons-businesses-are-taking-global-load-balancing-to-the-cloud/){: new_window} を参照してください。
 
 ### 高可用性
 {: #ha}
@@ -480,7 +483,7 @@ Akamai や Dyn などのグローバル・ロード・バランサーを選択�
 
 <dl>
 <dt>Cloud Foundry での CELL スケーラビリティー</dt>
-<dd>Cloud Foundry <a href="https://docs.cloudfoundry.org/concepts/architecture/execution-agent.html" target="_blank">Droplet Execution Agent (CELL) <img src="../icons/launch-glyph.svg" alt="外部リンク・アイコン"></a> は、その内部で実行されているアプリのヘルス・チェックを実行します。 アプリまたは CELL 自体に問題が生じた場合、代替 CELL にアプリの追加インスタンスがデプロイされ、問題が解決されます。 詳しくは、<a href="https://docs.cloudfoundry.org/concepts/high-availability.html" target="_blank">Configuring CF for High Availability with Redundancy <img src="../icons/launch-glyph.svg" alt="「外部リンク」アイコン"></a> を参照してください。
+<dd>Cloud Foundry <a href="https://docs.cloudfoundry.org/concepts/architecture/execution-agent.html" target="_blank">Droplet Execution Agent (CELL) <img src="../icons/launch-glyph.svg" alt="外部リンク・アイコン"></a> は、その内部で実行されているアプリのヘルス・チェックを実行します。 アプリまたは CELL 自体に問題が生じた場合、代替 CELL にアプリの追加インスタンスがデプロイされ、問題が解決されます。 詳しくは、<a href="https://docs.cloudfoundry.org/concepts/high-availability.html" target="_blank">Configuring CF for High Availability with Redundancy <img src="../icons/launch-glyph.svg" alt="外部リンク・アイコン"></a> を参照してください。
 <p>アプリケーションの高可用性を確保するには、負荷のバランスを取るための十分な計算リソースが必要であり、さらに、起こりうる障害に対応するために追加の計算リソースが必要になる場合もあります。 障害に備えて、あるいはアプリ・インスタンスの負荷のスパイクに対処できるように、CELL プールを増やすことで環境を拡張する必要がある場合は、IBM 担当者と連携して、追加の CELL を発注し、追加されたリソースに対応できる適切なハードウェアを用意することができます。
 </p>
 </dd>
