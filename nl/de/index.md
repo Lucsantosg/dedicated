@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-01-17"
+lastupdated: "2018-03-14"
 
 ---
 
@@ -29,15 +29,15 @@ Darüber hinaus gibt es eine Reihe von Services und Komponenten, die inbegriffen
 
 | **Typ**        | **Name**            | **Beschreibung** |
 |-----------------|-------------------|-------------------|
-|Inbegriffen | [{{site.data.keyword.Bluemix_notm}}-Laufzeiten](/docs/cfapps/runtimes.html) | Machen Sie mit Laufzeiten Ihre App schnell betriebsbereit, ohne Maschinen und Betriebssysteme einrichten und verwalten zu müssen. Alle {{site.data.keyword.Bluemix_notm}}-Laufzeiten stehen Ihnen zur Verwendung in Ihrer {{site.data.keyword.Bluemix_dedicated_notm}}-Instanz zur Verfügung.|
+|Inbegriffen | [{{site.data.keyword.Bluemix_notm}}-Laufzeiten](/docs/runtimes/common/index.html#available_buildpacks) | Machen Sie mit Laufzeiten Ihre App schnell betriebsbereit, ohne Maschinen und Betriebssysteme einrichten und verwalten zu müssen. Alle {{site.data.keyword.Bluemix_notm}}-Laufzeiten stehen Ihnen zur Verwendung in Ihrer {{site.data.keyword.Bluemix_dedicated_notm}}-Instanz zur Verfügung.|
 | Inbegriffen | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | Dynamisches Erhöhen oder Verringern der Rechenleistung Ihrer Anwendung basierend auf Richtlinien. Mit diesem Service können Sie Ihre {{site.data.keyword.Bluemix_dedicated_notm}}-Umgebung unbegrenzt nutzen. Hinweis: Auto-Scaling funktioniert gegenwärtig nur mit Cloud Foundry-Laufzeiten. |
 |Optional | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} integriert {{site.data.keyword.APIM}} und IBM StrongLoop in ein einzelnes Angebot, das eine Komplettlösung bietet, um APIs und Microservices zu erstellen, auszuführen, zu verwalten und durchzusetzen. |
 |Optional | [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} bietet Zugriff auf eine vollständig verwaltete NoSQL-JSON-Datenebene, die permanent aktiv ist. Dieser Service ist mit CouchDB kompatibel und über eine einfache HTTP-Schnittstelle für mobile Anwendungsmodelle und Webanwendungsmodelle zugänglich. |
 |Optional | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | Docker-Container in {{site.data.keyword.Bluemix_dedicated_notm}} ausführen. Container sind virtuelle Softwareobjekte, die alle für die Ausführung von Apps erforderlichen Elemente enthalten. Container bieten den Vorteil der Ressourcenisolation und -zuordnung, wobei sie besser portierbar und effizienter als beispielsweise virtuelle Maschinen sind. Informationen zu den Hardwarevoraussetzungen finden Sie unter [{{site.data.keyword.containershort}} in {{site.data.keyword.Bluemix_dedicated_notm}} und {{site.data.keyword.Bluemix_local_notm}}](/docs/containers/container_ov.html#container_dl).|
 | Optional | [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | Mit {{site.data.keyword.contdelivery_short}} Dedicated können Sie Builds, Komponententests, Bereitstellungen und weitere Tasks automatisieren. In der umfangreichen webbasierten IDE können Sie Code bearbeiten und mit einer Push-Operation übertragen. Durch die Erstellung von Toolchains werden Toolintegrationen ermöglicht, die Entwicklungs-, Bereitstellungs- und Betriebstasks unterstützten. |
-| Optional | [{{site.data.keyword.dashdbshort}}](/docs/services/dashDB/dashDB.html) | IBM {{site.data.keyword.dashdbshort}} for Analytics bietet einen vollständig verwalteten SQL-Clouddatenbankservice, der für Workloads aus einem Data-Warehouse und aus Analysen optimiert ist. IBM {{site.data.keyword.dashdbshort}} for Transactions bietet einen vollständig verwalteten SQL-Clouddatenbankservice, der für allgemeine Zwecke, Web-Apps und transaktionsorientierte Workloads optimiert ist. |
+| Optional | [{{site.data.keyword.dashdbshort}}](/docs/services/Db2whc/index.html#getting_started) | IBM {{site.data.keyword.dashdbshort}} for Analytics bietet einen vollständig verwalteten SQL-Clouddatenbankservice, der für Workloads aus einem Data-Warehouse und aus Analysen optimiert ist. IBM {{site.data.keyword.dashdbshort}} for Transactions bietet einen vollständig verwalteten SQL-Clouddatenbankservice, der für allgemeine Zwecke, Web-Apps und transaktionsorientierte Workloads optimiert ist. |
 | Optional | [Dedicated GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}} ist die von IBM Cloud gehostete und vollständig verwaltbare Version von GitHub Enterprise, die ein von Entwicklern gewünschtes Social Experience bietet. Dieser Service ist zurzeit nur für {{site.data.keyword.Bluemix_dedicated_notm}}-Umgebungen verfügbar. |
-| Optional (Beta) | [Protokollierung](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov) | Stellt Protokolle für Ihre Cloud Foundry-Apps in der {{site.data.keyword.Bluemix_notm}}-Benutzerschnittstelle sowie durchsuchbare Protokolle und Dashboards in Kibana bereit. |
+| Optional (Beta) | [{{site.data.keyword.loganalysislong_notm}}](/docs/services/CloudLogAnalysis/containers/containers_kubernetes.html#dedicated) | Stellt Protokolle für Ihre Cloud Foundry-Apps in der {{site.data.keyword.Bluemix_notm}}-Benutzerschnittstelle sowie durchsuchbare Protokolle und Dashboards in Kibana bereit. |
 | Optional | [{{site.data.keyword.messagehub}}](/docs/services/MessageHub/index.html#messagehub) | {{site.data.keyword.messagehub}} ist ein skalierbarer, dezentraler Nachrichtenbus mit hohem Durchsatz, um Ihre lokalen und nicht lokalen Technologien zu verbinden. {{site.data.keyword.messagehub}} basiert auf Apache Kafka, einer schnellen, skalierbaren und dauerhaft echtzeitorientierten Messaging-Engine. |
 |Optional | [{{site.data.keyword.mobilepushshort}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepushshort}} ist ein Service, mit dem Sie Benachrichtigungen an iOS- und Android-Geräte senden können. Benachrichtigungen können sich an alle Anwendungsbenutzer oder mithilfe von Tags an eine bestimmte Gruppe von Benutzern und Geräten wenden. Sie können Geräte, Tags und Abonnements verwalten. Sie können auch ein SDK (Software Development Kit) und REST-APIs (REST, Representational State Transfer; API, Application Program Interface) verwenden, um die Clientanwendungen weiterzuentwickeln.|
 |Optional | [{{site.data.keyword.SecureGateway}}](/docs/services/SecureGateway/secure_gateway.html) | Der {{site.data.keyword.SecureGateway}}-Service stellt eine sichere Methode zur Verbindung von {{site.data.keyword.Bluemix_notm}}-Anwendungen mit fernen Standorten lokal oder in der Cloud bereit.  |
@@ -102,7 +102,7 @@ Wenn Sie über eine private Serviceinstanz Ihrer dedizierten Umgebung verfügen,
 |:----------|:------------------------------|:------------------|:------------------|:------------------|:--------------|
 |{{site.data.keyword.alertnotificationshort}} | Ja | Ja | Nein | Nein | Ja |
 |{{site.data.keyword.appseccloudshort}}		| Ja | Ja | Nein | Nein | Ja |
-|Automatisches Prüfprogramm für Eingabehilfen |Ja       |Ja    |Ja   | Nein  | Ja |
+|Automated Accessibility Checker |Ja       |Ja    |Ja   | Nein  | Ja |
 |{{site.data.keyword.cloudant}}			| Ja		| Ja		| Ja | Ja  | Ja |
 |{{site.data.keyword.evtmgt_short}} | Ja | Ja | Nein | Nein | Ja |
 |{{site.data.keyword.iotmapinsights_short}}    | Ja  | Ja  | Nein  | Nein | Ja |
@@ -112,7 +112,7 @@ Wenn Sie über eine private Serviceinstanz Ihrer dedizierten Umgebung verfügen,
 |Db2-gehostet | Ja | Ja | Ja | Nein | Ja |
 |{{site.data.keyword.DB2OnCloud_short}}		| Ja		| Ja		| Ja | Nein | Ja |
 |{{site.data.keyword.dashdbshort_notm}} | Ja | Ja | Ja | Nein | Ja |
-|Prüfprogramm für digitalen Inhalt | Ja  | Ja  | Nein | Nein | Ja |
+|Digital Content Checker | Ja  | Ja  | Nein | Nein | Ja |
 |{{site.data.keyword.servicediscoveryshort}} | Ja | Ja | Nein | Nein | Ja |
 |{{site.data.keyword.documentconversionshort}}	| Ja		| Ja		| Nein | Nein | Ja |
 |{{site.data.keyword.iotdriverinsights_short}}  | Ja | Ja | Nein | Nein | Ja |
@@ -234,11 +234,11 @@ Für die Erstbereitstellung und Erstkonfiguration Ihrer Umgebung können Sie ein
 <ol>
 <li>Sie wählen das Rechenzentrum aus, das als Host Ihrer dedizierten Instanz verwendet werden soll. Weitere Informationen zu Optionen für das Rechenzentrum finden Sie unter <a href="http://www.softlayer.com/data-centers" target="_blank">Standort des {{site.data.keyword.BluSoftlayer}}-Rechenzentrums <img src="../icons/launch-glyph.svg" alt="Symbol für externen Link"></a>.</li>
 <li>Sie geben die Domänennamen für die Bereitstellung und die gewünschten IDs an. Sie erhalten drei Domänen, wenn Sie Ihre {{site.data.keyword.Bluemix_notm}}-Instanz einrichten. Sie wählen das Präfix für <code>*mycompany*.*region*.bluemix.net</code> und <code>*mycompany*.*region*.mybluemix.net</code> aus. Und Sie wählen den vollständigen Name für die dritte Domäne aus.<br />
-<p>Sie können so viele angepasste Domänen wählen, wie Sie möchten. Sie sind jedoch für die Zertifikate für die angepassten Domänen verantwortlich. Informationen zur Erstellung einer angepassten Domäne finden Sie unter <a href="/docs/manageapps/updapps.html#domain">Angepasste Domäne erstellen und verwenden</a>.</p></li>
+<p>Sie können so viele angepasste Domänen wählen, wie Sie möchten. Sie sind jedoch für die Zertifikate für die angepassten Domänen verantwortlich. Informationen zur Erstellung einer angepassten Domäne finden Sie unter <a href="/docs/apps/updapps.html#domain">Angepasste Domäne erstellen und verwenden</a>.</p></li>
 <li>Sie geben einen Eigner für das öffentliche Konto an, das zur Darstellung Ihres Unternehmens in {{site.data.keyword.Bluemix_notm}} Public verwendet wird. IBM verwendet dieses Konto zur Verfolgung der Nutzung syndizierter Services.</li>
 <li>Sie wählen den Typ der sicheren Verbindung zu Ihrem Rechenzentrum aus. Sie haben die Auswahl zwischen {{site.data.keyword.Bluemix_notm}} VPN, {{site.data.keyword.Bluemix_notm}} Direct Link und AT&T Net Bond.</li>
 <li>Sie entscheiden, ob ein Zugriff auf Ihre dedizierte Umgebung über das öffentliche Internet erfolgen soll.</li>
-<li>Sie wählen den Typ der Authentifizierung aus, die verwendet werden soll. Sie haben die Auswahl zwischen IBMid oder Active Directory. Informationen zur Verwendung und Registrierung einer IBMid finden Sie auf der Seite für <a href="https://www.ibm.com/account/profile/us?page=regfaqhelp#4">Hilfe und FAQ</a>.
+<li>{{site.data.keyword.Bluemix_dedicated_notm}} verwendet IBMid als Authentifizierungssystem. Sie können SAML mit IBMid verwenden, wenn Sie eine Single Sign-on-Verknüpfung mit einem vorhandenen Authentifizierungssystem benötigen. Informationen zur Verwendung und Registrierung einer IBMid finden Sie auf der Seite für <a href="https://www.ibm.com/account/profile/us?page=regfaqhelp#4">Hilfe und FAQ</a>.
 </li>
 <li>Sie ermitteln die Rollen für Ihr Verwaltungsteam für die Umgebung und weisen sie zu. Informationen zu den Rollen, die Sie zuweisen müssen, finden Sie unter <a href="/docs/dedicated/index.html#rolesresponsibilities">{{site.data.keyword.Bluemix_dedicated_notm}}-Rollen und -Zuständigkeiten</a>.</li>
 <li>IBM stellt die zentrale Plattform bereit, die elastische Laufzeiten, Konsolen, Verwaltungsfunktionen und Überwachung umfasst.</li>
@@ -248,10 +248,13 @@ Für die Erstbereitstellung und Erstkonfiguration Ihrer Umgebung können Sie ein
 
 Nach der Einrichtung Ihrer {{site.data.keyword.Bluemix_notm}}-Instanz können Sie die Ihre {{site.data.keyword.Bluemix_notm}}-Instanz über die Verwaltungsseite ('Administration') überwachen und verwalten. Weitere Informationen finden Sie unter [{{site.data.keyword.Bluemix_local_notm}} und {{site.data.keyword.Bluemix_dedicated_notm}} verwalten](../hybrid/index.html#mng). Weitere Informationen zu Upgrades und Wartung finden Sie unter [Dedizierte Instanz warten](index.html#maintaindedicated).
 
+Dokumente zur {{site.data.keyword.Bluemix_dedicated_notm}}-Architektur werden zum Zeitpunkt der Übergabe verfügbar gemacht. Dazu gehören die zentrale logische Architektur ebenso wie alle kundenspezifischen Konfigurationen für eine gegebene {{site.data.keyword.Bluemix_dedicated_notm}}-Umgebung. Konfigurationsinformationen werden in zwei Teilen bereitgestellt. Der erste Teil kann auf der Registerkarte 'Systeminformationen' der Administrationskonsole angezeigt werden. Dazu zählen Informationen wie das Host-Rechenzentrum, ggf. die Authentifizierungskonfiguration, die Systemdomänennamen und die Versionen von Schlüsselkomponenten. Der zweite Teil enthält die Netzkonnektivitätsoptionen, die separat dokumentiert werden. Dazu zählen Konfigurationsinformationen aus dem Kundennetz für die Dedicated-Umgebung in Form von VPN-, Direct Link- und öffentlichem Internetzugang.
+Falls IBM bedeutende Änderungen an der zentralen Architektur oder Konfiguration für eine Umgebung vornimmt, werden aktualisierte Dokumente für den Kunden verfügbar gemacht. 
+
 ##Rollen und Zuständigkeiten
 {: #rolesresponsibilities}
 
-Wenn Sie ein {{site.data.keyword.Bluemix_dedicated_notm}}-Konto einrichten, ermitteln Sie die Personen in Ihrer Organisation für die Rollen, die benötigt werden, um Ihre lokale Instanz betriebsbereit zu machen.
+Wenn Sie ein {{site.data.keyword.Bluemix_dedicated_notm}}-Konto einrichten, ermitteln Sie die Personen in Ihrer Organisation für die Rollen, die benötigt werden, um Ihre lokale Instanz betriebsbereit zu machen. 
 
 ###Rollen
 
@@ -351,7 +354,7 @@ Als Nächstes folgt die Fortschrittsphase. Die Fortschrittsphase beschreibt die 
 |Beheben von Sicherheitslücken | Beheben Sie berichtete Sicherheitslücken in der Plattform. | IBM |
 {: caption="Tabelle 6. Tasks der Fortschrittsphase" caption-side="top"}
 
-Die finale Phase der Fertigstellung stellt das Ende der Beziehung zwischen Ihnen und IBM {{site.data.keyword.Bluemix_notm}} dar. Die primären Tasks in dieser Phase sind unter anderem:
+Die finale Phase der Fertigstellung stellt das Ende der Beziehung zwischen Ihnen und {{site.data.keyword.Bluemix_notm}} dar. Die primären Tasks in dieser Phase sind unter anderem:
 
 * Beenden der finanziellen Vereinbarung
 * Entfernen aller Netzverbindungen
