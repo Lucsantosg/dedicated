@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-01-17"
+lastupdated: "2018-03-14"
 
 ---
 
@@ -29,15 +29,15 @@ lastupdated: "2018-01-17"
 
 | **类型**| **名称**| **描述**|
 |-----------------|-------------------|-------------------|
-|已包含| [{{site.data.keyword.Bluemix_notm}} 运行时](/docs/cfapps/runtimes.html)| 使用运行时可快速启动并运行应用程序，无需设置和管理计算机与操作系统。所有 {{site.data.keyword.Bluemix_notm}} 运行时都可供您在 {{site.data.keyword.Bluemix_dedicated_notm}} 实例中使用。|
+|已包含| [{{site.data.keyword.Bluemix_notm}} 运行时](/docs/runtimes/common/index.html#available_buildpacks)| 使用运行时可快速启动并运行应用程序，无需设置和管理计算机与操作系统。所有 {{site.data.keyword.Bluemix_notm}} 运行时都可供您在 {{site.data.keyword.Bluemix_dedicated_notm}} 实例中使用。|
 | 已包含| [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | 根据策略，动态增大或减小应用程序的计算容量。通过此服务，您在 {{site.data.keyword.Bluemix_dedicated_notm}} 环境中的使用不受限制。注：自动扩展目前只适用于 Cloud Foundry 运行时|
 |可选| [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} 将 {{site.data.keyword.APIM}} 和 IBM StrongLoop 集成到单个产品中，以提供一个综合解决方案来创建、运行、管理和强制执行 API 与微服务。|
 |可选| [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} 提供了对始终启用的完全受管 NoSQL JSON 数据层的访问。此服务兼容 CouchDB，并且可通过易用的 HTTP 接口供移动和 Web 应用程序模型访问。|
 |可选| [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | 在 {{site.data.keyword.Bluemix_dedicated_notm}} 上运行 Docker 容器。容器是包含应用程序运行所需的所有元素的虚拟软件对象。容器不仅具有资源隔离和分配的好处，而且还比虚拟机器（举例来说）的可移植性更好，且更有效率。有关硬件需求的信息，请参阅 [{{site.data.keyword.Bluemix_dedicated_notm}} 和 {{site.data.keyword.Bluemix_local_notm}} 中的 {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)。|
 | 可选| [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | 使用 {{site.data.keyword.contdelivery_short}} Dedicated 可自动执行构建、单元测试、部署等操作。通过丰富的基于 Web 的 IDE 来编辑和推送代码。创建工具链以便进行支持开发、部署和操作任务的工具集成。|
-| 可选| [{{site.data.keyword.dashdbshort}}](/docs/services/dashDB/dashDB.html) | IBM {{site.data.keyword.dashdbshort}} for Analytics 是完全管理的 SQL 云数据库服务，针对数据仓库和分析工作负载而进行了优化。IBM {{site.data.keyword.dashdbshort}} for Transactions 是完全管理的 SQL 云数据库服务，针对一般目的、Web 应用程序和事务工作负载而进行了优化。|
+| 可选| [{{site.data.keyword.dashdbshort}}](/docs/services/Db2whc/index.html#getting_started) | IBM {{site.data.keyword.dashdbshort}} for Analytics 是完全管理的 SQL 云数据库服务，针对数据仓库和分析工作负载而进行了优化。IBM {{site.data.keyword.dashdbshort}} for Transactions 是完全管理的 SQL 云数据库服务，针对一般目的、Web 应用程序和事务工作负载而进行了优化。|
 | 可选| [Dedicated GitHub Enterprise](/docs/services/ghededicated/index.html)| {{site.data.keyword.ghe_long}} 是 IBM Cloud 托管且完全管理的 GitHub 版本，提供了开发者喜爱的社交功能。此服务目前只可用于 {{site.data.keyword.Bluemix_dedicated_notm}} 环境。|
-| 可选 (Beta)| [日志记录](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov)| 为 {{site.data.keyword.Bluemix_notm}} 用户界面中的 Cloud Foundry 应用程序和 Kibana 中的可搜索日志和仪表板提供日志。|
+| 可选 (Beta)| [{{site.data.keyword.loganalysislong_notm}}](/docs/services/CloudLogAnalysis/containers/containers_kubernetes.html#dedicated) | 为 {{site.data.keyword.Bluemix_notm}} 用户界面中的 Cloud Foundry 应用程序和 Kibana 中的可搜索日志和仪表板提供日志。|
 | 可选| [{{site.data.keyword.messagehub}}](/docs/services/MessageHub/index.html#messagehub) | {{site.data.keyword.messagehub}} 是一种可扩展的分布式消息传递总线，吞吐量高，可将内部部署和外部部署技术融合在一起。{{site.data.keyword.messagehub}} 基于 Apache Kafka，这是一种高速、耐用的可扩展实时消息传递引擎。|
 |可选| [{{site.data.keyword.mobilepushshort}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepushshort}} 是可用于向 iOS 和 Android 设备发送通知的服务。通知可以针对所有应用程序用户发送，也可以针对一组使用标记的特定用户和设备发送。您可以管理设备、标记和预订。还可以使用 SDK（软件开发包）和具象状态传输 (REST) 应用程序编程接口 (API) 来进一步开发您的客户机应用程序。|
 |可选| [{{site.data.keyword.SecureGateway}}](/docs/services/SecureGateway/secure_gateway.html) | {{site.data.keyword.SecureGateway}} 服务使您能够以安全方式将 {{site.data.keyword.Bluemix_notm}} 应用程序连接到内部部署或云中的远程位置。|
@@ -232,11 +232,11 @@ IBM 为您提供了使用受密码保护的登录来访问 {{site.data.keyword.B
 <ol>
 <li>您选择使用哪个数据中心来托管专用实例。有关数据中心选项的信息，请参阅 <a href="http://www.softlayer.com/data-centers" target="_blank">{{site.data.keyword.BluSoftlayer}} 数据中心位置 <img src="../icons/launch-glyph.svg" alt="外部链接图标"></a>。</li>
 <li>您为部署指定域名，以及要使用的标识。设置 {{site.data.keyword.Bluemix_notm}} 实例时，您会得到三个域。请选取 <code>*mycompany*.*region*.bluemix.net</code> 和 <code>*mycompany*.*region*.mybluemix.net</code> 的前缀。然后，选择第三个域的全名。<br />
-<p>您可以根据自己的需要选择任意数量的定制域。不过，您应负责获取定制域的证书。有关创建定制域的信息，请参阅<a href="/docs/manageapps/updapps.html#domain">创建和使用定制域</a>。</p></li>
+<p>您可以根据自己的需要选择任意数量的定制域。不过，您应负责获取定制域的证书。有关创建定制域的信息，请参阅<a href="/docs/apps/updapps.html#domain">创建和使用定制域</a>。</p></li>
 <li>您确定使用哪个公共帐户的所有者来在 {{site.data.keyword.Bluemix_notm}} Public 中代表您的公司。IBM 使用此帐户来跟踪联合服务使用情况。</li>
 <li>您选择数据中心安全连接的类型。可选类型包括 {{site.data.keyword.Bluemix_notm}} VPN、{{site.data.keyword.Bluemix_notm}} Direct Link 和 AT&T Net Bond。</li>
 <li>您决定是否将允许通过公共因特网对您的专用环境进行任何访问。</li>
-<li>您选择要使用的认证的类型。可选类型包括 IBM 标识或 Active Directory。有关使用和注册 IBM 标识的信息，请参阅<a href="https://www.ibm.com/account/profile/us?page=regfaqhelp#4">帮助和常见问题</a>页面。</li>
+<li>{{site.data.keyword.Bluemix_dedicated_notm}} 使用 IBM 标识作为认证系统。如果您需要使用现有认证系统进行单点登录联合，那么可以选择将 SAML 与 IBM 标识配合使用。有关使用和注册 IBM 标识的信息，请参阅<a href="https://www.ibm.com/account/profile/us?page=regfaqhelp#4">帮助和常见问题</a>页面。</li>
 <li>您为您环境的管理团队确定并分配角色。有关必须分配的角色的信息，请参阅 <a href="/docs/dedicated/index.html#rolesresponsibilities">{{site.data.keyword.Bluemix_dedicated_notm}} 角色和责任</a>。</li>
 <li>IBM 部署核心平台，其中包含弹性运行时、控制台、管理功能和监视。</li>
 <li>IBM 配置您对环境的管理访问权。</li>
@@ -245,10 +245,12 @@ IBM 为您提供了使用受密码保护的登录来访问 {{site.data.keyword.B
 
 {{site.data.keyword.Bluemix_notm}} 实例设置完成后，您可以使用“管理”页面来监视和管理 {{site.data.keyword.Bluemix_notm}} 实例。有关更多信息，请参阅[管理 {{site.data.keyword.Bluemix_local_notm}} 和 {{site.data.keyword.Bluemix_dedicated_notm}}](../hybrid/index.html#mng)。有关升级和维护的信息，请参阅[维护专用实例](index.html#maintaindedicated)。
 
+{{site.data.keyword.Bluemix_dedicated_notm}} 体系结构文档在移交时提供。这些信息包括核心逻辑体系结构以及针对给定 {{site.data.keyword.Bluemix_dedicated_notm}} 环境的任何特定于客户的配置。配置信息分为两部分提供。第一部分可在管理控制台的“系统信息”选项卡中查看。这包括主机数据中心、认证配置（如果适用）、系统域名和关键组件版本等信息。第二部分与单独记录的“网络连接”选项相关。这包括从客户网络连接到专用环境的配置信息，形式为 VPN、直接链接和公用因特网访问。如果 IBM 对核心体系结构或环境配置进行了任何重大更改，那么将向客户提供更新的文档。
+
 ##角色和责任
 {: #rolesresponsibilities}
 
-如果设置了 {{site.data.keyword.Bluemix_dedicated_notm}} 帐户，请为组织中需要启动并运行实例的人员分配必要的角色。
+如果设置了 {{site.data.keyword.Bluemix_dedicated_notm}} 帐户，应确定由组织中的哪些人来承担启动和运行实例所需的角色。
 
 ###角色
 
@@ -347,7 +349,7 @@ IBM 为您提供了使用受密码保护的登录来访问 {{site.data.keyword.B
 |解决安全漏洞| 解决报告的平台安全漏洞。| IBM|
 {: caption="表 6. 进展阶段任务" caption-side="top"}
 
-最后是完成阶段，此阶段表示您和 IBM {{site.data.keyword.Bluemix_notm}} 之间的关系结束。此阶段的主要任务包含以下内容：
+最后是完成阶段，此阶段表示您和 {{site.data.keyword.Bluemix_notm}} 之间的关系结束。此阶段的主要任务包含以下内容：
 
 * 结束财务协议
 * 除去所有网络连接

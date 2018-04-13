@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-01-17"
+lastupdated: "2018-03-14"
 
 ---
 
@@ -29,15 +29,15 @@ lastupdated: "2018-01-17"
 
 | **類型**        | **名稱**            | **說明** |
 |-----------------|-------------------|-------------------|
-|內含| [{{site.data.keyword.Bluemix_notm}} 運行環境](/docs/cfapps/runtimes.html) | 使用運行環境可快速啟動並執行您的應用程式，而不需要設定及管理機器和作業系統。您可以在 {{site.data.keyword.Bluemix_dedicated_notm}} 實例中使用所有 {{site.data.keyword.Bluemix_notm}} 運行環境。|
+|內含| [{{site.data.keyword.Bluemix_notm}} 運行環境](/docs/runtimes/common/index.html#available_buildpacks) | 使用運行環境可快速啟動並執行您的應用程式，而不需要設定及管理機器和作業系統。您可以在 {{site.data.keyword.Bluemix_dedicated_notm}} 實例中使用所有 {{site.data.keyword.Bluemix_notm}} 運行環境。|
 | 內含| [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | 根據原則，動態增加或減少應用程式的運算能力。使用此服務，即可在 {{site.data.keyword.Bluemix_dedicated_notm}} 環境中無限制地使用。附註：自動擴充目前僅與 Cloud Foundry 運行環境搭配使用|
 |選用| [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} 將 {{site.data.keyword.APIM}} 及 IBM StrongLoop 整合成單一供應項目，提供綜合性解決方案來建立、執行、管理及強制執行 API 和微服務。|
 |選用| [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} 提供對於始終處於開啟狀態之完整受管理 NoSQL JSON 資料層的存取。此服務與 CouchDB 相容，而且可透過方便使用的 HTTP 介面來存取，可用於行動及 Web 應用程式模型。|
 |選用| [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | 在 {{site.data.keyword.Bluemix_dedicated_notm}} 上執行 Docker 容器。容器是虛擬軟體物件，其中包含應用程式執行所需的所有元素。容器具有資源隔離及配置的優點，而且比虛擬機器（舉例來說）更容易攜帶且更具效率。如需硬體需求的相關資訊，請參閱 [{{site.data.keyword.Bluemix_dedicated_notm}} 及 {{site.data.keyword.Bluemix_local_notm}} 中的 {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)。|
 | 選用| [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | 使用「{{site.data.keyword.contdelivery_short}} 專用」來自動進行建置、單元測試、部署及其他作業。透過豐富的 Web 型 IDE 編輯及推送程式碼。建立工具鏈來啟用工具整合，以支援開發、部署及操作作業。|
-| 選用| [{{site.data.keyword.dashdbshort}}](/docs/services/dashDB/dashDB.html) | IBM {{site.data.keyword.dashdbshort}} for Analytics 是完整受管理 SQL 雲端資料庫服務，最適合用於資料倉儲及分析工作負載。IBM {{site.data.keyword.dashdbshort}} for Transactions 是完整受管理 SQL 雲端資料庫服務，最適合用於一般用途、Web 應用程式及交易式工作負載。|
+| 選用| [{{site.data.keyword.dashdbshort}}](/docs/services/Db2whc/index.html#getting_started) | IBM {{site.data.keyword.dashdbshort}} for Analytics 是完整受管理 SQL 雲端資料庫服務，最適合用於資料倉儲及分析工作負載。IBM {{site.data.keyword.dashdbshort}} for Transactions 是完整受管理 SQL 雲端資料庫服務，最適合用於一般用途、Web 應用程式及交易式工作負載。|
 | 選用| [專用 GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}} 是 GitHub Enterprise 的 IBM Cloud 管理之完整受管理版本，可提供開發人員所喜歡的社交經驗。此服務目前專用於 {{site.data.keyword.Bluemix_dedicated_notm}} 環境。|
-| 選用（測試版）| [記載](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov) | 在 {{site.data.keyword.Bluemix_notm}} 使用者介面中提供 Cloud Foundry 應用程式的日誌，並在 Kibana 中提供可搜尋的日誌和儀表板。|
+| 選用（測試版）| [{{site.data.keyword.loganalysislong_notm}}](/docs/services/CloudLogAnalysis/containers/containers_kubernetes.html#dedicated) | 在 {{site.data.keyword.Bluemix_notm}} 使用者介面中提供 Cloud Foundry 應用程式的日誌，並在 Kibana 中提供可搜尋的日誌和儀表板。|
 | 選用| [{{site.data.keyword.messagehub}}](/docs/services/MessageHub/index.html#messagehub) | {{site.data.keyword.messagehub}} 是一個可擴充、分散式、高傳輸量訊息匯流排，以聯合您的內部部署與外部部署技術。{{site.data.keyword.messagehub}} 是以 Apache Kafka 為基礎，後者是一個快速、可擴充及可延續的即時傳訊引擎。|
 |選用| [{{site.data.keyword.mobilepushshort}}](/docs/services/mobilepush/index.html) | {{site.data.keyword.mobilepushshort}} 是一種服務，可用來將通知傳送至 iOS 及 Android 裝置。可以將通知目標設為所有應用程式使用者或一組使用標籤的特定使用者和裝置。您可以管理裝置、標籤及訂閱。您也可以使用 SDK（軟體開發套件）及「具象狀態傳輸 (REST)」應用程式介面 (API) 來進一步開發用戶端應用程式。|
 |選用| [{{site.data.keyword.SecureGateway}}](/docs/services/SecureGateway/secure_gateway.html) | {{site.data.keyword.SecureGateway}} 服務使您能夠以安全的方式將 {{site.data.keyword.Bluemix_notm}} 應用程式連接至內部部署或雲端中的遠端位置。|
@@ -233,11 +233,11 @@ IBM 讓您能使用受到密碼保護的登入方式來存取 {{site.data.keywor
 <ol>
 <li>您選取要使用哪個資料中心來管理專用實例。如需資料中心選項的相關資訊，請參閱 <a href="http://www.softlayer.com/data-centers" target="_blank">{{site.data.keyword.BluSoftlayer}} 資料中心位置 <img src="../icons/launch-glyph.svg" alt="外部鏈結圖示"></a>。</li>
 <li>您為部署指定網域名稱，以及要使用的 ID。設定 {{site.data.keyword.Bluemix_notm}} 實例時，您會得到三個網域。請挑選 <code>*mycompany*.*region*.bluemix.net</code> 和 <code>*mycompany*.*region*.mybluemix.net</code> 的字首。然後，選擇第三個網域的完整名稱。<br />
-<p>您可以根據自己的需要選擇任意數量的自訂網域。不過，您應負責取得自訂網域的憑證。如需建立自訂網域的相關資訊，請參閱<a href="/docs/manageapps/updapps.html#domain">建立及使用自訂網域</a>。</p></li>
+<p>您可以根據自己的需要選擇任意數量的自訂網域。不過，您應負責取得自訂網域的憑證。如需建立自訂網域的相關資訊，請參閱<a href="/docs/apps/updapps.html#domain">建立及使用自訂網域</a>。</p></li>
 <li>您識別用來在「{{site.data.keyword.Bluemix_notm}} 公用」中代表您公司之公用帳戶的擁有者。IBM 會使用此帳戶來追蹤聯合服務的用量。</li>
 <li>您選取資料中心的安全連線類型。可選取的類型包含 {{site.data.keyword.Bluemix_notm}} VPN、{{site.data.keyword.Bluemix_notm}} Direct Link 及 AT&T Net Bond。</li>
 <li>您決定是否將從公用網際網路存取您的專用環境。</li>
-<li>您選取將使用的鑑別類型。您可以從 IBM ID 或 Active Directory 進行選抉。如需使用及登錄 IBM ID 的相關資訊，請參閱<a href="https://www.ibm.com/account/profile/us?page=regfaqhelp#4">說明及常見問題</a>頁面。
+<li>{{site.data.keyword.Bluemix_dedicated_notm}} 使用 IBM ID 作為鑑別系統。如果您需要與現有鑑別系統的單一登入聯合，則可以選擇使用 SAML 搭配 IBM ID。如需使用及登錄 IBM ID 的相關資訊，請參閱<a href="https://www.ibm.com/account/profile/us?page=regfaqhelp#4">說明及常見問題</a>頁面。
 </li>
 <li>您識別並指派環境的管理團隊角色。如需您必須指派之角色的相關資訊，請參閱 <a href="/docs/dedicated/index.html#rolesresponsibilities">{{site.data.keyword.Bluemix_dedicated_notm}} 角色及責任</a>。</li>
 <li>IBM 部署核心平台，其中包含彈性運行環境、主控台、管理特性及監視。</li>
@@ -246,6 +246,8 @@ IBM 讓您能使用受到密碼保護的登入方式來存取 {{site.data.keywor
 </ol>
 
 在設定 {{site.data.keyword.Bluemix_notm}} 實例之後，您可以使用「管理」頁面來監視和管理 {{site.data.keyword.Bluemix_notm}} 實例。如需相關資訊，請參閱[管理 {{site.data.keyword.Bluemix_local_notm}} 及 {{site.data.keyword.Bluemix_dedicated_notm}}](../hybrid/index.html#mng)。如需升級和維護的相關資訊，請參閱[維護專用實例](index.html#maintaindedicated)。
+
+{{site.data.keyword.Bluemix_dedicated_notm}} 架構文件會在移交時提供。這些包括給定 {{site.data.keyword.Bluemix_dedicated_notm}} 環境的核心邏輯架構以及任何客戶特定配置。配置資訊分成兩部分來提供。第一個部分可在「管理主控台」的「系統資訊」標籤中檢視。這包括像是主機資料中心、鑑別配置（如果適用）、系統網域名稱及重要元件版本等資訊。第二個部分與它處記載的網路連線功能選項相關。這包括透過 VPN、「直接鏈結」及「公用網際網路」存取的形式，從客戶網路到「專用」環境的配置資訊。如果 IBM 對環境的核心架構或配置做了任何重大變更，都會提供更新的文件給客戶。
 
 ##角色及責任
 {: #rolesresponsibilities}
@@ -349,7 +351,7 @@ IBM 讓您能使用受到密碼保護的登入方式來存取 {{site.data.keywor
 |解決安全漏洞| 解決平台中所報告的安全漏洞。| IBM|
 {: caption="表 6. 進度階段作業" caption-side="top"}
 
-最終階段「完成」代表您與 IBM {{site.data.keyword.Bluemix_notm}} 之間的關係結束。此階段的主要作業包括下列各項：
+最終階段「完成」代表您與 {{site.data.keyword.Bluemix_notm}} 之間的關係結束。此階段的主要作業包括下列各項：
 
 * 結束財務合約
 * 移除所有網路連線
