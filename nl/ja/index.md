@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-03-14"
+lastupdated: "2018-03-28"
 
 ---
 
@@ -33,7 +33,7 @@ lastupdated: "2018-03-14"
 | 組み込み | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | ポリシーに基づいて、アプリケーションの計算能力を動的に増減します。 このサービスを使用することで、{{site.data.keyword.Bluemix_dedicated_notm}} 環境で使用量が無制限になります。 注: Auto-scaling は現在、Cloud Foundry ランタイムでのみ動作します。 |
 |オプション | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} は、{{site.data.keyword.APIM}} と IBM StrongLoop を単一のオファリングに統合し、API とマイクロサービスを作成、実行、管理、および強化する包括的な解決策を提供します。 |
 |オプション | [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} は、常に稼働している完全管理 NoSQL JSON データ層へのアクセスを提供します。 このサービスは CouchDB と互換性があり、モバイル・アプリケーション・モデルおよび Web アプリケーション・モデル用の、簡単に使用できる HTTP インターフェースでアクセスできます。 |
-|オプション | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | {{site.data.keyword.Bluemix_dedicated_notm}} で Docker コンテナーを実行します。 コンテナーは、アプリが実行のために必要とするすべてのエレメントを含む仮想ソフトウェア・オブジェクトです。 コンテナーには、リソースの分離と割り振りの利点がありますが、例えば仮想マシンなどよりも、移植可能性と効率性が高まっています。 ハードウェア要件について詳しくは、『[ {{site.data.keyword.Bluemix_dedicated_notm}} および {{site.data.keyword.Bluemix_local_notm}} における {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)』を参照してください。|
+|オプション | [{{site.data.keyword.containershort}}](/docs/containers/cs_dedicated.html) | {{site.data.keyword.Bluemix_dedicated_notm}} で Docker コンテナーを実行します。 コンテナーは、アプリが実行のために必要とするすべてのエレメントを含む仮想ソフトウェア・オブジェクトです。 コンテナーには、リソースの分離と割り振りの利点がありますが、例えば仮想マシンなどよりも、移植可能性と効率性が高まっています。|
 | オプション | [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | {{site.data.keyword.contdelivery_short}} Dedicated を使用して、ビルド、単体テスト、デプロイメントなどを自動化します。 機能豊富な Web ベース IDE により、コードの編集およびプッシュを行います。 開発、デプロイメント、および運用の作業をサポートするツール統合を実現するツールチェーンを作成します。 |
 | オプション | [{{site.data.keyword.dashdbshort}}](/docs/services/Db2whc/index.html#getting_started) | IBM {{site.data.keyword.dashdbshort}} for Analytics は、データウェアハウスおよび分析のワークロード用に最適化された完全管理の SQL クラウド・データベース・サービスです。 IBM {{site.data.keyword.dashdbshort}} for Transactions は、汎用、Web アプリ、およびトランザクションのワークロード用に最適化された完全管理の SQL クラウド・データベース・サービスです。 |
 | オプション | [Dedicated GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}} は、IBM Cloud でホストされて完全に管理されるバージョンの GitHub Enterprise であり、開発者が愛好するソーシャル・エクスペリエンスを提供します。 このサービスは、現在は {{site.data.keyword.Bluemix_dedicated_notm}} 環境でのみ使用可能です。 |
@@ -238,7 +238,7 @@ IBM は、お客様がパスワードで保護されたログインを使用し�
 <li>{{site.data.keyword.Bluemix_notm}} Public 内でユーザーの企業を表すために使用されるパブリック・アカウントの所有者を特定します。 IBM はこのアカウントを使用して、シンジケートされたサービス使用量を追跡します。</li>
 <li>データ・センターへのセキュア接続のタイプを選択します。 {{site.data.keyword.Bluemix_notm}} VPN、{{site.data.keyword.Bluemix_notm}} Direct Link、および AT&T Net Bond の中から選択できます。</li>
 <li>パブリック・インターネットからユーザーの専用環境へのアクセスがあるかどうかを決定します。</li>
-<li>{{site.data.keyword.Bluemix_dedicated_notm}} は、認証システムに IBM ID を使用します。既存の認証システムでシングル・サインオン・フェデレーションが必要な場合は、SAML を IBM ID と併せて使用することができます。IBM ID の使用および登録について詳しくは、<a href="https://www.ibm.com/account/profile/us?page=regfaqhelp#4">「ヘルプおよびよくある質問」</a>ページを参照してください。
+<li>{{site.data.keyword.Bluemix_dedicated_notm}} は、認証システムに IBM ID を使用します。 既存の認証システムでシングル・サインオン・フェデレーションが必要な場合は、SAML を IBM ID と併せて使用することができます。 IBM ID の使用および登録について詳しくは、<a href="https://www.ibm.com/account/profile/us?page=regfaqhelp#4">「ヘルプおよびよくある質問」</a>ページを参照してください。
 </li>
 <li>環境に合わせて管理チームの役割を特定し割り当てます。 割り当てが必要な役割については、『<a href="/docs/dedicated/index.html#rolesresponsibilities">{{site.data.keyword.Bluemix_dedicated_notm}} の役割および責任</a>』を参照してください。</li>
 <li>IBM は、Elastic Runtime、コンソール、管理フィーチャー、およびモニタリングを含むコア・プラットフォームをデプロイします。</li>
@@ -249,7 +249,7 @@ IBM は、お客様がパスワードで保護されたログインを使用し�
 {{site.data.keyword.Bluemix_notm}} インスタンスがセットアップされた後は、「管理」ページを使用して {{site.data.keyword.Bluemix_notm}} インスタンスをモニターおよび管理することができます。 詳しくは、[
 『{{site.data.keyword.Bluemix_local_notm}} および {{site.data.keyword.Bluemix_dedicated_notm}} の管理』](../hybrid/index.html#mng)を参照してください。 アップグレードおよび保守については、『[専用インスタンスの保守](index.html#maintaindedicated)』を参照してください。
 
-{{site.data.keyword.Bluemix_dedicated_notm}} のアーキテクチャー文書は、引き渡し時に使用可能になります。これらには、特定の {{site.data.keyword.Bluemix_dedicated_notm}} 環境の中核論理アーキテクチャーやお客様固有の構成などが含まれます。提供される構成情報には、2 つのパートがあります。1 つ目のパートは、管理コンソールの「システム情報」タブに表示されます。これには、ホスト・データ・センター、認証構成 (該当する場合)、システム・ドメイン・ネーム、およびキー・コンポーネントのバージョンなどの情報が含まれます。2 つ目のパートは、ネットワーク接続オプションに関連する情報で、これらのオプションは別々に記載されています。これには、お客様のネットワークから専用環境への VPN、直接リンク、およびパブリック・インターネットによるアクセスの構成情報が含まれています。
+{{site.data.keyword.Bluemix_dedicated_notm}} のアーキテクチャー文書は、引き渡し時に使用可能になります。 これらには、特定の {{site.data.keyword.Bluemix_dedicated_notm}} 環境の中核論理アーキテクチャーやお客様固有の構成などが含まれます。 提供される構成情報には、2 つのパートがあります。 1 つ目のパートは、管理コンソールの「システム情報」タブに表示されます。 これには、ホスト・データ・センター、認証構成 (該当する場合)、システム・ドメイン・ネーム、およびキー・コンポーネントのバージョンなどの情報が含まれます。 2 つ目のパートは、ネットワーク接続オプションに関連する情報で、これらのオプションは別々に記載されています。 これには、お客様のネットワークから専用環境への VPN、直接リンク、およびパブリック・インターネットによるアクセスの構成情報が含まれています。
 IBM が、ある環境の中核アーキテクチャーまたは構成に重要な変更を行った場合、お客様に更新された文書を提供します。
 
 ##役割および責任
