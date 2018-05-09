@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-03-14"
+lastupdated: "2018-03-28"
 
 ---
 
@@ -33,7 +33,7 @@ Además, hay varios servicios y componentes que se incluyen o que están disponi
 | Incluido | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | Aumente o reduzca de forma dinámica la capacidad de cálculo de la app en función de políticas. Con este servicio, dispone de un uso ilimitado del entorno de {{site.data.keyword.Bluemix_dedicated_notm}}. Nota: El escalado automático sólo funciona en este momento con tiempos de ejecución de Cloud Foundry |
 |Opcional | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} integra {{site.data.keyword.APIM}} e IBM StrongLoop en una única oferta que proporciona una solución completa para crear, ejecutar gestionar e imponer API y microservicios. |
 |Opcional | [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} proporciona acceso a una capa de datos JSON de NoSQL completamente gestionada que siempre está activa. Este servicio es compatible con CouchDB y se puede acceder a través de una interfaz HTTP fácil de utilizar para los modelos de aplicación web y móvil. |
-|Opcional | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | Ejecutar contenedores de Docker en {{site.data.keyword.Bluemix_dedicated_notm}}. Los contenedores son objetos de software virtuales que incluyen todos los elementos que una app necesita para ejecutarse. Un contenedor tiene las ventajas del aislamiento y asignación de recursos, pero es más portable y eficiente que, por ejemplo, una máquina virtual. Para obtener información sobre los requisitos de hardware, consulte [{{site.data.keyword.containershort}} en {{site.data.keyword.Bluemix_dedicated_notm}} y {{site.data.keyword.Bluemix_local_notm}}](/docs/containers/container_ov.html#container_dl).|
+|Opcional | [{{site.data.keyword.containershort}}](/docs/containers/cs_dedicated.html) | Ejecutar contenedores de Docker en {{site.data.keyword.Bluemix_dedicated_notm}}. Los contenedores son objetos de software virtuales que incluyen todos los elementos que una app necesita para ejecutarse. Un contenedor tiene las ventajas del aislamiento y asignación de recursos, pero es más portable y eficiente que, por ejemplo, una máquina virtual.|
 | Opcional | [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | Utilice {{site.data.keyword.contdelivery_short}} dedicado para automatizar las compilaciones, las pruebas de unidad, los despliegues y más. Edite y envíe el código a través de un potente IDE basado en web. Cree cadenas de herramientas para habilitar las integraciones de herramientas que dan soporte a las tareas de desarrollo, despliegue y operaciones. |
 | Opcional | [{{site.data.keyword.dashdbshort}}](/docs/services/Db2whc/index.html#getting_started) | IBM {{site.data.keyword.dashdbshort}} for Analytics es un servicio de base de datos de nube de SQL totalmente gestionado, optimizado para el almacén de datos y las cargas de trabajo de análisis. IBM {{site.data.keyword.dashdbshort}} for Transactions es un servicio de base de datos de nube de SQL totalmente gestionado, optimizado para el uso general, las apps web y las cargas de trabajo transaccionales. |
 | Opcional | [Dedicated GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}} es la versión alojada en IBM y totalmente gestionada de GitHub Enterprise que proporciona la experiencia social preferida por los desarrolladores. Este servicio actualmente solo está disponible para entornos de {{site.data.keyword.Bluemix_dedicated_notm}}. |
@@ -83,7 +83,7 @@ Hay componentes opcionales que se pueden adquirir para escalar y ampliar la capa
 | **Nombre**            | **Descripción** |
 |-------------------|-------------------|
 |Aumento de capacidad de 16 GB de tiempos de ejecución dedicados  | Extensión del entorno de tiempos de ejecución para proporcionar 16 GB adicionales de capacidad de tiempo de ejecución. |
-|Capacidad de 1 de enlace directo dedicado | Un enlace de red dedicado que conecta directamente con el punto de presencia de red de {{site.data.keyword.BluSoftlayer}} correcto para las transferencias de datos de hasta 1 Gbps. |
+|Capacidad de 1 Gbps de enlace directo dedicado | Un enlace de red dedicado que conecta directamente con el punto de presencia de red de {{site.data.keyword.BluSoftlayer}} correcto para las transferencias de datos de hasta 1 Gbps. |
 |Capacidad de 10 Gbps de enlace directo dedicado | Un enlace de red dedicado que conecta directamente con el punto de presencia de red de {{site.data.keyword.BluSoftlayer}} correcto para las transferencias de datos de hasta 10 Gbps. |
 |IBM {{site.data.keyword.Bluemix_dedicated_notm}} Hardware Firewall - Alta disponibilidad | Un cortafuegos de hardware de 1 Gbps redundante configurado para la protección para un solo servidor, varios servidores o todos los servidores en la misma VLAN dentro del entorno dedicado. |
 {: caption="Tabla 3. Componentes de complemento de plataforma opcionales para su compra" caption-side="top"}
@@ -238,7 +238,7 @@ Puede prever un proceso similar a la siguiente lista para el despliegue y la con
 <li>Debe identificar un propietario para la cuenta pública que se utiliza para representar la empresa en {{site.data.keyword.Bluemix_notm}} público. IBM utiliza esta cuenta para realizar el seguimiento del uso de los servicios sindicados.</li>
 <li>Seleccione el tipo de conexión segura en el centro de datos. Puede seleccionar entre {{site.data.keyword.Bluemix_notm}} VPN, {{site.data.keyword.Bluemix_notm}} Direct Link y AT&T Net Bond.</li>
 <li>Decida si habrá acceso al entorno dedicado desde la Internet pública.</li>
-<li>{{site.data.keyword.Bluemix_dedicated_notm}} utiliza los IBMid como sistema de autenticación. Puede optar por utilizar SAML con IBMid si necesita una federación de inicio de sesión único con un sistema de autenticación existente. Para obtener información sobre cómo utilizar y registrarse para obtener un ID de IBM, consulte la página <a href="https://www.ibm.com/account/profile/us?page=regfaqhelp#4">Ayuda y preguntas frecuentes</a>.
+<li>{{site.data.keyword.Bluemix_dedicated_notm}} utiliza los IBMid como sistema de autenticación. Puede optar por utilizar SAML con IBMid si necesita una federación de inicio de sesión único con un sistema de autenticación existente. Para obtener información sobre cómo utilizar y registrarse para obtener un IBMid, consulte la página <a href="https://www.ibm.com/account/profile/us?page=regfaqhelp#4">Ayuda y preguntas frecuentes</a>.
 </li>
 <li>Identifique y asigne roles para el equipo de administración del entorno. Para obtener información sobre los roles que debe asignar, consulte <a href="/docs/dedicated/index.html#rolesresponsibilities">Roles y responsabilidades de {{site.data.keyword.Bluemix_dedicated_notm}}</a>.</li>
 <li>IBM despliega la plataforma principal que incluye los tipos de ejecución elásticos, la consola, la función de administración y la supervisión.</li>
