@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-03-14"
+lastupdated: "2018-03-28"
 
 ---
 
@@ -36,7 +36,7 @@ Inoltre, è presente una serie di servizi e componenti inclusi oppure facoltativ
 di elaborazione della tua applicazione in base alle politiche. Con questo servizio, hai un uso illimitato nel tuo ambiente {{site.data.keyword.Bluemix_dedicated_notm}}. Nota: Auto-scaling attualmente funziona solo con i runtime Cloud Foundry |
 |Facoltativo | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} integra {{site.data.keyword.APIM}} e IBM StrongLoop in una singola offerta che fornisce una soluzione completa per creare, eseguire, gestire e implementare API e microservizi. |
 |Facoltativo | [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} fornisce l'accesso a un livello di dati JSON NoSQL interamente gestito sempre attivo. Questo servizio è compatibile con CouchDB e accessibile mediante un'interfaccia HTTP di facile utilizzo per i modelli di applicazione web e mobile. |
-|Facoltativo | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | Esegui i contenitori Docker su {{site.data.keyword.Bluemix_dedicated_notm}}. I contenitori sono oggetti software virtuali che includono tutti gli elementi che un'applicazione deve eseguire. Un contenitore presenta i vantaggi dell'isolamento e dell'assegnazione delle risorse, ma offre una maggiore portabilità ed efficienza rispetto, ad esempio, a una macchina virtuale. Per informazioni sui requisiti hardware, vedi [{{site.data.keyword.containershort}} in {{site.data.keyword.Bluemix_dedicated_notm}} e {{site.data.keyword.Bluemix_local_notm}}](/docs/containers/container_ov.html#container_dl).|
+|Facoltativo | [{{site.data.keyword.containershort}}](/docs/containers/cs_dedicated.html) | Esegui i contenitori Docker su {{site.data.keyword.Bluemix_dedicated_notm}}. I contenitori sono oggetti software virtuali che includono tutti gli elementi che un'applicazione deve eseguire. Un contenitore presenta i vantaggi dell'isolamento e dell'assegnazione delle risorse, ma offre una maggiore portabilità ed efficienza rispetto, ad esempio, a una macchina virtuale.|
 | Facoltativo | [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | Utilizza {{site.data.keyword.contdelivery_short}} dedicato per automatizzare le build, i test di unità, le distribuzioni e altro. Modifica e trasmetti il codice tramite la IDE basata sul web avanzato. Crea le toolchain per abilitare le integrazioni dello strumento che supportano attività di sviluppo, distribuzione e operative. |
 | Facoltativo | [{{site.data.keyword.dashdbshort}}](/docs/services/Db2whc/index.html#getting_started) | IBM {{site.data.keyword.dashdbshort}} for Analytics è un servizio di database cloud SQL interamente gestito, ottimizzato per i carichi di lavoro di data warehouse e analisi. IBM {{site.data.keyword.dashdbshort}} for Transactions è un servizio di database cloud SQL interamente gestito, ottimizzato per l'uso generale, le applicazioni Web e i carichi di lavoro transazionali. |
 | Facoltativo | [Dedicated GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}} è la versione di GitHub Enterprise completamente gestita e ospitata da IBM Cloud che fornisce l'esperienza di social networking che piace agli sviluppatori. Questo servizio è al momento disponibile solo per gli ambienti di {{site.data.keyword.Bluemix_dedicated_notm}}. |
@@ -261,13 +261,13 @@ Per la distribuzione e configurazione iniziale del tuo ambiente puoi prevedere u
 
 Una volta configurata la tua istanza {{site.data.keyword.Bluemix_notm}}, puoi monitorare e gestire l'istanza {{site.data.keyword.Bluemix_notm}} utilizzando la pagina Amministrazione. Per ulteriori informazioni, vedi [Gestione di {{site.data.keyword.Bluemix_local_notm}} e {{site.data.keyword.Bluemix_dedicated_notm}}](../hybrid/index.html#mng). Per informazioni su aggiornamenti e manutenzione, vedi [Manutenzione dell'istanza dedicata](index.html#maintaindedicated).
 
-I documenti dell'architettura {{site.data.keyword.Bluemix_dedicated_notm}} sono resi disponibili al momento del trasferimento. Questi includono l'architettura logica core nonché tutta la configurazione specifica del cliente per l'ambiente {{site.data.keyword.Bluemix_dedicated_notm}} fornito. Le informazioni di configurazione vengono fornite in due parti.  La prima parte è visibile nella scheda delle informazioni sul sistema della console di gestione. Sono incluse informazioni come il data center host, la configurazione di autenticazione se applicabile, i nomi del dominio di sistema e le versioni dei componenti chiave. La seconda parte riguarda le opzioni di connettività di rete che vengono documentate separatamente. Sono incluse le informazioni dalla rete del cliente all'ambiente dedicato nel formato di accesso internet pubblico, VPN e Direct Link.
+I documenti dell'architettura {{site.data.keyword.Bluemix_dedicated_notm}} sono resi disponibili al momento del trasferimento. Questi includono l'architettura logica core nonché tutta la configurazione specifica del cliente per l'ambiente {{site.data.keyword.Bluemix_dedicated_notm}} fornito. Le informazioni di configurazione vengono fornite in due parti. La prima parte è visibile nella scheda delle informazioni sul sistema della console di gestione. Sono incluse informazioni come il data center host, la configurazione di autenticazione se applicabile, i nomi del dominio di sistema e le versioni dei componenti chiave. La seconda parte riguarda le opzioni di connettività di rete che vengono documentate separatamente. Sono incluse le informazioni dalla rete del cliente all'ambiente dedicato nel formato di accesso internet pubblico, VPN e Direct Link.
 Se IBM effettua una qualsiasi modifica rilevante alla configurazione o all'architettura core di un ambiente, i documenti aggiornati saranno resi disponibili al cliente.
 
 ##Ruoli e responsabilità
 {: #rolesresponsibilities}
 
-Se hai configurato un account {{site.data.keyword.Bluemix_dedicated_notm}}, devi identificare le persone all'interno della tua organizzazione a cui assegnare i ruoli necessari per rendere operativa la tua istanza. 
+Se hai configurato un account {{site.data.keyword.Bluemix_dedicated_notm}}, devi identificare le persone all'interno della tua organizzazione a cui assegnare i ruoli necessari per rendere operativa la tua istanza.
 
 ###Ruoli
 
