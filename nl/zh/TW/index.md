@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-03-14"
+lastupdated: "2018-03-28"
 
 ---
 
@@ -33,7 +33,7 @@ lastupdated: "2018-03-14"
 | 內含| [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | 根據原則，動態增加或減少應用程式的運算能力。使用此服務，即可在 {{site.data.keyword.Bluemix_dedicated_notm}} 環境中無限制地使用。附註：自動擴充目前僅與 Cloud Foundry 運行環境搭配使用|
 |選用| [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} 將 {{site.data.keyword.APIM}} 及 IBM StrongLoop 整合成單一供應項目，提供綜合性解決方案來建立、執行、管理及強制執行 API 和微服務。|
 |選用| [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} 提供對於始終處於開啟狀態之完整受管理 NoSQL JSON 資料層的存取。此服務與 CouchDB 相容，而且可透過方便使用的 HTTP 介面來存取，可用於行動及 Web 應用程式模型。|
-|選用| [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | 在 {{site.data.keyword.Bluemix_dedicated_notm}} 上執行 Docker 容器。容器是虛擬軟體物件，其中包含應用程式執行所需的所有元素。容器具有資源隔離及配置的優點，而且比虛擬機器（舉例來說）更容易攜帶且更具效率。如需硬體需求的相關資訊，請參閱 [{{site.data.keyword.Bluemix_dedicated_notm}} 及 {{site.data.keyword.Bluemix_local_notm}} 中的 {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)。|
+|選用| [{{site.data.keyword.containershort}}](/docs/containers/cs_dedicated.html) | 在 {{site.data.keyword.Bluemix_dedicated_notm}} 上執行 Docker 容器。容器是虛擬軟體物件，其中包含應用程式執行所需的所有元素。容器具有資源隔離及配置的優點，而且比虛擬機器（舉例來說）更容易攜帶且更具效率。|
 | 選用| [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | 使用「{{site.data.keyword.contdelivery_short}} 專用」來自動進行建置、單元測試、部署及其他作業。透過豐富的 Web 型 IDE 編輯及推送程式碼。建立工具鏈來啟用工具整合，以支援開發、部署及操作作業。|
 | 選用| [{{site.data.keyword.dashdbshort}}](/docs/services/Db2whc/index.html#getting_started) | IBM {{site.data.keyword.dashdbshort}} for Analytics 是完整受管理 SQL 雲端資料庫服務，最適合用於資料倉儲及分析工作負載。IBM {{site.data.keyword.dashdbshort}} for Transactions 是完整受管理 SQL 雲端資料庫服務，最適合用於一般用途、Web 應用程式及交易式工作負載。|
 | 選用| [專用 GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}} 是 GitHub Enterprise 的 IBM Cloud 管理之完整受管理版本，可提供開發人員所喜歡的社交經驗。此服務目前專用於 {{site.data.keyword.Bluemix_dedicated_notm}} 環境。|
@@ -260,7 +260,7 @@ IBM 讓您能使用受到密碼保護的登入方式來存取 {{site.data.keywor
 
 <dl>
 <dt>**採購聯絡人**</dt>
-<dd>與 IBM 業務代表一起建立您的 {{site.data.keyword.Bluemix_dedicated_notm}} 環境，包括識別組織中處理專案任何層面的正確人員。指派給此角色的人員將擔當專案管理的角色，負責對型樣選取、商業安排以及客戶資源存取安排進行監視。採購聯絡人是設定專用實例和追蹤部署過程的整體聯絡人。</dd>
+<dd>與 IBM 業務代表一起建立您的 {{site.data.keyword.Bluemix_dedicated_notm}} 環境，包括識別組織中處理專案任何層面的正確人員。指派給此角色的人員將擔當專案管理的角色，負責對模式選取、商業安排以及客戶資源存取安排進行監視。採購聯絡人是設定專用實例和追蹤部署過程的整體聯絡人。</dd>
 <dt>**規範管理者**</dt>
 <dd>與 IBM 業務代表一起選取符合您安全需求的拓蹼及部署選項。指派給這個角色的人員會與 IBM 規範顧問一起確定哪些部署模式能達到規範目標。</dd>
 <dt>**網路專家**</dt>
