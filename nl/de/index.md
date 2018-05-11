@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-03-14"
+lastupdated: "2018-03-28"
 
 ---
 
@@ -33,7 +33,7 @@ Darüber hinaus gibt es eine Reihe von Services und Komponenten, die inbegriffen
 | Inbegriffen | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | Dynamisches Erhöhen oder Verringern der Rechenleistung Ihrer Anwendung basierend auf Richtlinien. Mit diesem Service können Sie Ihre {{site.data.keyword.Bluemix_dedicated_notm}}-Umgebung unbegrenzt nutzen. Hinweis: Auto-Scaling funktioniert gegenwärtig nur mit Cloud Foundry-Laufzeiten. |
 |Optional | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} integriert {{site.data.keyword.APIM}} und IBM StrongLoop in ein einzelnes Angebot, das eine Komplettlösung bietet, um APIs und Microservices zu erstellen, auszuführen, zu verwalten und durchzusetzen. |
 |Optional | [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} bietet Zugriff auf eine vollständig verwaltete NoSQL-JSON-Datenebene, die permanent aktiv ist. Dieser Service ist mit CouchDB kompatibel und über eine einfache HTTP-Schnittstelle für mobile Anwendungsmodelle und Webanwendungsmodelle zugänglich. |
-|Optional | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | Docker-Container in {{site.data.keyword.Bluemix_dedicated_notm}} ausführen. Container sind virtuelle Softwareobjekte, die alle für die Ausführung von Apps erforderlichen Elemente enthalten. Container bieten den Vorteil der Ressourcenisolation und -zuordnung, wobei sie besser portierbar und effizienter als beispielsweise virtuelle Maschinen sind. Informationen zu den Hardwarevoraussetzungen finden Sie unter [{{site.data.keyword.containershort}} in {{site.data.keyword.Bluemix_dedicated_notm}} und {{site.data.keyword.Bluemix_local_notm}}](/docs/containers/container_ov.html#container_dl).|
+|Optional | [{{site.data.keyword.containershort}}](/docs/containers/cs_dedicated.html) | Docker-Container in {{site.data.keyword.Bluemix_dedicated_notm}} ausführen. Container sind virtuelle Softwareobjekte, die alle für die Ausführung von Apps erforderlichen Elemente enthalten. Container bieten den Vorteil der Ressourcenisolation und -zuordnung, wobei sie besser portierbar und effizienter als beispielsweise virtuelle Maschinen sind.|
 | Optional | [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | Mit {{site.data.keyword.contdelivery_short}} Dedicated können Sie Builds, Komponententests, Bereitstellungen und weitere Tasks automatisieren. In der umfangreichen webbasierten IDE können Sie Code bearbeiten und mit einer Push-Operation übertragen. Durch die Erstellung von Toolchains werden Toolintegrationen ermöglicht, die Entwicklungs-, Bereitstellungs- und Betriebstasks unterstützten. |
 | Optional | [{{site.data.keyword.dashdbshort}}](/docs/services/Db2whc/index.html#getting_started) | IBM {{site.data.keyword.dashdbshort}} for Analytics bietet einen vollständig verwalteten SQL-Clouddatenbankservice, der für Workloads aus einem Data-Warehouse und aus Analysen optimiert ist. IBM {{site.data.keyword.dashdbshort}} for Transactions bietet einen vollständig verwalteten SQL-Clouddatenbankservice, der für allgemeine Zwecke, Web-Apps und transaktionsorientierte Workloads optimiert ist. |
 | Optional | [Dedicated GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}} ist die von IBM Cloud gehostete und vollständig verwaltbare Version von GitHub Enterprise, die ein von Entwicklern gewünschtes Social Experience bietet. Dieser Service ist zurzeit nur für {{site.data.keyword.Bluemix_dedicated_notm}}-Umgebungen verfügbar. |
@@ -249,12 +249,12 @@ Für die Erstbereitstellung und Erstkonfiguration Ihrer Umgebung können Sie ein
 Nach der Einrichtung Ihrer {{site.data.keyword.Bluemix_notm}}-Instanz können Sie die Ihre {{site.data.keyword.Bluemix_notm}}-Instanz über die Verwaltungsseite ('Administration') überwachen und verwalten. Weitere Informationen finden Sie unter [{{site.data.keyword.Bluemix_local_notm}} und {{site.data.keyword.Bluemix_dedicated_notm}} verwalten](../hybrid/index.html#mng). Weitere Informationen zu Upgrades und Wartung finden Sie unter [Dedizierte Instanz warten](index.html#maintaindedicated).
 
 Dokumente zur {{site.data.keyword.Bluemix_dedicated_notm}}-Architektur werden zum Zeitpunkt der Übergabe verfügbar gemacht. Dazu gehören die zentrale logische Architektur ebenso wie alle kundenspezifischen Konfigurationen für eine gegebene {{site.data.keyword.Bluemix_dedicated_notm}}-Umgebung. Konfigurationsinformationen werden in zwei Teilen bereitgestellt. Der erste Teil kann auf der Registerkarte 'Systeminformationen' der Administrationskonsole angezeigt werden. Dazu zählen Informationen wie das Host-Rechenzentrum, ggf. die Authentifizierungskonfiguration, die Systemdomänennamen und die Versionen von Schlüsselkomponenten. Der zweite Teil enthält die Netzkonnektivitätsoptionen, die separat dokumentiert werden. Dazu zählen Konfigurationsinformationen aus dem Kundennetz für die Dedicated-Umgebung in Form von VPN-, Direct Link- und öffentlichem Internetzugang.
-Falls IBM bedeutende Änderungen an der zentralen Architektur oder Konfiguration für eine Umgebung vornimmt, werden aktualisierte Dokumente für den Kunden verfügbar gemacht. 
+Falls IBM bedeutende Änderungen an der zentralen Architektur oder Konfiguration für eine Umgebung vornimmt, werden aktualisierte Dokumente für den Kunden verfügbar gemacht.
 
 ##Rollen und Zuständigkeiten
 {: #rolesresponsibilities}
 
-Wenn Sie ein {{site.data.keyword.Bluemix_dedicated_notm}}-Konto einrichten, ermitteln Sie die Personen in Ihrer Organisation für die Rollen, die benötigt werden, um Ihre lokale Instanz betriebsbereit zu machen. 
+Wenn Sie ein {{site.data.keyword.Bluemix_dedicated_notm}}-Konto einrichten, ermitteln Sie die Personen in Ihrer Organisation für die Rollen, die benötigt werden, um Ihre lokale Instanz betriebsbereit zu machen.
 
 ###Rollen
 

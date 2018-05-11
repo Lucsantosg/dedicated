@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-03-14"
+lastupdated: "2018-03-28"
 
 ---
 
@@ -33,7 +33,7 @@ lastupdated: "2018-03-14"
 | 已包含| [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | 根据策略，动态增大或减小应用程序的计算容量。通过此服务，您在 {{site.data.keyword.Bluemix_dedicated_notm}} 环境中的使用不受限制。注：自动扩展目前只适用于 Cloud Foundry 运行时|
 |可选| [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} 将 {{site.data.keyword.APIM}} 和 IBM StrongLoop 集成到单个产品中，以提供一个综合解决方案来创建、运行、管理和强制执行 API 与微服务。|
 |可选| [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} 提供了对始终启用的完全受管 NoSQL JSON 数据层的访问。此服务兼容 CouchDB，并且可通过易用的 HTTP 接口供移动和 Web 应用程序模型访问。|
-|可选| [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | 在 {{site.data.keyword.Bluemix_dedicated_notm}} 上运行 Docker 容器。容器是包含应用程序运行所需的所有元素的虚拟软件对象。容器不仅具有资源隔离和分配的好处，而且还比虚拟机器（举例来说）的可移植性更好，且更有效率。有关硬件需求的信息，请参阅 [{{site.data.keyword.Bluemix_dedicated_notm}} 和 {{site.data.keyword.Bluemix_local_notm}} 中的 {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)。|
+|可选| [{{site.data.keyword.containershort}}](/docs/containers/cs_dedicated.html) | 在 {{site.data.keyword.Bluemix_dedicated_notm}} 上运行 Docker 容器。容器是包含应用程序运行所需的所有元素的虚拟软件对象。容器不仅具有资源隔离和分配的好处，而且还比虚拟机器（举例来说）的可移植性更好，且更有效率。|
 | 可选| [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | 使用 {{site.data.keyword.contdelivery_short}} Dedicated 可自动执行构建、单元测试、部署等操作。通过丰富的基于 Web 的 IDE 来编辑和推送代码。创建工具链以便进行支持开发、部署和操作任务的工具集成。|
 | 可选| [{{site.data.keyword.dashdbshort}}](/docs/services/Db2whc/index.html#getting_started) | IBM {{site.data.keyword.dashdbshort}} for Analytics 是完全管理的 SQL 云数据库服务，针对数据仓库和分析工作负载而进行了优化。IBM {{site.data.keyword.dashdbshort}} for Transactions 是完全管理的 SQL 云数据库服务，针对一般目的、Web 应用程序和事务工作负载而进行了优化。|
 | 可选| [Dedicated GitHub Enterprise](/docs/services/ghededicated/index.html)| {{site.data.keyword.ghe_long}} 是 IBM Cloud 托管且完全管理的 GitHub 版本，提供了开发者喜爱的社交功能。此服务目前只可用于 {{site.data.keyword.Bluemix_dedicated_notm}} 环境。|

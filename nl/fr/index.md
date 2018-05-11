@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-03-14"
+lastupdated: "2018-03-28"
 
 ---
 
@@ -41,7 +41,7 @@ ou que vous pouvez acheter si vous le souhaitez.
 | Inclus | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | Augmentez ou diminuez dynamiquement la capacité de calcul de votre application en fonction de règles. Avec ce service, vous bénéficiez d'une utilisation illimitée dans votre environnement {{site.data.keyword.Bluemix_dedicated_notm}}. Remarque : Actuellement, la mise à l'échelle automatique fonctionne uniquement avec les contextes d'exécution Cloud Foundry. |
 |Facultatif | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} intègre {{site.data.keyword.APIM}} et IBM StrongLoop dans une offre unique qui fournit une solution complète pour la création, l'exécution, la gestion et l'application d'API et de microservices. |
 |Facultatif | [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} fournit l'accès à une couche de données JSON NoSQL entièrement gérée toujours active. Ce service est compatible avec CouchDB et accessible via une interface HTTP facile à utiliser pour les modèles d'application mobile et Web. |
-|Facultatif | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | Conteneurs Run Docker dans l'environnement {{site.data.keyword.Bluemix_dedicated_notm}}. Les conteneurs sont des objets logiciels virtuels qui incluent tous les éléments qu'une application a besoin d'exécuter. Un conteneur tire parti de l'isolation et de l'allocation des ressources, mais est plus portable et efficace que, par exemple, une machine virtuelle. Pour plus d'informations sur la configuration matérielle requise, voir [{{site.data.keyword.containershort}} dans {{site.data.keyword.Bluemix_dedicated_notm}} and {{site.data.keyword.Bluemix_local_notm}}](/docs/containers/container_ov.html#container_dl).|
+|Facultatif | [{{site.data.keyword.containershort}}](/docs/containers/cs_dedicated.html) | Conteneurs Run Docker dans l'environnement {{site.data.keyword.Bluemix_dedicated_notm}}. Les conteneurs sont des objets logiciels virtuels qui incluent tous les éléments qu'une application a besoin d'exécuter. Un conteneur tire parti de l'isolation et de l'allocation des ressources, mais est plus portable et efficace que, par exemple, une machine virtuelle.|
 | Facultatif | [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | {{site.data.keyword.contdelivery_short}} dédié permet d'automatiser les générations, les tests unitaires, les déploiements, etc. Editez et insérez du code via l'interface IDE Web enrichie. Créez des chaînes d'outils pour activer les intégrations d'outils prenant en charge des tâches de développement, de déploiement et d'opérations. |
 | Facultatif | [{{site.data.keyword.dashdbshort}}](/docs/services/Db2whc/index.html#getting_started) | IBM {{site.data.keyword.dashdbshort}} for Analytics est un service de base de données de cloud SQL entièrement géré, optimisé pour l'entrepôt de données et les charges de travail analytiques. IBM {{site.data.keyword.dashdbshort}} for Transactions est un service de base de données de cloud SQL entièrement géré, optimisé pour des tâches générales, les applications Web et les charges de travail transactionnelles. |
 | Facultatif | [Dedicated GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}} est la version entièrement gérée et hébergée dans le cloud IBM de GitHub Enterprise, qui propose une expérience sociale très appréciée des développeurs. Ce service n'est actuellement disponible que dans les environnements {{site.data.keyword.Bluemix_dedicated_notm}}. |
@@ -318,12 +318,12 @@ Vous pouvez vous attendre à obtenir un processus similaire à la liste suivante
 Une fois votre instance {{site.data.keyword.Bluemix_notm}} configurée, vous pouvez surveiller et gérer votre instance {{site.data.keyword.Bluemix_notm}} via la page Administration. Pour plus d'informations, voir [Gestion de l'environnement {{site.data.keyword.Bluemix_local_notm}} et de l'environnement {{site.data.keyword.Bluemix_dedicated_notm}}](../hybrid/index.html#mng). Pour plus d'informations sur les mises à niveau et la maintenance, voir [Gestion de votre instance dédiée](index.html#maintaindedicated).
 
 Des documents architecturaux {{site.data.keyword.Bluemix_dedicated_notm}} sont mis à disposition lors du transfert. Cela inclut l'architecture logique du noyau, ainsi que la configuration propre aux clients pour un environnement {{site.data.keyword.Bluemix_dedicated_notm}} donné. Les informations de configuration sont présentées en deux parties. La première partie est visualisable dans l'onglet Informations système de la console d'administration. Cette partie comprend des informations, telles que le centre de données hôte, la configuration de l'authentification, le cas échéant, des noms de domaine de système et les versions de composants clés. La seconde partie concerne les options de connectivité réseau qui sont documentées séparément. Cette partie inclut des informations de configuration à partir du réseau du client vers l'environnement dédié sous la forme d'un accès VPN, Direct Link et Public Internet.
-Si IBM apporte des modifications significatives à l'architecture de coeur ou à la configuration d'un environnement, des documents mis à jour seront mis à la disposition du client. 
+Si IBM apporte des modifications significatives à l'architecture de coeur ou à la configuration d'un environnement, des documents mis à jour seront mis à la disposition du client.
 
 ##Rôles et responsabilités
 {: #rolesresponsibilities}
 
-Si vous configurez un compte {{site.data.keyword.Bluemix_dedicated_notm}}, vous identifiez les personnes de votre organisation auxquelles affecter les rôles nécessaires à la configuration et à l'exécution de votre instance. 
+Si vous configurez un compte {{site.data.keyword.Bluemix_dedicated_notm}}, vous identifiez les personnes de votre organisation auxquelles affecter les rôles nécessaires à la configuration et à l'exécution de votre instance.
 
 ###Rôles
 
