@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-03-14"
+lastupdated: "2018-03-28"
 
 ---
 
@@ -23,7 +23,7 @@ lastupdated: "2018-03-14"
 
 기본적으로 개인용 {{site.data.keyword.Bluemix_notm}} 인스턴스는 회사 네트워크에서만 액세스할 수 있습니다. 예를 들어, 인터넷 또는 모바일 디바이스, 데디케이티드 데이터베이스에서 직접 {{site.data.keyword.Bluemix_notm}} 환경에 액세스할 수 있도록 해야 하는 경우 추가 네트워크 보안 컴포넌트가 필요하며 이를 위해서는 추가 비용이 발생합니다.
 
-{{site.data.keyword.Bluemix_dedicated_notm}}은 {{site.data.keyword.Bluemix_notm}} 런타임 및 64GB의 컴퓨팅 리소스 메모리가 모두 포함되어 제공됩니다.
+{{site.data.keyword.Bluemix_dedicated_notm}}는 {{site.data.keyword.Bluemix_notm}} 런타임 및 64GB의 컴퓨팅 리소스 메모리가 모두 포함되어 제공됩니다.
 
 또한 포함되거나 선택적으로 구입할 수 있는 서비스 및 컴포넌트 세트가 있습니다. 다음 표를 검토하여 포함되는 항목과 선택적으로 구입 가능한 항목을 확인하십시오.
 
@@ -33,7 +33,7 @@ lastupdated: "2018-03-14"
 | 포함 | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | 정책에 따라 애플리케이션의 컴퓨팅 용량을 동적으로 늘리거나 줄입니다. 이 서비스를 사용하면 {{site.data.keyword.Bluemix_dedicated_notm}} 환경에서 무제한 사용이 가능합니다.  참고: Auto-Scaling은 현재 Cloud Foundry 런타임에서만 작동합니다. |
 |선택사항 | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}}는 {{site.data.keyword.APIM}}와 IBM StrongLoop를 API 및 마이크로서비스를 작성, 실행, 관리 및 적용하기 위한 포괄적 솔루션을 제공하는 단일 오퍼링으로 통합합니다. |
 |선택사항 | [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}}에서는 항상 작동 상태인 완전히 관리되는 NoSQL JSON 데이터 계층에 대한 액세스를 제공합니다. 이 서비스는 CouchDB와 호환 가능하며, 모바일 및 웹 애플리케이션 모델을 위한 사용이 간편한 HTTP 인터페이스를 통해 액세스할 수 있습니다. |
-|선택사항 | [{{site.data.keyword.containershort}}](/docs/containers/container_index.html) | {{site.data.keyword.Bluemix_dedicated_notm}}에서 Docker 컨테이너를 실행합니다. 컨테이너는 앱에서 실행해야 하는 모든 요소를 포함하는 가상 소프트웨어 오브젝트입니다. 컨테이너는 리소스 격리와 할당의 이점이 있으며 가상 머신 등보다 휴대가 간편하고 효율적입니다. 하드웨어 요구사항에 대한 정보는 [{{site.data.keyword.Bluemix_dedicated_notm}} 및 {{site.data.keyword.Bluemix_local_notm}}의 {{site.data.keyword.containershort}}](/docs/containers/container_ov.html#container_dl)를 참조하십시오.|
+|선택사항 | [{{site.data.keyword.containershort}}](/docs/containers/cs_dedicated.html) | {{site.data.keyword.Bluemix_dedicated_notm}}에서 Docker 컨테이너를 실행합니다. 컨테이너는 앱에서 실행해야 하는 모든 요소를 포함하는 가상 소프트웨어 오브젝트입니다. 컨테이너는 리소스 격리와 할당의 이점이 있으며 가상 머신 등보다 휴대가 간편하고 효율적입니다.|
 | 선택사항 | [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | {{site.data.keyword.contdelivery_short}} 데디케이티드를 사용하여 빌드, 단위 테스트, 배치 등을 자동화합니다. 풍부한 웹 기반 IDE을 통해 코드를 편집하고 푸시하십시오. 개발, 배치 및 오퍼레이션 태스크를 지원하는 도구 통합을 가능하게 하는 도구 체인을 작성합니다. |
 | 선택사항 | [{{site.data.keyword.dashdbshort}}](/docs/services/Db2whc/index.html#getting_started) | IBM {{site.data.keyword.dashdbshort}} for Analytics는 전체 관리되는 SQL 클라우드 데이터베이스 서비스이고, 데이터 웨어하우스와 분석 워크로드를 위해 최적화되어 있습니다. IBM {{site.data.keyword.dashdbshort}} for Transactions는 전체 관리되는 SQL 클라우드 데이터베이스 서비스이고 일반적인 용도, 웹 앱 및 트랜잭션 워크로드를 위해 최적화되어 있습니다. |
 | 선택사항 | [Dedicated GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}}는 IBM Cloud에 호스팅되고 완전하게 관리되는 GitHub Enterprise 버전이며 개발자가 선호하는 소셜 경험을 제공합니다. 이 서비스는 현재 {{site.data.keyword.Bluemix_dedicated_notm}} 환경에서만 사용할 수 있습니다. |
@@ -94,7 +94,7 @@ lastupdated: "2018-03-14"
 ## 신디케이트된(각 클라우드 형태 간 동일하게 연동된) 카탈로그
 {: #catalogdedicated}
 
-{{site.data.keyword.Bluemix_dedicated_notm}}에는 퍼블릭, 데디케이티드 및 로컬 배치의 승인된 서비스를 한데 모으는 개인용 카탈로그가 있습니다. 이 {{site.data.keyword.Bluemix_notm}} 카탈로그를 통해 사용자 소유의 서비스를 공개하고 서비스에 대한 액세스를 관리할 수도 있습니다. 데이터에 대한 개인정보 보호정책 및 보안 기준에 따라 사용자 비즈니스의 요구사항을 충족해야 하는 퍼블릭 서비스를 결정하는 옵션이 있습니다.
+{{site.data.keyword.Bluemix_dedicated_notm}}에는 퍼블릭, 데디케이티드 및 로컬 배치의 승인된 서비스를 한데 모으는 개인용 카탈로그가 있습니다. 이 {{site.data.keyword.Bluemix_notm}} 카탈로그를 통해 사용자 소유의 서비스를 공개하고 서비스에 대한 액세스를 관리할 수도 있습니다. 데이터 개인정보 보호 및 보안 기준에 따라 사용자 비즈니스의 요구사항을 충족해야 하는 퍼블릭 서비스를 결정하는 옵션이 있습니다.
 
 데디케이티드 환경에 대한 서비스의 개인용 인스턴스가 있는 경우에는 카탈로그에서 서비스 이름과 함께 `Dedicated` 태그가 표시됩니다. 마찬가지로, 사용자 정의 서비스인 경우(즉, 서비스 브로커를 사용하여 작성한 경우)에는 서비스 이름과 함께 "사용자 정의"가 나열됩니다. "데디케이티드" 또는 "사용자 정의" 태그 없이 나열된 기타 모든 서비스는 {{site.data.keyword.Bluemix_notm}} 퍼블릭에서 신디케이션을 사용하여 사용할 수 있습니다. 신디케이트된(각 클라우드 형태 간 동일하게 연동된) 카탈로그는 공용 및 개인 서비스로 구성되는 하이브리드 애플리케이션을 작성하는 기능을 제공합니다.
 
@@ -109,7 +109,7 @@ lastupdated: "2018-03-14"
 |{{site.data.keyword.uccr_short}} | 예 | 아니오 | 아니오 | 아니오 | 아니오 |
 |{{site.data.keyword.conversationshort}}  | 예  | 예  | 예  | 아니오 | 예 |
 |{{site.data.keyword.dataworks_short}}		| 예		| 예		| 아니오 | 아니오 | 아니오 |
-|Db2 호스팅 | 예 | 예 | 예 | 아니오 | 예 |
+|Db2 hosted | 예 | 예 | 예 | 아니오 | 예 |
 |{{site.data.keyword.DB2OnCloud_short}}		| 예		| 예		| 예 | 아니오 | 예 |
 |{{site.data.keyword.dashdbshort_notm}} | 예 | 예 | 예 | 아니오 | 예 |
 |Digital Content Checker | 예  | 예  | 아니오 | 아니오 | 예 |
@@ -223,7 +223,7 @@ IBM은 비밀번호로 보호되는 로그인을 사용하여 {{site.data.keywor
 <li>환경에서 관리 팀의 역할을 식별하고 지정하십시오.
 	<ol type="a">
 	<li>IBM은 제공된 내용을 기반으로 네트워크 액세스를 구성합니다. 관리 액세스 권한이 지정된 담당자에게 부여됩니다. 지원 및 청구에 대한 담당자도 지정해야 합니다.</li>
-	<li>IBM은 데디케이티드 서비스를 표시하기 위해 데디케이티드 환경에 신디케이트된(각 클라우드 형태 간 동일하게 연동된) 카탈로그를 설정합니다. 신디케이트된(각 클라우드 형태 간 동일하게 연동된) 카탈로그에는 {{site.data.keyword.Bluemix_notm}} 퍼블릭에서 사용 가능하며 여기에서 신디케이트된 추가 서비스도 포함됩니다. 데이터에 대한 개인정보 보호정책 및 보안 기준에 따라 사용자 비즈니스의 요구사항을 충족해야 하는 퍼블릭 서비스를 결정하는 옵션이 있습니다.</li>
+	<li>IBM은 데디케이티드 서비스를 표시하기 위해 데디케이티드 환경에 신디케이트된(각 클라우드 형태 간 동일하게 연동된) 카탈로그를 설정합니다. 신디케이트된(각 클라우드 형태 간 동일하게 연동된) 카탈로그에는 {{site.data.keyword.Bluemix_notm}} 퍼블릭에서 사용 가능하며 여기에서 신디케이트된 추가 서비스도 포함됩니다. 데이터 개인정보 보호 및 보안 기준에 따라 사용자 비즈니스의 요구사항을 충족해야 하는 퍼블릭 서비스를 결정하는 옵션이 있습니다.</li>
 	<li>네트워크 및 방화벽 구성과 액세스를 유효성 검증하십시오.</li>
 	</ol>
 </li>
@@ -248,7 +248,8 @@ IBM은 비밀번호로 보호되는 로그인을 사용하여 {{site.data.keywor
 
 {{site.data.keyword.Bluemix_notm}} 인스턴스를 설정하고 나면 관리 페이지를 사용하여 {{site.data.keyword.Bluemix_notm}} 인스턴스를 모니터링하고 관리할 수 있습니다. 자세한 정보는 [{{site.data.keyword.Bluemix_local_notm}} 및 {{site.data.keyword.Bluemix_dedicated_notm}} 관리](../hybrid/index.html#mng)를 참조하십시오. 업그레이드 및 유지보수에 대한 자세한 정보는 [데디케이티드 인스턴스 유지보수](index.html#maintaindedicated)를 참조하십시오.
 
-{{site.data.keyword.Bluemix_dedicated_notm}} 아키텍처 문서는 인계 시에 제공됩니다. 여기에는 지정된 {{site.data.keyword.Bluemix_dedicated_notm}} 환경의 고객 특정 구성뿐만 아니라 핵심 논리 아키텍처가 포함됩니다. 구성 정보는 두 부분으로 제공됩니다. 첫 번째 부분은 관리 콘솔의 시스템 정보 탭에서 볼 수 있습니다. 여기에는 호스트 데이터 센터, 인증 구성(해당하는 경우), 시스템 도메인 이름 및 키 컴포넌트 버전과 같은 정보가 있습니다. 두 번째 부분은 별도로 문서화된 네트워크 연결 옵션과 관련됩니다. 여기에는 VPN 형식의 전용 환경, 직접 링크 및 공용 인터넷 액세스가 포함됩니다. IBM이 핵심 아키텍처나 환경 구성에 중대한 변경을 수행하면 업데이트된 문서가 고객에게 곧 제공됩니다. 
+{{site.data.keyword.Bluemix_dedicated_notm}} 아키텍처 문서는 인계 시에 제공됩니다. 여기에는 지정된 {{site.data.keyword.Bluemix_dedicated_notm}} 환경의 고객 특정 구성뿐만 아니라 핵심 논리 아키텍처가 포함됩니다. 구성 정보는 두 부분으로 제공됩니다. 첫 번째 부분은 관리 콘솔의 시스템 정보 탭에서 볼 수 있습니다. 여기에는 호스트 데이터 센터, 인증 구성(해당하는 경우), 시스템 도메인 이름 및 키 컴포넌트 버전과 같은 정보가 있습니다. 두 번째 부분은 별도로 문서화된 네트워크 연결 옵션과 관련됩니다. 여기에는 VPN 형식의 전용 환경, 직접 링크 및 공용 인터넷 액세스가 포함됩니다.
+IBM이 핵심 아키텍처나 환경 구성에 중대한 변경을 수행하면 업데이트된 문서가 고객에게 곧 제공됩니다.
 
 ##역할 및 책임
 {: #rolesresponsibilities}
@@ -457,7 +458,7 @@ Akamai 또는 Dyn과 같은 글로벌 로드 밸런서를 선택할 수 있습�
 ### 고가용성
 {: #ha}
 
-지속적 가용성을 사용함을 물론, {{site.data.keyword.Bluemix_notm}}에서는 Cloud Foundry 및 기타 컴포넌트에 빌드된 기술을 사용하여 플랫폼에서 고가용성도 제공합니다.
+지속적 가용성을 사용함은 물론, {{site.data.keyword.Bluemix_notm}}에서는 Cloud Foundry 및 기타 컴포넌트에 빌드된 기술을 사용하여 플랫폼에서 고가용성도 제공합니다.
 
 이 기술에는 다음이 포함됩니다.
 
