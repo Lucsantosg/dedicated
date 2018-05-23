@@ -98,7 +98,7 @@ Durch optionale Komponenten, die zusätzlich zum Kauf angeboten werden, können 
 
 Wenn Sie über eine private Serviceinstanz Ihrer dedizierten Umgebung verfügen, wird bei den Servicenamen in Ihrem Katalog das Tag `Dedicated` angezeigt. Entsprechend sehen Sie "Angepasst" bei den Servicekacheln (d. h. Sie haben einen Servicebroker für die Erstellung verwendet), wenn es sich um einen benutzerdefinierten Service handelt. Alle anderen aufgelisteten Services ohne das Tag "Dediziert" oder "Angepasst" sind über die Syndikation aus {{site.data.keyword.Bluemix_notm}} Public verfügbar. Syndizierte Services bieten die Funktion zum Erstellen von Hybridanwendungen, die aus öffentlichen und privaten Services bestehen.
 
-|Service	|Verfügbar in Region 'Vereinigte Staaten (Süden)'	|Verfügbar in Region 'Europa - Vereinigtes Königreich' |Verfügbar in Region 'Deutschland' |Verfügbar in Region 'Vereinigte Staaten (Osten)'|Verfügbar in Region 'Sydney, Australien'|
+|Service	|Verfügbar in Region 'Vereinigte Staaten (Süden)'	|Verfügbar in Region 'Europa - Vereintes Königreich' |Verfügbar in Region 'Deutschland' |Verfügbar in Region 'Vereinigte Staaten (Osten)'|Verfügbar in Region 'Sydney, Australien'|
 |:----------|:------------------------------|:------------------|:------------------|:------------------|:--------------|
 |{{site.data.keyword.alertnotificationshort}} | Ja | Ja | Nein | Nein | Ja |
 |{{site.data.keyword.appseccloudshort}}		| Ja | Ja | Nein | Nein | Ja |
@@ -411,7 +411,7 @@ Kritische Probleme (Vorfälle) sind dringende, nicht erwartete Serviceausfälle 
 
 Wenn Sie Ihre Benachrichtigungen in einen Web-Service, der Web-Hooks unterstützt, integrieren wollen, finden Sie Informationen zur Erweiterung der Benachrichtigungsfunktionalität unter [Benachrichtigungen und Ereignisabonnements](../hybrid/index.html#oc_eventsubscription).
 
-![Problembehebungsprozess](../local/images/incidentresponseprocess.png "Problembehebungsprozess")
+![Problembehebungsprozess](../local/images/incidentresponseprocess.svg "Problembehebungsprozess")
 
 Abbildung 2. Problembehebungsprozess
 
