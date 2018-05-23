@@ -16,7 +16,7 @@ lastupdated: "2018-03-28"
 {: #dedicated}
 
 
-{{site.data.keyword.Bluemix}} 是一種以雲端為基礎的開放標準平台，用於建置、執行及管理應用程式。使用 {{site.data.keyword.Bluemix_dedicated_notm}}，即可在您自己的專用 SoftLayer 環境中，使用強大而簡潔的 {{site.data.keyword.Bluemix_notm}}，而這個環境同時安全地連接至「{{site.data.keyword.Bluemix_notm}} 公用」環境及您自己的網路。
+{{site.data.keyword.Bluemix}} 是一種以雲端為基礎的開放標準平台，用於建置、執行及管理應用程式。使用 {{site.data.keyword.Bluemix_dedicated_notm}}，即可在您自己的專用 SoftLayer 環境中，使用強大而簡潔的 {{site.data.keyword.Bluemix_notm}}，而這個環境同時安全地連接至 {{site.data.keyword.Bluemix_notm}} Public 環境及您自己的網路。
 {:shortdesc}
 
 {{site.data.keyword.Bluemix_notm}} 的所有專用部署都包括下列好處及特性，而且不需額外付費：VPN、專用虛擬區域網路 (VLAN)、防火牆、運用現有內部部署資料庫及應用程式的能力、24 小時全年無休的現場安全防護、專用硬體及標準支援。
@@ -34,7 +34,7 @@ lastupdated: "2018-03-28"
 |選用| [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | {{site.data.keyword.apiconnect_long}} 將 {{site.data.keyword.APIM}} 及 IBM StrongLoop 整合成單一供應項目，提供綜合性解決方案來建立、執行、管理及強制執行 API 和微服務。|
 |選用| [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | {{site.data.keyword.cloudant}} 提供對於始終處於開啟狀態之完整受管理 NoSQL JSON 資料層的存取。此服務與 CouchDB 相容，而且可透過方便使用的 HTTP 介面來存取，可用於行動及 Web 應用程式模型。|
 |選用| [{{site.data.keyword.containershort}}](/docs/containers/cs_dedicated.html) | 在 {{site.data.keyword.Bluemix_dedicated_notm}} 上執行 Docker 容器。容器是虛擬軟體物件，其中包含應用程式執行所需的所有元素。容器具有資源隔離及配置的優點，而且比虛擬機器（舉例來說）更容易攜帶且更具效率。|
-| 選用| [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | 使用「{{site.data.keyword.contdelivery_short}} 專用」來自動進行建置、單元測試、部署及其他作業。透過豐富的 Web 型 IDE 編輯及推送程式碼。建立工具鏈來啟用工具整合，以支援開發、部署及操作作業。|
+| 選用| [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | 使用 {{site.data.keyword.contdelivery_short}} Dedicated 來自動進行建置、單元測試、部署及其他作業。透過豐富的 Web 型 IDE 編輯及推送程式碼。建立工具鏈來啟用工具整合，以支援開發、部署及操作作業。|
 | 選用| [{{site.data.keyword.dashdbshort}}](/docs/services/Db2whc/index.html#getting_started) | IBM {{site.data.keyword.dashdbshort}} for Analytics 是完整受管理 SQL 雲端資料庫服務，最適合用於資料倉儲及分析工作負載。IBM {{site.data.keyword.dashdbshort}} for Transactions 是完整受管理 SQL 雲端資料庫服務，最適合用於一般用途、Web 應用程式及交易式工作負載。|
 | 選用| [專用 GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}} 是 GitHub Enterprise 的 IBM Cloud 管理之完整受管理版本，可提供開發人員所喜歡的社交經驗。此服務目前專用於 {{site.data.keyword.Bluemix_dedicated_notm}} 環境。|
 | 選用（測試版）| [{{site.data.keyword.loganalysislong_notm}}](/docs/services/CloudLogAnalysis/containers/containers_kubernetes.html#dedicated) | 在 {{site.data.keyword.Bluemix_notm}} 使用者介面中提供 Cloud Foundry 應用程式的日誌，並在 Kibana 中提供可搜尋的日誌和儀表板。|
@@ -58,7 +58,7 @@ lastupdated: "2018-03-28"
 |專用 {{site.data.keyword.apiconnect_short}} Enterprise 10 萬個 API 呼叫增加| {{site.data.keyword.apiconnect_short}} Enterprise 環境的延伸，每月可提供 10 萬個 API 呼叫的額外容量。|
 |專用 {{site.data.keyword.cloudant}} 1.6 TB 容量增加| 包括在設計容量為 1.6 TB 的專用環境內，執行專用版本的 {{site.data.keyword.cloudantfull}}。|
 |{{site.data.keyword.contdelivery_short}} 專用實例| 在專用環境內執行的 {{site.data.keyword.contdelivery_short}} 的專用版本。容量取決於「{{site.data.keyword.contdelivery_short}} 專用授權使用者」授權。|
-|{{site.data.keyword.contdelivery_short}} 專用授權使用者| 將「授權使用者」存取權授與所指定的「{{site.data.keyword.contdelivery_short}} 專用」環境，以及用於該環境。必須授權每位屬於 {{site.data.keyword.Bluemix_notm}}「組織」的使用者，而這個組織包含 {{site.data.keyword.contdelivery_short}} 服務實例。|
+|{{site.data.keyword.contdelivery_short}} 專用授權使用者| 將「授權使用者」存取權授與所指定的 {{site.data.keyword.contdelivery_short}} Dedicated 環境，以及用於該環境。必須授權每位屬於 {{site.data.keyword.Bluemix_notm}}「組織」的使用者，而這個組織包含 {{site.data.keyword.contdelivery_short}} 服務實例。|
 |專用 {{site.data.keyword.dashdbshort}} 企業 64.1| 在具有 64 GB RAM 及 16 個 vCPU 的專用伺服器上，每個服務實例一個資料庫。建議最多使用 1 TB 預載資料（以一般壓縮為依據）。|
 |專用 {{site.data.keyword.dashdbshort}} 企業 256.4| 在具有 256 GB RAM 及 32 個核心的專用裸機伺服器上，每個服務實例一個資料庫。建議最多使用 4 TB 預載資料（以一般壓縮為依據）。|
 |專用 {{site.data.keyword.dashdbshort}} 企業 256.12| 在具有 256 GB RAM 及 32 個核心的專用裸機伺服器上，每個服務實例一個資料庫。建議最多使用 12 TB 預載資料（以一般壓縮為依據）。此儲存空間密集方案適合資料量較高且查詢不需要以記憶體內速度執行的環境。|
@@ -96,7 +96,7 @@ lastupdated: "2018-03-28"
 
 {{site.data.keyword.Bluemix_dedicated_notm}} 包括一份專用型錄，將公用、專用及本端部署的核准服務組織在一起。您甚至可以透過 {{site.data.keyword.Bluemix_notm}} 型錄發佈及管理專屬服務的存取權。您可以選擇根據資料隱私及安全準則來決定符合商業需求的公用服務。
 
-如果有適用於您專用環境的服務專用實例，則會在型錄中看到服務名稱含有 `Dedicated` 標籤。同樣地，如果它是自訂服務（表示您已使用服務分配管理系統來建立它），則會看到服務名稱列有「自訂」。透過從「{{site.data.keyword.Bluemix_notm}} 公用」進行聯合，可以使用已列出且沒有「專用」或「自訂」標籤的所有其他服務。聯合服務提供建立包含公用及專用服務之混合式應用程式的功能。
+如果有適用於您專用環境的服務專用實例，則會在型錄中看到服務名稱含有 `Dedicated` 標籤。同樣地，如果它是自訂服務（表示您已使用服務分配管理系統來建立它），則會看到服務名稱列有「自訂」。透過從 {{site.data.keyword.Bluemix_notm}} Public 進行聯合，可以使用已列出且沒有「專用」或「自訂」標籤的所有其他服務。聯合服務提供建立包含公用及專用服務之混合式應用程式的功能。
 
 |服務	|可在美國南部地區使用|可在歐洲英國地區使用|可在德國地區使用|可在美國東部地區使用|可在澳洲雪梨地區使用|
 |:----------|:------------------------------|:------------------|:------------------|:------------------|:--------------|
@@ -140,7 +140,7 @@ lastupdated: "2018-03-28"
 |{{site.data.keyword.visualrecognitionshort}}	| 是 		| 是	 	| 否| 否| 是|
 |{{site.data.keyword.weather_short}}		| 是		| 是		| 否| 否| 是|
 |{{site.data.keyword.workloadscheduler}}	| 是		| 是		| 是| 否| 是|
-{: caption="表 4. 依地區可從「{{site.data.keyword.Bluemix_notm}} 公用」聯合的服務" caption-side="top"}
+{: caption="表 4. 依地區可從 {{site.data.keyword.Bluemix_notm}} Public 聯合的服務" caption-side="top"}
 {: #table04}
 
 **附註**：此表格不包括協力廠商服務。請檢查協力廠商服務選項的型錄。
@@ -167,7 +167,7 @@ lastupdated: "2018-03-28"
 整個 {{site.data.keyword.IBM_notm}} Cloud 環境包括下列重要網路環境：
 <ul>
 <li>{{site.data.keyword.Bluemix_dedicated_notm}}</li>
-<li>{{site.data.keyword.Bluemix_notm}} 公用</li>
+<li>{{site.data.keyword.Bluemix_notm}} Public</li>
 <li>{{site.data.keyword.IBM_notm}} 作業</li>
 </ul>
 </dd>
@@ -177,9 +177,9 @@ lastupdated: "2018-03-28"
 企業可以新增其他專用應用程式服務。<br>
 如需可以新增的其他服務及運算功能，請參閱[表 2](#table02)。
 </dd>
-<dt>{{site.data.keyword.Bluemix_notm}} 公用</dt>
+<dt>{{site.data.keyword.Bluemix_notm}} Public</dt>
 <dd>
-{{site.data.keyword.Bluemix_dedicated_notm}} 可能包括與「{{site.data.keyword.Bluemix_notm}} 公用」地區的出埠連線。這會將公用服務聯合至專用型錄。「{{site.data.keyword.Bluemix_notm}} 公用」服務聯合提供一種便利方法，讓開發人員可以建置在企業的 {{site.data.keyword.Bluemix_dedicated_notm}} 上管理的應用程式，以及存取「{{site.data.keyword.Bluemix_notm}} 公用」中執行的服務。可從「{{site.data.keyword.Bluemix_notm}} 公用」聯合的服務清單會顯示在[聯合型錄一節的表 4](#catalogdedicated) 上。
+{{site.data.keyword.Bluemix_dedicated_notm}} 可能包括與 {{site.data.keyword.Bluemix_notm}} Public 地區的出埠連線。這會將公用服務聯合至專用型錄。{{site.data.keyword.Bluemix_notm}} Public 服務聯合提供一種便利方法，讓開發人員可以建置在企業的 {{site.data.keyword.Bluemix_dedicated_notm}} 上管理的應用程式，以及存取 {{site.data.keyword.Bluemix_notm}} Public 中執行的服務。可從 {{site.data.keyword.Bluemix_notm}} Public 聯合的服務清單會顯示在[聯合型錄一節的表 4](#catalogdedicated) 上。
 </dd>
 <dt>{{site.data.keyword.IBM_notm}} 作業</dt>
 <dd>
@@ -200,7 +200,7 @@ lastupdated: "2018-03-28"
 ## 設定 {{site.data.keyword.Bluemix_dedicated_notm}}
 {: #setupdedicated}
 
-{{site.data.keyword.Bluemix_dedicated_notm}} 的設計是為了提供「{{site.data.keyword.Bluemix_notm}} 公用」供應項目的專用版本。您可以使用 {{site.data.keyword.Bluemix_notm}} 服務及運行環境，來支援 IBM 所管理的 {{site.data.keyword.BluSoftlayer}} 帳戶中的運算需求。
+{{site.data.keyword.Bluemix_dedicated_notm}} 的設計是為了提供 {{site.data.keyword.Bluemix_notm}} Public 供應項目的專用版本。您可以使用 {{site.data.keyword.Bluemix_notm}} 服務及運行環境，來支援 IBM 所管理的 {{site.data.keyword.BluSoftlayer}} 帳戶中的運算需求。
 
 IBM 讓您能使用受到密碼保護的登入方式來存取 {{site.data.keyword.Bluemix_dedicated_notm}}。您可以存取服務、運行環境及相關聯的資源，也可以部署及移除 {{site.data.keyword.Bluemix_notm}} 應用程式。IBM 利用多個 {{site.data.keyword.BluSoftlayer}} 位置來交付 {{site.data.keyword.Bluemix_dedicated_notm}}，因此您可以在接近您的位置取得專用版本。
 
@@ -222,7 +222,7 @@ IBM 讓您能使用受到密碼保護的登入方式來存取 {{site.data.keywor
 <li>識別並指派環境的管理團隊角色。
 	<ol type="a">
 	<li>IBM 會根據您提供的資訊，配置網路存取權。管理存取權會授與給您指定的聯絡人。您也必須指定聯絡人來負責支援及計費。</li>
-	<li>IBM 會在您的專用環境中設定聯合型錄，以顯示您的專用服務。聯合型錄包含來自「{{site.data.keyword.Bluemix_notm}} 公用」，用來形成聯合組織且可供您使用的其他服務。您可以選擇根據資料隱私及安全準則來決定符合商業需求的公用服務。</li>
+	<li>IBM 會在您的專用環境中設定聯合型錄，以顯示您的專用服務。聯合型錄包含來自 {{site.data.keyword.Bluemix_notm}} Public，用來形成聯合組織且可供您使用的其他服務。您可以選擇根據資料隱私及安全準則來決定符合商業需求的公用服務。</li>
 	<li>您會驗證網路和防火牆配置以及存取權。</li>
 	</ol>
 </li>
@@ -234,7 +234,7 @@ IBM 讓您能使用受到密碼保護的登入方式來存取 {{site.data.keywor
 <li>您選取要使用哪個資料中心來管理專用實例。如需資料中心選項的相關資訊，請參閱 <a href="http://www.softlayer.com/data-centers" target="_blank">{{site.data.keyword.BluSoftlayer}} 資料中心位置 <img src="../icons/launch-glyph.svg" alt="外部鏈結圖示"></a>。</li>
 <li>您為部署指定網域名稱，以及要使用的 ID。設定 {{site.data.keyword.Bluemix_notm}} 實例時，您會得到三個網域。請挑選 <code>*mycompany*.*region*.bluemix.net</code> 和 <code>*mycompany*.*region*.mybluemix.net</code> 的字首。然後，選擇第三個網域的完整名稱。<br />
 <p>您可以根據自己的需要選擇任意數量的自訂網域。不過，您應負責取得自訂網域的憑證。如需建立自訂網域的相關資訊，請參閱<a href="/docs/apps/updapps.html#domain">建立及使用自訂網域</a>。</p></li>
-<li>您識別用來在「{{site.data.keyword.Bluemix_notm}} 公用」中代表您公司之公用帳戶的擁有者。IBM 會使用此帳戶來追蹤聯合服務的用量。</li>
+<li>您識別用來在 {{site.data.keyword.Bluemix_notm}} Public 中代表您公司之公用帳戶的擁有者。IBM 會使用此帳戶來追蹤聯合服務的用量。</li>
 <li>您選取資料中心的安全連線類型。可選取的類型包含 {{site.data.keyword.Bluemix_notm}} VPN、{{site.data.keyword.Bluemix_notm}} Direct Link 及 AT&T Net Bond。</li>
 <li>您決定是否將從公用網際網路存取您的專用環境。</li>
 <li>{{site.data.keyword.Bluemix_dedicated_notm}} 使用 IBM ID 作為鑑別系統。如果您需要與現有鑑別系統的單一登入聯合，則可以選擇使用 SAML 搭配 IBM ID。如需使用及登錄 IBM ID 的相關資訊，請參閱<a href="https://www.ibm.com/account/profile/us?page=regfaqhelp#4">說明及常見問題</a>頁面。
@@ -403,7 +403,7 @@ IBM 會針對「狀態」頁面上每一個維護時間範圍所計劃的變更�
 
 如果您要整合您的通知與支援 Webhook 的 Web 服務，請參閱[通知及事件訂閱](../hybrid/index.html#oc_eventsubscription)，以取得如何延伸通知功能的相關資訊。
 
-![突發事件回應程序](../local/images/incidentresponseprocess.png "突發事件回應程序")
+![突發事件回應程序](../local/images/incidentresponseprocess.svg "突發事件回應程序")
 
 圖 2. 突發事件回應程序
 
@@ -415,7 +415,7 @@ IBM 會針對「狀態」頁面上每一個維護時間範圍所計劃的變更�
 ## {{site.data.keyword.Bluemix_dedicated_notm}} 的災難回復
 {: #dr}
 
-{{site.data.keyword.Bluemix_dedicated_notm}} 災難回復的設定方式與使用「{{site.data.keyword.Bluemix_short}} 公用」類似。「{{site.data.keyword.Bluemix_short}} 公用」提供一個連續可用的平台，以使用多種失敗安全的措施來進行創新，確保您的組織、空間及應用程式隨時可用。將應用程式部署至多個地理區域會啟用持續可用性，以免於非計劃性地同時損失多個硬體或軟體元件，或損失整個資料中心，以便即使在某個地理位置發生自然災難時，仍將可以使用替代地理位置中的分散式「{{site.data.keyword.Bluemix_notm}} 公用」應用程式實例。
+{{site.data.keyword.Bluemix_dedicated_notm}} 災難回復的設定方式與使用 {{site.data.keyword.Bluemix_short}} Public 類似。{{site.data.keyword.Bluemix_short}} Public 提供一個連續可用的平台，以使用多種失敗安全的措施來進行創新，確保您的組織、空間及應用程式隨時可用。將應用程式部署至多個地理區域會啟用持續可用性，以免於非計劃性地同時損失多個硬體或軟體元件，或損失整個資料中心，以便即使在某個地理位置發生自然災難時，仍將可以使用替代地理位置中的分散式 {{site.data.keyword.Bluemix_notm}} Public 應用程式實例。
 {: shortdesc}
 
 透過應用程式的持續可用性、固有的平台高可用性以及發生失敗時還原實例的能力，可以達成 {{site.data.keyword.Bluemix_dedicated_notm}} 的災難回復。您需要負責透過部署至多個地區，來啟用應用程式的持續可用性。高可用性是透過 Cloud Foundry 中所含的技術及其他元件建置於平台層次。而且，您可以與 IBM 合作，確保已適當地備份資料，以便隨時應付需要還原實例的情況。
@@ -423,7 +423,7 @@ IBM 會針對「狀態」頁面上每一個維護時間範圍所計劃的變更�
 ### 啟用 {{site.data.keyword.Bluemix_dedicated_notm}} 的持續可用性
 {: #enabling}
 
-依預設，「{{site.data.keyword.Bluemix_notm}} 公用」會部署至多個地理位置。不過，您必須執行下列動作，才能啟用分散在全球的 {{site.data.keyword.Bluemix_dedicated_notm}} 實例：
+依預設，{{site.data.keyword.Bluemix_notm}} Public 會部署至多個地理位置。不過，您必須執行下列動作，才能啟用分散在全球的 {{site.data.keyword.Bluemix_dedicated_notm}} 實例：
 
 * 確定您的開發人員將應用程式部署至多個地區（透過手動或自動化處理程序）。地區應該彼此相隔 200 公里以上，確保自然災難不會同時影響這兩個地理位置。
 * 配置廣域負載平衡器（例如 Akamai 或 Dyn），使其指向至少兩個不同地區中的應用程式。

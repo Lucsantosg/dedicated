@@ -94,7 +94,7 @@ lastupdated: "2018-03-28"
 ## 联合目录
 {: #catalogdedicated}
 
-{{site.data.keyword.Bluemix_dedicated_notm}} 包含一个私有目录，用于将公共部署、专用部署和本地部署中已批准的服务集中在一起。您甚至可以通过 {{site.data.keyword.Bluemix_notm}} 目录来发布您自己的服务并管理对这些服务的访问权。您可以选择根据自己的数据隐私和安全标准来确定哪些公共服务满足您的业务需求。
+{{site.data.keyword.Bluemix_dedicated_notm}} 包含一个私有目录，用于将公共部署、专用部署和本地部署中已批准的服务集中在一起。您甚至可以通过 {{site.data.keyword.Bluemix_notm}}“目录”来发布您自己的服务并管理对这些服务的访问权。您可以选择根据自己的数据隐私和安全标准来确定哪些公共服务满足您的业务需求。
 
 如果您的专用环境有私有的服务实例，那么您将看到“目录”中服务名称带有“`专用`”标记。与此类似，如果这是定制服务（即您使用的是服务代理程序创建的服务），那么您将看到列出服务名称时有“定制”字样。通过从 {{site.data.keyword.Bluemix_notm}} Public 使用联合，即可使用不带“专用”或“定制”标记列出的其他所有服务。联合服务提供了用于创建混合应用程序的功能，混合应用程序由公共服务和私有服务组成。
 
@@ -400,7 +400,7 @@ IBM 会发送有关在“状态”页面上针对每个维护时段计划进行�
 
 如果要将通知与支持 Web Hook 的 Web Service 集成在一起，请参阅[通知和事件预订](../hybrid/index.html#oc_eventsubscription)，以获取有关如何扩展通知功能的信息。
 
-![事件响应过程](../local/images/incidentresponseprocess.png "事件响应过程")
+![事件响应过程](../local/images/incidentresponseprocess.svg "事件响应过程")
 
 图 2. 事件响应过程
 

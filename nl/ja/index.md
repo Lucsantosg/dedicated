@@ -417,7 +417,7 @@ IBM サポートおよび運用チームに知らせる必要のある問題を�
 
 通知を、Web フックをサポートする Web サービスと統合したい場合は、[通知およびイベント・サブスクリプション](../hybrid/index.html#oc_eventsubscription)で、通知機能の拡張方法についての説明を参照してください。
 
-![インシデント対応プロセス](../local/images/incidentresponseprocess.png "インシデント対応プロセス")
+![インシデント対応プロセス](../local/images/incidentresponseprocess.svg "インシデント対応プロセス")
 
 図 2. インシデント対応プロセス
 

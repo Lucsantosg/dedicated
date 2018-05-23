@@ -85,7 +85,7 @@ lastupdated: "2018-03-28"
 |데디케이티드 런타임 16GB 용량 증가  | 추가 16GB 런타임 용량을 제공하는 런타임 환경의 확장입니다. |
 |데디케이티드 Direct Link 1Gbps 용량 | 최대 1Gbps의 데이터 전송을 위해 디자인된 해당 {{site.data.keyword.BluSoftlayer}} 네트워크 PoP(Point of Presence)에 직접 연결된 데디케이티드 네트워크 링크입니다. |
 |데디케이티드 Direct Link 10Gbps 용량 | 최대 10Gbps의 데이터 전송을 위해 디자인된 해당 {{site.data.keyword.BluSoftlayer}} 네트워크 PoP(Point of Presence)에 직접 연결된 데디케이티드 네트워크 링크입니다. |
-|IBM {{site.data.keyword.Bluemix_dedicated_notm}} 하드웨어 방화벽 - 고가용성 | 데디케이티드 환경 내의 동일한 VLAN에서 단일, 다중 또는 모든 서버를 보호하기 위해 구성된 중복 1Gbps 하드웨어 방화벽입니다. |
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} Hardware Firewall - 고가용성 | 데디케이티드 환경 내의 동일한 VLAN에서 단일, 다중 또는 모든 서버를 보호하기 위해 구성된 중복 1Gbps 하드웨어 방화벽입니다. |
 {: caption="표 3. 구매할 수 있는 선택적 플랫폼 추가 기능 컴포넌트" caption-side="top"}
 {: #table03}
 
@@ -162,7 +162,7 @@ lastupdated: "2018-03-28"
 이전의 아키텍처 다이어그램에서 보여주는 주요 아키텍처 컴포넌트에는 다음이 포함되어 있습니다.
 
 <dl>
-<dt>{{site.data.keyword.IBM_notm}} 클라우드</dt>
+<dt>{{site.data.keyword.IBM_notm}} Cloud</dt>
 <dd>
 {{site.data.keyword.IBM_notm}} Cloud 환경 전체에는 다음과 같은 중요한 네트워킹 환경이 포함되어 있습니다.
 <ul>
@@ -312,7 +312,7 @@ IBM이 핵심 아키텍처나 환경 구성에 중대한 변경을 수행하면 
 |이벤트 발견 및 문제점 판별을 위한 식별 도구 | {{site.data.keyword.Bluemix_notm}} 플랫폼 레벨에서 이벤트 발견 및 문제점 판별에 사용되는 IBM 및 써드파티 도구를 식별합니다. | IBM |
 |확대 플랜 정의 | 모니터링 컴포넌트를 통해 발견된 이벤트를 선별하고 해결하는 단계적 확대 플랜을 정의합니다. | IBM |
 |인프라, 플랫폼 및 지원 계약에 서명 | 환경에 대한 재무 조건을 포함하여 구독 계약에 서명합니다. 지원 구독에 서명합니다. | 고객 |
-|환경 조달 | {{site.data.keyword.Bluemix_notm}}을 호스팅하는 코어 및 서비스 VLAN과, Data Power 및 {{site.data.keyword.Bluemix_notm}} Firewall을 호스팅하는 베어 메탈 서비스 등 컴퓨팅 리소스, 네트워크 및 스토리지를 조달합니다. VPN 터널을 허용하는 인프라를 제공합니다. | IBM |
+|환경 조달 | {{site.data.keyword.Bluemix_notm}}을 호스팅하는 코어 및 서비스 VLAN과, Data Power 및 {{site.data.keyword.Bluemix_notm}} Firewall을 호스팅하는 베어메탈 서비스 등 컴퓨팅 리소스, 네트워크 및 스토리지를 조달합니다. VPN 터널을 허용하는 인프라를 제공합니다. | IBM |
 |패브릭, 애플리케이션, 모니터링 및 관리 컴포넌트 설치 | 패브릭 컴포넌트(예: BOSH Director, 클라우드 제어기, 상태 관리자, 메시징, 라우터, CELL 및 서비스 제공자) 및 단계적 확대와 문제점 발견 플랜에 정의된 모니터링 컴포넌트를 설치하고 구성하며 확인합니다. | IBM |
 |보안 컴포넌트 설치 및 구성 | 모니터링 및 단계적 확대 플랜에 연결된 보안 컴포넌트(예: IBM QRadar, 신임 정보 저장소, 침입 방지 시스템, IBM BigFix, IBM Security Privileged Identity Management)를 설치하고 구성합니다. | IBM |
 |사용자 정의 컴포넌트 설치 및 구성 |  	{{site.data.keyword.Bluemix_notm}} 제품 및 서비스 범위의 외부에 상주하는 사용자 정의 컴포넌트를 설치하고 구성합니다. | 고객 |
@@ -404,7 +404,7 @@ IBM 지원 센터 및 운영 센터의 주의가 필요한 문제를 식별하�
 
 웹 훅을 지원하는 웹 서비스와 알림을 통합하려면 [알림 및 이벤트 구독](../hybrid/index.html#oc_eventsubscription)에서 알림 기능 확장 방법에 대한 정보를 참조하십시오.
 
-![인시던트 대응 프로세스](../local/images/incidentresponseprocess.png "인시던트 대응 프로세스")
+![인시던트 대응 프로세스](../local/images/incidentresponseprocess.svg "인시던트 대응 프로세스")
 
 그림 2. 인시던트 응답 프로세스
 
