@@ -63,8 +63,8 @@ Sono presenti dei componenti facoltativi disponibili per te da acquistare per ri
 |Istanza di {{site.data.keyword.contdelivery_short}} dedicato | Una versione privata di {{site.data.keyword.contdelivery_short}} in esecuzione all'interno di un ambiente dedicato. La capacità è determinata dai diritti dell'utente autorizzato di {{site.data.keyword.contdelivery_short}} dedicato. |
 |Utente autorizzato di {{site.data.keyword.contdelivery_short}} dedicato | Concede l'accesso e l'utilizzo di un ambiente {{site.data.keyword.contdelivery_short}} dedicato designato a un utente autorizzato. Ogni utente appartenente a un'organizzazione {{site.data.keyword.Bluemix_notm}} che contiene un'istanza del servizio {{site.data.keyword.contdelivery_short}} deve essere autorizzato. |
 |Dedicato per {{site.data.keyword.dashdbshort}} Enterprise 64.1 | Un database per istanza del servizio su un server dedicato con 64 GB RAM e 16 vCPU. Raccomandato fino a un 1 TB di precaricamento dati, in base alla compressione standard.  |
-|Dedicato per {{site.data.keyword.dashdbshort}} Enterprise 256.4 | Un database per istanza del servizio su un server dedicato 256 GB RAM e 32 core. Raccomandato fino a un 4 TB di precaricamento dati, in base alla compressione standard. |
-|Dedicato per {{site.data.keyword.dashdbshort}} Enterprise 256.12  | Un database per istanza del servizio su un server dedicato 256 GB RAM e 32 core. Raccomandato fino a un 12 TB di precaricamento dati, in base alla compressione standard. Questo è un piano ad alta densità di memorizzazione per gli ambienti in cui i volumi di dati sono elevati e non è necessario eseguire le query alle velocità in memoria. |
+|Dedicato per {{site.data.keyword.dashdbshort}} Enterprise 256.4 | Un database per istanza del servizio su un server bare metal dedicato con 256 GB RAM e 32 core. Raccomandato fino a un 4 TB di precaricamento dati, in base alla compressione standard. |
+|Dedicato per {{site.data.keyword.dashdbshort}} Enterprise 256.12  | Un database per istanza del servizio su un server bare metal dedicato con 256 GB RAM e 32 core. Raccomandato fino a un 12 TB di precaricamento dati, in base alla compressione standard. Questo è un piano ad alta densità di memorizzazione per gli ambienti in cui i volumi di dati sono elevati e non è necessario eseguire le query alle velocità in memoria. |
 |IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions 2.8.500 | Istanza dedicata che supporta carichi di lavoro OLTP (Online Transaction Processing) con 8 GB di RAM e 500 GB di spazio per dati e log. |
 |IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions 12.128.1400 | Istanza dedicata che supporta carichi di lavoro OLTP (Online Transaction Processing) con 128 GB di RAM e 1,4 TB di archiviazione SSD per dati e log. |
 |IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions High Availability 2.8.500 | Istanza dedicata che supporta carichi di lavoro OLTP (Online Transaction Processing) con 8 GB di RAM e 500 GB di spazio per dati e log e che include un ulteriore server di standby per l'alta disponibilità. |
@@ -88,7 +88,7 @@ Sono presenti dei componenti facoltativi disponibili per te da acquistare per ri
 |Incremento della capacità di 16 GB dedicato per i runtime  | Un'estensione dell'ambiente dei runtime che fornisce una capacità di runtime extra di 16 GB. |
 |Capacità di 1 Gbps dedicata per Direct Link | Un link di rete dedicato che si connette direttamente al POP (point of presence) di rete {{site.data.keyword.BluSoftlayer}} designato per i trasferimenti dati fino a 1 Gbps. |
 |Capacità di 10 Gbps dedicata per Direct Link | Un link di rete dedicato che si connette direttamente al POP (point of presence) di rete {{site.data.keyword.BluSoftlayer}} designato per i trasferimenti dati fino a 10 Gbps. |
-|Firewall hardware per IBM {{site.data.keyword.Bluemix_dedicated_notm}} - elevata disponibilità | Un firewall hardware di 1 Gbps ridondante configurato per la protezione di uno, alcuni o tutti i server nella stessa VLAN nell'ambiente dedicato. |
+|Hardware Firewall per IBM {{site.data.keyword.Bluemix_dedicated_notm}} - elevata disponibilità | Un firewall hardware di 1 Gbps ridondante configurato per la protezione di uno, alcuni o tutti i server nella stessa VLAN nell'ambiente dedicato. |
 {: caption="Tabella 3. Componenti aggiuntivi della piattaforma facoltativi per l'acquisto" caption-side="top"}
 {: #table03}
 
@@ -331,7 +331,7 @@ La fase di inizio è utilizzata per organizzare l'ambiente {{site.data.keyword.B
 |Installare e configurare i componenti personalizzati |  	Installare e configurare i componenti personalizzati che si trovano al di fuori del campo di applicazione del prodotto e dei servizi {{site.data.keyword.Bluemix_notm}}. | Cliente |
 |Stabilire la configurazione di rete iniziale | Stabilire la configurazione di rete iniziale inclusi i firewall, DataPower, Fortigate e DNS. | IBM |
 |Connettere la pipeline {{site.data.keyword.Bluemix_notm}} | Connettere la pipeline di fornitura e di integrazione continua {{site.data.keyword.Bluemix_notm}} ai repository IBM. | IBM |
-|Personalizzare i componenti della soluzione esterni | Personalizzare i servizi di bilanciamento del carico per gli scenari di ripristino di emergenza. | Cliente |
+|Personalizzare i componenti della soluzione esterni | Personalizzare i programmi di bilanciamento del carico per gli scenari di ripristino di emergenza. | Cliente |
 |Installare la soluzione VPN | Installare la soluzione VPN bidirezionale. | IBM |
 |Configurare il server di accesso | Configurare il server di accesso per l'utilizzo con SAML, se necessario. | IBM |
 |Tracciare lo stato per le verifiche di sicurezza, conformità e controllo  | Tracciare lo stato fino al punto in cui vengono osservati tutti gli strumenti e processi per raggiungere la conformità identificata. | Cliente |
@@ -417,7 +417,7 @@ Gli incidenti critici sono interruzioni dei servizi impreviste con carattere d'u
 
 Se desideri integrare le tue notifiche con un servizio Web che supporti gli hook Web, vedi [Notifiche e sottoscrizioni di eventi](../hybrid/index.html#oc_eventsubscription) per informazioni su come estendere le funzioni di notifica.
 
-![Processo di risposta agli eventi incidenti](../local/images/incidentresponseprocess.png "Processo di risposta agli incidenti")
+![Processo di risposta agli eventi incidenti](../local/images/incidentresponseprocess.svg "Processo di risposta agli incidenti")
 
 Figura 2. Processo di risposta agli incidenti
 
