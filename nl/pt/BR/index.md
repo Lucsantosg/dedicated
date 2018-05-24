@@ -86,7 +86,7 @@ Há componentes opcionais que estão disponíveis para você comprar para escala
 |Aumento de capacidade de 16 GB de tempos de execução dedicados  | Uma extensão do ambiente de tempo de execução para fornecer um extra de 16 GB de capacidade de tempo de execução. |
 |Capacidade de 1 Gbps de link direto dedicado | Um link de rede dedicado que conecta diretamente ao ponto de presença apropriado da rede do {{site.data.keyword.BluSoftlayer}} projetado para as transferências de dados de até 1 Gbps. |
 |Capacidade de 10 Gbps de link direto dedicado | Um link de rede dedicado que conecta diretamente ao ponto de presença apropriado da rede do {{site.data.keyword.BluSoftlayer}} projetado para as transferências de dados de até 10 Gbps. |
-|Firewall de hardware do IBM {{site.data.keyword.Bluemix_dedicated_notm}} - alta disponibilidade | Um firewall de hardware redundante de 1 Gbps configurado para proteção de um único, vários ou todos os servidores na mesma VLAN dentro do ambiente Dedicated. |
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} Hardware Firewall - alta disponibilidade | Um firewall de hardware redundante de 1 Gbps configurado para proteção de um único, vários ou todos os servidores na mesma VLAN dentro do ambiente Dedicated. |
 {: caption="Tabela 3. Componentes opcionais de complemento de plataforma para compra" caption-side="top"}
 {: #table03}
 
@@ -406,7 +406,7 @@ Os incidentes críticos são indisponibilidades de serviço urgentes e inesperad
 
 Se deseja integrar suas notificações a um serviço da web que suporta o ganchos da web, consulte [Notificações e inscrições de eventos](../hybrid/index.html#oc_eventsubscription) para obter informações sobre como estender seus recursos de notificação.
 
-![Processo de resposta de incidente](../local/images/incidentresponseprocess.png "Processo de resposta de incidente")
+![Processo de resposta de incidente](../local/images/incidentresponseprocess.svg "Processo de resposta de incidente")
 
 Figura 2. Processo de resposta de incidente
 
