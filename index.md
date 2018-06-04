@@ -268,7 +268,7 @@ The following list shows the customer roles and responsibilities that you assign
 <dd>Works with the IBM support team as needed once the environment is up and running. This is someone with Superuser access to the Administration console who can approve and schedule maintenance updates for the {{site.data.keyword.Bluemix_notm}} environment and be available at all times in the event of a critical incident. The person assigned to this role must have technical knowledge of the {{site.data.keyword.Bluemix_notm}} environment and be in a position to reach others within company that have expert skills in an area that might be affected including networking or security, for example.</dd>
 </dl>
 
-Your customer representatives work with IBM specialists that work together to ensure that you always have the support that you need. You can upgrade to the Premium support tier to work with a dedicated technical account manager (TAM) for your account. For more information about the different support tiers, see [Types of support](/docs/get-support/getstarttssup.html#typesofsupport).The TAM completes the following types of tasks:
+Your customer representatives work with IBM specialists that work together to ensure that you always have the support that you need. You can upgrade to the Premium support tier to work with a dedicated Technical Account Manager (TAM) for your account. For more information about the different support tiers, see [Types of support](/docs/get-support/getstarttssup.html#typesofsupport).The TAM completes the following types of tasks:
 
 <ul>
 <li>Enables rapid adoption of your {{site.data.keyword.Bluemix_dedicated_notm}} environment.</li>
