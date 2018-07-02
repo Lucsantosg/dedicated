@@ -1,12 +1,10 @@
 ---
 
-
-
 copyright:
 
   years: 2015, 2018
 
-lastupdated: "2018-03-28"
+lastupdated: "2018-05-31"
 
 ---
 
@@ -29,17 +27,16 @@ Além disso, há um conjunto de serviços e componentes que são incluídos ou o
 
 | **Tipo**        | **Nome**            | **Descrição** |
 |-----------------|-------------------|-------------------|
-|Incluído | [Tempos de execução do {{site.data.keyword.Bluemix_notm}}](/docs/runtimes/common/index.html#available_buildpacks) | Use tempos de execução para colocar seu app funcionando rapidamente, sem necessidade de configurar e gerenciar as máquinas e os sistemas operacionais. Todos os tempos de execução do {{site.data.keyword.Bluemix_notm}} estão disponíveis para você usar em sua instância do {{site.data.keyword.Bluemix_dedicated_notm}}.|
+|Incluído | [Tempos de execução do {{site.data.keyword.Bluemix_notm}}](/docs/cfapps/runtimes.html) | Use tempos de execução para colocar seu app funcionando rapidamente, sem necessidade de configurar e gerenciar as máquinas e os sistemas operacionais. Todos os tempos de execução do {{site.data.keyword.Bluemix_notm}} estão disponíveis para você usar em sua instância do {{site.data.keyword.Bluemix_dedicated_notm}}.|
 | Incluído | [{{site.data.keyword.autoscaling}}](/docs/services/Auto-Scaling/index.html) | Aumentar ou diminuir dinamicamente a capacidade de cálculo do aplicativo com base em políticas. Com esse serviço, você tem uso ilimitado em seu ambiente do {{site.data.keyword.Bluemix_dedicated_notm}}. Nota: o Auto-scaling funciona atualmente somente com os tempos de execução do Cloud Foundry |
 |Opcional | [{{site.data.keyword.apiconnect_short}}](/docs/services/apiconnect/index.html) | O {{site.data.keyword.apiconnect_long}} integra o {{site.data.keyword.APIM}} e o IBM StrongLoop em uma única oferta que fornece uma solução abrangente para criar, executar, gerenciar e impingir APIs e microsserviços. |
 |Opcional | [{{site.data.keyword.cloudant}}](/docs/services/Cloudant/index.html#Cloudant) | O {{site.data.keyword.cloudant}} fornece acesso a uma camada de dados do JSON NoSQL totalmente gerenciada que sempre está ativa. Esse serviço é compatível com o CouchDB e acessível por meio de uma interface HTTP simples de usar para modelos de aplicativos móveis e da web. |
 |Opcional | [{{site.data.keyword.containershort}}](/docs/containers/cs_dedicated.html) | Execute os contêineres do Docker no {{site.data.keyword.Bluemix_dedicated_notm}}. Contêineres são objetos de software virtuais que incluem todos os elementos que um aplicativo precisa executar. Um contêiner tem os benefícios do isolamento e da alocação de recursos,
 mas é mais móvel e eficiente do que, por exemplo, uma máquina virtual.|
 | Opcional | [{{site.data.keyword.contdelivery_short}}](/docs/services/ContinuousDelivery/index.html) | Use {{site.data.keyword.contdelivery_short}} Dedicated para automatizar construções, testes de unidade, implementações, etc. Edite e envie o código por push por meio do IDE avançado baseado na web. Crie cadeias de ferramentas para ativar integrações de ferramenta que suportam as tarefas de desenvolvimento, implementação e operações. |
-| Opcional | [{{site.data.keyword.dashdbshort}}](/docs/services/Db2whc/index.html#getting_started) | O IBM {{site.data.keyword.dashdbshort}} é um serviço de banco de dados de nuvem SQL totalmente gerenciado, otimizado para data warehouse e cargas de trabalho de analítica. |
-| Opcional | [{{site.data.keyword.Db2_on_Cloud_short}}](/docs/services/Db2onCloud/index.html#getting_started_db2oncloud) | O IBM {{site.data.keyword.Db2_on_Cloud_short}} é um serviço de banco de dados de nuvem SQL totalmente gerenciado, otimizado para propósitos gerais, apps da web e cargas de trabalho transacionais. |
+| Opcional | [{{site.data.keyword.dashdbshort}}](/docs/services/dashDB/dashDB.html) | O IBM {{site.data.keyword.dashdbshort}} for Analytics é um serviço de banco de dados de nuvem de SQL totalmente gerenciado, otimizado para data warehouse e cargas de trabalho de analítica. O IBM {{site.data.keyword.dashdbshort}} for Transactions é um serviço de banco de dados de nuvem de SQL totalmente gerenciado, otimizado para propósito geral, apps da web e cargas de trabalho transacionais. |
 | Opcional | [Dedicated GitHub Enterprise](/docs/services/ghededicated/index.html) | {{site.data.keyword.ghe_long}} é a versão hospedada em Nuvem IBM e completamente gerenciada do GitHub Enterprise que fornece a experiência social que os desenvolvedores amam. Esse serviço atualmente está disponível exclusivamente para ambientes do {{site.data.keyword.Bluemix_dedicated_notm}}. |
-| Opcional (Beta) | [{{site.data.keyword.loganalysislong_notm}}](/docs/services/CloudLogAnalysis/containers/containers_kubernetes.html#dedicated) | Fornece logs para os aplicativos Cloud Foundry em sua interface com o usuário do {{site.data.keyword.Bluemix_notm}} e logs pesquisáveis e painéis em Kibana. |
+| Opcional (Beta) | [Criação de log](/docs/monitoringandlogging/cfapps_ml_logs_dedicated_ov.html#container_ml_logs_dedicated_ov) | Fornece logs para os aplicativos Cloud Foundry em sua interface com o usuário do {{site.data.keyword.Bluemix_notm}} e logs pesquisáveis e painéis em Kibana. |
 | Opcional | [{{site.data.keyword.messagehub}}](/docs/services/MessageHub/index.html#messagehub) | O {{site.data.keyword.messagehub}} é um barramento de mensagem escalável, distribuído, de alto rendimento, para unificar as suas tecnologias no local e remotas. O {{site.data.keyword.messagehub}} é baseado no Apache Kafka, que é um mecanismo do sistema de mensagens em tempo real rápido, escalável e durável. |
 |Opcional | [{{site.data.keyword.mobilepushshort}}](/docs/services/mobilepush/index.html) | O {{site.data.keyword.mobilepushshort}} é um serviço que você pode usar para enviar notificações para iOS e dispositivo Android. É possível direcionar notificações para todos os usuários do aplicativo ou para um conjunto específico de usuários e dispositivos usando tags. É possível administrar dispositivos, tags e assinaturas. É possível também usar um SDK (Software Development Kit) e interfaces de programação de aplicativos (APIs) de Representational State Transfer (REST) para desenvolver ainda mais seus aplicativos clientes.|
 |Opcional | [{{site.data.keyword.SecureGateway}}](/docs/services/SecureGateway/secure_gateway.html) | O serviço {{site.data.keyword.SecureGateway}} fornece uma maneira segura de conectar aplicativos {{site.data.keyword.Bluemix_notm}} a locais remotos no local ou na nuvem.  |
@@ -64,10 +61,10 @@ Há componentes opcionais que estão disponíveis para você comprar para escala
 |{{site.data.keyword.dashdbshort}} Enterprise 64,1 dedicado | Um banco de dados por instância de serviço em um servidor dedicado com 64 GB de RAM, 16 vCPUs. Recomendado para até 1 TB de dados de pré-carregamento, com base em compactação típica.  |
 |{{site.data.keyword.dashdbshort}} Enterprise 256,4 dedicado | Um banco de dados por instância de serviço em um servidor bare metal dedicada com 256 GB de RAM, 32 núcleos. Recomendado para até 4 TB de dados de pré-carregamento, com base em compactação típica. |
 |{{site.data.keyword.dashdbshort}} Enterprise 256,12 dedicado  | Um banco de dados por instância de serviço em um servidor bare metal dedicada com 256 GB de RAM, 32 núcleos. Recomendado para até 12 TB de dados de pré-carregamento, com base em compactação típica. Este é um plano denso de armazenamento adequado para ambientes nos quais os volumes de dados são maiores e as consultas não precisam ser executadas em velocidades de memória. |
-|{{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.Db2_on_Cloud_short}} Precisos Desempenho 500 (2.8.500) | Instância dedicada que suporta cargas de trabalho do Online Transaction Processing (OLTP) com 8 GB de RAM e 500 GB de espaço para dados e logs. |
-|{{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.Db2_on_Cloud_short}} Precisos Desempenho 1400 (12.128.1400) | Instância dedicada que suporta cargas de trabalho do Online Transaction Processing (OLTP) com 128 GB de RAM e 1,4 TB de armazenamento de SSD para dados e logs. |
-|{{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.Db2_on_Cloud_short}} Especificação de Desempenho 500 High Availability (2.8.500) | Instância dedicada que suporta cargas de trabalho do Online Transaction Processing (OLTP) com 8 GB de RAM e 500 GB de espaço para dados e logs e ela inclui um servidor de Espera adicional para alta disponibilidade. |
-|{{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.Db2_on_Cloud_short}} Especificação de Desempenho 1400 High Availability (12.128.1400) | Instância dedicada que suporta cargas de trabalho do Online Transaction Processing (OLTP) com 128 GB de RAM e 1,4 TB de armazenamento de SSD para dados e logs e ela inclui um servidor de Espera adicional para alta disponibilidade. |
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions 2.8.500 | Instância dedicada que suporta cargas de trabalho do Online Transaction Processing (OLTP) com 8 GB de RAM e 500 GB de espaço para dados e logs. |
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions 12.128.1400 | Instância dedicada que suporta cargas de trabalho do Online Transaction Processing (OLTP) com 128 GB de RAM e 1,4 TB de armazenamento de SSD para dados e logs. |
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions High Availability 2.8.500 | Instância dedicada que suporta cargas de trabalho do Online Transaction Processing (OLTP) com 8 GB de RAM e 500 GB de espaço para dados e logs e ela inclui um servidor de Espera adicional para alta disponibilidade. |
+|IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.dashdbshort}} Enterprise for Transactions High Availability 12.128.1400 | Instância dedicada que suporta cargas de trabalho do Online Transaction Processing (OLTP) com 128 GB de RAM e 1,4 TB de armazenamento de SSD para dados e logs e ela inclui um servidor de Espera adicional para alta disponibilidade. |
 |Serviços da comunidade do {{site.data.keyword.Bluemix_dedicated_notm}}  | Um ambiente que permite implementar e executar serviços de comunidade até um total de 50 instâncias para cada serviço de comunidade.  |
 |Instância de Cluster do {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.cloudant}} | Este componente opcional inclui um cluster de 3 nós pelo qual você é responsável por fornecer a infraestrutura, e a capacidade de armazenamento e cálculo pode ser determinada com base em suas necessidades específicas. O {{site.data.keyword.cloudant}} fornece acesso a uma camada de dados do JSON NoSQL totalmente gerenciada que sempre está ativa. Esse serviço é compatível com o CouchDB e acessível por meio de uma interface HTTP simples de usar para modelos de aplicativos móveis e da web. |
 |IBM {{site.data.keyword.Bluemix_dedicated_notm}} {{site.data.keyword.messagehub}} | Um ambiente que fornece um sistema de mensagens de publicação/assinatura de até 10 GB por partição, limitado a 100 partições. |
@@ -236,11 +233,11 @@ Para configurar sua versão privada do {{site.data.keyword.Bluemix_notm}}:
 <ol>
 <li>Selecione qual datacenter usar para hospedar sua instância dedicada. Para obter informações sobre as opções do datacenter, veja <a href="http://www.softlayer.com/data-centers" target="_blank">Local do datacenter do {{site.data.keyword.BluSoftlayer}} <img src="../icons/launch-glyph.svg" alt="Ícone de link externo"></a>.</li>
 <li>Especifique os nomes de domínio para a implementação e os IDs que deseja usar. Obtenha três domínios ao configurar sua instância do {{site.data.keyword.Bluemix_notm}}. Selecione o prefixo para a <code>*mycompany*.*region*.bluemix.net</code> e  <code>*mycompany*.*region*.mybluemix.net</code>. E, escolha o nome completo do terceiro domínio.<br />
-<p>É possível escolher quantos domínios customizados desejar. No entanto, você é responsável pelos certificados dos domínios customizados. Para obter informações sobre como criar seu domínio customizado, veja <a href="/docs/apps/updapps.html#domain">Criando e usando um domínio customizado</a>.</p></li>
+<p>É possível escolher quantos domínios customizados desejar. No entanto, você é responsável pelos certificados dos domínios customizados. Para obter informações sobre como criar seu domínio customizado, veja <a href="/docs/manageapps/updapps.html#domain">Criando e usando um domínio customizado</a>.</p></li>
 <li>Identifique um proprietário para a conta pública que é usada para representar sua empresa no {{site.data.keyword.Bluemix_notm}} Public. A IBM usa essa conta para rastrear o uso de serviços organizados.</li>
 <li>Selecione o tipo de conexão segura para seu datacenter. É possível selecionar a partir do {{site.data.keyword.Bluemix_notm}} VPN, {{site.data.keyword.Bluemix_notm}} Direct Link e AT&T Net Bond.</li>
 <li>Decida se haverá qualquer acesso ao seu ambiente dedicado a partir da Internet pública.</li>
-<li>O {{site.data.keyword.Bluemix_dedicated_notm}} usa o IBMid como o sistema de autenticação. Você poderá optar por usar o SAML com o IBMid se precisar de federação de conexão única com um sistema de autenticação existente. Para obter informações sobre como usar e registrar um ID IBM, consulte a página <a href="https://www.ibm.com/account/profile/us?page=regfaqhelp#4">Ajuda e perguntas mais frequentes</a>.
+<li>Selecione o tipo de autenticação que será usada. É possível selecionar entre ID IBM ou Active Directory. Para obter informações sobre como usar e registrar um ID IBM, consulte a página <a href="https://www.ibm.com/account/profile/us?page=regfaqhelp#4">Ajuda e perguntas mais frequentes</a>.
 </li>
 <li>Identifique e designe funções à sua equipe administrativa para o ambiente. Para obter informações sobre as funções que devem ser designadas, veja <a href="/docs/dedicated/index.html#rolesresponsibilities">Funções e responsabilidades do {{site.data.keyword.Bluemix_dedicated_notm}}</a>.</li>
 <li>A IBM implementa a plataforma principal que inclui os tempos de execução elásticos, o console, o recurso de administração e o monitoramento.</li>
@@ -250,13 +247,10 @@ Para configurar sua versão privada do {{site.data.keyword.Bluemix_notm}}:
 
 Depois que a instância do {{site.data.keyword.Bluemix_notm}} estiver configurada, será possível monitorar e gerenciar sua instância do {{site.data.keyword.Bluemix_notm}} usando a página Administração. Para obter mais informações, consulte [Gerenciando o {{site.data.keyword.Bluemix_local_notm}} e o {{site.data.keyword.Bluemix_dedicated_notm}}](../hybrid/index.html#mng). Para obter informações sobre upgrades e manutenção, veja [Mantendo sua instância dedicada](index.html#maintaindedicated).
 
-Os documentos arquiteturais do {{site.data.keyword.Bluemix_dedicated_notm}} são disponibilizados no momento da entrega. Eles incluem a arquitetura lógica principal, bem como qualquer configuração específica de cliente para um determinado ambiente {{site.data.keyword.Bluemix_dedicated_notm}}. As informações de configuração são fornecidas em duas partes. A primeira parte é visível na guia Informações do sistema do Console de administração. Isso inclui informações como o data center do host, configuração de autenticação, se aplicável, nomes de domínios do sistema e as versões de componentes chave. A segunda parte refere-se às opções de conectividade de rede que são documentadas separadamente. Isso inclui informações de configuração de rede do cliente para o ambiente Dedicado na forma de VPN, Link direto e acesso à Internet pública.
-Se a IBM fizer quaisquer mudanças significativas na arquitetura ou a configuração principal para um ambiente, os documentos atualizados serão disponibilizados para o cliente.
-
 ##Funções e Responsabilidades
 {: #rolesresponsibilities}
 
-Se você configurar uma conta do {{site.data.keyword.Bluemix_dedicated_notm}}, identifique as pessoas em sua organização para as funções que são necessárias para deixar sua instância funcionando.
+Se você configurar uma conta do {{site.data.keyword.Bluemix_dedicated_notm}}, identificará as pessoas em sua organização para as funções necessárias para que sua instância funcione.
 
 ###Funções
 
@@ -275,7 +269,8 @@ A lista a seguir mostra as funções e as responsabilidades designadas ao client
 <dd>Trabalha com a equipe de suporte IBM, conforme necessário, quando o ambiente está funcionando. Este é alguém com acesso de Superusuário ao console de Administração que pode aprovar e planejar as atualizações de manutenção para o ambiente {{site.data.keyword.Bluemix_notm}} e estar disponível sempre no evento de um incidente crítico. A pessoa designada a essa função deve ter conhecimento técnico do ambiente do {{site.data.keyword.Bluemix_notm}} e estar em uma posição para alcançar outras pessoas na empresa que tenham qualificações de especialista em uma área que possa ser afetada, incluindo rede ou segurança, por exemplo.</dd>
 </dl>
 
-Seus representantes de serviços trabalham com especialistas IBM, que trabalham juntos para assegurar que você sempre tenha o suporte necessário. É possível fazer upgrade para a camada de suporte Premium, para trabalhar com um Client Success Manager (CSM) dedicado para a sua conta. Para obter mais informações sobre as diferentes camadas de suporte, consulte [Tipos de suporte](/docs/get-support/getstarttssup.html#typesofsupport). O CSM conclui os tipos de tarefa a seguir:
+Seus representantes de serviços trabalham com especialistas IBM, que trabalham juntos para assegurar que você sempre tenha o suporte necessário. É possível fazer upgrade para a camada de suporte Premium para trabalhar com um gerente de contas técnicas (TAM) dedicado para a sua
+conta. Para obter mais informações sobre as diferentes camadas de suporte, consulte [Tipos de suporte](/docs/get-support/getstarttssup.html#typesofsupport). O TAM conclui os tipos de tarefas a seguir:
 
 <ul>
 <li>Permite a adoção rápida do ambiente do {{site.data.keyword.Bluemix_dedicated_notm}}.</li>
@@ -354,7 +349,7 @@ A fase seguinte é a de progressão. A fase de progressão descreve o relacionam
 |Resolução de vulnerabilidades de segurança | Resolver vulnerabilidades de segurança relatadas na plataforma. | IBM |
 {: caption="Tabela 6. Tarefas da fase de progressão" caption-side="top"}
 
-O estágio final da conclusão representa o término do relacionamento entre você e a {{site.data.keyword.Bluemix_notm}}. As tarefas principais dessa fase incluem os itens a seguir:
+O estágio final da conclusão representa o término do relacionamento entre você e a IBM {{site.data.keyword.Bluemix_notm}}. As tarefas principais dessa fase incluem os itens a seguir:
 
 * Término do contrato financeiro
 * Remoção de todas as conexões de rede
